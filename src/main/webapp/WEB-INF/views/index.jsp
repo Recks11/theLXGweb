@@ -21,9 +21,8 @@
         <div class="container text-center">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
-                    <h3>TheLXG PRESENTS</h3>
-                    <img src="<c:url value="/resources/images/logo.png"/>" class="img-responsive" style="display:inline"
-                         alt="THE LXG LOGO" width="100px" height="auto">
+                    <img src="<c:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
+                         alt="THE LXG LOGO" width="300px" height="auto">
                     <h3>The LXG <span>FIFA 17</span> TOURNAMENT</h3>
                     <p class="slots-left"><span class="number">4096</span> slots left</p>
                 </div>
@@ -70,7 +69,7 @@
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
                             <H1 class=" gold">FIRST PLACE</H1>
-                            <p class="gold" >N500,000</p>
+                            <p class="gold" >&#8358 500,000</p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +86,7 @@
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
                             <h2 class="silver">SECOND PLACE</h2>
-                            <p class="silver">N300,000</p>
+                            <p class="silver">&#8358 300,000</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +103,7 @@
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
                             <h3 class="bronze">THIRD PLACE</h3>
-                            <p class="bronze">N100,000</p>
+                            <p class="bronze">&#8358 100,000</p>
                         </div>
                     </div>
                 </div>

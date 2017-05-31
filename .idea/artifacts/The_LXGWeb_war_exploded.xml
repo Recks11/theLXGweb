@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="The_LXGWeb:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/The_LXGWeb_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/src/main/webapp</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="The_LXGWeb/web/Web" />
       <element id="directory" name="WEB-INF">
