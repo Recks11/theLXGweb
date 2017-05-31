@@ -69,7 +69,7 @@ background-color: rgba(0,0,0,0.8);
     color: #0f0f0f;
 }
 .home-content-1{
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 150px;
     color: white;
     min-height: 650px;
@@ -85,11 +85,11 @@ background-color: rgba(0,0,0,0.8);
     font-size: 20px;
 }
 .home-content-1 > .row > .head-text > p:first-child{
-    font-size: 40px;
+    font-size: 38px;
     color: #ffd700;
 }
 .section-0{
-    height: 650px;
+    height: 690px;
     color:white;
     background: url("../images/fifa-17-back.jpg") no-repeat fixed center;
     background-size: cover;
