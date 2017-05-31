@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+*{
+    -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s;
+    -o-transition: font-size 1s;
+    transition: font-size 1s;
+}
+.navbar-inverse{
+    background-color:transparent;
+    border-color: transparent;
+}
+
+.bg-image{
+    background: url('../images/reus-reg.jpg') no-repeat fixed center;
+    background-size: cover;
+    /*height: 100%;*/
+    position: relative;
+}
+.register-form{
+    padding-bottom: 60px;
+
+}
+
+.radioBtn{
+    padding-top: 13px;
+}
+#location1, #location2{
+    margin-right: 10px;
+}
+#location2{
+    margin-left: 10px;
+}
+/* VENDOR */
+#standLocation1, #standLocation2{
+    margin-right: 10px;
+}
+#standLocation2{
+    margin-left: 10px;
+}
+/* VENDOR */
+.form-horizontal .form-group .control-label {
+    color: rgb(200,200,200);
+    font-size: 24px;
+}
+.bg-cover{
+    background: rgba(0,0,0,0.7);
+    min-height:100%
+}
+.white-font{
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+}
+.register-form > h2{
+    color: #ffffff;
+    /*height: 100%;*/
+    font-family: 'Orbitron', sans-serif;
+}
+section{
+    padding-top: 111px;
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+    border-top: 0;
+    border-bottom: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.submitBtn{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    width: 100px;
+}
+#selectedTeam{
+    padding-top: 30px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 768px){
+    .bg-image{
+        height: unset;
+        min-height: 100%;
+    }
+    .form-horizontal .form-group .control-label {
+        font-size: 16px;
+    }
+    .teamSel{
+        padding-top: 10px;
+    }
+    #selectedTeam{
+        padding-top: 7px;
+    }
+}
+
+@media only screen and (max-height: 960px){
+    .bg-image{
+        height:unset;
+        min-height: 100%;
+    }
+}

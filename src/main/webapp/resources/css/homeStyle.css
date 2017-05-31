@@ -1,0 +1,300 @@
+*{
+
+}
+body, html{
+    height: 100%;
+}
+*{
+    -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s;
+    -o-transition: font-size 1s;
+    transition: font-size 1s;
+}
+#banner{
+    background: url('../images/FIFA-17-review.jpg') no-repeat fixed center;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.section-bg-color{
+    min-height: 650px;
+    background-color: rgba(0,0,0,0.7);
+}
+.home-face{
+    margin-top: 111px;
+    min-height:650px;
+    /*min-width:500px;*/
+    color: white;
+}
+.header-content{
+    padding: 150px;
+}
+.header-content > .headText > h3 > span{
+    color: #ffd700;
+}
+.headText{
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.slots-left{
+
+}
+.grey-color{
+    background-color: rgba(0,0,0,0.7);
+}
+.darkGrey-color{
+background-color: rgba(0,0,0,0.8);
+}
+.slots-left > .number{
+    color:springgreen;
+}
+.enterBtn{
+    padding: 10px;
+    background-color: #0f0f0f;
+    border-radius: 3px;
+    color: #ffffff;
+    -webkit-transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -ms-transition: background-color .6s;
+    -o-transition: background-color .6s;
+    transition: background-color .6s;
+}
+.enterBtn:hover{
+    text-decoration: none;
+    background-color: #ffd700;
+    color: #0f0f0f;
+}
+.home-content-1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    min-height: 650px;
+}
+.home-content-1 > .row > h1{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+}
+.home-content-1 > .row > .head-text > p{
+    font-size: 20px;
+}
+.home-content-1 > .row > .head-text > p:first-child{
+    font-size: 40px;
+    color: #ffd700;
+}
+.section-0{
+    height: 650px;
+    color:white;
+    background: url("../images/fifa-17-back.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.section-1,.section-2,.section-3{
+    background-color: transparent;
+    width:100%;
+    height:500px;
+    color:white;
+    padding-top: 80px;
+}
+.section-1{ background-color: rgba(255,255,10, 0.2)}
+.section-2{ background-color: rgba(230,230,230, 0.2)}
+.section-3{}
+.section-bg{
+    background: url('../images/fifa17pogba.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+/*Prizes*/
+.prize-image{
+    width: 300px;
+    float: right;
+}
+.prize-container{
+    font-size: 40px;
+}
+.prize-container > p {
+    font-size: 150px;
+}
+
+.gold{ color: gold;}
+.silver{ color: silver}
+.bronze{ color: sandybrown}
+/*Footer styles*/
+footer{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.bg-footer {
+    background-color: black;
+}
+.footer3{
+    color:white;
+}
+.footer-social > p > a > .fa{
+    font-size: 30px;
+    padding: 10px;
+}
+.footer-social > p > a > .fa:before{
+    margin: 0 auto;
+}
+.footer-social > p > a:hover{
+    text-decoration: none;
+}
+.no-pad > p{
+    margin-bottom: 5px;
+}
+.bg-twitter{
+    background-color: #55acee;
+    border-radius: 50%;
+}
+.bottom-foot{
+    padding-top: 40px;
+}
+.bottom-foot > p{
+    color: rgb(70,70,100);
+}
+.bottom-foot > p > small > a{
+    color: rgb(70,70,100);
+}
+.bottom-foot > p > small > a:hover{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border-color: #464664;
+    width: 60%
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .prize-image{
+        width: 210px;
+        float: unset;
+        margin: 0 auto;
+    }
+    .prize-container{
+        font-size: 40px;
+    }
+    .prize-container > p {
+        font-size: 120px;
+    }
+    h1,h2,h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 990px) {
+
+    .prize-container > p {
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width: 620px){
+    .home-content-1 > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 23px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .section-1,.section-2,.section-3{
+        -webkit-transform: skew(0deg);
+        -moz-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        -o-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+    .section-1 > .skewed-text,.section-3 > .skewed-text{
+
+        padding-top: 20px;
+        transform: skewY(0deg);
+    }
+    .section-2 > .skewed-text{
+        transform: skewY(0deg);
+        padding-top: 40px;
+
+    }
+
+}
+@media only screen and (max-width: 1280px){
+    .home-content-1 > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        font-size: 39px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .home-content-1 > .row > .head-text > p{
+        font-size: 15px;
+    }
+    .home-content-1 > .row > .head-text > p:first-child{
+        font-size: 25px;
+        color: gold;
+    }
+}
+@media only screen and (max-height: 960px){
+    .header-content{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .navbar{
+        padding:5px;
+    }
+    .header-content{
+        padding: unset;
+    }
+    #banner {
+        background: url('../images/FIFA-17-review copy.jpg') no-repeat fixed center;
+    }
+    .section-bg{
+        background: url('../images/fifa17pogba-sm.jpg') no-repeat fixed center;
+        background-size: cover;
+    }
+    .home-content-1 > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        font-size: 35px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .home-content-1 > .row > .head-text > p{
+        font-size: 15px;
+    }
+    .home-content-1 > .row > .head-text > p:first-child{
+        font-size: 19px;
+        color: gold;
+    }
+}
+
+@media only screen and (max-width: 651px){
+    .navbar{
+        padding:5px;
+    }
+    #banner {
+        background: url('../images/FIFA-17-review copy.jpg') no-repeat fixed center;
+    }
+    .section-bg{
+        background: url('../images/fifa17pogba-sm.jpg') no-repeat fixed center;
+        background-size: cover;
+    }
+    .home-content-1 > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .home-content-1 > .row > .head-text > p{
+        font-size: 10px;
+    }
+    .home-content-1 > .row > .head-text > p:first-child{
+        font-size: 18px;
+        color: gold;
+    }
+}
