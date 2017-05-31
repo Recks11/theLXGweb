@@ -61,6 +61,30 @@ public class registerController {
         return "200000";
     }
 
+    @ModelAttribute("teamCountry")
+    public List<String> setTeamCountry(){
+        List<String> countryList = new ArrayList<String>();
+        countryList.add("England");
+        countryList.add("france");
+        countryList.add("Germany");
+        countryList.add("italy");
+        countryList.add("Spain");
+
+        return countryList;
+    }
+
+    @ModelAttribute("team")
+    public List<String> setTeam(){
+        List<String> teamList = new ArrayList<String>();
+        teamList.add("scam");
+        teamList.add("scam");
+        teamList.add("scam");
+        teamList.add("scam");
+        teamList.add("scam");
+
+        return teamList;
+    }
+
     @PostMapping("/")
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public String registerPlayer(@RequestBody player play){

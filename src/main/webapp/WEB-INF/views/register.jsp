@@ -86,10 +86,10 @@
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="team">Select Team:</label>
                             <div class="col-sm-5">
-                                <form:select path="teamCountry" class="form-control" id="teamNation" items="${locationList}"> </form:select>
+                                <form:select path="teamCountry" class="form-control" id="teamNation" items="${teamCountry}"> </form:select>
                             </div>
                             <div class="col-sm-5 teamSel">
-                                <form:select path="teamSelected" class="form-control" id="team" items="${locationList}"> </form:select>
+                                <form:select path="teamSelected" class="form-control" id="team" items="${team}"> </form:select>
                             </div>
                         </div>
                         <div class="form-group">
