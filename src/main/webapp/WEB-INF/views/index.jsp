@@ -1,18 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: rex
-  Date: 24/05/2017
-  Time: 00:20
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
 <jsp:include page="fragment/imports.jsp"/>
-
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
@@ -21,7 +12,7 @@
         <div class="container text-center">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
-                    <img src="<c:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
+                    <img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
                          alt="THE LXG LOGO" width="300px" height="auto">
                     <h3>The LXG <span>FIFA 17</span> TOURNAMENT</h3>
                     <p class="slots-left"><span class="number">4096</span> slots left</p>
@@ -64,7 +55,7 @@
             <div class="container skewed-text">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<c:url value="/resources/images/vectors-market.svg"/>" class="img-responsive prize-image" height="auto"/>
+                        <img src="<spr:url value="/resources/images/vectors-market.svg"/>" class="img-responsive prize-image" height="auto"/>
                     </div>
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
@@ -81,7 +72,7 @@
             <div class="container skewed-text">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<c:url value="/resources/images/vectors-market2.svg"/>" class="img-responsive prize-image" height="auto"/>
+                        <img src="<spr:url value="/resources/images/vectors-market2.svg"/>" class="img-responsive prize-image" height="auto"/>
                     </div>
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
@@ -98,7 +89,7 @@
             <div class="container skewed-text">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<c:url value="/resources/images/medal.svg"/>" class="img-responsive prize-image" height="auto"/>
+                        <img src="<spr:url value="/resources/images/medal.svg"/>" class="img-responsive prize-image" height="auto"/>
                     </div>
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
@@ -129,6 +120,6 @@
 <%--</section>--%>
 
 <jsp:include page="fragment/footer.jsp"/>
-<script src="<c:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
 </html>

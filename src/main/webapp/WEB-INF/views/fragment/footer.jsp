@@ -1,11 +1,11 @@
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <footer id="footer" class="bg-footer">
     <div class="container foot-width">
         <div class="col-sm-4 white-font">
-            <H4><img src="<c:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
+            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
                      alt="THE LXG LOGO" width="150px" height="auto"></H4>
             <%--<h4>About us:</h4>--%>
             <%--<P>The League of Extraordinary Gamers is a body that brings a convergence of gamers across the world.--%>

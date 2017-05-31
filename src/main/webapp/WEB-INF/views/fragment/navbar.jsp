@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 
 
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
@@ -15,7 +15,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="<c:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
+                    <a class="navbar-brand" href="#"><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
                                                           alt="THE LXG LOGO" width="150px" height="auto"></a>
                 </div>
 
