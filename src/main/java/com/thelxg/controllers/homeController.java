@@ -19,6 +19,10 @@ public class homeController {
         return "index";
     }
 
+    @RequestMapping("favicon.ico")
+    public String favicon() {
+        return "forward:/resources/images/favicon.ico";
+    }
     @RequestMapping("/event")
     public String eventDetails(){
 

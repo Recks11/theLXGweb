@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/font-awesome.min.css"/>"/>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
+    <link rel="icon" href="<spr:url value="/favicon.ico"/>">
 
     <!-- Animation Styles -->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/animate/animate.min.css"/>"/>
