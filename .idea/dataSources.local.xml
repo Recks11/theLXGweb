@@ -11,5 +11,15 @@
       <user-name>root</user-name>
       <introspection-schemas>*:TheLXG</introspection-schemas>
     </data-source>
+    <data-source name="d5i4eu2xg358oafh@mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com" uuid="0762bc20-243e-4567-9bc6-b0708d7b44e2">
+      <database-info product="MySQL" version="5.7.11-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.42 ( Revision: 1f61b0b0270d9844b006572ba4e77f19c0f230d4 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>lqauvezm70nwrgjq</user-name>
+      <introspection-schemas>*:d5i4eu2xg358oafh</introspection-schemas>
+    </data-source>
   </component>
 </project>
