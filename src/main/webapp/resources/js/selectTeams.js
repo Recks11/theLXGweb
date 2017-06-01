@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    var team = $("#team");
+    var teamNation = $("#teamNation");
+    var selectedTeam = $('#selectedTeam');
+
     var ENGLAND = [
 
         {display: "Arsenal", value: "Arsenal"},
@@ -92,7 +96,7 @@ $(document).ready(function(){
 
         {display: "Bayern München", value: "Bayern München"},
 
-        {display: "Borussia Dortmund", value: "Borussia Dortmund"},
+        {display: "Borussia Dortmund", value: 'Borussia Dortmund'},
 
         {display: "Borussia M ' gladbach", value: "Borussia M ' gladbach"},
 
@@ -217,7 +221,7 @@ $(document).ready(function(){
     ];
 
 //If parent option is changed
-    $("#teamNation").change(function() {
+    teamNation.change(function() {
         var parent = $(this).val(); //get option value from parent
 
         switch(parent){ //using switch compare selected option and populate child
@@ -242,27 +246,28 @@ $(document).ready(function(){
         }
     });
 
-//If child option is changed
-
 
 //function to populate child select box
     function list(array_list)
     {
-        $("#team").html(""); //reset child options
+        team.html(""); //reset child options
         $(array_list).each(function (i) { //populate child options
-            $("#team").append("<option value="+array_list[i].value+">"+array_list[i].display+"</option>");
+
+            var item = "\""+array_list[i].value+ "\"";
+            team.append("<option value="+ item +">"+array_list[i].display+"</option>");
         });
     }
 
 
-    $("#team").change(function(){
+    team.change(function(){
 
-            $('#selectedTeam').text($(this).val());
+            selectedTeam.text($(this).val());
+            console.log(selectedTeam.text());
         });
 
-    $("#teamNation").change(function(){
+    teamNation.change(function(){
 
-        $('#selectedTeam').text($("#team").val());
+        selectedTeam.text(team.val());
     });
 
 });
