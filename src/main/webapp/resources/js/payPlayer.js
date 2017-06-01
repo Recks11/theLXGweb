@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
     $("#paymentForm").submit(function (event) {
         //stop submit the form, we will post it manually.
         event.preventDefault();
@@ -29,7 +30,13 @@ $(document).ready(function() {
                 required: "#instagram:checked",
                 minlength: 3
             },
-            location: "required"
+            location: {
+                required: true
+            },
+            social_acc:{
+                required: true,
+                minlength: 1
+            }
         },
         messages:{
             firstName: "Please Enter your first name",
@@ -50,7 +57,13 @@ $(document).ready(function() {
                 required: "Please enter your instagram name",
                 minlength: "instagram handle not valid"
             },
-            location: "required"
+            location:{
+                required: ""
+            },
+            social_acc:{
+                required:  "",
+                minlength: ""
+            }
         },
         submitHandler: function(form){
             payWithPaystack();
@@ -96,18 +109,18 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: "/",
+            url: ctx+"/enter/",
             data: JSON.stringify(data),
             dataType: 'html',
             timeout: 600000,
 
             success: function (response) {
                 alert( data.firstName +" "+data.lastName + 'Welcome To the Tournament');
-                window.location.href = "/thelxg.com.ng/";
+                window.location.href = ctx+"/";
                 //...
             },
             error : function(xhr, status, error) {
-                alert("eroor"+error);
+                alert("error"+error);
             }
         });
 

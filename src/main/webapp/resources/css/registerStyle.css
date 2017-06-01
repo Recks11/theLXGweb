@@ -3,6 +3,9 @@ html, body {
     padding: 0;
     margin: 0;
 }
+.error{
+    color: red;
+}
 *{
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;

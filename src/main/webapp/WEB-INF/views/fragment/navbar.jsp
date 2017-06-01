@@ -15,7 +15,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
+                    <a class="navbar-brand" href="<spr:url value="/"/> "><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
                                                           alt="THE LXG LOGO" width="150px" height="auto"></a>
                 </div>
 

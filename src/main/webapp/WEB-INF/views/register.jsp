@@ -63,9 +63,9 @@
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="location">Social:</label>
                             <div class="col-sm-10">
-                                <label class="checkbox-inline"><input type="checkbox" value="Instagram" id="instagram">Instagram</label>
-                                <label class="checkbox-inline"><input type="checkbox" value="Twitter" id = twitter>Twitter</label>
-                                <label class="checkbox-inline"> Select at least one</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="require-one" name="social_acc" value="Instagram" id="instagram">Instagram</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="require-one" name="social_acc" value="Twitter" id = twitter>Twitter</label>
+                                <label class="checkbox-inline">Please Select One</label>
                             </div>
                         </div>
                         <fieldset id="tweet">
@@ -103,7 +103,7 @@
                             <label class="control-label col-sm-2" for="location">Location:</label>
                             <div class="col-sm-10">
                                 <label class="radioBtn"><form:radiobuttons path="location" items="${locationList}"></form:radiobuttons> </label>
-                                <%--<label class="radio-inline"><input type="radio" name="locationRadio">Lagos Island--%>
+                                <label class="radio-inline">Please Select One</label>
                                 <%--<label class="radio-inline"><input type="radio" name="locationRadio">Lagos Mainland</label>--%>
                             </div>
                         </div>
@@ -121,6 +121,8 @@
         </section>
     </div>
 </div>
-
+<script>
+    var ctx = "${pageContext.request.contextPath}"
+</script>
 </body>
 </html>
