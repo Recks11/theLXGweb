@@ -1,7 +1,9 @@
 package com.thelxg.controllers;
 
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.Services.teamsService;
 import com.thelxg.data.models.player;
+import com.thelxg.data.models.teams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -19,13 +21,15 @@ import java.util.List;
 @RequestMapping("/enter")
 public class registerController {
 
+    private final teamsService teamService;
     private final playerService playerService;
     private final player playerBean;
 
     @Autowired
-    public registerController(player playerBean, playerService playerService) {
+    public registerController(player playerBean, playerService playerService, teamsService teamService) {
         this.playerBean = playerBean;
         this.playerService = playerService;
+        this.teamService = teamService;
     }
 
 
@@ -61,29 +65,6 @@ public class registerController {
         return "200000";
     }
 
-    @ModelAttribute("teamCountry")
-    public List<String> setTeamCountry(){
-        List<String> countryList = new ArrayList<String>();
-        countryList.add("England");
-        countryList.add("france");
-        countryList.add("Germany");
-        countryList.add("italy");
-        countryList.add("Spain");
-
-        return countryList;
-    }
-
-    @ModelAttribute("team")
-    public List<String> setTeam(){
-        List<String> teamList = new ArrayList<String>();
-        teamList.add("scam");
-        teamList.add("scam");
-        teamList.add("scam");
-        teamList.add("scam");
-        teamList.add("scam");
-
-        return teamList;
-    }
 
     @PostMapping("/")
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
@@ -91,5 +72,21 @@ public class registerController {
 
         playerService.addPlayer(play);
         return "index";
+    }
+
+    @ModelAttribute
+    public void addTeams(Model model){
+
+        List<teams> englishTeams = teamService.getTeamByRegion("ENG");
+        List<teams> frenchTeams = teamService.getTeamByRegion("FRA");
+        List<teams> italianTeams = teamService.getTeamByRegion("ITA");
+        List<teams> germanTeams = teamService.getTeamByRegion("GER");
+        List<teams> spanishTeams = teamService.getTeamByRegion("SPA");
+
+        model.addAttribute("englishTeams",englishTeams);
+        model.addAttribute("frenchTeams",frenchTeams);
+        model.addAttribute("germanTeams",germanTeams);
+        model.addAttribute("italianTeams",italianTeams);
+        model.addAttribute("spanishTeams",spanishTeams);
     }
 }

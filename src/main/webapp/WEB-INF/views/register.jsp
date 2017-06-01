@@ -7,13 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/registerStyle.css"/>"/>
 <script src="<spr:url value="/resources/js/payPlayer.js"/>"></script>
+<script src="<spr:url value="/resources/js/selectTeams.js"/>"></script>
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
@@ -85,18 +86,25 @@
                             </div>
                         </fieldset>
                         <div class="form-group">
-                            <label class="control-label col-sm-2" for="team">Select Team:</label>
+                            <label class="control-label col-sm-2" for="team">Team:</label>
                             <div class="col-sm-5">
-                                <form:select path="teamCountry" class="form-control" id="teamNation" items="${teamCountry}"> </form:select>
+                                <select name="teamCountry" class="form-control" id="teamNation">
+                                    <option value="">-- SELECT TEAM --</option>
+                                    <option value="ENGLAND">ENGLAND</option>
+                                    <option value="FRANCE">FRANCE</option>
+                                    <option value="GERMANY">GERMANY</option>
+                                    <option value="ITALY">ITALY</option>
+                                    <option value="SPAIN">SPAIN</option>
+                                </select>
                             </div>
                             <div class="col-sm-5 teamSel">
-                                <form:select path="teamSelected" class="form-control" id="team" items="${team}"> </form:select>
+                                <select name="teamSelected" class="form-control" id="team"></select>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="selectedTeam">Selected Team:</label>
                             <div class="col-sm-10">
-                                <p id="selectedTeam" class="form-control-static">{{someone@example.com}}</p>
+                                <p id="selectedTeam" class="form-control-static" style="font-size: 20px; color: springgreen"></p>
                             </div>
                         </div>
                         <div class="form-group">
@@ -122,7 +130,7 @@
     </div>
 </div>
 <script>
-    var ctx = "${pageContext.request.contextPath}"
+    var ctx = "${pageContext.request.contextPath}";
 </script>
 </body>
 </html>
