@@ -12,7 +12,7 @@ body, html{
     transition: font-size 1s;
 }
 #banner{
-    background: url('../images/FIFA-17-review.jpg') no-repeat fixed center;
+    background: url('../images/FIFA17_BG-HOME.jpg') no-repeat fixed center;
     background-size: cover;
     min-height: 500px;
     position: relative;
