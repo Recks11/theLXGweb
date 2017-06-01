@@ -78,7 +78,7 @@
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
                             <h2 class="silver">SECOND PLACE</h2>
-                            <p class="silver">&#8358 300,000</p>
+                            <p class="silver">&#8358 200,000</p>
                         </div>
                     </div>
                 </div>
