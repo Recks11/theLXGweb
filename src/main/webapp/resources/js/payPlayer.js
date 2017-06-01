@@ -96,7 +96,7 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: "/thelxg.com.ng/enter/",
+            url: "/",
             data: JSON.stringify(data),
             dataType: 'html',
             timeout: 600000,
