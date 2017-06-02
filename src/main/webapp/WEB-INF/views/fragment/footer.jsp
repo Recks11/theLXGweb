@@ -32,7 +32,7 @@
             <div class="container-fluid no-pad">
 
                 <ul class="footer-li">
-                    <li class="first-line"> Follow US</li>
+                    <li class="first-line"> FOLLOW US</li>
                     <li><div class="footer-social">
                         <p><a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
                             <i class="fa fa-twitter" style="color: white;"></i></a>
