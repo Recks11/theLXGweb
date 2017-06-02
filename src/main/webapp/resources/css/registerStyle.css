@@ -13,10 +13,6 @@ html, body {
     -o-transition: font-size 1s;
     transition: font-size 1s;
 }
-.navbar-inverse{
-    background-color:transparent;
-    border-color: transparent;
-}
 
 .bg-image{
     background: url('../images/reus-reg.jpg') no-repeat fixed center;

@@ -1,0 +1,71 @@
+/*Footer styles*/
+footer{
+    padding-top: 100px;
+    padding-bottom:20px;
+}
+.bg-footer {
+    background-color: black;
+}
+.footer-img{
+    width: 100px;
+}
+.footer3{
+    color:white;
+}
+.footer-social > p > a > .fa{
+    font-size: 30px;
+    padding: 5px;
+}
+.footer-social > p > a > .fa:before{
+    margin: 0 auto;
+}
+.footer-social > p > a:hover{
+    text-decoration: none;
+}
+.no-pad > p{
+    margin-bottom: 5px;
+}
+.bg-twitter{
+    background-color: #55acee;
+    border-radius: 50%;
+}
+
+.bottom-foot > p{
+    color: rgb(70,70,100);
+}
+.bottom-foot > p > small > a{
+    color: rgb(70,70,100);
+}
+.bottom-foot > p > small > a:hover{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border-color: #464664;
+}
+.footer-li{
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+}
+.footer-li > li > a{
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-li > li > a:hover{
+    -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s;
+    -o-transition: font-size 1s;
+    transition: font-size 1s;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 25px;
+}
+.footer-li .first-line{
+    color: gold;
+    font-size: 20px;
+
+}

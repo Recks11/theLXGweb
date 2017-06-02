@@ -6,10 +6,10 @@ var features = "status=yes,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resi
 
 
     $(window).scroll(function() {
-        if ($(".navbar").offset().top > 611) {
-            $(".navbar").addClass("grey-color");
+        if ($(".navbar").offset().top > 70) {
+            $(".navbar").addClass("nav-scroll white-bg");
         } else {
-            $(".navbar").removeClass("grey-color");
+            $(".navbar").removeClass("nav-scroll white-bg");
         }
     });
 })(jQuery);

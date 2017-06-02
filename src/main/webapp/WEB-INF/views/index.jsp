@@ -9,13 +9,13 @@
 <!-- top Container -->
 <section id=banner>
     <div class="section-bg-color">
-        <div class="container text-center">
+        <div class="container text-center" style="height: 100%;">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
-                    <img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
-                         alt="THE LXG LOGO" width="300px" height="auto">
+                    <img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive home-image" style="display:inline"
+                         alt="THE LXG LOGO" height="auto">
+                    <p>League of Extraodinary Gamers</p>
                     <h3>The LXG <span>FIFA 17</span> TOURNAMENT</h3>
-                    <p class="slots-left"><span class="number">4096</span> slots left</p>
                 </div>
             </div>
         </div>
@@ -25,24 +25,26 @@
     <div class="darkGrey-color">
         <!-- Second Container -->
         <div class="container home-content-1 bg-2">
-            <div class="row text-center">
-                <h1>ARE YOU BADASS AT FIFA 17?</h1>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 text-center head-text">
-                    <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
-                    <p>4096 participants will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>
-                    <p> Participants will be split into equal halves with 2048 each coming from Lagos Mainland and Lagos Island.</p>
-                    <p>Participants will compete in the preliminaries from the 1st of July to 16th of July, 2017.</p>
-                    <p>All rounds will run on weekends only (i.e. Saturdays and Sundays) at specified venues.</p>
-                    <p>The Main event will hold on the 5th of August, 2017</p>
-                    <p> which will feature the final and third place matches.</p>
-                    <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
+            <div class="home-content-text">
+                <div class="row text-center">
+                    <h1>ARE YOU BADASS AT FIFA 17?</h1>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 text-center full-pad">
-                    <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
+                <div class="row">
+                    <div class="col-xs-12 text-center head-text">
+                        <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
+                        <p>4096 participants will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>
+                        <p> Participants will be split into equal halves with 2048 each coming from Lagos Mainland and Lagos Island.</p>
+                        <p>Participants will compete in the preliminaries from the 1st of July to 16th of July, 2017.</p>
+                        <p>All rounds will run on weekends only (i.e. Saturdays and Sundays) at specified venues.</p>
+                        <p>The Main event will hold on the 5th of August, 2017</p>
+                        <p> which will feature the final and third place matches.</p>
+                        <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center full-pad">
+                        <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
+                    </div>
                 </div>
             </div>
         </div>

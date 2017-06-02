@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/navbarStyles.css"/> "/>
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/LXG_animate.css"/>"/>
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/generalStyles.css"/> "/>
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/footerStyles.css"/> "/>
 
     <!--JavaScript-->
     <script type="text/javascript" src="<spr:url value="/resources/js/jquery.min.js"/>"></script>

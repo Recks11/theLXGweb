@@ -3,39 +3,52 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <footer id="footer" class="bg-footer">
-    <div class="container foot-width">
-        <div class="col-sm-4 white-font">
-            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive" style="display:inline"
-                     alt="THE LXG LOGO" width="150px" height="auto"></H4>
+    <div class="container-fluid text-center">
+        <div class="col-sm-3 white-font">
+            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img" style="display:inline"
+                     alt="THE LXG LOGO" height="auto"></H4>
+            <p>League of Extraodinary Gamers</p>
             <%--<h4>About us:</h4>--%>
             <%--<P>The League of Extraordinary Gamers is a body that brings a convergence of gamers across the world.--%>
                 <%--We are building the spirit of gaming and developing a globally recognised community of gamers and game enthusiasts.</p>--%>
         </div>
-        <div class="col-sm-4 white-font">
-            <h4>CALL US</h4>
-
-            <p>+234 808 772 0872</p>
-            <p>+234 817 698 9182</p>
-            <HR/>
-            <h4>EMAIL US:</h4>
-            <p><a href="mailto:info@thelxg.com.ng">email: info@thelxg.com.ng</a></p>
+        <div class="col-sm-3 white-font">
+            <ul class="footer-li">
+                <li class="first-line">NAVIGATION</li>
+                <li><a href="<spr:url value="/"/> ">HOME</a></li>
+                <li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
+                <li><a href="<spr:url value="/enter/"/> ">ENTER COMPETITION</a></li>
+            </ul>
         </div>
-        <div class="col-sm-4 white-font">
+        <div class="col-sm-3 white-font">
+            <hr class="sr-only"/>
+            <ul class="footer-li">
+                <li class="first-line">CALL US</li>
+                <li>+234 808 772 0872</li>
+                <li>+234 817 698 9182</li>
+            </ul>
+        </div>
+        <div class="col-sm-3 white-font">
             <div class="container-fluid no-pad">
-                <h4> SOCIAL MEDIA </h4>
-                <div class="footer-social">
-                    <p><a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
-                        <i class="fa fa-twitter bg-twitter" style="color: white;"></i> @thelxg_</a></p>
 
-                    <p><a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
-                        <i class="fa fa-instagram"></i> @thelxg_</a></p>
-                </div>
+                <ul class="footer-li">
+                    <li class="first-line"> Follow US</li>
+                    <li><div class="footer-social">
+                        <p><a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
+                            <i class="fa fa-twitter" style="color: white;"></i></a>
+                            <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
+                                <i class="fa fa-instagram"></i></a></p>
+                    </div></li>
+                    <li><small>@thelxg_</small></li>
+                    <li><a href="mailto:info@thelxg.com.ng">email: info@thelxg.com.ng</a></li>
+                </ul>
+
             </div>
         </div>
     </div>
     <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-offset-4 col-xs-4 text-center white-font no-bottom-margin bottom-foot">
+        <div class="col-xs-offset-2 col-xs-8 text-center white-font no-bottom-margin bottom-foot">
             <hr/>
             <p class="no-bottom-margin"> <small>Designed By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
             <p><small>medal icons made by <a href="http://www.flaticon.com/authors/vectors-market"> vector market </a> from <a href="http://www.flaticon.com"> www.flaticon.com </a></small></p>

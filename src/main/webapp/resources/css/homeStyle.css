@@ -14,16 +14,16 @@ body, html{
 #banner{
     background: url('../images/FIFA17_BG-HOME.jpg') no-repeat fixed center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 100%;
     position: relative;
 }
 .section-bg-color{
-    min-height: 650px;
+    min-height: 100%;
     background-color: rgba(0,0,0,0.7);
 }
 .home-face{
     margin-top: 111px;
-    min-height:650px;
+    min-height:100%;
     /*min-width:500px;*/
     color: white;
 }
@@ -38,16 +38,32 @@ body, html{
     -moz-transform: translateY(50%);
     -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
+    width: 100%;
+    height: 220px;
     transform: translateY(50%);
 }
-.slots-left{
+.headText > h3 {
 
+    -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s;
+    -o-transition: font-size 1s;
+    transition: font-size 1s;
+}
+.home-image{
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+    width:600px;
 }
 .grey-color{
     background-color: rgba(0,0,0,0.7);
 }
 .darkGrey-color{
 background-color: rgba(0,0,0,0.8);
+    height: 100%;
 }
 .slots-left > .number{
     color:springgreen;
@@ -68,28 +84,31 @@ background-color: rgba(0,0,0,0.8);
     background-color: #ffd700;
     color: #0f0f0f;
 }
-.home-content-1{
-    padding-top: 130px;
-    padding-bottom: 150px;
+.home-content-1 {
+    /*padding-top: 130px;*/
+    /*padding-bottom: 150px;*/
     color: white;
-    min-height: 650px;
+    min-height: 100%;
 }
-.home-content-1 > .row > h1{
+.home-content-text{
+    transform: translateY(50%);
+}
+.home-content-1  > .home-content-text> .row > h1{
     width: 90%;
     margin: 0 auto;
     padding-bottom: 15px;
     font-size: 60px;
     font-family: 'Orbitron', sans-serif;
 }
-.home-content-1 > .row > .head-text > p{
+.home-content-1 > .home-content-text > .row > .head-text > p{
     font-size: 20px;
 }
-.home-content-1 > .row > .head-text > p:first-child{
+.home-content-1 > .home-content-text > .row > .head-text > p:first-child{
     font-size: 38px;
     color: #ffd700;
 }
 .section-0{
-    height: 690px;
+    min-height: 100%;
     color:white;
     background: url("../images/fifa-17-back.jpg") no-repeat fixed center;
     background-size: cover;
@@ -123,52 +142,24 @@ background-color: rgba(0,0,0,0.8);
 .gold{ color: gold;}
 .silver{ color: silver}
 .bronze{ color: sandybrown}
-/*Footer styles*/
-footer{
-    padding-top: 50px;
-    padding-bottom:50px;
-}
-.bg-footer {
-    background-color: black;
-}
-.footer3{
-    color:white;
-}
-.footer-social > p > a > .fa{
-    font-size: 30px;
-    padding: 10px;
-}
-.footer-social > p > a > .fa:before{
-    margin: 0 auto;
-}
-.footer-social > p > a:hover{
-    text-decoration: none;
-}
-.no-pad > p{
-    margin-bottom: 5px;
-}
-.bg-twitter{
-    background-color: #55acee;
-    border-radius: 50%;
-}
-.bottom-foot{
-    padding-top: 40px;
-}
-.bottom-foot > p{
-    color: rgb(70,70,100);
-}
-.bottom-foot > p > small > a{
-    color: rgb(70,70,100);
-}
-.bottom-foot > p > small > a:hover{
-    text-decoration: none;
-    color: white;
-}
-hr{
-    border-color: #464664;
-    width: 60%
-}
 
+
+@media only screen and (max-width: 1280px){
+    .home-content-1 > .home-content-text > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        font-size: 39px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .home-content-1 > .home-content-text > .row > .head-text > p{
+        font-size: 15px;
+    }
+    .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
+        font-size: 24px;
+        color: gold;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
 
@@ -180,6 +171,9 @@ hr{
     .prize-container{
         font-size: 40px;
     }
+    .home-image{
+        width: 400px;
+    }
     .prize-container > p {
         font-size: 120px;
     }
@@ -187,61 +181,28 @@ hr{
         font-size: 30px;
     }
 }
+
 @media only screen and (max-width: 990px) {
 
     .prize-container > p {
         font-size: 80px;
     }
-}
-@media only screen and (max-width: 620px){
-    .home-content-1 > .row > h1{
-        width: 90%;
-        margin: 0 auto;
-        font-size: 23px;
+    .home-image{
+        width: 320px;
     }
-    h3{
+    .headText > h3 {
         font-size: 20px;
     }
-    .section-1,.section-2,.section-3{
-        -webkit-transform: skew(0deg);
-        -moz-transform: skew(0deg);
-        -ms-transform: skew(0deg);
-        -o-transform: skew(0deg);
-        transform: skew(0deg);
-    }
-    .section-1 > .skewed-text,.section-3 > .skewed-text{
-
-        padding-top: 20px;
-        transform: skewY(0deg);
-    }
-    .section-2 > .skewed-text{
-        transform: skewY(0deg);
-        padding-top: 40px;
-
-    }
-
 }
-@media only screen and (max-width: 1280px){
-    .home-content-1 > .row > h1{
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: 15px;
-        font-size: 39px;
-        font-family: 'Orbitron', sans-serif;
-    }
-    .home-content-1 > .row > .head-text > p{
-        font-size: 15px;
-    }
-    .home-content-1 > .row > .head-text > p:first-child{
-        font-size: 25px;
-        color: gold;
-    }
-}
+
 @media only screen and (max-height: 960px){
     .header-content{
         padding: 10px;
     }
+
 }
+
+
 @media only screen and (max-width: 768px){
     .navbar{
         padding:5px;
@@ -250,51 +211,106 @@ hr{
         padding: unset;
     }
     #banner {
-        background: url('../images/FIFA-17-review copy.jpg') no-repeat fixed center;
-    }
-    .section-bg{
-        background: url('../images/fifa17pogba-sm.jpg') no-repeat fixed center;
+        background: url('../images/FIFA17_BG-HOME.jpg') no-repeat center;
         background-size: cover;
     }
-    .home-content-1 > .row > h1{
+    .section-0{
+        background: url("../images/fifa-17-back.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .section-bg{
+        background: url('../images/fifa17pogba-sm.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .home-content-1 > .home-content-text > .row > h1{
         width: 90%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 35px;
         font-family: 'Orbitron', sans-serif;
     }
-    .home-content-1 > .row > .head-text > p{
+    .home-content-1 > .home-content-text > .row > .head-text > p{
         font-size: 15px;
     }
-    .home-content-1 > .row > .head-text > p:first-child{
+    .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 19px;
         color: gold;
     }
+    .home-image{
+        width: 300px;
+    }.prize-container > p {
+         font-size: 60px;
+     }
+
 }
 
 @media only screen and (max-width: 651px){
     .navbar{
         padding:5px;
     }
-    #banner {
-        background: url('../images/FIFA-17-review copy.jpg') no-repeat fixed center;
-    }
-    .section-bg{
-        background: url('../images/fifa17pogba-sm.jpg') no-repeat fixed center;
-        background-size: cover;
-    }
-    .home-content-1 > .row > h1{
+
+    .home-content-1  > .home-content-text> .row > h1{
         width: 90%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .home-content-1 > .row > .head-text > p{
+    .home-content-1 > .home-content-text > .row > .head-text > p{
         font-size: 10px;
     }
-    .home-content-1 > .row > .head-text > p:first-child{
+    .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
+        font-size: 18px;
+        color: gold;
+    }
+
+}
+
+@media only screen and (max-width: 620px){
+    .home-content-1 > .home-content-text > .row > h1{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 23px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+
+
+}
+@media only screen and (max-width: 500px) {
+
+    .home-image{
+        width: 200px;
+    }
+    .headText > h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+
+    .home-face{
+        margin-top: 0;
+    }
+    .home-content-1{
+        padding: 0;
+    }
+    .home-content-1  > .home-content-text> .row > h1{
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .home-content-1 > .home-content-text > .row > .head-text > p{
+        font-size: 13px;
+    }
+    .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 18px;
         color: gold;
     }
 }
+

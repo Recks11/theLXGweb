@@ -132,5 +132,6 @@
 <script>
     var ctx = "${pageContext.request.contextPath}";
 </script>
+<script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
 </html>

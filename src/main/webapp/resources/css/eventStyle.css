@@ -12,6 +12,7 @@ html, body {
 }
 section{
     /*padding-top: 111px;*/
+    height: 100%;
 }
 .event-content{
     width: 90%;
