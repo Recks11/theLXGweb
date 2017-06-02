@@ -34,7 +34,7 @@
                 <ul class="footer-li">
                     <li class="first-line"> FOLLOW US</li>
                     <li><div class="footer-social">
-                        <p><a href="#footer" onclick="socialClickOp('https://acebook.com/thereallxg')" style="font-size: 30px; color: white;">
+                        <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
                             <i class="fa fa-facebook"></i></a>
                             <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
                             <i class="fa fa-twitter" style="color: white;"></i></a>
