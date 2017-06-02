@@ -34,11 +34,15 @@
                 <ul class="footer-li">
                     <li class="first-line"> FOLLOW US</li>
                     <li><div class="footer-social">
-                        <p><a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
+                        <p><a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
+                            <i class="fa fa-facebook"></i></a>
+                            <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
                             <i class="fa fa-twitter" style="color: white;"></i></a>
                             <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
-                                <i class="fa fa-instagram"></i></a></p>
-                    </div></li>
+                                <i class="fa fa-instagram"></i></a>
+                        </p>
+                        </div>
+                    </li>
                     <li><small>@thelxg_</small></li>
                     <li><a href="mailto:info@thelxg.com.ng">email: info@thelxg.com.ng</a></li>
                 </ul>
