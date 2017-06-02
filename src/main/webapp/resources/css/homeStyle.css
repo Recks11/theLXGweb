@@ -312,5 +312,8 @@ background-color: rgba(0,0,0,0.8);
         font-size: 18px;
         color: gold;
     }
+    .home-content-text{
+        transform: translateY(30%);
+    }
 }
 
