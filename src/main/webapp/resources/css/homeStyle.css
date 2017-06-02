@@ -288,6 +288,9 @@ background-color: rgba(0,0,0,0.8);
     .headText > h3 {
         font-size: 15px;
     }
+    .home-content-text{
+        transform: translateY(30%);
+    }
 }
 
 @media only screen and (max-height: 400px) {
@@ -312,8 +315,6 @@ background-color: rgba(0,0,0,0.8);
         font-size: 18px;
         color: gold;
     }
-    .home-content-text{
-        transform: translateY(30%);
-    }
+
 }
 
