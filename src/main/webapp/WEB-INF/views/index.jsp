@@ -14,7 +14,7 @@
                 <div class="headText">
                     <img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive home-image" style="display:inline"
                          alt="THE LXG LOGO" height="auto">
-                    <p>League of Extraodinary Gamers</p>
+                    <p>League of Extraordinary Gamers</p>
                     <h3>The LXG <span>FIFA 17</span> TOURNAMENT</h3>
                 </div>
             </div>
