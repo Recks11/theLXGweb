@@ -111,7 +111,7 @@
         </div>
         <div class="row white-font">
             <div class="col-xs-12 text-center full-pad">
-                <a class="vendor-btn" href="<spr:url value="/vendor"/>"> Details Here </a>
+                <a class="vendor-btn" href="<spr:url value="/vendor/"/>"> Details Here </a>
             </div>
         </div>
     </div>
