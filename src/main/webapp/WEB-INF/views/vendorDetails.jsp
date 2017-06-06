@@ -23,7 +23,7 @@
         <section>
             <div class="no-pad vendor-content animated fadeInDownBig">
                 <div class="vendor-details text-center">
-                    <h2>Startups and Vendors</h2>
+                    <h2 >STARTUPS AND VENDORS</h2>
                     <br/>
                     <div class="row">
                         <%--<div class="col-xs-4">--%>
@@ -36,22 +36,23 @@
                             <h2 class="text-center gold">DAILY PRICING</h2>
                             <p class="pricing">Lagos Mainland - 20,000 Naira/stand</p>
                             <p class="pricing">Lagos Island - 30,000 Naira/stand</p>
-                            <p class="pricing">***You get 10% discount if you book for 2 days and above.</p>
+                            <p class="pricing">***You get 10% discount if you book for 2 days and above.***</p>
                             <h2 class="text-center gold">HOW TO BOOK</h2>
 
                             <p>1. Pay into this account</p>
-                            <p class="children">Name: </p>
-                            <p class="children">Account Number: </p>
+                            <p class="children">Name: ADELIYI OLUWASEYI DAVID</p>
+                            <p class="children">Account Number: 206288776</p>
+                            <p class="children">Bank: UBA</p>
 <br/>
 
                             <p class="parent">2. Send a mail to fair@thelxg.com.ng including the following details.</p>
-                            <p class="children">&#10228; Name of Business</p>
-                            <p class="children">&#10228; Brief description of your business</p>
-                            <p class="children">&#10228; Phone number</p>
-                            <p class="children">&#10228; Where do you want your stand? - Lagos Mainland or Lagos Island or both</p>
-                            <p class="children">&#10228; No. of Days Booked</p>
-                            <p class="children">&#10228; Attached evidence of Payment</p>
-
+                            <p class="children">&rarrb; Name of Business</p>
+                            <p class="children">&rarrb; Brief description of your business</p>
+                            <p class="children">&rarrb; Phone number</p>
+                            <p class="children">&rarrb; Where do you want your stand? - Lagos Mainland or Lagos Island or both</p>
+                            <p class="children">&rarrb; No. of Days Booked</p>
+                            <p class="children">&rarrb; Attached evidence of Payment</p>
+<br/>
                             <p>3. We send you a mail confirming your booking.</p>
                         </div>
                     </div>

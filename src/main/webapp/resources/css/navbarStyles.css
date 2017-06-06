@@ -43,13 +43,13 @@
     font-family: 'Orbitron', sans-serif;
 }
 .in{
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,1);
 }
 .in > .nav > li > a{
-    color: Black;
+    color: white;
 }
 .in > .nav > li > a:hover{
-    color: Black;
+    color: white;
 }
 .nav-image{
     width: 100px;

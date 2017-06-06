@@ -5,11 +5,12 @@
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
 <jsp:include page="fragment/imports.jsp"/>
 <body>
+
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <section id=banner>
     <div class="section-bg-color">
-        <div class="container text-center" style="height: 100%;">
+        <div class="container-fluid text-center" style="height: 100%;">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
                     <h3>The League of Extraordinary Gamers Presents </h3>

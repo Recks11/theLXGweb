@@ -16,8 +16,10 @@
             <ul class="footer-li">
                 <li class="first-line">NAVIGATION</li>
                 <li><a href="<spr:url value="/"/> ">HOME</a></li>
+                <li><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>
                 <li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
                 <li><a href="<spr:url value="/enter/"/> ">ENTER COMPETITION</a></li>
+                <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">

@@ -28,7 +28,7 @@ body, html{
     color: white;
 }
 .header-content{
-    padding: 150px;
+    padding: 100px;
 }
 .header-content > .headText > h3 > span{
     color: #ffd700;
@@ -41,9 +41,14 @@ body, html{
     width: 100%;
     height: 220px;
     transform: translateY(50%);
+    font-family: 'Orbitron', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Lilita One', cursive;*/
+    /*font-family: 'BenchNine', sans-serif;*/
 }
 .headText > h3 {
-    font-size: 30px;
+    font-size: 50px;
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
     -ms-transition: font-size 1s;
@@ -145,7 +150,8 @@ background-color: rgba(0,0,0,0.8);
     background-color: #0f0f0f;
 }
 .vendor-section{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .vendor-btn{
     padding: 20px;
@@ -223,6 +229,10 @@ background-color: rgba(0,0,0,0.8);
     }
     .headText{
         margin-top: 20%;
+
+    }
+    .headText > h3{
+        font-size: 40px;
     }
 }
 
@@ -235,7 +245,7 @@ background-color: rgba(0,0,0,0.8);
         width: 320px;
     }
     .headText > h3 {
-        font-size: 22px;
+        font-size: 30px;
     }
     .vendor-text > p{
         font-size: 16px;
@@ -247,6 +257,7 @@ background-color: rgba(0,0,0,0.8);
     .header-content{
         padding: 10px;
     }
+
 
 }
 
@@ -297,6 +308,7 @@ background-color: rgba(0,0,0,0.8);
         font-size: 16px;
     }
 
+
 }
 
 @media only screen and (max-width: 651px){
@@ -317,6 +329,9 @@ background-color: rgba(0,0,0,0.8);
     .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 18px;
         color: gold;
+    }
+    .headText > h3 {
+        font-size: 25px;
     }
 
 }
@@ -340,10 +355,22 @@ background-color: rgba(0,0,0,0.8);
         width: 200px;
     }
     .headText > h3 {
-        font-size: 18px;
+        font-size: 22px;
     }
     .home-content-text{
         transform: translateY(30%);
+    }
+}
+@media only screen and (max-width: 420px) {
+
+    .home-image{
+        width: 200px;
+    }
+    .headText > h3 {
+        font-size: 17px;
+    }
+    .home-content-text{
+        transform: translateY(35%);
     }
 }
 

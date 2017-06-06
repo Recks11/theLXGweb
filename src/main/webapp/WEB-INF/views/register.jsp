@@ -88,8 +88,8 @@
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="team">Team:</label>
                             <div class="col-sm-5">
-                                <select name="teamCountry" class="form-control" id="teamNation">
-                                    <option value="">-- SELECT TEAM --</option>
+                                <select  name="teamCountry" class="form-control select-drop" id="teamNation">
+                                    <option value="">&#8675;-- SELECT TEAM -- &#8675;</option>
                                     <option value="ENGLAND">ENGLAND</option>
                                     <option value="FRANCE">FRANCE</option>
                                     <option value="GERMANY">GERMANY</option>
@@ -98,7 +98,7 @@
                                 </select>
                             </div>
                             <div class="col-sm-5 teamSel">
-                                <select name="teamSelected" class="form-control" id="team"></select>
+                                <select name="teamSelected" class="form-control select-drop" id="team"></select>
                             </div>
                         </div>
                         <div class="form-group">

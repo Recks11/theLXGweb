@@ -74,6 +74,10 @@ section{
     -moz-border-radius: 0;
     border-radius: 0;
 }
+.select-drop{
+    border: 2px solid white;
+    border-radius: 2px;
+}
 .submitBtn{
     background-color: transparent;
     border: 2px solid white;
