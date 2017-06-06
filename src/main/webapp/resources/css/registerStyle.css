@@ -91,7 +91,7 @@ section{
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .bg-image{
         height: unset;
         min-height: 100%;
