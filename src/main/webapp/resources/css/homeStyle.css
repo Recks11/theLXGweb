@@ -43,12 +43,13 @@ body, html{
     transform: translateY(50%);
 }
 .headText > h3 {
-
+    font-size: 30px;
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
     -ms-transition: font-size 1s;
     -o-transition: font-size 1s;
     transition: font-size 1s;
+
 }
 .home-image{
     -webkit-transition: width 1s;
@@ -234,7 +235,7 @@ background-color: rgba(0,0,0,0.8);
         width: 320px;
     }
     .headText > h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
     .vendor-text > p{
         font-size: 16px;
@@ -339,7 +340,7 @@ background-color: rgba(0,0,0,0.8);
         width: 200px;
     }
     .headText > h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
     .home-content-text{
         transform: translateY(30%);
