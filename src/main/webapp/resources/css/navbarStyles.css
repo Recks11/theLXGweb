@@ -24,7 +24,7 @@
     -o-transition: font-size 1s;
     transition: font-size 1s;
     border-color: white;
-    font-size: 26px;
+    font-size: 20px;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #ffd700;
@@ -56,13 +56,13 @@
 }
 
 
-.white-bg{
-    -webkit-transition: background-color .8s;
-    -moz-transition: background-color .8s;
-    -ms-transition: background-color .8s ;
-    -o-transition: background-color .8s;
-    transition: background-color .8s;
-    background-color: white;
+.grey-bg{
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s ;
+    -o-transition: background-color .4s;
+    transition: background-color .4s;
+    background-color: rgba(0,0,0,0.4);
 }
 @media only screen and (max-width: 651px) {
     .navbar {

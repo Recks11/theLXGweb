@@ -84,6 +84,7 @@ background-color: rgba(0,0,0,0.8);
     background-color: #ffd700;
     color: #0f0f0f;
 }
+
 .home-content-1 {
     /*padding-top: 130px;*/
     /*padding-bottom: 150px;*/
@@ -91,7 +92,8 @@ background-color: rgba(0,0,0,0.8);
     min-height: 100%;
 }
 .home-content-text{
-    transform: translateY(50%);
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 .home-content-1  > .home-content-text> .row > h1{
     width: 90%;
@@ -101,14 +103,14 @@ background-color: rgba(0,0,0,0.8);
     font-family: 'Orbitron', sans-serif;
 }
 .home-content-1 > .home-content-text > .row > .head-text > p{
-    font-size: 20px;
+    font-size: 26px;
 }
 .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
     font-size: 38px;
     color: #ffd700;
 }
 .section-0{
-    min-height: 100%;
+    height: 550px;
     color:white;
     background: url("../images/fifa-17-back.jpg") no-repeat fixed center;
     background-size: cover;
@@ -138,12 +140,46 @@ background-color: rgba(0,0,0,0.8);
 .prize-container > p {
     font-size: 150px;
 }
-
+.bg-black{
+    background-color: #0f0f0f;
+}
+.vendor-section{
+    padding: 50px;
+}
+.vendor-btn{
+    padding: 20px;
+    background-color: #2f2f2f;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #ffffff;
+    -webkit-transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -ms-transition: background-color .6s;
+    -o-transition: background-color .6s;
+    transition: background-color .6s;
+}
+.vendor-btn:hover{
+    text-decoration: none;
+    background-color: #ffd700;
+    color: #0f0f0f;
+}
+.vendor-text{
+    /*font-family: 'Orbitron', sans-serif;*/
+    font-size: 28px;
+}
+.vendor-text > h2 {
+    color: gold;
+}
 .gold{ color: gold;}
 .silver{ color: silver}
 .bronze{ color: sandybrown}
 
+@media only screen and (min-height: 900px) {
+    .headText{
+        margin-top: 20%;
+    }
 
+}
 @media only screen and (max-width: 1280px){
     .home-content-1 > .home-content-text > .row > h1{
         width: 90%;
@@ -153,11 +189,15 @@ background-color: rgba(0,0,0,0.8);
         font-family: 'Orbitron', sans-serif;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p{
-        font-size: 15px;
+        font-size: 17px;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 24px;
         color: gold;
+    }
+    .vendor-text{
+        /*font-family: ;*/
+        font-size: 23px;
     }
 }
 
@@ -180,6 +220,9 @@ background-color: rgba(0,0,0,0.8);
     h1,h2,h3{
         font-size: 30px;
     }
+    .headText{
+        margin-top: 20%;
+    }
 }
 
 @media only screen and (max-width: 990px) {
@@ -193,7 +236,11 @@ background-color: rgba(0,0,0,0.8);
     .headText > h3 {
         font-size: 20px;
     }
+    .vendor-text > p{
+        font-size: 16px;
+    }
 }
+
 
 @media only screen and (max-height: 960px){
     .header-content{
@@ -231,7 +278,7 @@ background-color: rgba(0,0,0,0.8);
         font-family: 'Orbitron', sans-serif;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p{
-        font-size: 15px;
+        font-size: 17px;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 19px;
@@ -242,6 +289,12 @@ background-color: rgba(0,0,0,0.8);
     }.prize-container > p {
          font-size: 60px;
      }
+    .vendor-text > h2{
+        font-size: 18px;
+    }
+    .vendor-text{
+        font-size: 16px;
+    }
 
 }
 
@@ -258,7 +311,7 @@ background-color: rgba(0,0,0,0.8);
         font-family: 'Orbitron', sans-serif;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p{
-        font-size: 10px;
+        font-size: 13px;
     }
     .home-content-1 > .home-content-text > .row > .head-text > p:first-child{
         font-size: 18px;

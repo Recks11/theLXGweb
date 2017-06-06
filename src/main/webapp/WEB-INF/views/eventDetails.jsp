@@ -28,13 +28,18 @@
                     <div class="row">
                         <div class="col-xs-12 text-center head-text no-pad">
 
-                            <p>Earn yourself bragging rights and stand a chance to win  &#8358;500,000</p>
-                            <p>4096 participants will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>
-                            <p> Participants will be split into equal halves with 2048 each coming from Lagos Mainland and Lagos Island.</p>
-                            <p>Participants will compete in the preliminaries from the 1st of July to 16th of July, 2017.</p>
-                            <p>All rounds will run on weekends only (i.e. Saturdays and Sundays) at specified venues.</p>
-                            <p>The Main event will hold on the 5th of August, 2017</p>
-                            <p> which will feature the final and third place matches.</p>
+                            <%--<p>4096 participants will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>--%>
+                            <%--<p> Participants will be split into equal halves with 2048 each coming from Lagos Mainland and Lagos Island.</p>--%>
+                            <%--<p>Participants will compete in the preliminaries from the 1st of July to 16th of July, 2017.</p>--%>
+                            <%--<p>All rounds will run on weekends only (i.e. Saturdays and Sundays) at specified venues.</p>--%>
+                            <%--<p>The Main event will hold on the 5th of August, 2017</p>--%>
+                            <%--<p> which will feature the final and third place matches.</p>--%>
+
+                            <p>Participants across Lagos will participate in a Playstation 4 FIFA 17 competition across lagos.</p>
+                            <p>The preliminaries will run from the 15th of July through 6th of August, 2017, with all games running on weekends only</p>
+                            <p>This competition will run at specified venues on Lagos Mainland and Lagos island concurrently</p>
+                            <p>with the Main event holding on the 12th of August, 2017 </p>
+                            <p>which will feature the final and third place matches.</p>
                         </div>
                     </div>
                 </div>

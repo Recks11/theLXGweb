@@ -23,9 +23,16 @@ public class homeController {
     public String favicon() {
         return "forward:/resources/images/favicon.ico";
     }
+
     @RequestMapping("/event")
     public String eventDetails(){
 
         return "eventDetails";
+    }
+    @RequestMapping("/aboutUs")
+    public String aboutUs(Model model){
+
+        model.addAttribute("title", "TheLXG - about");
+        return "aboutUs";
     }
 }

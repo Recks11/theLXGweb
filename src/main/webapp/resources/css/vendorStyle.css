@@ -12,7 +12,7 @@ html, body {
 }
 section{
     /*padding-top: 111px;*/
-    height: 100%;
+    min-height: 100%;
 }
 .event-content{
     width: 90%;
@@ -21,39 +21,58 @@ section{
 .bg-image{
     background: url('../images/fifa-17-DEtails.jpg') no-repeat fixed center;
     background-size: cover;
-    height: 100%;
+    /*height: 100%;*/
     position: relative;
 }
 .bg-cover{
-    background: rgba(0,0,0,0.9);
+    background: rgba(20,20,20,1);
     min-height:100%
+}
+.head-text{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 50px;
 }
 .white-font{
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
 }
 .head-text > p:first-child{
-    font-size: 25px;
+    font-size: 20px;
     color: gold;
 }
-.event-details {
+.vendor-details {
     color: white;
-    transform: translateY(50%);
+    padding-top: 120px;
+}
+.children{
+    margin-left: 22px;
+    margin-bottom: 1px;
+}
+.pricing{
+    margin-bottom: 1px;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.grey-bg{
+    background-color: #0f0f0f;
 }
 /*Media Queries*/
 @media only screen and (min-width: 1280px){
-    .event-details > h2{
+    .vendor-details > h2{
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
-        font-size: 60px;
+        font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .event-details > .row > .head-text > p{
-        font-size: 25px;
+    .vendor-details > .row > .head-text > p{
+        font-size: 20px;
     }
-    .event-details > .row > .head-text > p:first-child{
-        font-size: 40px;
+    .vendor-details > .row > .head-text > p:first-child{
+        font-size: 25px;
     }
 }
 
@@ -62,18 +81,18 @@ section{
 
 
 @media only screen and (max-width: 1280px){
-    .event-details >  h2{
+    .vendor-details > h2{
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
-        font-size: 55px;
+        font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .event-details > .row > .head-text > p{
-        font-size: 22px;
+    .vendor-details > .row > .head-text > p{
+        font-size: 20px;
     }
-    .event-details > .row > .head-text > p:first-child{
-        font-size: 35px;
+    .vendor-details > .row > .head-text > p:first-child{
+        font-size: 23px;
     }
 }
 
@@ -85,17 +104,17 @@ section{
         height:unset;
         min-height: 100%;
     }
-    .event-details >  h2{
+    .vendor-details > h2{
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .event-details > .row > .head-text > p{
+    .vendor-details > .row > .head-text > p{
         font-size: 20px;
     }
-    .event-details > .row > .head-text > p:first-child{
+    .vendor-details > .row > .head-text > p:first-child{
         font-size: 25px;
     }
 }
@@ -106,48 +125,59 @@ section{
         height: unset;
         min-height: 100%;
     }
-    .event-details > h2{
-        width: 100%;
-        margin: 0 auto;
-        padding-bottom: 15px;
-        font-size: 35px;
-        font-family: 'Orbitron', sans-serif;
-    }
-    .event-details > .row > .head-text > p{
-        font-size: 15px;
-    }
-    .event-details > .row > .head-text > p:first-child{
-        font-size: 19px;
-    }
-}
-
-@media only screen and (max-width: 651px) {
-    .event-details > h2 {
+    .vendor-details > h2{
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-
-    .event-details > .row > .head-text > p {
-        font-size: 10px;
+    .vendor-details > .row > .head-text > p{
+        font-size: 20px;
     }
-
-    .event-details > .row > .head-text > p:first-child {
-        font-size: 15px;
+    .vendor-details > .row > .head-text > p:first-child{
+        font-size: 25px;
+    }
+    .head-text{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
-@media only screen and (max-width: 620px){
-    .event-details > h2{
+@media only screen and (max-width: 651px) {
+    .vendor-details > h2{
         width: 100%;
         margin: 0 auto;
-        font-size: 20px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .vendor-details > .row > .head-text > p{
+        font-size: 13px;
+    }
+    .vendor-details > .row > .head-text > p:first-child{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 620px){
+    .vendor-details > h2{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 23px;
     }
     h3{
         font-size: 20px;
     }
-
-
+    .vendor-details > .row > .head-text > p{
+        font-size: 10px;
+    }
+    .head-text{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

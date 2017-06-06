@@ -12,10 +12,8 @@
         <div class="container text-center" style="height: 100%;">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
-                    <img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive home-image" style="display:inline"
-                         alt="THE LXG LOGO" height="auto">
-                    <p>League of Extraordinary Gamers</p>
-                    <h3>The LXG <span>FIFA 17</span> TOURNAMENT</h3>
+                    <h3>The League of Extraordinary Gamers Presents </h3>
+                    <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                 </div>
             </div>
         </div>
@@ -32,18 +30,14 @@
                 <div class="row">
                     <div class="col-xs-12 text-center head-text">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
-                        <p>4096 participants will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>
-                        <p> Participants will be split into equal halves with 2048 each coming from Lagos Mainland and Lagos Island.</p>
-                        <p>Participants will compete in the preliminaries from the 1st of July to 16th of July, 2017.</p>
-                        <p>All rounds will run on weekends only (i.e. Saturdays and Sundays) at specified venues.</p>
-                        <p>The Main event will hold on the 5th of August, 2017</p>
-                        <p> which will feature the final and third place matches.</p>
+                        <p>5 weekends, 12 Rounds, 1 winner</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 text-center full-pad">
+                    <div class="col-xs-12 text-center full-pad head-text">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
+                        <p style="padding-top: 10px;"> **Registration Closes on the 9th of July, 2017**</p>
                     </div>
                 </div>
             </div>
@@ -106,20 +100,22 @@
     </div>
 </section>
 
-<%--<section>--%>
-    <%--<div class="container">--%>
-        <%--<div class="row">--%>
-            <%--<div class="col-xs-12 text-center full-pad">--%>
-                <%--VENDORS REGISTER HERE!--%>
-            <%--</div>--%>
-        <%--</div>--%>
-        <%--<div class="row">--%>
-            <%--<div class="col-xs-12 text-center full-pad">--%>
-                <%--<a class="enterBtn" href="<spr:url value="/vendor/"/>"> Register Here </a>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</section>--%>
+<section class="bg-black vendor-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center full-pad white-font vendor-text">
+                <h2>Are you a Startup or a Vendor?</h2>
+
+                <p>Reach your target customers and make sales in our Trade fair</p>
+            </div>
+        </div>
+        <div class="row white-font">
+            <div class="col-xs-12 text-center full-pad">
+                <a class="vendor-btn" href="<spr:url value="/vendor"/>"> Details Here </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <jsp:include page="fragment/footer.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>

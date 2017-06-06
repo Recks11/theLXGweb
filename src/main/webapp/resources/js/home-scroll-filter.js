@@ -7,9 +7,9 @@ var features = "status=yes,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resi
 
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 70) {
-            $(".navbar").addClass("nav-scroll white-bg");
+            $(".navbar").addClass("nav-scroll grey-bg");
         } else {
-            $(".navbar").removeClass("nav-scroll white-bg");
+            $(".navbar").removeClass("nav-scroll grey-bg");
         }
     });
 })(jQuery);

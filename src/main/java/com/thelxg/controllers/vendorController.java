@@ -37,7 +37,7 @@ public class vendorController {
 
         model.addAttribute("title","Vendor - TheLXG");
         model.addAttribute("vendorObject", vendorBean);
-        return "vendor";
+        return "vendorDetails";
     }
 
     @ModelAttribute("locationList")

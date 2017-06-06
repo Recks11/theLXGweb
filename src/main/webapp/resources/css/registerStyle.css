@@ -12,6 +12,7 @@ html, body {
     -ms-transition: font-size 1s;
     -o-transition: font-size 1s;
     transition: font-size 1s;
+    outline: none;
 }
 
 .bg-image{
