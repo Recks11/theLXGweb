@@ -41,7 +41,7 @@
 
                             <p>1. Pay into this account</p>
                             <p class="children">Name: ADELIYI OLUWASEYI DAVID</p>
-                            <p class="children">Account Number: 206288776</p>
+                            <p class="children">Account Number: 2062888776</p>
                             <p class="children">Bank: UBA</p>
                             <p>OR</p>
                             <p class="children">Name: ADARE OLUWASOLA BOLADE</p>
