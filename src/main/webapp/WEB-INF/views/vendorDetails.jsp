@@ -43,6 +43,10 @@
                             <p class="children">Name: ADELIYI OLUWASEYI DAVID</p>
                             <p class="children">Account Number: 206288776</p>
                             <p class="children">Bank: UBA</p>
+                            <p>OR</p>
+                            <p class="children">Name: ADARE OLUWASOLA BOLADE</p>
+                            <p class="children">Account Number: 3061633000</p>
+                            <p class="children">Bank: FIRST BANK OF NIGERIA</p>
 <br/>
 
                             <p class="parent">2. Send a mail to fair@thelxg.com.ng including the following details.</p>
@@ -53,7 +57,7 @@
                             <p class="children">&rarrb; No. of Days Booked</p>
                             <p class="children">&rarrb; Attached evidence of Payment</p>
 <br/>
-                            <p>3. We send you a mail confirming your booking.</p>
+                            <p>3. We will send you a mail confirming your booking.</p>
                         </div>
                     </div>
                 </div>
