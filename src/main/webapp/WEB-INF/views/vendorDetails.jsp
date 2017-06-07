@@ -33,11 +33,11 @@
                             <p>LXG 17 trade fair creates a platform for businesses to grow their customer base, market their products and ultimately, make profit.</p><br/>
                             <p>The trade fair is scheduled to hold on the 15th, 16th, 22nd, 23rd, 29th and 30th of July, 2017.</p>
                             <p>Time is 9am - 6pm.</p>
-                            <h2 class="text-center gold">DAILY PRICING</h2>
+                            <h2 class="text-center gold Orbitron-Font">DAILY PRICING</h2>
                             <p class="pricing">Lagos Mainland - 20,000 Naira/stand</p>
                             <p class="pricing">Lagos Island - 30,000 Naira/stand</p>
                             <p class="pricing">***You get 10% discount if you book for 2 days and above.***</p>
-                            <h2 class="text-center gold">HOW TO BOOK</h2>
+                            <h2 class="text-center gold Orbitron-Font">HOW TO BOOK</h2>
 
                             <p>1. Pay into this account</p>
                             <p class="children">Name: ADELIYI OLUWASEYI DAVID</p>
