@@ -41,10 +41,12 @@
 
                             <p>1. Pay into this account</p>
                             <p class="children">Name: ADELIYI OLUWASEYI DAVID</p>
+                            <p class="children">Account Type: Savings</p>
                             <p class="children">Account Number: 2062888776</p>
                             <p class="children">Bank: UBA</p>
                             <p>OR</p>
                             <p class="children">Name: ADARE OLUWASOLA BOLADE</p>
+                            <p class="children">Account Type: Savings</p>
                             <p class="children">Account Number: 3061633000</p>
                             <p class="children">Bank: FIRST BANK OF NIGERIA</p>
 <br/>
