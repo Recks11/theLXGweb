@@ -23,7 +23,10 @@ public class playerDaoImpl implements playerDao {
 
     @Override
     public void addPlayer(player play) {
-        play.setPlayerId("TheLXG-"+(Math.random()*Math.random()*100)+"-"+play.getAlias());
+
+        int serialNo = (int) (Math.random() * Math.random())*10000000;
+
+        play.setPlayerId("TheLXG-"+serialNo+"-"+play.getAlias());
         sessionFactory.getCurrentSession().save(play);
     }
 
