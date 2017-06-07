@@ -13,7 +13,10 @@
         <div class="container-fluid text-center" style="height: 100%;">
             <div class="home-face header-content animated fadeInDown">
                 <div class="headText">
-                    <h3>The League of Extraordinary Gamers Presents </h3>
+                    <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
+                    <h3> PRESENTS</h3>
+                    <br/>
+                    <br/>
                     <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                 </div>
             </div>
@@ -29,14 +32,14 @@
                     <h1>ARE YOU BADASS AT FIFA 17?</h1>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 text-center head-text">
+                    <div class="col-xs-12 text-center head-text mont-font">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
                         <p>5 weekends, 12 Rounds, 1 winner</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 text-center full-pad head-text">
+                    <div class="col-xs-12 text-center full-pad head-text mont-font">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
                         <p style="padding-top: 10px;"> **Registration Closes on the 9th of July, 2017**</p>
                     </div>
@@ -57,7 +60,7 @@
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
-                            <H1 class=" gold">FIRST PLACE</H1>
+                            <H1 class=" gold mont-Font">FIRST PLACE</H1>
                             <p class="gold" >&#8358 500,000</p>
                         </div>
                     </div>
@@ -74,7 +77,7 @@
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
-                            <h2 class="silver">SECOND PLACE</h2>
+                            <h2 class="silver mont-Font">SECOND PLACE</h2>
                             <p class="silver">&#8358 200,000</p>
                         </div>
                     </div>
@@ -91,7 +94,7 @@
 
                     <div class="col-xs-12 col-md-8 col-md-pull-4">
                         <div class="prize-container text-center">
-                            <h3 class="bronze">THIRD PLACE</h3>
+                            <h3 class="bronze mont-Font">THIRD PLACE</h3>
                             <p class="bronze">&#8358 100,000</p>
                         </div>
                     </div>

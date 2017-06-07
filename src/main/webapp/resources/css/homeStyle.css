@@ -176,17 +176,12 @@ background-color: rgba(0,0,0,0.8);
 }
 .vendor-text > h2 {
     color: gold;
+    font-family: 'Montserrat', sans-serif;
 }
 .gold{ color: gold;}
 .silver{ color: silver}
 .bronze{ color: sandybrown}
 
-@media only screen and (min-height: 900px) {
-    .headText{
-        margin-top: 20%;
-    }
-
-}
 @media only screen and (max-width: 1280px){
     .home-content-1 > .home-content-text > .row > h1{
         width: 90%;

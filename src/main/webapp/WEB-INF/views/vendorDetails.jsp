@@ -29,7 +29,7 @@
                         <%--<div class="col-xs-4">--%>
                             <%--<h2>Startups and Vendors</h2>--%>
                         <%--</div>--%>
-                        <div class="col-xs-12 text-left head-text" >
+                        <div class="col-xs-12 text-left head-text"  >
                             <p>LXG 17 trade fair creates a platform for businesses to grow their customer base, market their products and ultimately, make profit.</p><br/>
                             <p>The trade fair is scheduled to hold on the 15th, 16th, 22nd, 23rd, 29th and 30th of July, 2017.</p>
                             <p>Time is 9am - 6pm.</p>

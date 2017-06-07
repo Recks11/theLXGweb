@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +81,18 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="77">
+              <caret line="96" column="55" lean-forward="false" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generalStyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -103,21 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeStyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homeStyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="91" column="85" lean-forward="false" selection-start-line="91" selection-start-column="85" selection-end-line="91" selection-end-column="85" />
+            <state relative-caret-position="247">
+              <caret line="178" column="41" lean-forward="false" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -133,28 +138,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vendorDetails.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vendorDetails.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="43" column="70" lean-forward="false" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+            <state relative-caret-position="177">
+              <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
               <folding>
-                <element signature="e#2713#2720#0#HTML" expanded="true" />
-                <element signature="e#2790#2797#0#HTML" expanded="true" />
-                <element signature="e#2885#2892#0#HTML" expanded="true" />
-                <element signature="e#2958#2965#0#HTML" expanded="true" />
-                <element signature="e#3089#3096#0#HTML" expanded="true" />
-                <element signature="e#3168#3175#0#HTML" expanded="true" />
+                <element signature="e#2714#2721#0#HTML" expanded="true" />
+                <element signature="e#2791#2798#0#HTML" expanded="true" />
+                <element signature="e#2886#2893#0#HTML" expanded="true" />
+                <element signature="e#2959#2966#0#HTML" expanded="true" />
+                <element signature="e#3090#3097#0#HTML" expanded="true" />
+                <element signature="e#3169#3176#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventDetails.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp">
+      <file leaf-file-name="vendorStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+            <state relative-caret-position="220">
+              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -237,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendor.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/REstController.java" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/teams.java" />
@@ -257,19 +261,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/eventStyle.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/vendorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/about.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/aboutUs.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/registerStyle.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
       </list>
     </option>
   </component>
@@ -1368,7 +1373,7 @@
       <workItem from="1496328320386" duration="35000" />
       <workItem from="1496330845442" duration="34728000" />
       <workItem from="1496711237316" duration="429000" />
-      <workItem from="1496771800153" duration="15752000" />
+      <workItem from="1496771800153" duration="16832000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate changed">
       <created>1496241932814</created>
@@ -1636,11 +1641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496793565598</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="minor changes">
+      <created>1496793577828</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1496793577828</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163908000" />
+    <option name="totallyTimeSpent" value="164988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -2025,14 +2037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/eventStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2061,14 +2065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -2147,26 +2143,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2179,18 +2159,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="43" column="70" lean-forward="false" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+        <state relative-caret-position="177">
+          <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
           <folding>
-            <element signature="e#2713#2720#0#HTML" expanded="true" />
-            <element signature="e#2790#2797#0#HTML" expanded="true" />
-            <element signature="e#2885#2892#0#HTML" expanded="true" />
-            <element signature="e#2958#2965#0#HTML" expanded="true" />
-            <element signature="e#3089#3096#0#HTML" expanded="true" />
-            <element signature="e#3168#3175#0#HTML" expanded="true" />
+            <element signature="e#2714#2721#0#HTML" expanded="true" />
+            <element signature="e#2791#2798#0#HTML" expanded="true" />
+            <element signature="e#2886#2893#0#HTML" expanded="true" />
+            <element signature="e#2959#2966#0#HTML" expanded="true" />
+            <element signature="e#3090#3097#0#HTML" expanded="true" />
+            <element signature="e#3169#3176#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="96" column="55" lean-forward="false" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="178" column="41" lean-forward="false" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

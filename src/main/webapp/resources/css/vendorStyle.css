@@ -35,11 +35,14 @@ section{
 }
 .white-font{
     color: #ffffff;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .head-text > p:first-child{
     font-size: 20px;
     color: gold;
+}
+.vendor-details > .row > .head-text > p{
+    font-family: 'Montserrat', sans-serif;
 }
 .vendor-details {
     color: white;
