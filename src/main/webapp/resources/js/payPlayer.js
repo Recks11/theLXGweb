@@ -149,7 +149,7 @@ $(document).ready(function() {
                 savePlayer();
             },
             onClose: function(){
-                alert('window closed');
+                alert('Payment must be made successfully before registration can be completed');
             }
         });
         handler.openIframe();

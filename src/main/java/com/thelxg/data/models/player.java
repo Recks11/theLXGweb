@@ -17,6 +17,8 @@ public class player {
     @GeneratedValue
     private Long id;
 
+    private String PlayerId;
+
     private String firstName;
 
     private String lastName;
@@ -42,7 +44,8 @@ public class player {
 
     public player(){}
 
-    public player(String firstName, String lastName, String alias, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName, String alias, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
+        PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.alias = alias;
@@ -62,6 +65,14 @@ public class player {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getPlayerId() {
+        return PlayerId;
+    }
+
+    public void setPlayerId(String playerId) {
+        PlayerId = playerId;
     }
 
     public String getFirstName() {
@@ -160,6 +171,7 @@ public class player {
     public String toString() {
         return "player{" +
                 "id=" + id +
+                ", PlayerId='" + PlayerId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", alias='" + alias + '\'' +

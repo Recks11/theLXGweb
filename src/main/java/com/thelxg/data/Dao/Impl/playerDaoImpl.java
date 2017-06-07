@@ -23,6 +23,7 @@ public class playerDaoImpl implements playerDao {
 
     @Override
     public void addPlayer(player play) {
+        play.setPlayerId("TheLXG-"+(Math.random()*Math.random()*100)+"-"+play.getAlias());
         sessionFactory.getCurrentSession().save(play);
     }
 
