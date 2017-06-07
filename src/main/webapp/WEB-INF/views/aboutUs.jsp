@@ -19,7 +19,7 @@
     <div class="bg-cover">
         <section>
             <div class="no-pad about-content animated fadeInDownBig">
-                <div class="about-details text-center">
+                <div class="about-details text-center mont-Font">
                     <h2 class="gold">ABOUT US</h2>
                     <br/>
                    <P>The League of Extraordinary Gamers is a body that brings a convergence of gamers across the world.</P>

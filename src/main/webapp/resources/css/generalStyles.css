@@ -1,4 +1,7 @@
 /*font Styles*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .white-font{color: white;}
 .Orbitron-Font{font-family: 'Orbitron', sans-serif;}
 .mont-Font{font-family: 'Montserrat', sans-serif}
