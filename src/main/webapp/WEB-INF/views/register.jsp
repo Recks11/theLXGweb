@@ -66,7 +66,7 @@
                             <div class="col-sm-10">
                                 <label class="checkbox-inline"><input type="checkbox" class="require-one" name="social_acc" value="Instagram" id="instagram">Instagram</label>
                                 <label class="checkbox-inline"><input type="checkbox" class="require-one" name="social_acc" value="Twitter" id = twitter>Twitter</label>
-                                <label class="checkbox-inline">Please Select One</label>
+                                <label class="checkbox-inline">Please Select At Least One</label>
                             </div>
                         </div>
                         <fieldset id="tweet">
