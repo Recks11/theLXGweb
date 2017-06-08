@@ -90,10 +90,10 @@ section{
     padding-top: 30px;
 }
 select {
-    color: gold;
+    color: white;
 }
 select option {
-    color: gold;
+    color: #0f0f0f;
 }
 /*Media Queries*/
 @media only screen and (max-width: 767px){
