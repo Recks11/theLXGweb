@@ -131,7 +131,7 @@ $(document).ready(function() {
         var email =$('#email').val();
         var phone = $('#phoneNumber').val();
         var handler = PaystackPop.setup({
-            key: 'pk_test_0a676f1d979cabd881356f2c9983863df9b30d84',
+            key: 'pk_live_6d4f0fb7e519ebaedaf2953fac3b261a9197d02f',
             email: email,
             amount: 200000,
             ref: "theLXG-Player".email,
