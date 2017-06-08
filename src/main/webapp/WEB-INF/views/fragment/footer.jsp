@@ -7,7 +7,7 @@
         <div class="col-sm-3 white-font">
             <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img" style="display:inline"
                      alt="THE LXG LOGO" height="auto"></H4>
-            <p>League of Extraordinary Gamers</p>
+            <p>The League of Extraordinary Gamers</p>
             <%--<h4>About us:</h4>--%>
             <%--<P>The League of Extraordinary Gamers is a body that brings a convergence of gamers across the world.--%>
                 <%--We are building the spirit of gaming and developing a globally recognised community of gamers and game enthusiasts.</p>--%>
