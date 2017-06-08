@@ -88,7 +88,7 @@
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="team">Team:</label>
                             <div class="col-sm-5">
-                                <select  name="teamCountry" class="form-control select-drop" id="teamNation">
+                                <select  name="teamCountry" class="form-control select-drop" id="teamNation" style="color: limegreen;">
                                     <option value="">&#8675;-- SELECT TEAM -- &#8675;</option>
                                     <option value="ENGLAND">ENGLAND</option>
                                     <option value="FRANCE">FRANCE</option>
@@ -98,7 +98,7 @@
                                 </select>
                             </div>
                             <div class="col-sm-5 teamSel">
-                                <select name="teamSelected" class="form-control select-drop" id="team"></select>
+                                <select name="teamSelected" class="form-control select-drop" id="team" style="color: limegreen;"></select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -129,6 +129,8 @@
         </section>
     </div>
 </div>
+<%--<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>--%>
+<%--<script type="text/javascript" src="<spr:url value="/resources/js/jquery.selectBoxIt.min.js"/>"></script>--%>
 <script>
     var ctx = "${pageContext.request.contextPath}";
 </script>

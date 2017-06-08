@@ -9,12 +9,14 @@
 
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery.selectBoxIt.css"/> "/>
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/font-awesome.min.css"/>"/>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BenchNine|Lilita+One|Montserrat|Open+Sans" rel="stylesheet">
 
+    <!--favicon-->
     <link rel="icon" href="<spr:url value="/favicon.ico"/>">
 
     <!-- Animation Styles -->
@@ -28,8 +30,13 @@
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/footerStyles.css"/> "/>
 
     <!--JavaScript-->
-    <script type="text/javascript" src="<spr:url value="/resources/js/jquery.min.js"/>"></script>
+    <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
     <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
     <script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 
+
+    <!-- JqueryUI -->
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery-ui.css"/> "/>
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery-ui.structure.css"/> "/>
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery-ui.theme.css"/> "/>
 </head>
