@@ -6,6 +6,8 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.Random;
+
 /**
  * Created by rex on 27/05/2017.
  */
@@ -24,9 +26,12 @@ public class playerDaoImpl implements playerDao {
     @Override
     public void addPlayer(player play) {
 
-        int serialNo = (int) (Math.random() * Math.random())*10000000;
+        Random rand = new Random();
+        int value = rand.nextInt(99);
+        int value2 = rand.nextInt(99);
 
-        play.setPlayerId("TheLXG-"+serialNo+"-"+play.getAlias());
+        String identityNumber = "TheLXG-"+value+"1"+value2+"-"+play.getAlias();
+        play.setPlayerId(identityNumber);
         sessionFactory.getCurrentSession().save(play);
     }
 

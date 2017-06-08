@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -41,8 +42,18 @@ public class registerController {
         return "register";
     }
 
+    @PostMapping("/")
+    @ResponseStatus(value = HttpStatus.NO_CONTENT)
+    public String registerPlayer(@RequestBody player play){
+
+        Date date = new Date();
+        play.setDate(date);
+        playerService.addPlayer(play);
+        return "index";
+    }
+
     @RequestMapping("/rest")
-    public @ResponseBody String restSetviec( @ModelAttribute("playerObject")player play, HttpServletRequest request){
+    public @ResponseBody String restSetviec(@ModelAttribute("playerObject")player play, HttpServletRequest request){
         System.out.println( request.toString());
         System.out.println(play.toString());
 
@@ -65,14 +76,6 @@ public class registerController {
         return "200000";
     }
 
-
-    @PostMapping("/")
-    @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public String registerPlayer(@RequestBody player play){
-
-        playerService.addPlayer(play);
-        return "index";
-    }
 
     @ModelAttribute
     public void addTeams(Model model){

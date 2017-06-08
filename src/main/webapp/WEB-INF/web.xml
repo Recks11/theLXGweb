@@ -31,14 +31,14 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <filter>
-        <filter-name>redirectFilter</filter-name>
-        <filter-class>com.thelxg.data.models.components.redirectFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>redirectFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    <!--<filter>-->
+        <!--<filter-name>redirectFilter</filter-name>-->
+        <!--<filter-class>com.thelxg.data.models.components.redirectFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>redirectFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
 
     <!--&lt;!&ndash; Multipart Filter&ndash;&gt;-->
     <!--<filter>-->

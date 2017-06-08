@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-xs-12 text-center head-text mont-font">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
-                        <p>5 weekends, 12 Rounds, 1 winner</p>
+                        <p>4 weekends, 12 Rounds, 1 winner</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
                 </div>

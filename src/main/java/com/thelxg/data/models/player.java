@@ -2,10 +2,8 @@ package com.thelxg.data.models;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Created by rex on 27/05/2017.
@@ -24,6 +22,9 @@ public class player {
     private String lastName;
 
     private String alias;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date date;
 
     private String email;
 
@@ -44,13 +45,15 @@ public class player {
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName, String alias,
-                  String email, String phoneNumber, String twitterHandle, String instagramHandle,
-                  String teamSelected, String teamCountry, String location, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName,
+                  String alias, Date date, String email, String phoneNumber,
+                  String twitterHandle, String instagramHandle, String teamSelected,
+                  String teamCountry, String location, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.alias = alias;
+        this.date = date;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.twitterHandle = twitterHandle;
@@ -61,11 +64,11 @@ public class player {
         this.image = image;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -99,6 +102,14 @@ public class player {
 
     public void setAlias(String alias) {
         this.alias = alias;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public String getEmail() {
@@ -141,20 +152,16 @@ public class player {
         this.teamSelected = teamSelected;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public String getTeamCountry() {
         return teamCountry;
     }
 
     public void setTeamCountry(String teamCountry) {
         this.teamCountry = teamCountry;
+    }
+
+    public String getLocation() {
+        return location;
     }
 
     public void setLocation(String location) {
@@ -177,6 +184,7 @@ public class player {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", alias='" + alias + '\'' +
+                ", date=" + date +
                 ", email='" + email + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", twitterHandle='" + twitterHandle + '\'' +
