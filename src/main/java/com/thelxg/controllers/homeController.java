@@ -25,8 +25,9 @@ public class homeController {
     }
 
     @RequestMapping("/event")
-    public String eventDetails(){
+    public String eventDetails(Model model){
 
+        model.addAttribute("title", "Event Details - TheLXG");
         return "eventDetails";
     }
     @RequestMapping("/aboutUs")
