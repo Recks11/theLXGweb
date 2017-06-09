@@ -115,7 +115,7 @@ $(document).ready(function() {
             timeout: 600000,
 
             success: function (response) {
-                alert( data.firstName +" "+data.lastName + 'Welcome To the Tournament');
+                alert( data.firstName + " " +data.lastName + 'Welcome To the Tournament');
                 window.location.href = ctx+"/";
                 //...
             },
@@ -133,7 +133,7 @@ $(document).ready(function() {
         var handler = PaystackPop.setup({
             key: 'pk_live_6d4f0fb7e519ebaedaf2953fac3b261a9197d02f',
             email: email,
-            amount: 2000,
+            amount: 200000,
             ref: "theLXG-Player".email,
             metadata: {
                 custom_fields: [
