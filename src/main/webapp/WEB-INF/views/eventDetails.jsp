@@ -26,7 +26,7 @@
                     <h2>ABOUT THE COMPETITION</h2>
                     <br/>
                     <div class="row">
-                        <div class="col-xs-12 text-center head-text no-pad">
+                        <div class="col-xs-12 text-center head-text no-pad mont-Font">
 
                             <p>Participants across Lagos will participate in a Playstation 4 FIFA 17 competition across Lagos.</p>
                             <p>The preliminaries will run from the 15th of July through 6th of August, 2017, with all games running on weekends only</p>
