@@ -104,22 +104,22 @@
     </div>
 </section>
 
-<section class="bg-black vendor-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-center full-pad white-font vendor-text">
-                <h2>Are you a Startup or a Vendor?</h2>
+<%--<section class="bg-black vendor-section">--%>
+    <%--<div class="container">--%>
+        <%--<div class="row">--%>
+            <%--<div class="col-xs-12 text-center full-pad white-font vendor-text">--%>
+                <%--<h2>Are you a Startup or a Vendor?</h2>--%>
 
-                <p>Reach your target customers and make sales in our Trade fair</p>
-            </div>
-        </div>
-        <div class="row white-font">
-            <div class="col-xs-12 text-center full-pad">
-                <a class="vendor-btn" href="<spr:url value="/vendor/"/>"> Details Here </a>
-            </div>
-        </div>
-    </div>
-</section>
+                <%--<p>Reach your target customers and make sales in our Trade fair</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="row white-font">--%>
+            <%--<div class="col-xs-12 text-center full-pad">--%>
+                <%--<a class="vendor-btn" href="<spr:url value="/vendor/"/>"> Details Here </a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</section>--%>
 
 <jsp:include page="fragment/footer.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>

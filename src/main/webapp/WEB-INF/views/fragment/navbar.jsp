@@ -24,7 +24,7 @@
                     <ul class="nav navbar-nav navbar-right text-center">
                         <%--<li class="underline-hover"><a href="<spr:url value="/"/> ">HOME <span class="sr-only">(current)</span></a></li>--%>
                         <li class="underline-hover"><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
-                        <li class="underline-hover"><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>
+                        <%--<li class="underline-hover"><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
                         <li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>
                         <li class="underline-hover"><a href="<spr:url value="/aboutUs"/>">  ABOUT US</a></li>
                     </ul>
