@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
-                        <p style="padding-top: 10px;"> **Registration Closes on the 9th of July, 2017**</p>
+                        <p style="padding-top: 10px;"> **Registration Closes on the 10th of July, 2017**</p>
                     </div>
                 </div>
             </div>
