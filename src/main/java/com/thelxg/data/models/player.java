@@ -21,6 +21,9 @@ public class player {
 
     private String lastName;
 
+    @Transient
+    private String fullName;
+
     private String alias;
 
     @Temporal(TemporalType.TIMESTAMP)
@@ -45,13 +48,11 @@ public class player {
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName,
-                  String alias, Date date, String email, String phoneNumber,
-                  String twitterHandle, String instagramHandle, String teamSelected,
-                  String teamCountry, String location, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.fullName = fullName;
         this.alias = alias;
         this.date = date;
         this.email = email;
@@ -95,6 +96,12 @@ public class player {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    public String getFullName() {
+        this.fullName = this.getFirstName()+" "+ this.getLastName();
+        return fullName;
+    }
+
 
     public String getAlias() {
         return alias;
@@ -183,6 +190,7 @@ public class player {
                 ", PlayerId='" + PlayerId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", fullName='" + fullName + '\'' +
                 ", alias='" + alias + '\'' +
                 ", date=" + date +
                 ", email='" + email + '\'' +

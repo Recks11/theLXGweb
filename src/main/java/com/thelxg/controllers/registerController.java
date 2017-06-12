@@ -1,7 +1,9 @@
 package com.thelxg.controllers;
 
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.Services.sendNotification;
 import com.thelxg.data.Services.teamsService;
+import com.thelxg.data.models.components.e_mail_Message;
 import com.thelxg.data.models.player;
 import com.thelxg.data.models.teams;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,15 +24,17 @@ import java.util.List;
 @RequestMapping("/enter")
 public class registerController {
 
+    private final sendNotification notification;
     private final teamsService teamService;
     private final playerService playerService;
     private final player playerBean;
 
     @Autowired
-    public registerController(player playerBean, playerService playerService, teamsService teamService) {
+    public registerController(player playerBean, playerService playerService, teamsService teamService, sendNotification notification) {
         this.playerBean = playerBean;
         this.playerService = playerService;
         this.teamService = teamService;
+        this.notification = notification;
     }
 
 
@@ -46,9 +50,14 @@ public class registerController {
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public String registerPlayer(@RequestBody player play){
 
+        e_mail_Message e_mail = new e_mail_Message();
+        e_mail.setMessage(play);/*sets player Object mail is sent to and embeds details to message.*/
+        //String fullName = play.getFirstName()+" "+ play.getLastName();
         Date date = new Date();
         play.setDate(date);
         playerService.addPlayer(play);
+        notification.sendEmail(play, e_mail);
+
         return "index";
     }
 

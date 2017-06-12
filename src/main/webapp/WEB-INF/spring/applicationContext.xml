@@ -37,6 +37,22 @@
             </list>
         </property>
     </bean>
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <!-- SMTP settings -->
+        <property name="host" value="${smtp.host}" />
+        <property name="port" value="${smtp.port}" />
+        <property name="username" value="${smtp.username}" />
+        <property name="password" value="${smtp.password}" />
+
+        <property name="javaMailProperties">
+            <!-- additional properties specific to JavaMail -->
+            <props>
+                <prop key="mail.transport.protocol">smtp</prop>
+                <prop key="mail.smtp.auth">true</prop>
+                <prop key="mail.smtp.starttls.enable">true</prop>
+            </props>
+        </property>
+    </bean>
     <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
@@ -52,6 +68,9 @@
 
     <bean id="pagedListHolder"
           class="org.springframework.beans.support.PagedListHolder"/>
+
+    <bean id="simpleMailMessage"
+            class = "org.springframework.mail.SimpleMailMessage"/>
 
 
 

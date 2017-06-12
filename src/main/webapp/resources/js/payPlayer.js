@@ -67,6 +67,7 @@ $(document).ready(function() {
         },
         submitHandler: function(form){
             payWithPaystack();
+            // savePlayer();
         }
     });
 
@@ -112,10 +113,10 @@ $(document).ready(function() {
             url: ctx+"/enter/",
             data: JSON.stringify(data),
             dataType: 'html',
-            timeout: 600000,
+            timeout: 60000,
 
             success: function (response) {
-                alert( data.firstName + " " +data.lastName + 'Welcome To the Tournament');
+                alert( data.firstName + " " +data.lastName +' Welcome To the Tournament');
                 window.location.href = ctx+"/";
                 //...
             },
