@@ -66,8 +66,8 @@ $(document).ready(function() {
             }
         },
         submitHandler: function(form){
-            payWithPaystack();
-            // savePlayer();
+            //payWithPaystack();
+            savePlayer();
         }
     });
 
