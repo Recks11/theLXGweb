@@ -35,6 +35,7 @@
                     <div class="col-xs-12 text-center head-text mont-font">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
                         <p>4 weekends, 12 Rounds, 1 winner</p>
+                        <p class="gold">Venues at Lagos Mainland and Lagos Island</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
                         <p style="padding-top: 6px;"> **Registration Closes on the 10th of July, 2017**</p>
-                        <p class="gold">**Venues at Lagos Mainland and Lagos Island**</p>
+
                     </div>
                 </div>
             </div>

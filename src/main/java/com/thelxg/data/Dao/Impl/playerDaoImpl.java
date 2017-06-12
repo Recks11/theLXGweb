@@ -26,12 +26,6 @@ public class playerDaoImpl implements playerDao {
     @Override
     public void addPlayer(player play) {
 
-        Random rand = new Random();
-        int value = rand.nextInt(99);
-        int value2 = rand.nextInt(99);
-
-        String identityNumber = "TheLXG-"+value+"1"+value2+"-"+play.getAlias();
-        play.setPlayerId(identityNumber);
         sessionFactory.getCurrentSession().save(play);
     }
 
