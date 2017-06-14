@@ -2,6 +2,8 @@ package com.thelxg.data.Dao;
 
 import com.thelxg.data.models.player;
 
+import java.util.List;
+
 /**
  * Created by rex on 27/05/2017.
  */
@@ -12,5 +14,7 @@ public interface playerDao {
     player getPlayerById(long id);
 
     void removePlayer(long id);
+
+    List getAllPlayers();
 
 }

@@ -2,6 +2,8 @@ package com.thelxg.data.Services;
 
 import com.thelxg.data.models.player;
 
+import java.util.List;
+
 /**
  * Created by rex on 27/05/2017.
  */
@@ -14,4 +16,6 @@ public interface playerService {
     player getPlayerById(long id);
 
     void removePlayer(long id);
+
+    List getAllPlayers();
 }

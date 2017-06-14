@@ -77,6 +77,13 @@ public class registerController {
 
 
     }
+    @RequestMapping("/check-reg@theLXG")
+    public String checkReg( Model model){
+
+        model.addAttribute("numberReg", playerService.getAllPlayers().size());
+        return "checkReg";
+
+    }
 
     @ModelAttribute("locationList")
     public List<String> getWebFrameworkList() {

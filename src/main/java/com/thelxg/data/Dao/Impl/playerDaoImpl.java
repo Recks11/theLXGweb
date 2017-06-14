@@ -6,6 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -37,5 +38,10 @@ public class playerDaoImpl implements playerDao {
     @Override
     public void removePlayer(long id) {
         sessionFactory.getCurrentSession().delete(getPlayerById(id));
+    }
+
+    @Override
+    public List getAllPlayers() {
+        return sessionFactory.getCurrentSession().createQuery("from player").list();
     }
 }

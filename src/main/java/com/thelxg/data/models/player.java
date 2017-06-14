@@ -48,7 +48,9 @@ public class player {
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName, String fullName,
+                  String alias, Date date, String email, String phoneNumber, String twitterHandle,
+                  String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;

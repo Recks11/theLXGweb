@@ -121,7 +121,7 @@ $(document).ready(function() {
                 //...
             },
             error : function(xhr, status, error) {
-                alert("error"+error);
+                alert("There was an error" +error);
             }
         });
 

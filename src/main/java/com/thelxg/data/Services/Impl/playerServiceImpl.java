@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * Created by rex on 27/05/2017.
  */
@@ -35,5 +37,9 @@ public class playerServiceImpl implements playerService {
     @Transactional
     public void removePlayer(long id) {
         playerdao.removePlayer(id);
+    }
+    @Transactional
+    public List getAllPlayers(){
+        return playerdao.getallPlayers();
     }
 }
