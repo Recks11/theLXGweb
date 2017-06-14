@@ -40,6 +40,6 @@ public class playerServiceImpl implements playerService {
     }
     @Transactional
     public List getAllPlayers(){
-        return playerdao.getallPlayers();
+        return playerdao.getAllPlayers();
     }
 }
