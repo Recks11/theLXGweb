@@ -104,8 +104,8 @@ $(document).ready(function() {
         data['phoneNumber'] = $('#phoneNumber').val();
         data['twitterHandle'] = $('#twitterHandle').val();
         data['instagramHandle'] = $('#instagramHandle').val();
-        data['teamCountry'] = "Spain";
-        data['teamSelected'] = "barcelona";
+        data['teamCountry'] = $('#teamNation').val();
+        data['teamSelected'] = $('#team').val();
         data['location'] = $('input[name=location]:checked').val();
         $.ajax({
             type: "POST",
