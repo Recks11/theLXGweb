@@ -2,8 +2,9 @@
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
 <%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
-<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
+
 <jsp:include page="fragment/imports.jsp"/>
+<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
 <body>
 
 <jsp:include page="fragment/navbar.jsp"/>
@@ -106,22 +107,27 @@
     </div>
 </section>
 
-<%--<section class="bg-black vendor-section">--%>
-    <%--<div class="container">--%>
-        <%--<div class="row">--%>
-            <%--<div class="col-xs-12 text-center full-pad white-font vendor-text">--%>
-                <%--<h2>Are you a Startup or a Vendor?</h2>--%>
-
-                <%--<p>Reach your target customers and make sales in our Trade fair</p>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-        <%--<div class="row white-font">--%>
-            <%--<div class="col-xs-12 text-center full-pad">--%>
-                <%--<a class="vendor-btn" href="<spr:url value="/vendor/"/>"> Details Here </a>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</section>--%>
+<section class="sponsor-bg vendor-section">
+    <div class="sponsor-container">
+        <div class="row">
+            <div class="sponsor-parent">
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/red-media.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Pulse-4-.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/CYCLES.png"/>" class="img-responsive sponsor-image" /></div>
+            </div>
+            <div class="sponsor-parent">
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/innards logo.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" class="img-responsive sponsor-image" /> </div>
+            </div>
+            <div class="sponsor-parent">
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Black.png"/>" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/toby_daniels.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" class="img-responsive sponsor-image" /></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <jsp:include page="fragment/footer.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
