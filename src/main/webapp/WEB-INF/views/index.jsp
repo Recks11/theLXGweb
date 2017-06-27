@@ -111,19 +111,19 @@
     <div class="sponsor-container">
         <div class="row">
             <div class="sponsor-parent">
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/red-media.png"/>" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Pulse-4-.png"/>" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/CYCLES.png"/>" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/red-media.png"/>" alt="Red Media" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Pulse-4-.png"/>" alt="Pulse 4 NG" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/CYCLES.png"/>" alt="Cycles" class="img-responsive sponsor-image" /></div>
             </div>
             <div class="sponsor-parent">
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/innards logo.png"/>" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/innards logo.png"/>" alt="Innards Ventures" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" alt="WALKR" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" alt="Purvey" class="img-responsive sponsor-image" /> </div>
             </div>
             <div class="sponsor-parent">
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Black.png"/>" class="img-responsive sponsor-image" /></div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/toby_daniels.png"/>" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Black.png"/>" alt="" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/toby_daniels.png"/>" alt="Toby Daniels" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" /></div>
             </div>
         </div>
     </div>
