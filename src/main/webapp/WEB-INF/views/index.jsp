@@ -121,9 +121,14 @@
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" alt="Purvey" class="img-responsive sponsor-image" /> </div>
             </div>
             <div class="sponsor-parent">
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Black.png"/>" alt="" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/White.png"/>" alt="" class="img-responsive sponsor-image" /></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/toby_daniels.png"/>" alt="Toby Daniels" class="img-responsive sponsor-image" /> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" /></div>
+            </div>
+            <div class="sponsor-parent">
+                <div><!--<img src="<spr:url value="/resources/images/Web_Sponsors/White.png"/>" alt="" class="img-responsive sponsor-image" />--></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/Burger_zone.png"/>" alt="Burger Zone" class="img-responsive sponsor-image" style="margin-top: 45px;"/> </div>
+                <div><!--<img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" />--></div>
             </div>
         </div>
     </div>
