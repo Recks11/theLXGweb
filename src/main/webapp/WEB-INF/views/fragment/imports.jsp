@@ -4,8 +4,13 @@
 <head>
 
     <title>${title}</title>
+    <!--Meta-->
+    <%--<meta name="author" content="Ijiekhuamen Rex">--%>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="theLXG, fifa competition nigeria, thelxg fifa">
+    <meta name="description" content="Welcome! to TheLXG fifa competition website. Register now and stand a chance to win N500,000">
+
 
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>

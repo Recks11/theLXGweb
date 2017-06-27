@@ -1,10 +1,16 @@
 $(document).ready(function() {
 
-
     $("#paymentForm").submit(function (event) {
         //stop submit the form, we will post it manually.
         event.preventDefault();
     });
+
+    var fullname = function (){
+        var fname = $('#firstname').val();
+        var lname = $('#lastname').val();
+
+        return fname + " " + lname;
+    }
 
     $("#paymentForm").validate({
         rules:{
@@ -142,7 +148,12 @@ $(document).ready(function() {
                         display_name: "Mobile Number",
                         variable_name: "mobile_number",
                         value: phone
-                    }
+                    }// ,
+                    // {
+                    //     display_name: "Full Name",
+                    //     variable_name: "full_name",
+                    //     value: fullname()
+                    // }
                 ]
             },
             callback: function(response){
