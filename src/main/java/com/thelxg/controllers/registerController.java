@@ -93,26 +93,20 @@ public class registerController {
 
         return locationList;
     }
-    @ModelAttribute("amountPay")
-    public String setPayAmount(){
-        //2 thousand naira in kobo
-        return "200000";
-    }
 
-
-    @ModelAttribute
-    public void addTeams(Model model){
-
-        List<teams> englishTeams = teamService.getTeamByRegion("ENG");
-        List<teams> frenchTeams = teamService.getTeamByRegion("FRA");
-        List<teams> italianTeams = teamService.getTeamByRegion("ITA");
-        List<teams> germanTeams = teamService.getTeamByRegion("GER");
-        List<teams> spanishTeams = teamService.getTeamByRegion("SPA");
-
-        model.addAttribute("englishTeams",englishTeams);
-        model.addAttribute("frenchTeams",frenchTeams);
-        model.addAttribute("germanTeams",germanTeams);
-        model.addAttribute("italianTeams",italianTeams);
-        model.addAttribute("spanishTeams",spanishTeams);
-    }
+//    @ModelAttribute
+//    public void addTeams(Model model){
+//
+//        List<teams> englishTeams = teamService.getTeamByRegion("ENG");
+//        List<teams> frenchTeams = teamService.getTeamByRegion("FRA");
+//        List<teams> italianTeams = teamService.getTeamByRegion("ITA");
+//        List<teams> germanTeams = teamService.getTeamByRegion("GER");
+//        List<teams> spanishTeams = teamService.getTeamByRegion("SPA");
+//
+//        model.addAttribute("englishTeams",englishTeams);
+//        model.addAttribute("frenchTeams",frenchTeams);
+//        model.addAttribute("germanTeams",germanTeams);
+//        model.addAttribute("italianTeams",italianTeams);
+//        model.addAttribute("spanishTeams",spanishTeams);
+//    }
 }

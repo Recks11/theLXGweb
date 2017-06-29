@@ -20,6 +20,7 @@
                 <li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
                 <li><a href="<spr:url value="/enter/"/> ">ENTER COMPETITION</a></li>
                 <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>
+                <li><a href="<spr:url value="/faq"/> ">FAQ</a></li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">
@@ -56,7 +57,7 @@
     <div class="row">
         <div class="col-xs-offset-2 col-xs-8 text-center white-font no-bottom-margin bottom-foot">
             <hr/>
-            <p class="no-bottom-margin"> <small>Designed By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
+            <p class="no-bottom-margin"> <small>Website made By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
             <p><small>medal icons made by <a href="http://www.flaticon.com/authors/vectors-market"> vector market </a> from <a href="http://www.flaticon.com"> www.flaticon.com </a></small></p>
         </div>
     </div>

@@ -27,6 +27,7 @@
                         <%--<li class="underline-hover"><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
                         <li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>
                         <li class="underline-hover"><a href="<spr:url value="/aboutUs"/>">  ABOUT US</a></li>
+                        <li class="underline-hover"><a href="<spr:url value="/faq"/>">  FAQ</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
