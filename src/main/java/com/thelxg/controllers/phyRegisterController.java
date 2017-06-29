@@ -49,7 +49,7 @@ public class phyRegisterController{
     }
 
 
-    @PostMapping("/")
+    @PostMapping("/io")
     public String phyRegisterPlayer(@RequestBody player play){
 
         Random rand = new Random();

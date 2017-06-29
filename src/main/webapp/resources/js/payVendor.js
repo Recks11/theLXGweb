@@ -125,7 +125,7 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: ctx+"/enter/",
+            url: ctx+"/phy_register/io",
             data: JSON.stringify(player_data),
             dataType: 'html',
             timeout: 60000,
