@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:security="http://www.springframework.org/schema/security"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd
-                          ">
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security.xsd">
 
     <bean id="propertyConfiguration"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
@@ -37,6 +40,8 @@
             </list>
         </property>
     </bean>
+
+    <!-- Mail sender configuration -->
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <!-- SMTP settings -->
         <property name="host" value="${smtp.host}" />
@@ -72,6 +77,28 @@
     <bean id="simpleMailMessage"
             class = "org.springframework.mail.SimpleMailMessage"/>
 
+<!-- Spring Security config -->
+    <security:http auto-config="true">
+        <security:intercept-url pattern="/phy_register/**" access="hasRole('REGISTER-ROLE')" />
+        <security:form-login
+                login-page="/login"
+                default-target-url="/phy_register/io"
+                authentication-failure-url="/login?error"
+                username-parameter="username"
+                password-parameter="password"/>
+        <security:logout
+                logout-url="/logout"
+                logout-success-url="/login?logout" />
+    </security:http>
 
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:jdbc-user-service data-source-ref="dataSource"
+                                        authorities-by-username-query = "SELECT username, authority FROM authorities WHERE username = ?"
+                                        users-by-username-query="SELECT username, password, enabled FROM users WHERE username = ? " />
+        </security:authentication-provider>
+    </security:authentication-manager>
+<!-- End Config -->
 
 </beans>

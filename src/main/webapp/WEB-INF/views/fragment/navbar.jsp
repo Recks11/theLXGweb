@@ -1,5 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
+<%@taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
 <%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 
 
@@ -28,6 +32,16 @@
                         <li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>
                         <li class="underline-hover"><a href="<spr:url value="/aboutUs"/>">  ABOUT US</a></li>
                         <li class="underline-hover"><a href="<spr:url value="/faq"/>">  FAQ</a></li>
+                            <security:authorize access="hasAnyRole('REGISTER-ROLE')">
+                            <li class="underline-hover">
+                                        <c:url var="logoutUrl" value="/logout"/>
+                                        <form:form action="${logoutUrl}" method="post">
+                                            <i class="fa fa-power-off gold"></i>
+                                            <input type="submit" class="logout-btn" value="LOGOUT" />
+                                            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                                        </form:form>
+                            </li>
+                            </security:authorize>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->

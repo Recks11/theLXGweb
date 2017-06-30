@@ -17,6 +17,7 @@
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <div class="bg-cover">
+
     <section>
         <div class="no-pad about-content animated fadeInDownBig">
             <div class="faq-details text-left mont-Font">

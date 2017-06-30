@@ -1,0 +1,134 @@
+*{
+    color: white;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+}
+input[type="text"],input[type="password"]{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hide{
+    display: none;
+}
+/*.login-back{*/
+/*height: 100%;*/
+/*background-color: #030717;*/
+/*}*/
+/*.login-back{*/
+/*border: 15px solid black;*/
+/*}*/
+.parent{
+    background-color: #030717;
+}
+.login-form{
+    /*border: 5px solid red;*/
+}
+.actual-form{
+    /*border: 1px solid white;*/
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+    Flex
+*/
+.parent{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.form-body{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+}
+/*
+    End Flex
+*/
+.login-form{
+    background-color: #030717;
+}
+/* form Area*/
+.form-body > p{
+    margin-top: 2px;
+}
+img{
+    width: 175px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-signin{
+    width: 100%;
+}
+.input-group{
+    width: 100%;
+    margin-top: 30px;
+}
+.input-group > .fa{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+input[type="text"], input[type="password"]{
+    padding: 5px 5px 5px 10px;
+    line-height: 2;
+    color: white;
+    border: 0 solid blue;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width:100%;
+    font-size: 15px;
+}
+/* end form area */
+
+
+/* Submit Button Area*/
+.submit-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+input[type="submit"]{
+    padding: 5px;
+    color: white;
+    border: 0 solid blue;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus{
+    color: #4155ff;
+    border-bottom: 2px solid #4155ff;
+}
+/* end Submit Button Area*/
+input:focus{
+    outline: 0;
+    /*border-top-left-radius: 5px;*/
+    /*-moz-border-radius-topleft: 5px;*/
+    /*-webkit-border-top-left-radius: 5px;*/
+
+    /*border-top-right-radius: 5px;*/
+    /*-moz-border-radius-topright: 5px;*/
+    /*-webkit-border-top-right-radius: 5px;*/
+    /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 10px #4155ff;*/
+}
+
+@media screen and (max-width: 400px){
+
+    .form-body,.login-form{
+        width: 100%;
+    }
+    
+}

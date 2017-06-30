@@ -31,6 +31,7 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+<!-- URL REWRITE FILTER -->
     <filter>
         <filter-name>UrlRewriteFilter</filter-name>
         <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
@@ -39,10 +40,22 @@
             <param-value>WARN</param-value>
         </init-param>
     </filter>
+    <!-- Spring security filter -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+    <!-- URL rewrite filter mapping-->
     <filter-mapping>
         <filter-name>UrlRewriteFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <!-- Spring security filter Mapping-->
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
     <!--<filter>-->
         <!--<filter-name>redirectFilter</filter-name>-->
         <!--<filter-class>com.thelxg.data.models.components.redirectFilter</filter-class>-->
@@ -62,20 +75,12 @@
         <!--</init-param>-->
     <!--</filter>-->
     <!--<filter>-->
-        <!--<filter-name>springSecurityFilterChain</filter-name>-->
-        <!--<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
-    <!--</filter>-->
-    <!--<filter>-->
         <!--<filter-name>filterChainProxy</filter-name>-->
         <!--<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
     <!--</filter>-->
     <!--&lt;!&ndash;Spring Security&ndash;&gt;-->
     <!--<filter-mapping>-->
         <!--<filter-name>MultipartFilter</filter-name>-->
-        <!--<url-pattern>/*</url-pattern>-->
-    <!--</filter-mapping>-->
-    <!--<filter-mapping>-->
-        <!--<filter-name>springSecurityFilterChain</filter-name>-->
         <!--<url-pattern>/*</url-pattern>-->
     <!--</filter-mapping>-->
     <!--<filter-mapping>-->

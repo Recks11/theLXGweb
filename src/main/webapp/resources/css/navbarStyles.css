@@ -16,7 +16,7 @@
 .nav-scroll .navbar-toggle .icon-bar {
     background-color: #888;
 }
-.navbar-nav >li >a:hover, .navbar-header > a:hover {
+.navbar-nav >li >a:hover, .navbar-header > a:hover, .logout-btn:hover {
     /*padding: 25px;*/
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
@@ -25,6 +25,7 @@
     transition: font-size 1s;
     border-color: white;
     font-size: 20px;
+    color: #ffd700;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #ffd700;
@@ -54,8 +55,22 @@
 .nav-image{
     width: 100px;
 }
-
-
+form{
+    margin-bottom: 0;
+}
+.logout-btn{
+    border: 0;
+    background-color: transparent;
+    color: #9d9d9d;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.fa{
+    color:  #9d9d9d;
+}
+.fa:hover{
+    color:  #ffd700;
+}
 .grey-bg{
     -webkit-transition: background-color .4s;
     -moz-transition: background-color .4s;
