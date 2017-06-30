@@ -35,7 +35,7 @@
                 <p class="gold">A4: You only pay once for the competition. Your payment secures you to every game in the competition, provided you qualify for those games.</p>
                 <br/>
                 <p>Q5: How many matches will I play before I win &#8358 500,000 Naira?</p>
-                <p class="gold">A5: To win the 500,000 Naira Cash Prize, you must win 12 matches, which includes all the matches in your region (Lagos Mainland or Lagos Island) and
+                <p class="gold">A5: To win the &#8358 500,000 Naira Cash Prize, you must win 12 matches, which includes all the matches in your region (Lagos Mainland or Lagos Island) and
                     then the final match between the winner of both regions.</p>
                 <br/>
                 <p>Q6: Will I play all 12 games in a day?</p>

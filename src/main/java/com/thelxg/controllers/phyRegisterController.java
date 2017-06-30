@@ -44,7 +44,7 @@ public class phyRegisterController{
     @RequestMapping("/pin")
     public @ResponseBody String checkPin(){
 
-        System.out.println(pinService.getPin());
+      //  System.out.println(pinService.getPin());
         return pinService.getPin();
     }
 
