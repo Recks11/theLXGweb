@@ -3,15 +3,17 @@ $(document).ready(function() {
     document.getElementById("registerBtn").disabled = true;
 
     /*variables used*/
-    var paymentForm = $("#paymentForm");
     var pinBox = $("#pin");
     var regBtn = $("#registerBtn");
-
+    var paymentForm = $("#paymentForm");
     var pin_no = "data not received";
+    var pinNumber = pinBox.val();
+
+
 
     /* functions to execute*/
     verifyPinAndRegister();
-
+    setPin();
 
     paymentForm.submit(function (event) {
         //stop submit the form, we will post it manually.
@@ -82,7 +84,12 @@ $(document).ready(function() {
         },
         submitHandler: function(form){
             // payWithPaystack();
-            savePlayer();
+            if(pinNumber === pin_no){
+                savePlayer();
+            }else{
+                alert("Wrong Pin! SCAM!!");
+                window.location.href = ctx+"/";
+            }
         }
     });
 
@@ -142,11 +149,16 @@ $(document).ready(function() {
 
     }
 
-    function verifyPinAndRegister(){
+
+    function setPin(){
         $.get(ctx+"/phy_register/pin", function(data, status, jqXHR){
             pin_no = jqXHR.responseText;
-          //  console.log(pin_no)
         });
+    }
+
+
+    function verifyPinAndRegister(){
+
         if(pinBox.val() === pin_no){
             regBtn.removeClass("invalid");
             regBtn.addClass("valid");
@@ -171,5 +183,4 @@ $(document).ready(function() {
         }
 
     });
-
 });
