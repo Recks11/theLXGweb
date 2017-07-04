@@ -12,11 +12,11 @@ public class pin {
 
     @Id
     @GeneratedValue
-    public long id;
+    private long id;
 
-    public String user;
+    private String user;
 
-    public String number;
+    private String number;
 
     public pin() {
     }

@@ -8,5 +8,5 @@ import com.thelxg.data.models.player;
  */
 public interface sendNotification {
 
-    boolean sendEmail(player player, EMailMessage e_mail);
+    void sendEmail(player player, EMailMessage e_mail);
 }

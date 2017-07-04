@@ -12,8 +12,12 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class vendorDaoImpl  implements vendorDao {
 
+    private final SessionFactory sessionFactory;
+
     @Autowired
-    private SessionFactory sessionFactory;
+    public vendorDaoImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
 
     @Override

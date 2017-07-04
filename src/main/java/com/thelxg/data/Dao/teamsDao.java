@@ -15,5 +15,5 @@ public interface teamsDao {
 
     teams getTeamById(long id);
 
-    List<teams> getTeamByRegion(String region);
+    List getTeamByRegion(String region);
 }

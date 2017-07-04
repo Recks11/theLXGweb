@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/faq")
 public class FaqController {
 
+    @SuppressWarnings("SameReturnValue")
     @RequestMapping
     public String showFaq(Model model){
 

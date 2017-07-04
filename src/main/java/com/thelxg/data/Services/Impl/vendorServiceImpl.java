@@ -14,8 +14,12 @@ import org.springframework.transaction.annotation.Transactional;
 public class vendorServiceImpl implements vendorService {
 
 
+    private final vendorDao vendor;
+
     @Autowired
-    private vendorDao vendor;
+    public vendorServiceImpl(vendorDao vendor) {
+        this.vendor = vendor;
+    }
 
     @Transactional
     public void addVendor(vendor vend) {

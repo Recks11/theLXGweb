@@ -40,7 +40,7 @@
                         <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
                             <i class="fa fa-facebook"></i></a>
                             <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
-                            <i class="fa fa-twitter" style="color: white;"></i></a>
+                            <i class="fa fa-twitter"></i></a>
                             <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
                                 <i class="fa fa-instagram"></i></a>
                         </p>
