@@ -1,6 +1,6 @@
 package com.thelxg.data.Services;
 
-import com.thelxg.data.models.components.e_mail_Message;
+import com.thelxg.components.EMailMessage;
 import com.thelxg.data.models.player;
 
 /**
@@ -8,5 +8,5 @@ import com.thelxg.data.models.player;
  */
 public interface sendNotification {
 
-    boolean sendEmail(player player,e_mail_Message e_mail);
+    boolean sendEmail(player player, EMailMessage e_mail);
 }

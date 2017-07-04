@@ -123,6 +123,8 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12 text-center">
+
+                                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                                 <button id="registerBtn" type="submit" class="submitBtn btn-default" >Register</button>
                                 <p class="gold" style="padding-top: 10px;"> REGISTRATION FEE IS &#8358;2000 </p>
                             </div>

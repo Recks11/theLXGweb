@@ -1,6 +1,6 @@
 package com.thelxg.data.models;
 
-//import com.thelxg.data.models.components.Address;
+//import com.thelxg.components.Address;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

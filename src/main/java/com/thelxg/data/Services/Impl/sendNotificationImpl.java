@@ -1,7 +1,7 @@
 package com.thelxg.data.Services.Impl;
 
 import com.thelxg.data.Services.sendNotification;
-import com.thelxg.data.models.components.e_mail_Message;
+import com.thelxg.components.EMailMessage;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
@@ -27,7 +27,7 @@ public class sendNotificationImpl implements sendNotification {
     }
 
     @Override
-    public boolean sendEmail(player player, e_mail_Message e_mail) {
+    public boolean sendEmail(player player, EMailMessage e_mail) {
 
         // creates a simple e-mail object
         mailMessage.setTo(player.getEmail());

@@ -1,4 +1,4 @@
-package com.thelxg.data.models.components;
+package com.thelxg.data.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,11 +1,8 @@
 package com.thelxg.controllers;
 
+import com.thelxg.components.savePlayerAndSendMail;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.Services.sendNotification;
-import com.thelxg.data.Services.teamsService;
-import com.thelxg.data.models.components.e_mail_Message;
 import com.thelxg.data.models.player;
-import com.thelxg.data.models.teams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -14,9 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by rex on 26/05/2017.
@@ -25,17 +20,15 @@ import java.util.Random;
 @RequestMapping("/enter")
 public class registerController {
 
-    private final sendNotification notification;
-    private final teamsService teamService;
+    private final savePlayerAndSendMail saveAndSendMail;
     private final playerService playerService;
     private final player playerBean;
 
     @Autowired
-    public registerController(player playerBean, playerService playerService, teamsService teamService, sendNotification notification) {
+    public registerController(player playerBean, playerService playerService, savePlayerAndSendMail saveAndSendMail) {
         this.playerBean = playerBean;
         this.playerService = playerService;
-        this.teamService = teamService;
-        this.notification = notification;
+        this.saveAndSendMail = saveAndSendMail;
     }
 
 
@@ -51,20 +44,7 @@ public class registerController {
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public String registerPlayer(@RequestBody player play){
 
-        Random rand = new Random();
-        int value = rand.nextInt(99);
-        int value2 = rand.nextInt(99);
-
-        String identityNumber = "TheLXG-"+value+"1"+value2+"-"+play.getAlias();
-        play.setPlayerId(identityNumber);
-        e_mail_Message e_mail = new e_mail_Message();
-        e_mail.setMessage(play);/*sets player Object mail is sent to and embeds details to message.*/
-        //String fullName = play.getFirstName()+" "+ play.getLastName();
-        Date date = new Date();
-        play.setDate(date);
-        playerService.addPlayer(play);
-        notification.sendEmail(play, e_mail);
-
+        saveAndSendMail.savePlayer(play);
         return "index";
     }
 

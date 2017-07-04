@@ -1,4 +1,6 @@
-package com.thelxg.data.models.components;
+package com.thelxg.components;
+
+import org.springframework.stereotype.Component;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -10,6 +12,7 @@ import java.util.regex.Pattern;
 /**
  * Created by rex on 08/06/2017.
  */
+@Component
 public class redirectFilter implements Filter {
 
 

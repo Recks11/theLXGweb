@@ -88,7 +88,7 @@
                 password-parameter="password"/>
         <security:logout
                 logout-url="/logout"
-                logout-success-url="/login?logout" />
+                logout-success-url="/login?logout"/>
     </security:http>
 
 

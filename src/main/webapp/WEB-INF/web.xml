@@ -58,7 +58,7 @@
 
     <!--<filter>-->
         <!--<filter-name>redirectFilter</filter-name>-->
-        <!--<filter-class>com.thelxg.data.models.components.redirectFilter</filter-class>-->
+        <!--<filter-clcom.thelxg.components.redirectFilterlter</filter-class>-->
     <!--</filter>-->
     <!--<filter-mapping>-->
         <!--<filter-name>redirectFilter</filter-name>-->

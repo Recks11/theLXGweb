@@ -1,4 +1,5 @@
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <head>
@@ -7,6 +8,7 @@
     <!--Meta-->
     <%--<meta name="author" content="Ijiekhuamen Rex">--%>
     <meta charset="UTF-8">
+    <sec:csrfMetaTags /> <!--//CSRF token for non-www-encoded-ajax requests-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="theLXG, fifa competition nigeria, thelxg fifa">
     <meta name="description" content="Welcome! to TheLXG fifa competition website. Register now and stand a chance to win N500,000">

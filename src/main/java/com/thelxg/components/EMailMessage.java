@@ -1,11 +1,13 @@
-package com.thelxg.data.models.components;
+package com.thelxg.components;
 
 import com.thelxg.data.models.player;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by rex on 12/06/2017.
  */
-public class e_mail_Message {
+@Component
+public class EMailMessage {
 
 
     private String message;

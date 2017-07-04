@@ -7,7 +7,10 @@ $(document).ready(function() {
     var regBtn = $("#registerBtn");
     var paymentForm = $("#paymentForm");
     var pin_no = "data not received";
-    var pinNumber = pinBox.val();
+    var csrfParameter = $("meta[name='_csrf_parameter']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+    var csrfHeader = $("meta[name='_csrf_header']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+    var csrfToken = $("meta[name='_csrf']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+
 
 
 
@@ -84,8 +87,13 @@ $(document).ready(function() {
         },
         submitHandler: function(form){
             // payWithPaystack();
-            if(pinNumber === pin_no){
+            setPin();
+            var pinNumber1 = pinBox.val();
+            console.log("pin-Number: "+ pin_no);
+            console.log("pinBox.val(): "+ pinNumber1);
+            if(pinNumber1 === pin_no){
                 savePlayer();
+
             }else{
                 alert("Wrong Pin! SCAM!!");
                 window.location.href = ctx+"/";
@@ -118,6 +126,8 @@ $(document).ready(function() {
 
 
     function savePlayer(){
+        var headers = {};
+        headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
         var  player_data = {};
         player_data['firstName'] = $('#firstname').val();
         player_data['lastName'] = $('#lastname').val();
@@ -136,6 +146,7 @@ $(document).ready(function() {
             data: JSON.stringify(player_data),
             dataType: 'html',
             timeout: 60000,
+            headers: headers,
 
             success: function (response) {
                 alert( player_data.firstName + " " +player_data.lastName +' Welcome To the Tournament');
@@ -153,6 +164,7 @@ $(document).ready(function() {
     function setPin(){
         $.get(ctx+"/phy_register/pin", function(data, status, jqXHR){
             pin_no = jqXHR.responseText;
+            console.log(pin_no);
         });
     }
 
