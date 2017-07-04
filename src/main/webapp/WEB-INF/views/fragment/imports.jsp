@@ -15,7 +15,7 @@
     <meta name="twitter:description" content="Welcome! to TheLXG fifa competition online registration page">
     <meta name="twitter:creator" content="@Recks11">
     <meta name="twitter:image" content="http://www.thelxg.com.ng/resources/images/metaThumbNail-lg.jpg">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="TheLXG background">
 
     <meta property="og:title" content="TheLXG FIFA Competition">
