@@ -11,17 +11,16 @@
     <meta charset="UTF-8">
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TheLXG - Home">
     <meta name="twitter:description" content="Welcome! to TheLXG fifa competition online registration page">
     <meta name="twitter:creator" content="@Recks11">
-    <meta name="twitter:image" content="<spr:url value="/resources/images/metaThumbNail-lg.jpg"/> ">
+    <meta name="twitter:image" content="http://www.thelxg.com.ng/resources/images/metaThumbNail-lg.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="TheLXG background">
 
     <meta property="og:title" content="TheLXG FIFA Competition">
     <meta property="og:description" content="Welcome to TheLXG Fifa competition online registration page.">
-    <meta property="og:image" content="<spr:url value="/resources/images/metaThumbNail-lg.jpg"/> ">
+    <meta property="og:image" content="http://www.thelxg.com.ng/resources/images/metaThumbNail-lg.jpg">
     <meta property="og:url" content="http://www.thelxg.com.ng">
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TheLXG - Home">
