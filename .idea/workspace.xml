@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="code style fixes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/metathumbnail.jpg" />
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/metaThumbNail-lg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" />
     </list>
@@ -75,26 +75,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="d5i4eu2xg358oafh.users" pinned="false" current-in-tab="true">
-        <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imports.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="imports.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="121">
+              <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -1361,14 +1346,7 @@
       <workItem from="1499174219242" duration="4372000" />
       <workItem from="1499195204985" duration="426000" />
       <workItem from="1499197237241" duration="473000" />
-      <workItem from="1499198291405" duration="254000" />
-    </task>
-    <task id="LOCAL-00048" summary="general font changed">
-      <created>1496880127101</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1496880127101</updated>
+      <workItem from="1499198291405" duration="1201000" />
     </task>
     <task id="LOCAL-00049" summary="general font changed">
       <created>1496880343932</created>
@@ -1706,11 +1684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499179773269</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="added open graph images and text">
+      <created>1499198567253</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1499198567254</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266317000" />
+    <option name="totallyTimeSpent" value="267264000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1834,7 +1819,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added &quot;The&quot;" />
     <MESSAGE value="Added timestamp and fixed ID" />
     <MESSAGE value="removed spring dependency" />
     <MESSAGE value="removed URL authentication Handler" />
@@ -1859,7 +1843,8 @@
     <MESSAGE value="outsorced save player function" />
     <MESSAGE value="fixed error with CSRF ajax requests" />
     <MESSAGE value="code style fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="code style fixes" />
+    <MESSAGE value="added open graph images and text" />
+    <option name="LAST_COMMIT_MESSAGE" value="added open graph images and text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2268,14 +2253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2293,6 +2270,14 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
           <folding />
         </state>
       </provider>

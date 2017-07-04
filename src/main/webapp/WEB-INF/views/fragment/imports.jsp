@@ -9,11 +9,19 @@
     <%--<meta name="author" content="Ijiekhuamen Rex">--%>
     <!--  Essential META Tags -->
     <meta charset="UTF-8">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Recks11">
+    <meta name="twitter:title" content="TheLXG - Home">
+    <meta name="twitter:description" content="Welcome! to TheLXG fifa competition online registration page">
+    <meta name="twitter:creator" content="@Recks11">
+    <meta name="twitter:image" content="<spr:url value="/resources/images/metaThumbNail-lg.jpg"/> ">
+
     <meta property="og:title" content="TheLXG FIFA Competition">
-    <meta property="og:description" content="Welcome to TheLXG Fifa competition online registration.">
-    <meta property="og:image" content="<spr:url value="/resources/images/metathumbnail.jpg"/> ">
+    <meta property="og:description" content="Welcome to TheLXG Fifa competition online registration page.">
+    <meta property="og:image" content="<spr:url value="/resources/images/metaThumbNail-lg.jpg"/> ">
     <meta property="og:url" content="http://www.thelxg.com.ng">
-    <meta name="twitter:card" content="summary_large_image">
 
 
     <!--  Non-Essential, But Recommended -->
