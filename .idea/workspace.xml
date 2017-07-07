@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/KRAKS Events Logo small.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,8 +87,8 @@
       <file leaf-file-name="eventDetails.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -1211,14 +1211,7 @@
       <workItem from="1499292866753" duration="574000" />
       <workItem from="1499435383013" duration="603000" />
       <workItem from="1499436631786" duration="68000" />
-      <workItem from="1499449471333" duration="337000" />
-    </task>
-    <task id="LOCAL-00059" summary="Added timestamp and fixed ID">
-      <created>1497046541152</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1497046541152</updated>
+      <workItem from="1499449471333" duration="528000" />
     </task>
     <task id="LOCAL-00060" summary="removed spring dependency">
       <created>1497046724926</created>
@@ -1556,11 +1549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499435491466</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="changed registration text to start date">
+      <created>1499460043133</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1499460043134</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271595000" />
+    <option name="totallyTimeSpent" value="271786000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1685,7 +1685,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed URL authentication Handler" />
     <MESSAGE value="changed price" />
     <MESSAGE value="Added Email Message after registration" />
     <MESSAGE value="test" />
@@ -1710,7 +1709,8 @@
     <MESSAGE value="added open graph images and text" />
     <MESSAGE value="Added Kraks TV sponsor image" />
     <MESSAGE value="53vn logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="53vn logo" />
+    <MESSAGE value="changed registration text to start date" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed registration text to start date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2097,8 +2097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding />
         </state>
       </provider>
