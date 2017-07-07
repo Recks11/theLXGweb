@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/53vn-future-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     </list>
@@ -75,11 +74,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="125" column="62" lean-forward="false" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+            <state relative-caret-position="598">
+              <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventDetails.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,10 +245,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="y" value="72" />
-    <option name="width" value="1338" />
-    <option name="height" value="877" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -387,36 +393,6 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The_LXGWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The_LXGWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -469,6 +445,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -489,6 +466,7 @@
     <property name="SearchEverywhereHistoryKey" value="ont-fon&#9;null&#9;null" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp&#10;/Users/rex/IdeaProjects/The_LXGWeb/src/main/java/com/thelxg/components/savePlayerAndSendMail.java" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1231,14 +1209,9 @@
       <workItem from="1499198291405" duration="1274000" />
       <workItem from="1499200706815" duration="2676000" />
       <workItem from="1499292866753" duration="574000" />
-      <workItem from="1499435383013" duration="87000" />
-    </task>
-    <task id="LOCAL-00058" summary="Added timestamp and fixed ID">
-      <created>1497046210038</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1497046210038</updated>
+      <workItem from="1499435383013" duration="603000" />
+      <workItem from="1499436631786" duration="68000" />
+      <workItem from="1499449471333" duration="337000" />
     </task>
     <task id="LOCAL-00059" summary="Added timestamp and fixed ID">
       <created>1497046541152</created>
@@ -1576,11 +1549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499293367884</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="53vn logo">
+      <created>1499435491462</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1499435491466</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270674000" />
+    <option name="totallyTimeSpent" value="271595000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1592,7 +1572,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="72" width="1338" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1617,7 +1598,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3887755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2986111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1629,6 +1610,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1703,7 +1685,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed spring dependency" />
     <MESSAGE value="removed URL authentication Handler" />
     <MESSAGE value="changed price" />
     <MESSAGE value="Added Email Message after registration" />
@@ -1728,7 +1709,8 @@
     <MESSAGE value="code style fixes" />
     <MESSAGE value="added open graph images and text" />
     <MESSAGE value="Added Kraks TV sponsor image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Kraks TV sponsor image" />
+    <MESSAGE value="53vn logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="53vn logo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1741,25 +1723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/footerStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="65" column="1" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/FaqController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1794,14 +1757,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.authorities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1813,14 +1776,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.authorities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1842,7 +1805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,7 +1855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="126" column="52" lean-forward="false" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1901,7 +1862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="43" column="94" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1916,10 +1876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding>
-            <marker date="1499170469000" expanded="true" signature="4369:4431" ph="SELECT usern... authorities" />
-            <marker date="1499170469000" expanded="true" signature="4498:4562" ph="SELECT usern... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1931,14 +1887,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1981,7 +1937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2021,50 +1976,50 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.pin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.pin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2072,7 +2027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2125,10 +2079,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="125" column="62" lean-forward="false" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+        <state relative-caret-position="598">
+          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

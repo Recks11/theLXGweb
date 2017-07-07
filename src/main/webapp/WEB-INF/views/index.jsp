@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
-                        <p style="padding-top: 6px;"> **Registration Closes on the 30th of July, 2017**</p>
+                        <p style="padding-top: 6px;"> **Competition starts 5th August, 2017**</p>
 
                     </div>
                 </div>
