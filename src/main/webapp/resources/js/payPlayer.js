@@ -5,6 +5,10 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
+    var csrfParameter = $("meta[name='_csrf_parameter']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+    var csrfHeader = $("meta[name='_csrf_header']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+    var csrfToken = $("meta[name='_csrf']").attr("content"); //CSRF token for non-www-encoded-ajax requests
+
     var fullname = function (){
         var fname = $('#firstname').val();
         var lname = $('#lastname').val();
@@ -72,8 +76,8 @@ $(document).ready(function() {
             }
         },
         submitHandler: function(form){
-            payWithPaystack();
-            // savePlayer();
+            // payWithPaystack();
+            savePlayer();
         }
     });
 
@@ -102,6 +106,8 @@ $(document).ready(function() {
 
 
     function savePlayer(){
+        var headers = {};
+        headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
         var  data = {};
         data['firstName'] = $('#firstname').val();
         data['lastName'] = $('#lastname').val();
@@ -120,6 +126,7 @@ $(document).ready(function() {
             data: JSON.stringify(data),
             dataType: 'html',
             timeout: 60000,
+            headers: headers,
 
             success: function (response) {
                 alert( data.firstName + " " +data.lastName +' Welcome To the Tournament');
