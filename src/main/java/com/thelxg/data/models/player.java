@@ -43,6 +43,8 @@ public class player {
 
     private String location;
 
+    private String reference;
+
     @Transient
     private MultipartFile image;
 
@@ -50,7 +52,7 @@ public class player {
 
     public player(String playerId, String firstName, String lastName, String fullName,
                   String alias, Date date, String email, String phoneNumber, String twitterHandle,
-                  String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image) {
+                  String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image, String reference) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -65,6 +67,7 @@ public class player {
         this.teamCountry = teamCountry;
         this.location = location;
         this.image = image;
+        this.reference = reference;
     }
 
     public Long getId() {
@@ -185,6 +188,14 @@ public class player {
         this.image = image;
     }
 
+    public String getReference() {
+        return reference;
+    }
+
+    public void setReference(String reference) {
+        this.reference = reference;
+    }
+
     @Override
     public String toString() {
         return "player{" +
@@ -192,7 +203,6 @@ public class player {
                 ", PlayerId='" + PlayerId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", fullName='" + fullName + '\'' +
                 ", alias='" + alias + '\'' +
                 ", date=" + date +
                 ", email='" + email + '\'' +
@@ -202,6 +212,7 @@ public class player {
                 ", teamSelected='" + teamSelected + '\'' +
                 ", teamCountry='" + teamCountry + '\'' +
                 ", location='" + location + '\'' +
+                ", reference='" + reference + '\'' +
                 ", image=" + image +
                 '}';
     }

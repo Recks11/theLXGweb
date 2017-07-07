@@ -14,7 +14,7 @@ $(document).ready(function() {
         var lname = $('#lastname').val();
 
         return fname + " " + lname;
-    }
+    };
 
     $("#paymentForm").validate({
         rules:{
@@ -76,8 +76,9 @@ $(document).ready(function() {
             }
         },
         submitHandler: function(form){
-            // payWithPaystack();
-            savePlayer();
+            payWithPaystack();
+            // var test = 'TX2oo1334';
+            // savePlayer(test);
         }
     });
 
@@ -105,7 +106,7 @@ $(document).ready(function() {
 
 
 
-    function savePlayer(){
+    function savePlayer(reference){
         var headers = {};
         headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
         var  data = {};
@@ -119,6 +120,7 @@ $(document).ready(function() {
         data['teamCountry'] = $('#teamNation').val();
         data['teamSelected'] = $('#team').val();
         data['location'] = $('input[name=location]:checked').val();
+        data['reference'] = reference;
         $.ajax({
             type: "POST",
             contentType: "application/json",
@@ -155,17 +157,14 @@ $(document).ready(function() {
                         display_name: "Mobile Number",
                         variable_name: "mobile_number",
                         value: phone
-                    }// ,
-                    // {
-                    //     display_name: "Full Name",
-                    //     variable_name: "full_name",
-                    //     value: fullname()
-                    // }
+                    }
                 ]
             },
             callback: function(response){
-                alert('success. transaction ref is ' + response.reference);
-                savePlayer();
+                alert('success. transaction ref is ' + response.reference)
+                var reference = response.reference;
+
+                savePlayer(reference);
             },
             onClose: function(){
                 alert('Payment must be made successfully before registration can be completed');
