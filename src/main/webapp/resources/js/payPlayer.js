@@ -118,7 +118,7 @@ $(document).ready(function() {
         data['twitterHandle'] = $('#twitterHandle').val();
         data['instagramHandle'] = $('#instagramHandle').val();
         data['teamCountry'] = $('#teamNation').val();
-        data['teamSelected'] = $('#team').val();
+        data['teamSelected'] = $('#selectedTeam').text();
         data['location'] = $('input[name=location]:checked').val();
         data['reference'] = reference;
         $.ajax({
