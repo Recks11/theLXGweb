@@ -127,7 +127,7 @@
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/Burger_zone.png"/>" alt="Burger Zone" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
-                <div><!--<img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" />--></div>
+                <div><img src="<spr:url value="/resources/images/53vn-future-logo.png"/>" alt="53vn" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/KRAKS Events Logo small.jpeg"/>" alt="Kraks TV" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
             </div>
         </div>
