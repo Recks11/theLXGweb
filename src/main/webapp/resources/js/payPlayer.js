@@ -147,7 +147,7 @@ $(document).ready(function() {
         var handler = PaystackPop.setup({
             key: 'pk_live_6d4f0fb7e519ebaedaf2953fac3b261a9197d02f',
             email: email,
-            amount: 200000,
+            amount: 60000,
             ref: "theLXG-Player".email,
             metadata: {
                 custom_fields: [

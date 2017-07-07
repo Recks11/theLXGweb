@@ -97,8 +97,8 @@
       <file leaf-file-name="payPlayer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="29" lean-forward="false" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+            <state relative-caret-position="521">
+              <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -274,8 +274,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" />
       </list>
     </option>
   </component>
@@ -1360,14 +1360,7 @@
       <workItem from="1499435383013" duration="603000" />
       <workItem from="1499436631786" duration="68000" />
       <workItem from="1499449471333" duration="1918000" />
-      <workItem from="1499468414735" duration="1086000" />
-    </task>
-    <task id="LOCAL-00063" summary="changed price">
-      <created>1497047509533</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1497047509533</updated>
+      <workItem from="1499468414735" duration="1158000" />
     </task>
     <task id="LOCAL-00064" summary="changed price">
       <created>1497048084402</created>
@@ -1705,11 +1698,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499466537591</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="fixed error in CSRF token that made users unable to register">
+      <created>1499469768304</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1499469768304</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274262000" />
+    <option name="totallyTimeSpent" value="274334000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1835,7 +1835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="paystack reactivated" />
     <MESSAGE value="Hidden Feature" />
     <MESSAGE value="minor changes" />
@@ -1860,7 +1859,8 @@
     <MESSAGE value="changed registration text to start date" />
     <MESSAGE value="kraks logo" />
     <MESSAGE value="53VN logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="53VN logo" />
+    <MESSAGE value="fixed error in CSRF token that made users unable to register" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error in CSRF token that made users unable to register" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2264,8 +2264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="29" lean-forward="false" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        <state relative-caret-position="521">
+          <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
           <folding />
         </state>
       </provider>
