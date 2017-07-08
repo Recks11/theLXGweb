@@ -112,8 +112,8 @@
       <file leaf-file-name="payPlayer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="120" column="57" lean-forward="true" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+            <state relative-caret-position="171">
+              <caret line="151" column="21" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -1366,14 +1366,7 @@
       <workItem from="1499435383013" duration="603000" />
       <workItem from="1499436631786" duration="68000" />
       <workItem from="1499449471333" duration="1918000" />
-      <workItem from="1499468414735" duration="2847000" />
-    </task>
-    <task id="LOCAL-00066" summary="changed price">
-      <created>1497048885575</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1497048885575</updated>
+      <workItem from="1499468414735" duration="3112000" />
     </task>
     <task id="LOCAL-00067" summary="changed price">
       <created>1497049656743</created>
@@ -1711,11 +1704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499471057094</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="tweaked save player function">
+      <created>1499471937364</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1499471937364</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276023000" />
+    <option name="totallyTimeSpent" value="276288000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1841,7 +1841,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hidden Feature" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="fixed issue where everyteam selected was barcelona" />
     <MESSAGE value="Added Sponsors" />
@@ -1866,7 +1865,8 @@
     <MESSAGE value="53VN logo" />
     <MESSAGE value="fixed error in CSRF token that made users unable to register" />
     <MESSAGE value="added transaction reference to player Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transaction reference to player Data" />
+    <MESSAGE value="tweaked save player function" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaked save player function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2271,8 +2271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="120" column="57" lean-forward="true" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+        <state relative-caret-position="171">
+          <caret line="151" column="21" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
           <folding />
         </state>
       </provider>
