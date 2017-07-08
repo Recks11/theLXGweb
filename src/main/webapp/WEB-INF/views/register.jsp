@@ -117,7 +117,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12 text-center">
-                                <button type="submit" class="submitBtn btn-default" <%--onclick="payWithPayStack()"--%>>Register</button>
+                                <button type="submit" class="submitBtn btn-default" <%--onclick="payWithPayStack()"--%>>Pay & Register</button>
                                 <p class="gold" style="padding-top: 10px;"> REGISTRATION FEE IS &#8358;2000 </p>
                                 <%--<button id="btn-save" type="button" class="submitBtn btn-default" onclick="test()"> Pay and Register </button>--%>
                                     <%--onclick="payWithPayStack()--%>
