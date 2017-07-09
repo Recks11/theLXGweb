@@ -127,7 +127,7 @@ $(document).ready(function() {
             url: ctx+"/enter/",
             data: JSON.stringify(data),
             dataType: 'html',
-            timeout: 60000,
+            timeout: 360000,
             headers: headers,
 
             success: function (response) {
