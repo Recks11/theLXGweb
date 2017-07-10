@@ -119,6 +119,7 @@
                             <div class="col-sm-12 text-center">
                                 <button type="submit" class="submitBtn btn-default" <%--onclick="payWithPayStack()"--%>>Pay & Register</button>
                                 <p class="gold" style="padding-top: 10px;"> REGISTRATION FEE IS &#8358;2000 </p>
+                                <p class="gold" style="padding-top: 10px;">Want to pay cash? click <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/registrationCenters"/> ">here</a> </p>
                                 <%--<button id="btn-save" type="button" class="submitBtn btn-default" onclick="test()"> Pay and Register </button>--%>
                                     <%--onclick="payWithPayStack()--%>
                             </div>

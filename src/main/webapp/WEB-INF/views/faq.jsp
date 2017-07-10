@@ -47,7 +47,7 @@
                 <p class="gold">A7: There are also consolation prizes for participants that make it to a certain level in the tournament. All these participants will be invited to the main event where they will be awarded.</p>
                 <br/>
                 <p>Q8: Can I register on the day of the event?</p>
-                <p class="gold">A8: No you can't. All registration must be done online and will close on the 30th of July, 2017.</p>
+                <p class="gold">A8: All Payments are to be <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/"/> ">online</a> or at <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/registrationCenters"/> ">approved registration points</a>, as directed by the website and will close on the 30th July, 2017</p>
                 <br/>
                 <p>Q9: Is it a PlayStation 3, PlayStation 4, X Box or X Box one competition?</p>
                 <p class="gold">A9: It is a PlayStation 4 competition.</p>

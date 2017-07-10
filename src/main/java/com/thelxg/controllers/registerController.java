@@ -54,8 +54,11 @@ public class registerController {
         System.out.println(play.toString());
 
         return play.toString();
-
-
+    }
+    @RequestMapping("/registrationCenters")
+    public String registrationCenters(Model model){
+        model.addAttribute("title","Locations - TheLXG");
+        return "registrationCenters";
     }
     @RequestMapping("/check-reg@theLXG")
     public String checkReg( Model model){

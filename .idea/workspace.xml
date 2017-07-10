@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,33 +83,100 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="121" column="234" lean-forward="false" selection-start-line="121" selection-start-column="99" selection-end-line="121" selection-end-column="234" />
+              <folding>
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d5i4eu2xg358oafh.player" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payPlayer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js">
+      <file leaf-file-name="faq.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="129" column="22" lean-forward="false" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+            <state relative-caret-position="195">
+              <caret line="49" column="168" lean-forward="false" selection-start-line="49" selection-start-column="168" selection-end-line="49" selection-end-column="168" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrationCenters.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+              <folding>
+                <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="171" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="171" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imports.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -152,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/demoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" />
@@ -176,9 +248,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/faq.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/LXG_animate.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
@@ -187,22 +257,25 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phy_register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/payVendor.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/redirectFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/e_mail_Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/savePlayerAndSendMail.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/sendNotificationImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/pin.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -279,6 +352,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,11 +429,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="The_LXGWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="The_LXGWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,10 +566,6 @@
               <option name="myItemId" value="thelxg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -487,45 +593,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The_LXGWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The_LXGWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thelxg" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,26 +621,26 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thelxg.data.models" />
+      <recent name="com.thelxg.components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thelxg.data.Services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/js" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thelxg/data" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.thelxg.data.models" />
-      <recent name="com.thelxg.components" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.thelxg.data.Services" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/css" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1293,14 +1366,8 @@
       <workItem from="1499449471333" duration="1918000" />
       <workItem from="1499468414735" duration="3996000" />
       <workItem from="1499474442259" duration="684000" />
-      <workItem from="1499604094693" duration="1830000" />
-    </task>
-    <task id="LOCAL-00069" summary="test">
-      <created>1497230704742</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1497230704742</updated>
+      <workItem from="1499604094693" duration="1866000" />
+      <workItem from="1499717921612" duration="1727000" />
     </task>
     <task id="LOCAL-00070" summary="test">
       <created>1497231083954</created>
@@ -1638,11 +1705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499474510746</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="pay and register">
+      <created>1499606559784</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1499606559785</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279686000" />
+    <option name="totallyTimeSpent" value="281449000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1671,16 +1745,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34387755" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44285715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44285715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3887755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26251528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1690,7 +1765,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1806,20 +1880,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/LXG_animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1838,13 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="39" column="97" lean-forward="false" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -1934,33 +1987,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.pin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1985,24 +2031,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/pin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2031,13 +2063,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="102" lean-forward="false" selection-start-line="129" selection-start-column="102" selection-end-line="129" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
@@ -2053,7 +2078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2064,25 +2088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2034">
           <caret line="199" column="18" lean-forward="false" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2093,109 +2102,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.authorities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.hibernate_sequence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.pin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.vendor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2203,6 +2178,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="129" column="22" lean-forward="false" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="171" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="121" column="234" lean-forward="false" selection-start-line="121" selection-start-column="99" selection-end-line="121" selection-end-column="234" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="49" column="168" lean-forward="false" selection-start-line="49" selection-start-column="168" selection-end-line="49" selection-end-column="168" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

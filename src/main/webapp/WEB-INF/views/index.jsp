@@ -44,7 +44,8 @@
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
                         <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
                         <p style="padding-top: 6px;"> **Competition starts 5th August, 2017**</p>
-
+                        <p class="gold" style="margin-top: 6px;">
+                            Don't want to register online? click <a style="text-decoration: none; font-size: inherit; color:springgreen" href="<spr:url value="/enter/registrationCenters"/> ">here</a> </p>
                     </div>
                 </div>
             </div>
