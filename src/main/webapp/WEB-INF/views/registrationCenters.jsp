@@ -25,8 +25,28 @@
                 <br/>
                 <p class="gold">You can now register at these locations</p>
                 <br/>
-                <p><span class="gold">1)</span> Ozone Game Center in leisure mall, Surulere </p>
-                <p style="margin-top: 20px;">More coming soon</p>
+                <p><span class="gold">1 )</span> Gamezone, E-centre, Yaba, Lagos </p>
+
+                <p><span class="gold">2 )</span> HitboxGames, Leisure Mall, Surulere </p>
+                <p style="margin-top: 20px;">More locations coming soon</p>
+                <br/>
+                <br/>
+                <p class="gold"> OR </p>
+                <p class="gold" style="margin-bottom: 2px;">&#8595; Pay into this account</p>
+                <p class="children">&#8594; Name: ADELIYI OLUWASEYI DAVID</p>
+                <p class="children">&#8594; Account Type: Savings</p>
+                <p class="children">&#8594; Account Number: 2062888776</p>
+                <p class="children" style="margin-bottom: 10px;">&#8594; Bank: UBA</p>
+                <p class="gold" style="margin-bottom: 2px;">&#8595; Send evidence of payment (your teller) and  your registration data to <a href="mailto:info@thelxg.com.ng" style="text-decoration: none; color:springgreen; font-size: inherit">info@thelxg.com.ng </a></p>
+                <p class="children">Registration data includes:</p>
+                <p class="children">&#8594; First Name</p>
+                <p class="children">&#8594; Last Name</p>
+                <p class="children">&#8594; Alias(nickname)</p>
+                <p class="children">&#8594; Email Address</p>
+                <p class="children">&#8594; Twitter Handle / Instagram Handle or both</p>
+                <p class="children">&#8594; Selected Team</p>
+                <p class="children" style="margin-bottom: 10px;">&#8594; Location (lagos island / lagos Mainland)</p>
+                <p class="gold">&#10003; You will receive an email confirming your registration</p>
             </div>
         </div>
     </section>
