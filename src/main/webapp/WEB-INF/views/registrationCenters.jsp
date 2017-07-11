@@ -34,6 +34,7 @@
                 <p class="gold"> OR </p>
                 <p class="gold" style="margin-bottom: 2px;">&#8595; Pay into this account</p>
                 <p class="children">&#8594; Name: ADELIYI OLUWASEYI DAVID</p>
+                <p class="children">&#8594; Amount: &#8358;2000</p>
                 <p class="children">&#8594; Account Type: Savings</p>
                 <p class="children">&#8594; Account Number: 2062888776</p>
                 <p class="children" style="margin-bottom: 10px;">&#8594; Bank: UBA</p>
