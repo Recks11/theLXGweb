@@ -130,6 +130,11 @@
                 <div><img src="<spr:url value="/resources/images/53vn-future-logo.png"/>" alt="53vn" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/KRAKS Events Logo small.png"/>" alt="Kraks TV" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
             </div>
+            <div class="sponsor-parent">
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/ynaija_small.png"/>" alt="Burger Zone" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
+                <%--<div><img src="<spr:url value="/resources/images/53vn-future-logo.png"/>" alt="53vn" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>--%>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/jekaplay_small.png"/>" alt="Kraks TV" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
+            </div>
         </div>
     </div>
 </section>
