@@ -44,6 +44,7 @@
                 <p class="children">&#8594; Last Name</p>
                 <p class="children">&#8594; Alias(nickname)</p>
                 <p class="children">&#8594; Email Address</p>
+                <p class="children">&#8594; Phone Number</p>
                 <p class="children">&#8594; Twitter Handle / Instagram Handle or both</p>
                 <p class="children">&#8594; Selected Team</p>
                 <p class="children" style="margin-bottom: 10px;">&#8594; Location (lagos island / lagos Mainland)</p>
