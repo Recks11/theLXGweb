@@ -28,6 +28,8 @@
                 <p><span class="gold">1 )</span> Gamezone, E-centre, Yaba, Lagos </p>
 
                 <p><span class="gold">2 )</span> HitboxGames, Leisure Mall, Surulere </p>
+
+                <p><span class="gold">3 )</span> Jekaplay, Unilag, Akoka </p>
                 <p style="margin-top: 20px;">More locations coming soon</p>
                 <br/>
                 <br/>
