@@ -117,8 +117,32 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-              <folding />
+              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+              <folding>
+                <marker date="1501014775000" expanded="false" signature="1258:1275" ph="..." />
+                <marker date="1501014775000" expanded="false" signature="1432:1451" ph="..." />
+                <marker date="1501014775000" expanded="true" signature="1453:1460" ph="&amp;##8595;" />
+                <marker date="1501014775000" expanded="true" signature="1523:1530" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="1601:1608" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="1617:1624" ph="&amp;##8358;" />
+                <marker date="1501014775000" expanded="true" signature="1669:1676" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="1739:1746" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="false" signature="1821:1841" ph="..." />
+                <marker date="1501014775000" expanded="true" signature="1843:1850" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="false" signature="1904:1923" ph="..." />
+                <marker date="1501014775000" expanded="true" signature="1925:1932" ph="&amp;##8595;" />
+                <marker date="1501014775000" expanded="false" signature="2046:2106" ph="..." />
+                <marker date="1501014775000" expanded="true" signature="2240:2247" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2299:2306" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2357:2364" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2421:2428" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2483:2490" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2544:2551" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2634:2641" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="false" signature="2703:2723" ph="..." />
+                <marker date="1501014775000" expanded="true" signature="2725:2732" ph="&amp;##8594;" />
+                <marker date="1501014775000" expanded="true" signature="2810:2818" ph="&amp;##10003;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,10 +150,10 @@
       <file leaf-file-name="faq.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="142">
+              <caret line="35" column="132" lean-forward="true" selection-start-line="35" selection-start-column="132" selection-end-line="35" selection-end-column="132" />
               <folding>
-                <element signature="n#style#0;n#a#1;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#9;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1266,14 +1290,7 @@
       <workItem from="1499969375086" duration="987000" />
       <workItem from="1499970727039" duration="839000" />
       <workItem from="1500102635896" duration="168000" />
-      <workItem from="1501014314195" duration="274000" />
-    </task>
-    <task id="LOCAL-00076" summary="fixed issue where everyteam selected was barcelona">
-      <created>1498129552832</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1498129552833</updated>
+      <workItem from="1501014314195" duration="656000" />
     </task>
     <task id="LOCAL-00077" summary="fixed issue where everyteam selected was barcelona">
       <created>1498130172993</created>
@@ -1611,11 +1628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500102779347</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Q and A modified">
+      <created>1501014611920</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1501014611921</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288544000" />
+    <option name="totallyTimeSpent" value="288926000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1649,7 +1673,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44285715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34387755" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34387755" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3887755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1741,7 +1765,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added url rewriter" />
     <MESSAGE value="Large Update:&#10;&#10;Added Faq&#10;Added phy Reg&#10;restyled form validation&#10;added some controllers" />
     <MESSAGE value="fixes critical js error" />
     <MESSAGE value="added more security" />
@@ -1766,7 +1789,8 @@
     <MESSAGE value="corrected registration points" />
     <MESSAGE value="new sponsors" />
     <MESSAGE value="phone number field added" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone number field added" />
+    <MESSAGE value="Q and A modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q and A modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1812,7 +1836,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding />
+          <folding>
+            <marker date="1501014775000" expanded="false" signature="1258:1275" ph="..." />
+            <marker date="1501014775000" expanded="false" signature="1432:1451" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1453:1460" ph="&amp;##8595;" />
+            <marker date="1501014775000" expanded="true" signature="1523:1530" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1601:1608" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1617:1624" ph="&amp;##8358;" />
+            <marker date="1501014775000" expanded="true" signature="1669:1676" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1739:1746" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="1821:1841" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1843:1850" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="1904:1923" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1925:1932" ph="&amp;##8595;" />
+            <marker date="1501014775000" expanded="false" signature="2046:2106" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="2240:2247" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2299:2306" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2357:2364" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2421:2428" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2483:2490" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2544:2551" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2634:2641" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="2703:2723" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="2725:2732" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2810:2818" ph="&amp;##10003;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1867,6 +1915,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding>
+            <marker date="1501014775000" expanded="false" signature="1258:1275" ph="..." />
+            <marker date="1501014775000" expanded="false" signature="1432:1451" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1453:1460" ph="&amp;##8595;" />
+            <marker date="1501014775000" expanded="true" signature="1523:1530" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1601:1608" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1617:1624" ph="&amp;##8358;" />
+            <marker date="1501014775000" expanded="true" signature="1669:1676" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="1739:1746" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="1821:1841" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1843:1850" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="1904:1923" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="1925:1932" ph="&amp;##8595;" />
+            <marker date="1501014775000" expanded="false" signature="2046:2106" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="2240:2247" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2299:2306" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2357:2364" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2421:2428" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2483:2490" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2544:2551" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2634:2641" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="false" signature="2703:2723" ph="..." />
+            <marker date="1501014775000" expanded="true" signature="2725:2732" ph="&amp;##8594;" />
+            <marker date="1501014775000" expanded="true" signature="2810:2818" ph="&amp;##10003;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1875,20 +1955,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="142">
+          <caret line="35" column="132" lean-forward="true" selection-start-line="35" selection-start-column="132" selection-end-line="35" selection-end-column="132" />
           <folding>
-            <element signature="n#style#0;n#a#1;n#p#15;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#9;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
