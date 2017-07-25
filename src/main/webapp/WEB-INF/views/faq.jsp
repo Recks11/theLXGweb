@@ -35,28 +35,26 @@
                 <p>Q4: Do I have to pay once or will I pay for each game I play?</p>
                 <p class="gold">A4: You only pay once for the competition. Your payment secures you to every game in the competition, provided you qualify for those games.</p>
                 <br/>
-                <p>Q5: How many matches will I play before I win &#8358 500,000 Naira?</p>
-                <p class="gold">A5: To win the &#8358 500,000 Naira Cash Prize, you must win 12 matches, which includes all the matches in your region (Lagos Mainland or Lagos Island) and
-                    then the final match between the winner of both regions.</p>
+                <p>Q4: Do I have to pay once or will I pay for each game I play?</p>
+                <p class="gold">A4: You only pay once for the competition. Your payment secures you to every game in the competition, provided you qualify for those games.</p>
                 <br/>
-                <p>Q6: Will I play all 12 games in a day?</p>
-                <p class="gold">A6: No you won't. The 12 games will span a total of 5 weekends, 4 weekends for the preliminaries and the finals for the last weekend, which will hold
-                    at a separate venue.</p>
+                <p>Q5: Can i register on or after the day the event commences?</p>
+                <p class="gold">A5: You only pay once for the competition. Your payment secures you to every game in the competition, provided you qualify for those games.</p>
                 <br/>
-                <p>Q7: What do I get if I don't come 1st place, 2nd place or 3rd place?</p>
-                <p class="gold">A7: There are also consolation prizes for participants that make it to a certain level in the tournament. All these participants will be invited to the main event where they will be awarded.</p>
+                <p>Q6: What do I get if I don't come 1st place, 2nd place or 3rd place?</p>
+                <p class="gold">A6: There are also consolation prizes for participants that make it to a certain level in the tournament. All these participants will be invited to the main event where they will be awarded.</p>
                 <br/>
-                <p>Q8: Can I register on the day of the event?</p>
-                <p class="gold">A8: All Payments are to be <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/"/> ">online</a> or at <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/registrationCenters"/> ">approved registration points</a>, as directed by the website and will close on the 30th July, 2017</p>
+                <p>Q7: are there other methods of payment? and if so how can i pay?</p>
+                <p class="gold">A7: YES!, All Payments are to be <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/"/> ">online</a> or at <a style="text-decoration: none; font-size: inherit; color: springgreen" href="<spr:url value="/enter/registrationCenters"/> ">approved registration points</a>, as directed by the website and will close on the 30th July, 2017</p>
                 <br/>
-                <p>Q9: Is it a PlayStation 3, PlayStation 4, X Box or X Box one competition?</p>
-                <p class="gold">A9: It is a PlayStation 4 competition.</p>
+                <p>Q8: Is it a PlayStation 3, PlayStation 4, X Box or X Box one competition?</p>
+                <p class="gold">A8: It is a PlayStation 4 competition.</p>
                 <br/>
-                <p>Q10: What teams will be used for the competition? FUT teams or the regular teams?</p>
-                <p class="gold">A10: The regular teams will be used for the competition. Not FUT teams.</p>
+                <p>Q9: What teams will be used for the competition? FUT teams or the regular teams?</p>
+                <p class="gold">A90: The regular teams will be used for the competition. Not FUT teams.</p>
                 <br/>
-                <p>Q11: Can I bring my PlayStation 4 controller along with me?</p>
-                <p class="gold">A11: Yes, you can come along with your PlayStation 4 controller. You will be allowed to use it for your game.</p>
+                <p>Q10: Can I bring my PlayStation 4 controller along with me?</p>
+                <p class="gold">A10: Yes, you can come along with your PlayStation 4 controller. You will be allowed to use it for your game.</p>
                 <br/>
                 <br/>
                 <br/>
