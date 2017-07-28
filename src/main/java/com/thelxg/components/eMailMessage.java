@@ -3,7 +3,7 @@ package com.thelxg.components;
 
 import com.thelxg.data.models.player;
 
-public interface EMailMessage {
+public interface eMailMessage {
 
     void setMessage(player player);
 

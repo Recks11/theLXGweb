@@ -1,6 +1,6 @@
 package com.thelxg.components.impl;
 
-import com.thelxg.components.EMailMessage;
+import com.thelxg.components.eMailMessage;
 import com.thelxg.components.savePlayerAndSendMail;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.Services.sendNotification;
@@ -18,12 +18,12 @@ import java.util.Random;
 @Component
 public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
 
-    private final EMailMessage eMail;
+    private final eMailMessage eMail;
     private final playerService playerService;
     private final sendNotification sendMail;
 
     @Autowired
-    public SavePlayerAndSendMailImpl(playerService playerService, sendNotification sendMail, EMailMessage eMail) {
+    public SavePlayerAndSendMailImpl(playerService playerService, sendNotification sendMail, eMailMessage eMail) {
         this.playerService = playerService;
         this.sendMail = sendMail;
         this.eMail = eMail;

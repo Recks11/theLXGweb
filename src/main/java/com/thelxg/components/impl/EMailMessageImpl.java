@@ -1,6 +1,6 @@
 package com.thelxg.components.impl;
 
-import com.thelxg.components.EMailMessage;
+import com.thelxg.components.eMailMessage;
 import com.thelxg.data.models.player;
 import org.springframework.stereotype.Component;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Created by rex on 12/06/2017.
  */
 @Component
-public class EMailMessageImpl implements EMailMessage {
+public class EMailMessageImpl implements eMailMessage {
 
 
     private String message;
