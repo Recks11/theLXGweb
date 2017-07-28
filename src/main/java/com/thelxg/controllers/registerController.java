@@ -1,6 +1,6 @@
 package com.thelxg.controllers;
 
-import com.thelxg.components.savePlayerAndSendMail;
+import com.thelxg.components.impl.SavePlayerAndSendMailImpl;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +20,12 @@ import java.util.List;
 @RequestMapping("/enter")
 public class registerController {
 
-    private final savePlayerAndSendMail saveAndSendMail;
+    private final SavePlayerAndSendMailImpl saveAndSendMail;
     private final playerService playerService;
     private final player playerBean;
 
     @Autowired
-    public registerController(player playerBean, playerService playerService, savePlayerAndSendMail saveAndSendMail) {
+    public registerController(player playerBean, playerService playerService, SavePlayerAndSendMailImpl saveAndSendMail) {
         this.playerBean = playerBean;
         this.playerService = playerService;
         this.saveAndSendMail = saveAndSendMail;

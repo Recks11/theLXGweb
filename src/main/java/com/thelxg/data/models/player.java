@@ -45,6 +45,8 @@ public class player {
 
     private String reference;
 
+    private String mailStatus;
+
     @Transient
     private MultipartFile image;
 
@@ -52,7 +54,8 @@ public class player {
 
     public player(String playerId, String firstName, String lastName, String fullName,
                   String alias, Date date, String email, String phoneNumber, String twitterHandle,
-                  String instagramHandle, String teamSelected, String teamCountry, String location, MultipartFile image, String reference) {
+                  String instagramHandle, String teamSelected, String teamCountry, String location,
+                  MultipartFile image, String reference, String mailStatus) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -68,6 +71,7 @@ public class player {
         this.location = location;
         this.image = image;
         this.reference = reference;
+        this.mailStatus = mailStatus;
     }
 
     public Long getId() {
@@ -196,6 +200,18 @@ public class player {
         this.reference = reference;
     }
 
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getMailStatus() {
+        return mailStatus;
+    }
+
+    public void setMailStatus(String mailStatus) {
+        this.mailStatus = mailStatus;
+    }
+
     @Override
     public String toString() {
         return "player{" +
@@ -203,6 +219,7 @@ public class player {
                 ", PlayerId='" + PlayerId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", fullName='" + fullName + '\'' +
                 ", alias='" + alias + '\'' +
                 ", date=" + date +
                 ", email='" + email + '\'' +
@@ -213,6 +230,7 @@ public class player {
                 ", teamCountry='" + teamCountry + '\'' +
                 ", location='" + location + '\'' +
                 ", reference='" + reference + '\'' +
+                ", mailStatus='" + mailStatus + '\'' +
                 ", image=" + image +
                 '}';
     }

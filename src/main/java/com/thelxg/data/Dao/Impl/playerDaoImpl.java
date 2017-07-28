@@ -15,7 +15,6 @@ import java.util.Random;
 @Repository
 public class playerDaoImpl implements playerDao {
 
-
     private final SessionFactory sessionFactory;
 
     @Autowired
@@ -23,6 +22,11 @@ public class playerDaoImpl implements playerDao {
         this.sessionFactory = sessionFactory;
     }
 
+
+    @Override
+    public void updatePlayer(player play) {
+        sessionFactory.getCurrentSession().update(play);
+    }
 
     @Override
     public void addPlayer(player play) {
@@ -43,5 +47,10 @@ public class playerDaoImpl implements playerDao {
     @Override
     public List getAllPlayers() {
         return sessionFactory.getCurrentSession().createQuery("from player").list();
+    }
+
+    @Override
+    public List getPlayersInLocation(String location) {
+        return sessionFactory.getCurrentSession().createQuery("from player where location = :location order by date").setParameter("location",location).list();
     }
 }

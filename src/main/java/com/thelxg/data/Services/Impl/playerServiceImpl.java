@@ -30,6 +30,11 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
+    public void updatePlayer(player play) {
+        playerdao.updatePlayer(play);
+    }
+
+    @Transactional
     public player getPlayerById(long id) {
         return playerdao.getPlayerById(id);
     }
@@ -38,8 +43,14 @@ public class playerServiceImpl implements playerService {
     public void removePlayer(long id) {
         playerdao.removePlayer(id);
     }
+
     @Transactional
     public List getAllPlayers(){
         return playerdao.getAllPlayers();
+    }
+
+    @Transactional
+    public List getPlayersInLocation(String location) {
+        return playerdao.getPlayersInLocation(location);
     }
 }

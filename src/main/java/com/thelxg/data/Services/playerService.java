@@ -13,9 +13,13 @@ public interface playerService {
 
     void addPlayer(player play);
 
+    void updatePlayer(player play);
+
     player getPlayerById(long id);
 
     void removePlayer(long id);
 
     List getAllPlayers();
+
+    List getPlayersInLocation(String location);
 }

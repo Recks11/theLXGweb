@@ -1,0 +1,160 @@
+body {
+    margin-top: 70px;
+    background-color: #0f0f0f;
+}
+.admin-body{
+    margin-left: 225px;
+    color: #FFFFFF;
+}
+
+.admin-wrapper {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+/* Logout Button */
+.logout-btn{
+    background-color: transparent;
+    border:none;
+}
+.logout-btn:active{
+    border: none;
+}
+
+.no-pad{
+    padding-right: 0;
+    padding-left: 0;
+}
+.bg-red{background-color: #ff8800;color: white;}
+.bg-blue{background-color: #2a9fd6;color: white;}
+.bg-white{background-color: #ffffff;color: grey;}
+.bg-green{background-color: springgreen;color: white;}
+
+/* Rex styles*/
+.no-full-pad{padding:0;}
+.no-top-pad{padding-top: 0;}
+.no-left-pad{padding-left: 0;}
+.no-right-pad{padding-right:0;}
+.no-bottom-pad{padding-bottom:0;}
+.no-margin{margin: 0;}
+.no-top-margin{margin-top:0;}
+.no-left-margin{margin-left:0;}
+.no-right-margin{margin-right: 0}
+.no-bottom-margin{margin-bottom: 0}
+.fixed-table-container tbody .selected td{
+    background-color: #282828;
+}
+/* end Rex sty;es*/
+
+/* Flex */
+.centered-parent{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+.centered-content{
+    align-self: center;
+    height: 100%;
+}
+/* End Flex*/
+
+/* Side Nav */
+.side-nav {
+    margin-left: -225px;
+    left: 225px;
+    width: 225px;
+    position: fixed;
+    top: 50px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: #222222;
+    overflow-y: auto;
+}
+
+/*menu overrides*/
+.side-nav>li.dropdown>ul.dropdown-menu {
+    position: relative;
+    min-width: 225px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.side-nav>li.dropdown>ul.dropdown-menu>li>a {
+    color: #999999;
+    padding: 15px 15px 15px 25px;
+}
+
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+.side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+.side-nav>li>a {
+    width: 225px;
+}
+.side-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+.side-content ul li{
+    padding: 10px 15px;
+}
+.side-content ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding:10px 15px;
+    font-family: Sansita, sans-serif;
+}
+.side-content ul li:hover{
+    background-color: #0f0f0f;
+    border-left: 5px solid #289fd6;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #080808;
+}
+.navbar-inverse .navbar-nav > li > a{ /* navbar font*/
+    color: #ffffff;
+    font-family: 'Sansita', sans-serif; /* to be paired with Open-sans*/
+}
+
+table{
+    color: white;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #222222;
+}
+@media (min-width: 769px){
+    .side-nav {
+        margin-left: -225px;
+        left: 225px;
+        width: 225px;
+        position: fixed;
+        top: 50px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: #222222;
+        overflow-y: auto;
+    }
+}
+@media (max-width: 769px){
+    .admin-body{
+        margin-left: 0;
+    }
+    table{
+        font-size: 12px;
+    }
+}
+/* Fix navbar on iphone 6*/
+.navbar-collapse{
+    -webkit-overflow-scrolling: auto;
+}

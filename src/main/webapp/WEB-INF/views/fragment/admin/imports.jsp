@@ -9,6 +9,7 @@
     <%--<meta name="author" content="Ijiekhuamen Rex">--%>
     <!--  Essential META Tags -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <sec:csrfMetaTags /> <!--//CSRF token for non-www-encoded-ajax requests-->
 
     <!--Bootstrap-->

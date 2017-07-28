@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: rex
@@ -11,6 +12,20 @@
     <jsp:include page="../fragment/admin/imports.jsp" />
 </head>
 <body>
-
+<jsp:include page="../fragment/admin/navbar.jsp"/>
+<section class="admin-body">
+    <section class="admin-wrapper">
+        <div class="centered-parent">
+            <div class="centered-content text-center">
+                <p style="font-size: 16px">Number of registered participants</p>
+                <p style="font-size: 120px">${numberRegistered}</p>
+                <p style="font-size: 16px">Number in Mainland</p>
+                <p style="font-size: 120px">${mainlandRegistered}</p>
+                <p style="font-size: 16px">Number in island</p>
+                <p style="font-size: 120px">${islandRegistered}</p>
+            </div>
+        </div>
+    </section>
+</section>
 </body>
 </html>
