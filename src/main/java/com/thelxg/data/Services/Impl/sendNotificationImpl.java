@@ -33,6 +33,7 @@ public class sendNotificationImpl implements sendNotification {
         mailMessage.setTo(player.getEmail());
         mailMessage.setFrom("noreply@thelxg.com.ng");
         mailMessage.setSubject("The LXG - Registration");
+        e_mail.setMessage(player);
         mailMessage.setText(e_mail.getMessage());
 
         // sends the e-mail
@@ -40,11 +41,13 @@ public class sendNotificationImpl implements sendNotification {
         try {
             mailSender.send(mailMessage);
             System.out.println("Mail Sent to "+ player.getEmail());
+            player.setMailStatus("Mail sent");
             return true;
         }
         catch (MailException ex) {
             // simply log it and go on...
             System.out.println("Mail not sent to "+ player.getEmail());
+            player.setMailStatus("Mail not sent");
             System.err.println(ex.getMessage());
             return false;
         }

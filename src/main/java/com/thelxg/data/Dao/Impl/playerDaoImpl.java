@@ -50,7 +50,18 @@ public class playerDaoImpl implements playerDao {
     }
 
     @Override
+    public player getPlayerByUniqueId(String uniqueId) {
+        return (player) sessionFactory.getCurrentSession()
+                .createQuery("from player where PlayerId = :uniqueId")
+                .setParameter("uniqueId", uniqueId )
+                .uniqueResult();
+    }
+
+    @Override
     public List getPlayersInLocation(String location) {
-        return sessionFactory.getCurrentSession().createQuery("from player where location = :location order by date").setParameter("location",location).list();
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where location = :location order by date")
+                .setParameter("location",location)
+                .list();
     }
 }

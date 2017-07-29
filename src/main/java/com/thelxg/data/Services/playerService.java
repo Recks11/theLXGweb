@@ -22,4 +22,6 @@ public interface playerService {
     List getAllPlayers();
 
     List getPlayersInLocation(String location);
+
+    player getPlayerByUniqueId(String uniqueId);
 }

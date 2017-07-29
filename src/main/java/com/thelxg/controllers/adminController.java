@@ -1,11 +1,16 @@
 package com.thelxg.controllers;
 
+import com.thelxg.components.eMailMessage;
 import com.thelxg.components.paginationService;
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.Services.sendNotification;
+import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.support.PagedListHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,11 +21,15 @@ public class adminController {
 
     private final playerService players;
     private final paginationService pagination;
+    private final sendNotification sendMail;
+    private final eMailMessage eMail;
 
     @Autowired
-    public adminController(playerService players, paginationService pagedList) {
+    public adminController(playerService players, paginationService pagedList, sendNotification sendMail, eMailMessage eMail) {
         this.players = players;
         this.pagination = pagedList;
+        this.sendMail = sendMail;
+        this.eMail = eMail;
     }
 
     @RequestMapping
@@ -40,8 +49,14 @@ public class adminController {
         return "admin/pages/allPlayers";
     }
 
-    public String playerFunctions(){
+    @GetMapping("/all/mail/{playerId}")
+    public String sendMail(@PathVariable("playerId") String playerId, Model model){
 
-        return "redirect:/admin/all";
+        player recipient = players.getPlayerByUniqueId(playerId);
+
+        sendMail.sendEmail(recipient, eMail);
+        players.updatePlayer(recipient);
+        return "redirect:/admin/players/all";
+
     }
 }

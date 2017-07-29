@@ -21,4 +21,6 @@ public interface playerDao {
 
     List getPlayersInLocation(String location);
 
+    player getPlayerByUniqueId(String uniqueId);
+
 }

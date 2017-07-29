@@ -77,13 +77,17 @@
     <bean id="simpleMailMessage"
             class = "org.springframework.mail.SimpleMailMessage"/>
 
+    <bean id="authenticationSuccessHandler"
+          class= "com.thelxg.components.impl.UrlAuthenticationSuccessHandler" />
 <!-- Spring Security config -->
     <security:http auto-config="true">
         <security:intercept-url pattern="/phy_register/**" access="hasRole('REGISTER-ROLE')" />
+        <security:intercept-url pattern="/admin/**" access="hasRole('ADMIN')" />
         <security:form-login
                 login-page="/login"
                 default-target-url="/phy_register/io"
                 authentication-failure-url="/login?error"
+                authentication-success-handler-ref="authenticationSuccessHandler"
                 username-parameter="username"
                 password-parameter="password"/>
         <security:logout

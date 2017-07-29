@@ -50,6 +50,11 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
+    public player getPlayerByUniqueId(String uniqueId) {
+        return playerdao.getPlayerByUniqueId(uniqueId);
+    }
+
+    @Transactional
     public List getPlayersInLocation(String location) {
         return playerdao.getPlayersInLocation(location);
     }
