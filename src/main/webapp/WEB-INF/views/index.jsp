@@ -164,8 +164,8 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element with id="demo"
-        document.getElementById("timeLeft").innerHTML = days + "<span>d</span> " + hours + "<span>h</span> "
-            + minutes + "<span>m</span> " + seconds + "<span>sec</span> ";
+        document.getElementById("timeLeft").innerHTML = days + "<span style=\" color: springgreen; \">d</span> " + hours + "<span style=\" color: springgreen; \">h</span> "
+            + minutes + "<span style=\" color: springgreen; \">m</span> " + seconds + "<span style=\" color: springgreen; \">sec</span> ";
 
         // If the count down is over, write some text
         if (distance < 0) {

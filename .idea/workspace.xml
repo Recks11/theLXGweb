@@ -81,9 +81,19 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="172" column="84" lean-forward="false" selection-start-line="172" selection-start-column="84" selection-end-line="172" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="358">
+              <caret line="166" column="98" lean-forward="true" selection-start-line="166" selection-start-column="98" selection-end-line="166" selection-end-column="98" />
+              <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
+              <caret line="167" column="121" lean-forward="true" selection-start-line="167" selection-start-column="121" selection-end-line="167" selection-end-column="121" />
+              <caret line="167" column="59" lean-forward="true" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="59" />
+              <folding>
+                <marker date="1501332284000" expanded="true" signature="8742:8763" ph="..." />
+                <marker date="1501332284000" expanded="true" signature="8742:8800" ph="..." />
+                <marker date="1501332284000" expanded="true" signature="8802:8823" ph="..." />
+                <marker date="1501332284000" expanded="true" signature="8876:8897" ph="..." />
+                <marker date="1501332284000" expanded="true" signature="8876:8936" ph="..." />
+                <marker date="1501332284000" expanded="true" signature="8938:8959" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +101,8 @@
       <file leaf-file-name="homeStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="299" column="23" lean-forward="false" selection-start-line="299" selection-start-column="23" selection-end-line="299" selection-end-column="23" />
+            <state relative-caret-position="349">
+              <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -1158,14 +1168,7 @@
       <workItem from="1501014314195" duration="700000" />
       <workItem from="1501261837071" duration="23889000" />
       <workItem from="1501298443934" duration="675000" />
-      <workItem from="1501323778606" duration="3065000" />
-    </task>
-    <task id="LOCAL-00087" summary="Large Update:&#10;&#10;Added Faq&#10;Added phy Reg&#10;restyled form validation&#10;added some controllers">
-      <created>1498776290796</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1498776290799</updated>
+      <workItem from="1501323778606" duration="3430000" />
     </task>
     <task id="LOCAL-00088" summary="fixes critical js error">
       <created>1498778545181</created>
@@ -1503,11 +1506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501330984583</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="homepage center fixes">
+      <created>1501331956074</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1501331956074</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318906000" />
+    <option name="totallyTimeSpent" value="319271000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1686,7 +1696,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="40" lean-forward="false" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1501332284000" expanded="true" signature="8742:8763" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8742:8800" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8802:8823" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8876:8897" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8876:8936" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8938:8959" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2026,17 +2043,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="299" column="23" lean-forward="false" selection-start-line="299" selection-start-column="23" selection-end-line="299" selection-end-column="23" />
+        <state relative-caret-position="349">
+          <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="172" column="84" lean-forward="false" selection-start-line="172" selection-start-column="84" selection-end-line="172" selection-end-column="84" />
-          <folding />
+        <state relative-caret-position="358">
+          <caret line="166" column="98" lean-forward="true" selection-start-line="166" selection-start-column="98" selection-end-line="166" selection-end-column="98" />
+          <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
+          <caret line="167" column="121" lean-forward="true" selection-start-line="167" selection-start-column="121" selection-end-line="167" selection-end-column="121" />
+          <caret line="167" column="59" lean-forward="true" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="59" />
+          <folding>
+            <marker date="1501332284000" expanded="true" signature="8742:8763" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8742:8800" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8802:8823" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8876:8897" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8876:8936" ph="..." />
+            <marker date="1501332284000" expanded="true" signature="8938:8959" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
