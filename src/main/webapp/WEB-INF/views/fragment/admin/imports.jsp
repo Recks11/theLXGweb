@@ -14,7 +14,6 @@
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>
 
-    <base href="http://localhost:8080/thelxg.com.ng/">
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/font-awesome.min.css"/>"/>
 
