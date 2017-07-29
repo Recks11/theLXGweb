@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -77,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="148" column="39" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+            <state relative-caret-position="206">
+              <caret line="150" column="43" lean-forward="true" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
               <folding>
                 <marker date="1501332349000" expanded="true" signature="8741:8762" ph="..." />
                 <marker date="1501332349000" expanded="true" signature="8741:8799" ph="..." />
@@ -97,8 +98,18 @@
       <file leaf-file-name="homeStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+            <state relative-caret-position="1070">
+              <caret line="408" column="5" lean-forward="false" selection-start-line="408" selection-start-column="5" selection-end-line="408" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminStyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="155" column="43" lean-forward="false" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -194,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/editPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/pagination.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/paginationService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java" />
@@ -222,8 +232,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/UrlAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" />
       </list>
     </option>
   </component>
@@ -1164,14 +1175,7 @@
       <workItem from="1501014314195" duration="700000" />
       <workItem from="1501261837071" duration="23889000" />
       <workItem from="1501298443934" duration="675000" />
-      <workItem from="1501323778606" duration="3467000" />
-    </task>
-    <task id="LOCAL-00089" summary="added more security">
-      <created>1498784428425</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1498784428425</updated>
+      <workItem from="1501323778606" duration="4333000" />
     </task>
     <task id="LOCAL-00090" summary="removed log">
       <created>1498784460458</created>
@@ -1509,11 +1513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501332321820</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="homepage center fixes">
+      <created>1501332361305</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1501332361305</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319308000" />
+    <option name="totallyTimeSpent" value="320174000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2021,10 +2032,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="150" column="43" lean-forward="true" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+          <folding>
+            <marker date="1501332349000" expanded="true" signature="8741:8762" ph="..." />
+            <marker date="1501332349000" expanded="true" signature="8741:8799" ph="..." />
+            <marker date="1501332349000" expanded="true" signature="8801:8822" ph="..." />
+            <marker date="1501332349000" expanded="true" signature="8875:8896" ph="..." />
+            <marker date="1501332349000" expanded="true" signature="8875:8935" ph="..." />
+            <marker date="1501332349000" expanded="true" signature="8937:8958" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="408" column="5" lean-forward="false" selection-start-line="408" selection-start-column="5" selection-end-line="408" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="464">
+          <caret line="155" column="43" lean-forward="false" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -2034,29 +2068,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="148" column="39" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
-          <folding>
-            <marker date="1501332349000" expanded="true" signature="8741:8762" ph="..." />
-            <marker date="1501332349000" expanded="true" signature="8741:8799" ph="..." />
-            <marker date="1501332349000" expanded="true" signature="8801:8822" ph="..." />
-            <marker date="1501332349000" expanded="true" signature="8875:8896" ph="..." />
-            <marker date="1501332349000" expanded="true" signature="8875:8935" ph="..." />
-            <marker date="1501332349000" expanded="true" signature="8937:8958" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

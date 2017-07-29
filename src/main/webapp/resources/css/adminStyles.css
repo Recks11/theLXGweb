@@ -125,7 +125,9 @@ body {
     color: #ffffff;
     font-family: 'Sansita', sans-serif; /* to be paired with Open-sans*/
 }
-
+.user-dropdown{
+    background-color: #080808'';
+}
 table{
     color: white;
 }
@@ -146,9 +148,18 @@ table{
         overflow-y: auto;
     }
 }
-@media (max-width: 769px){
+@media (max-width: 768px){
+    .side-nav{
+        margin-top: 50px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: black !important;
+    }
     .admin-body{
         margin-left: 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: inherit;
     }
     table{
         font-size: 12px;

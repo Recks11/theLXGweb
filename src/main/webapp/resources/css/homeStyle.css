@@ -398,9 +398,6 @@ background-color: rgba(0,0,0,0.8);
     .headText > h3 {
         font-size: 20px;
     }
-    .home-content-text{
-        transform: translateY(30%);
-    }
 }
 @media only screen and (max-width: 420px) {
 
@@ -409,9 +406,6 @@ background-color: rgba(0,0,0,0.8);
     }
     .headText > h3 {
         font-size: 17px;
-    }
-    .home-content-text{
-        transform: translateY(35%);
     }
     .sponsor-image{
         width: 70px;
