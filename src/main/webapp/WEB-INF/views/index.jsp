@@ -12,13 +12,16 @@
 <section id=banner>
     <div class="section-bg-color">
         <div class="container-fluid text-center" style="height: 100%;">
-            <div class="home-face header-content animated fadeInDown">
-                <div class="headText">
-                    <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
-                    <h3> PRESENTS</h3>
-                    <br/>
-                    <br/>
-                    <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
+            <div class="home-face header-content animated fadeInDown centered-parent">
+                <div class="centered-content">
+                        <div class="headText">
+                            <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
+                            <h3> PRESENTS</h3>
+                            <br/>
+                            <br/>
+                            <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
+                            <p id="timeLeft"></p>
+                        </div>
                 </div>
             </div>
         </div>
@@ -35,7 +38,7 @@
                 <div class="row">
                     <div class="col-xs-12 text-center head-text mont-font">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
-                        <p>4 weekends, 12 Rounds, 1 winner</p>
+                        <br/>
                         <p class="gold">Venues at Lagos Mainland and Lagos Island</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
@@ -141,5 +144,35 @@
 
 <jsp:include page="fragment/footer.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 10, 2017 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("timeLeft").innerHTML = days + "D " + hours + "H "
+            + minutes + "M " + seconds + "sec ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timeLeft").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
 </body>
 </html>
