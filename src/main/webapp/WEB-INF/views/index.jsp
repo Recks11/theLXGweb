@@ -30,8 +30,8 @@
 <section class="section-0">
     <div class="darkGrey-color">
         <!-- Second Container -->
-        <div class="container home-content-1 bg-2">
-            <div class="home-content-text">
+        <div class="container home-content-1 bg-2 centered-parent">
+            <div class="home-content-text centered-content">
                 <div class="row text-center">
                     <h1>ARE YOU BADASS AT FIFA 17?</h1>
                 </div>
