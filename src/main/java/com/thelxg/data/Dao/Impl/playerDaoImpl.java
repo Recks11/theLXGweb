@@ -60,7 +60,7 @@ public class playerDaoImpl implements playerDao {
     @Override
     public List getPlayersInLocation(String location) {
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where location = :location order by date")
+                .createQuery("from player where location = :location order by date asc ")
                 .setParameter("location",location)
                 .list();
     }

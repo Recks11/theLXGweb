@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/imports.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/imports.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,12 +51,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="62" column="87" lean-forward="false" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+              <folding>
+                <element signature="method#addPlayer#0;class#playerDaoImpl#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +160,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GradleLocalSettings">
@@ -197,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/sendNotification.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java" />
@@ -209,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/imports.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -311,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +337,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -1161,13 +1190,6 @@
       <workItem from="1501014314195" duration="700000" />
       <workItem from="1501261837071" duration="23889000" />
     </task>
-    <task id="LOCAL-00081" summary="Added Sponsors images">
-      <created>1498525596835</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1498525596835</updated>
-    </task>
     <task id="LOCAL-00082" summary="Added Sponsors images">
       <created>1498556082993</created>
       <option name="number" value="00082" />
@@ -1504,11 +1526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501285735409</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="remove base url">
+      <created>1501295583870</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1501295583870</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313379000" />
+    <option name="totallyTimeSpent" value="313987000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1540,7 +1569,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4421699" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4421699" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3879222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1671,7 +1700,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed log" />
     <MESSAGE value="switchDB" />
     <MESSAGE value="added login functionality&#10;added spring security" />
     <MESSAGE value="compressed images" />
@@ -1696,7 +1724,8 @@
     <MESSAGE value="Added most needed files for admin section" />
     <MESSAGE value="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to eMailMessageImpl&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)" />
     <MESSAGE value="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)" />
+    <MESSAGE value="remove base url" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove base url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1909,13 +1938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1949,7 +1971,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1981,7 +2003,7 @@
         <state relative-caret-position="438">
           <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2079,9 +2101,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="62" column="87" lean-forward="false" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+          <folding>
+            <element signature="method#addPlayer#0;class#playerDaoImpl#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
