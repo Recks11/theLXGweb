@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="TheLXG@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
     <root id="1"/>
     <schema id="2" parent="1" name="TheLXG">
       <Current>1</Current>
@@ -105,74 +105,82 @@
       <Position>13</Position>
       <DataType>datetime|0</DataType>
     </column>
-    <key id="35" parent="11" name="PRIMARY">
+    <column id="35" parent="11" name="reference">
+      <Position>14</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="36" parent="11" name="mailStatus">
+      <Position>15</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="37" parent="11" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="36" parent="12" name="id">
+    <column id="38" parent="12" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="37" parent="12" name="region">
+    <column id="39" parent="12" name="region">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="38" parent="12" name="teamCountry">
+    <column id="40" parent="12" name="teamCountry">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="39" parent="12" name="teamName">
+    <column id="41" parent="12" name="teamName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="40" parent="12" name="PRIMARY">
+    <key id="42" parent="12" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="41" parent="13" name="username">
+    <column id="43" parent="13" name="username">
       <Position>1</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="42" parent="13" name="password">
+    <column id="44" parent="13" name="password">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="43" parent="13" name="enabled">
+    <column id="45" parent="13" name="enabled">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="44" parent="14" name="id">
+    <column id="46" parent="14" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="45" parent="14" name="businessName">
+    <column id="47" parent="14" name="businessName">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="46" parent="14" name="description">
+    <column id="48" parent="14" name="description">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="47" parent="14" name="email">
+    <column id="49" parent="14" name="email">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="48" parent="14" name="phoneNumber">
+    <column id="50" parent="14" name="phoneNumber">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="49" parent="14" name="standLocation">
+    <column id="51" parent="14" name="standLocation">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="50" parent="14" name="PRIMARY">
+    <key id="52" parent="14" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
