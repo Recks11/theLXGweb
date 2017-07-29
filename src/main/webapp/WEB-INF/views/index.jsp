@@ -20,7 +20,7 @@
                             <br/>
                             <br/>
                             <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
-                            <p id="timeLeft"></p>
+                            <h3 id="timeLeft"></h3>
                         </div>
                 </div>
             </div>
@@ -164,13 +164,13 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element with id="demo"
-        document.getElementById("timeLeft").innerHTML = days + "D " + hours + "H "
-            + minutes + "M " + seconds + "sec ";
+        document.getElementById("timeLeft").innerHTML = days + "<span>d</span> " + hours + "<span>h</span> "
+            + minutes + "<span>m</span> " + seconds + "<span>sec</span> ";
 
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timeLeft").innerHTML = "EXPIRED";
+            document.getElementById("timeLeft").innerHTML = "Competition has begun, ";
         }
     }, 1000);
 </script>

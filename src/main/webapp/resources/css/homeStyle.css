@@ -48,7 +48,7 @@ body, html{
     /*font-family: 'BenchNine', sans-serif;*/
 }
 .headText > h3 {
-    font-size: 50px;
+    font-size: 44px;
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
     -ms-transition: font-size 1s;
@@ -266,7 +266,7 @@ background-color: rgba(0,0,0,0.8);
 
     }
     .headText > h3{
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
@@ -295,7 +295,11 @@ background-color: rgba(0,0,0,0.8);
 
 }
 
-
+@media screen and (max-width:885px){
+    .headText > h3 {
+        font-size: 25px;
+    }
+}
 @media only screen and (max-width: 768px){
     .navbar{
         padding:5px;
@@ -365,7 +369,7 @@ background-color: rgba(0,0,0,0.8);
         color: gold;
     }
     .headText > h3 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
 }
@@ -389,7 +393,7 @@ background-color: rgba(0,0,0,0.8);
         width: 200px;
     }
     .headText > h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .home-content-text{
         transform: translateY(30%);
