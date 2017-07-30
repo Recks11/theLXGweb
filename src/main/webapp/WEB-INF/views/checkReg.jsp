@@ -22,7 +22,7 @@
                 <div class="about-details text-center mont-Font">
                     <h2 class="gold">Number Registered</h2>
                     <br/>
-                   <P>Number of people Registered: ${numberReg - 1}</P>
+                   <P>Number of people Registered: ${numberReg}</P>
 
                 </div>
             </div>
