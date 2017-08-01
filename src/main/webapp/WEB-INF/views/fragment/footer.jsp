@@ -8,6 +8,7 @@
             <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img" style="display:inline"
                      alt="THE LXG LOGO" height="auto"></H4>
             <p>The League of Extraordinary Gamers</p>
+
             <%--<h4>About us:</h4>--%>
             <%--<P>The League of Extraordinary Gamers is a body that brings a convergence of gamers across the world.--%>
                 <%--We are building the spirit of gaming and developing a globally recognised community of gamers and game enthusiasts.</p>--%>
@@ -22,6 +23,7 @@
                 <li> <a href="<spr:url value="/enter/registrationCenters"/> "> REGISTRATION CENTERS </a></li>
                 <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>
                 <li><a href="<spr:url value="/faq"/> ">FAQ</a></li>
+                <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/ruleBook.pdf"/>">RULE BOOK</a></li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">

@@ -43,14 +43,15 @@
         <div class="container-fluid text-center" style="height: 100%;">
             <div class="home-face header-content animated fadeInDown centered-parent">
                 <div class="centered-content">
-                        <div class="headText">
-                            <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
-                            <h3> PRESENTS</h3>
-                            <br/>
-                            <br/>
-                            <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
-                            <h3 id="timeLeft"></h3>
-                        </div>
+                    <div class="headText">
+                        <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
+                        <h3> PRESENTS</h3>
+                        <br/>
+                        <br/>
+                        <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
+                        <h3 id="timeLeft"></h3>
+                        <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/ruleBook.pdf"/>">Download rule book</a> &#8678;</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,7 +165,7 @@
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/ynaija_small.PNG"/>" alt="Y naija" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
-                <%--<div><img src="<spr:url value="/resources/images/53vn-future-logo.png"/>" alt="53vn" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>--%>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/arcoLOGO.png"/>" alt="Arco" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/jekaplay_small.JPG"/>" alt="jekaplay" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
             </div>
         </div>

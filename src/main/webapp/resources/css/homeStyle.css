@@ -56,6 +56,13 @@ body, html{
     transition: font-size 1s;
 
 }
+.headText > p > a {
+    color: springgreen;
+    text-decoration: none;
+}
+.headText > p > a :hover {
+    color: springgreen;
+}
 /* Flex */
 .centered-parent{
     display: flex;
