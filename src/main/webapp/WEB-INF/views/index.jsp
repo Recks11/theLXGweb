@@ -166,11 +166,10 @@
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/arcoLOGO.png"/>" alt="Arco" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/jekaplay_small.JPG"/>" alt="jekaplay" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/logo.jpg"/>" alt="pecksgey holdings" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
-
             </div>
-            <div class="sponsor-parent">
+            <%--<div class="sponsor-parent">--%>
 
-            </div>
+            <%--</div>--%>
         </div>
     </div>
 </section>
