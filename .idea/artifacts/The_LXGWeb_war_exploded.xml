@@ -59,7 +59,6 @@
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.6" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:4.0.3" />
-          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">
