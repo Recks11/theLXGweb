@@ -147,26 +147,29 @@
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/red-media.png"/>" alt="Red Media" class="img-responsive sponsor-image" /> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/Pulse-4-.png"/>" alt="Pulse 4 NG" class="img-responsive sponsor-image" /> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/CYCLES.png"/>" alt="Cycles" class="img-responsive sponsor-image" /></div>
-            </div>
-            <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/innards logo.png"/>" alt="Innards Ventures" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" alt="WALKR" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" alt="Purvey" class="img-responsive sponsor-image" /> </div>
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/White.png"/>" alt="Godwin Olatunde" class="img-responsive sponsor-image" /></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/toby_daniels.png"/>" alt="Toby Daniels" class="img-responsive sponsor-image" /> </div>
-                <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" /></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" alt="WALKR" class="img-responsive sponsor-image" /> </div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/puvrex.png"/>" alt="Purvey" class="img-responsive sponsor-image" /> </div>
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/Burger_zone.png"/>" alt="Burger Zone" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
                 <div><img src="<spr:url value="/resources/images/53vn-future-logo.png"/>" alt="53vn" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/KRAKS Events Logo small.png"/>" alt="Kraks TV" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/naijaloaded.png"/>" alt="NaijaLoaded" class="img-responsive sponsor-image" /></div>
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/ynaija_small.PNG"/>" alt="Y naija" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/arcoLOGO.png"/>" alt="Arco" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/jekaplay_small.JPG"/>" alt="jekaplay" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/logo.jpg"/>" alt="pecksgey holdings" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
+
+            </div>
+            <div class="sponsor-parent">
+
             </div>
         </div>
     </div>

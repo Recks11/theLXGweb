@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/download/pdf/RuleBookNew.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,26 +84,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="174" column="33" lean-forward="false" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
+            <state relative-caret-position="690">
+              <caret line="167" column="113" lean-forward="false" selection-start-line="167" selection-start-column="113" selection-end-line="167" selection-end-column="113" />
               <folding>
-                <marker date="1501695238000" expanded="true" signature="1252:1273" ph="..." />
-                <marker date="1501695238000" expanded="true" signature="1312:1333" ph="..." />
-                <marker date="1501695238000" expanded="true" signature="1386:1407" ph="..." />
-                <marker date="1501695238000" expanded="true" signature="1448:1469" ph="..." />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1501695491000" expanded="true" signature="1252:1273" ph="..." />
+                <marker date="1501695491000" expanded="true" signature="1312:1333" ph="..." />
+                <marker date="1501695491000" expanded="true" signature="1386:1407" ph="..." />
+                <marker date="1501695491000" expanded="true" signature="1448:1469" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+            <state relative-caret-position="600">
+              <caret line="40" column="58" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="40" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -262,8 +262,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0762bc20-243e-4567-9bc6-b0708d7b44e2/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -452,6 +452,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Web_Sponsors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,11 +532,11 @@
       <recent name="com.thelxg.data.Services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors" />
       <recent name="$PROJECT_DIR$/src/main/webapp/download/pdf" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl" />
       <recent name="$PROJECT_DIR$/src/main/java/com/thelxg/components" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1238,14 +1265,7 @@
       <workItem from="1501545950952" duration="3227000" />
       <workItem from="1501599370871" duration="8277000" />
       <workItem from="1501608533587" duration="38292000" />
-      <workItem from="1501695037706" duration="196000" />
-    </task>
-    <task id="LOCAL-00103" summary="added open graph images and text">
-      <created>1499203001697</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1499203001697</updated>
+      <workItem from="1501695037706" duration="435000" />
     </task>
     <task id="LOCAL-00104" summary="added open graph images and text">
       <created>1499206656817</created>
@@ -1583,11 +1603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501653343670</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="updated rule book">
+      <created>1501695259940</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1501695259942</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378975000" />
+    <option name="totallyTimeSpent" value="379214000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1726,7 +1753,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="53VN logo" />
     <MESSAGE value="fixed error in CSRF token that made users unable to register" />
     <MESSAGE value="added transaction reference to player Data" />
     <MESSAGE value="tweaked save player function" />
@@ -1751,7 +1777,8 @@
     <MESSAGE value="DB" />
     <MESSAGE value="images" />
     <MESSAGE value="Big Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Update" />
+    <MESSAGE value="updated rule book" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated rule book" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2128,24 +2155,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="174" column="33" lean-forward="false" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
-          <folding>
-            <marker date="1501695238000" expanded="true" signature="1252:1273" ph="..." />
-            <marker date="1501695238000" expanded="true" signature="1312:1333" ph="..." />
-            <marker date="1501695238000" expanded="true" signature="1386:1407" ph="..." />
-            <marker date="1501695238000" expanded="true" signature="1448:1469" ph="..." />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="40" column="58" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="40" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="690">
+          <caret line="167" column="113" lean-forward="false" selection-start-line="167" selection-start-column="113" selection-end-line="167" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1501695491000" expanded="true" signature="1252:1273" ph="..." />
+            <marker date="1501695491000" expanded="true" signature="1312:1333" ph="..." />
+            <marker date="1501695491000" expanded="true" signature="1386:1407" ph="..." />
+            <marker date="1501695491000" expanded="true" signature="1448:1469" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
