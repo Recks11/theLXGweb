@@ -39,6 +39,7 @@ public class sendNotificationImpl implements sendNotification {
         // sends the e-mail
 
         try {
+            mailSender.send(mailMessage);
             System.out.println(mailMessage.toString());
             System.out.println("Mail Sent to "+ player.getEmail());
             player.setMailStatus("Fixture Mail sent");
@@ -66,7 +67,7 @@ public class sendNotificationImpl implements sendNotification {
         // sends the e-mail
 
         try {
-//            mailSender.send(mailMessage);
+            mailSender.send(mailMessage);
             System.out.println(mailMessage.toString());
             System.out.println("Mail Sent to "+ player.getEmail());
             player.setMailStatus("Mail sent");
