@@ -23,7 +23,7 @@
                 <li> <a href="<spr:url value="/enter/registrationCenters"/> "> REGISTRATION CENTERS </a></li>
                 <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>
                 <li><a href="<spr:url value="/faq"/> ">FAQ</a></li>
-                <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/ruleBook.pdf"/>">RULE BOOK</a></li>
+                <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">RULE BOOK</a></li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">
