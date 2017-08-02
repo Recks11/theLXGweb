@@ -44,6 +44,7 @@ public class registerController {
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public String registerPlayer(@RequestBody player play){
 
+        play.setFixtureGenerated("no");
         saveAndSendMail.savePlayer(play);
         return "index";
     }

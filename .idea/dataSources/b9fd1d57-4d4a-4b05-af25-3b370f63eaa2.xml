@@ -12,175 +12,246 @@
     <schema id="6" parent="1" name="performance_schema"/>
     <schema id="7" parent="1" name="sys"/>
     <table id="8" parent="2" name="authorities"/>
-    <table id="9" parent="2" name="hibernate_sequence"/>
-    <table id="10" parent="2" name="pin"/>
-    <table id="11" parent="2" name="player"/>
-    <table id="12" parent="2" name="teams"/>
-    <table id="13" parent="2" name="users">
+    <table id="9" parent="2" name="fixtures"/>
+    <table id="10" parent="2" name="groups"/>
+    <table id="11" parent="2" name="hibernate_sequence"/>
+    <table id="12" parent="2" name="pin"/>
+    <table id="13" parent="2" name="player"/>
+    <table id="14" parent="2" name="teams"/>
+    <table id="15" parent="2" name="users">
       <Comment>users for physical registeration</Comment>
     </table>
-    <table id="14" parent="2" name="vendor"/>
-    <column id="15" parent="8" name="username">
+    <table id="16" parent="2" name="vendor"/>
+    <column id="17" parent="8" name="username">
       <Position>1</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="16" parent="8" name="authority">
+    <column id="18" parent="8" name="authority">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="17" parent="9" name="next_val">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-    </column>
-    <column id="18" parent="10" name="id">
+    <column id="19" parent="9" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="19" parent="10" name="number">
+    <column id="20" parent="9" name="awayPlayer">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="20" parent="10" name="user">
-      <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <key id="21" parent="10" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="22" parent="11" name="id">
-      <Position>1</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="23" parent="11" name="alias">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="24" parent="11" name="email">
-      <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="25" parent="11" name="firstName">
-      <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="26" parent="11" name="instagramHandle">
-      <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="27" parent="11" name="lastName">
-      <Position>6</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="28" parent="11" name="location">
-      <Position>7</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="29" parent="11" name="phoneNumber">
-      <Position>8</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="30" parent="11" name="teamSelected">
-      <Position>9</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="31" parent="11" name="twitterHandle">
-      <Position>10</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="32" parent="11" name="teamCountry">
-      <Position>11</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="33" parent="11" name="PlayerId">
-      <Position>12</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="34" parent="11" name="date">
-      <Position>13</Position>
-      <DataType>datetime|0</DataType>
-    </column>
-    <column id="35" parent="11" name="reference">
-      <Position>14</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="36" parent="11" name="mailStatus">
-      <Position>15</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <key id="37" parent="11" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="38" parent="12" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="39" parent="12" name="region">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="40" parent="12" name="teamCountry">
-      <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <column id="41" parent="12" name="teamName">
-      <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
-    </column>
-    <key id="42" parent="12" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="43" parent="13" name="username">
-      <Position>1</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="44" parent="13" name="password">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="45" parent="13" name="enabled">
+    <column id="21" parent="9" name="awayScore">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="46" parent="14" name="id">
+    <column id="22" parent="9" name="awayTeam">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="23" parent="9" name="fixtureGroup">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="24" parent="9" name="homePlayer">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="25" parent="9" name="homeScore">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="9" name="homeTeam">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="27" parent="9" name="mailSent">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="28" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="10" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="47" parent="14" name="businessName">
+    <column id="30" parent="10" name="groupNumber">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="31" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="11" name="next_val">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="33" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="12" name="number">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="48" parent="14" name="description">
+    <column id="35" parent="12" name="user">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="49" parent="14" name="email">
+    <key id="36" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="13" name="alias">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="39" parent="13" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="40" parent="13" name="firstName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="50" parent="14" name="phoneNumber">
+    <column id="41" parent="13" name="instagramHandle">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="51" parent="14" name="standLocation">
+    <column id="42" parent="13" name="lastName">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="52" parent="14" name="PRIMARY">
+    <column id="43" parent="13" name="location">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="44" parent="13" name="phoneNumber">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="45" parent="13" name="teamSelected">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="46" parent="13" name="twitterHandle">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="47" parent="13" name="teamCountry">
+      <Position>11</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="48" parent="13" name="PlayerId">
+      <Position>12</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="49" parent="13" name="date">
+      <Position>13</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="50" parent="13" name="reference">
+      <Position>14</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="51" parent="13" name="mailStatus">
+      <Position>15</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="13" name="fixtureGenerated">
+      <Position>16</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="53" parent="13" name="playerGroup">
+      <Position>17</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="54" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="14" name="region">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="57" parent="14" name="teamCountry">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="58" parent="14" name="teamName">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="59" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="60" parent="15" name="username">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="15" name="password">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="15" name="enabled">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="16" name="businessName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="65" parent="16" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="66" parent="16" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="67" parent="16" name="phoneNumber">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="68" parent="16" name="standLocation">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="69" parent="16" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

@@ -1,5 +1,6 @@
 package com.thelxg.data.Dao;
 
+import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 
 import java.util.List;
@@ -19,8 +20,19 @@ public interface playerDao {
 
     List getAllPlayers();
 
+    List<player> getPlayersWIthNonGeneratedFixtures();
+
+    List getAllPlayersNotInGroup();
+
+    List<player> getAllPlayersInGroup();
+
+    List<player> getPlayersInGroup(int groupNumber);
+
     List getPlayersInLocation(String location);
 
     player getPlayerByUniqueId(String uniqueId);
+
+    player getPlayerByAlias(String alias);
+
 
 }

@@ -68,6 +68,9 @@
     <bean id="player"
           class="com.thelxg.data.models.player"/>
 
+    <bean id="fixtures"
+          class="com.thelxg.data.models.features.fixtures"/>
+
     <bean id="vendor"
           class="com.thelxg.data.models.vendor"/>
 

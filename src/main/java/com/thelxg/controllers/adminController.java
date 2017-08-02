@@ -3,7 +3,7 @@ package com.thelxg.controllers;
 import com.thelxg.components.eMailMessage;
 import com.thelxg.components.paginationService;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.Services.sendNotification;
+import com.thelxg.components.sendNotification;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.support.PagedListHolder;
@@ -54,7 +54,7 @@ public class adminController {
 
         player recipient = players.getPlayerByUniqueId(playerId);
 
-        sendMail.sendEmail(recipient, eMail);
+        sendMail.sendEmail(recipient, eMail,"The LXG - Registration");
         players.updatePlayer(recipient);
         return "redirect:/admin/players/all";
 

@@ -23,8 +23,7 @@
                         <ul>
                             <li><a href="<spring:url value="/admin/players/all"/>"><i class="fa fa-user"></i> All Players</a></li>
                             <li><a href="<spring:url value="/admin/players/changeTeam"/>"><i class="fa fa-user"></i> Change Team</a></li>
-                            <%--<li><a href="<spring:url value="/admin/sendMail"/>"><i class="fa fa-user"></i> Send general Mail</a></li>--%>
-                            <%--<li><a href="<spring:url value="/admin/deleteUsers"/>"><i class="fa fa-user"></i> Delete Users</a></li>--%>
+                            <li><a href="<spring:url value="/admin/players/fixtures"/>"><i class="fa fa-user"></i> Fixtures </a></li>
                         </ul>
                     </div>
                 </div>

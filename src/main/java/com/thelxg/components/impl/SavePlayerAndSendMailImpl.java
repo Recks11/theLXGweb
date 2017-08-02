@@ -3,7 +3,7 @@ package com.thelxg.components.impl;
 import com.thelxg.components.eMailMessage;
 import com.thelxg.components.savePlayerAndSendMail;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.Services.sendNotification;
+import com.thelxg.components.sendNotification;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,12 +20,12 @@ public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
 
     private final eMailMessage eMail;
     private final playerService playerService;
-    private final sendNotification sendMail;
+    private final sendNotification sendMailNotification;
 
     @Autowired
     public SavePlayerAndSendMailImpl(playerService playerService, sendNotification sendMail, eMailMessage eMail) {
         this.playerService = playerService;
-        this.sendMail = sendMail;
+        this.sendMailNotification = sendMail;
         this.eMail = eMail;
     }
 
@@ -38,12 +38,12 @@ public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
 
         String identityNumber = "TheLXG-Phy"+value+"1"+value2+"-"+play.getAlias();
         play.setPlayerId(identityNumber);
-        eMail.setMessage(play);/*sets player Object mail is sent to and embeds details to message.*/
+//        eMail.setMessageForPlayer(play);/*sets player Object mail is sent to and embeds details to message.*/
         Date date = new Date();
         play.setDate(date);
         playerService.addPlayer(play);
 
-        if(sendMail.sendEmail(play, eMail)){
+        if(sendMailNotification.sendEmail(play, eMail,"The LXG - Registration")){
             play.setMailStatus("mail sent");
         }else{
             play.setMailStatus("mail not sent");

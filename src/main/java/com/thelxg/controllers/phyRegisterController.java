@@ -46,6 +46,7 @@ public class phyRegisterController{
     @PostMapping("/io")
     public String phyRegisterPlayer(@RequestBody player play){
 
+        play.setReference("Registered physically");
         saveAndSend.savePlayer(play);
         return "index";
     }

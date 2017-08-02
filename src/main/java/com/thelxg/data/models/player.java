@@ -1,5 +1,6 @@
 package com.thelxg.data.models;
 
+import javafx.beans.DefaultProperty;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
@@ -45,17 +46,18 @@ public class player {
 
     private String reference;
 
+    private int playerGroup;
+
     private String mailStatus;
+
+    private String fixtureGenerated;
 
     @Transient
     private MultipartFile image;
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName, String fullName,
-                  String alias, Date date, String email, String phoneNumber, String twitterHandle,
-                  String instagramHandle, String teamSelected, String teamCountry, String location,
-                  MultipartFile image, String reference, String mailStatus) {
+    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, String reference, int group, String mailStatus, String fixtureGenerated, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -69,9 +71,11 @@ public class player {
         this.teamSelected = teamSelected;
         this.teamCountry = teamCountry;
         this.location = location;
-        this.image = image;
         this.reference = reference;
+        this.playerGroup = group;
         this.mailStatus = mailStatus;
+        this.fixtureGenerated = fixtureGenerated;
+        this.image = image;
     }
 
     public Long getId() {
@@ -107,10 +111,12 @@ public class player {
     }
 
     public String getFullName() {
-        this.fullName = this.getFirstName()+" "+ this.getLastName();
         return fullName;
     }
 
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
 
     public String getAlias() {
         return alias;
@@ -184,14 +190,6 @@ public class player {
         this.location = location;
     }
 
-    public MultipartFile getImage() {
-        return image;
-    }
-
-    public void setImage(MultipartFile image) {
-        this.image = image;
-    }
-
     public String getReference() {
         return reference;
     }
@@ -200,8 +198,12 @@ public class player {
         this.reference = reference;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public int getPlayerGroup() {
+        return playerGroup;
+    }
+
+    public void setPlayerGroup(int group) {
+        this.playerGroup = group;
     }
 
     public String getMailStatus() {
@@ -210,6 +212,22 @@ public class player {
 
     public void setMailStatus(String mailStatus) {
         this.mailStatus = mailStatus;
+    }
+
+    public String getFixtureGenerated() {
+        return fixtureGenerated;
+    }
+
+    public void setFixtureGenerated(String fixtureGenerated) {
+        this.fixtureGenerated = fixtureGenerated;
+    }
+
+    public MultipartFile getImage() {
+        return image;
+    }
+
+    public void setImage(MultipartFile image) {
+        this.image = image;
     }
 
     @Override
@@ -230,7 +248,9 @@ public class player {
                 ", teamCountry='" + teamCountry + '\'' +
                 ", location='" + location + '\'' +
                 ", reference='" + reference + '\'' +
+                ", group=" + playerGroup +
                 ", mailStatus='" + mailStatus + '\'' +
+                ", fixtureGenerated='" + fixtureGenerated + '\'' +
                 ", image=" + image +
                 '}';
     }

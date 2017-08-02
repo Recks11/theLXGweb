@@ -21,7 +21,17 @@ public interface playerService {
 
     List getAllPlayers();
 
+    List<player> getPlayersWIthNonGeneratedFixtures();
+
+    List getAllPlayersNotInGroup();
+
+    List<player> getAllPlayersInGroup();
+
+    List<player> getPlayersInGroup(int groupNumber);
+
     List getPlayersInLocation(String location);
 
     player getPlayerByUniqueId(String uniqueId);
+
+    player getPlayerByAlias(String alias);
 }

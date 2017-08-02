@@ -1,6 +1,7 @@
 package com.thelxg.data.Dao.Impl;
 
 import com.thelxg.data.Dao.playerDao;
+import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,9 @@ public class playerDaoImpl implements playerDao {
     @Override
     public void addPlayer(player play) {
 
+        play.setPlayerGroup(0);
+        play.setFixtureGenerated("no");
+        play.setMailStatus("not sent");
         sessionFactory.getCurrentSession().save(play);
     }
 
@@ -42,6 +46,38 @@ public class playerDaoImpl implements playerDao {
     @Override
     public void removePlayer(long id) {
         sessionFactory.getCurrentSession().delete(getPlayerById(id));
+    }
+
+    @Override
+    public List<player> getPlayersWIthNonGeneratedFixtures() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where fixtureGenerated = :fixtureStatus")
+                .setParameter("fixtureStatus","no")
+                .list();
+    }
+
+    @Override
+    public List getAllPlayersNotInGroup() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where playerGroup = :playerGroup")
+                .setParameter("playerGroup", 0)
+                .list();
+    }
+
+    @Override
+    public List<player> getAllPlayersInGroup() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where playerGroup is not null")
+                .list();
+    }
+
+    @Override
+    public List<player> getPlayersInGroup(int groupNumber) {
+
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where playerGroup = :groupNumber")
+                .setParameter("groupNumber",groupNumber)
+                .list();
     }
 
     @Override
@@ -63,5 +99,13 @@ public class playerDaoImpl implements playerDao {
                 .createQuery("from player where location = :location order by date asc ")
                 .setParameter("location",location)
                 .list();
+    }
+
+    @Override
+    public player getPlayerByAlias(String alias) {
+        return (player) sessionFactory.getCurrentSession()
+                .createQuery("from player where alias = :alias")
+                .setParameter("alias", alias)
+                .uniqueResult();
     }
 }

@@ -1,21 +1,22 @@
 package com.thelxg.data.models.features;
 
 
-import com.thelxg.data.models.player;
+import javax.persistence.*;
 
-import javax.persistence.Transient;
 
+@Entity
 public class fixtures {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @Column(name="fixtureGroup")
     private String group;
 
-    @Transient
-    private player homePlayer;
+    private String homePlayer;
 
-    @Transient
-    private player awayPlayer;
+    private String awayPlayer;
 
     private String homeTeam;
 
@@ -23,18 +24,24 @@ public class fixtures {
 
     private int homeScore;
 
-    private String awayScore;
+    private int awayScore;
+
+    private String mailSent;
+
+    private String fixtureTime;
 
     public fixtures(){}
 
-    public fixtures(long id, player homePlayer, player awayPlayer, String homeTeam, String awayTeam, int homeScore, String awayScore) {
-        this.id = id;
+    public fixtures(String group, String homePlayer, String awayPlayer, String homeTeam, String awayTeam, int homeScore, int awayScore, String mailSent, String time) {
+        this.group = group;
         this.homePlayer = homePlayer;
         this.awayPlayer = awayPlayer;
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
         this.homeScore = homeScore;
         this.awayScore = awayScore;
+        this.mailSent = mailSent;
+        this.fixtureTime = time;
     }
 
     public long getId() {
@@ -53,19 +60,19 @@ public class fixtures {
         this.group = group;
     }
 
-    public player getHomePlayer() {
+    public String getHomePlayer() {
         return homePlayer;
     }
 
-    public void setHomePlayer(player homePlayer) {
+    public void setHomePlayer(String homePlayer) {
         this.homePlayer = homePlayer;
     }
 
-    public player getAwayPlayer() {
+    public String getAwayPlayer() {
         return awayPlayer;
     }
 
-    public void setAwayPlayer(player awayPlayer) {
+    public void setAwayPlayer(String awayPlayer) {
         this.awayPlayer = awayPlayer;
     }
 
@@ -93,25 +100,43 @@ public class fixtures {
         this.homeScore = homeScore;
     }
 
-    public String getAwayScore() {
+    public int getAwayScore() {
         return awayScore;
     }
 
-    public void setAwayScore(String awayScore) {
+    public void setAwayScore(int awayScore) {
         this.awayScore = awayScore;
     }
 
+    public String getMailSent() {
+        return mailSent;
+    }
+
+    public void setMailSent(String mailSent) {
+        this.mailSent = mailSent;
+    }
+
+    public String getTime() {
+        return fixtureTime;
+    }
+
+    public void setTime(String time) {
+        this.fixtureTime = time;
+    }
 
     @Override
     public String toString() {
         return "fixtures{" +
                 "id=" + id +
-                ", homePlayer=" + homePlayer +
-                ", awayPlayer=" + awayPlayer +
+                ", group='" + group + '\'' +
+                ", homePlayer='" + homePlayer + '\'' +
+                ", awayPlayer='" + awayPlayer + '\'' +
                 ", homeTeam='" + homeTeam + '\'' +
                 ", awayTeam='" + awayTeam + '\'' +
                 ", homeScore=" + homeScore +
-                ", awayScore='" + awayScore + '\'' +
+                ", awayScore=" + awayScore +
+                ", mailSent='" + mailSent + '\'' +
+                ", time='" + fixtureTime + '\'' +
                 '}';
     }
 

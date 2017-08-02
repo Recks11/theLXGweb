@@ -50,6 +50,31 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
+    public List getAllPlayersNotInGroup() {
+        return playerdao.getAllPlayersNotInGroup();
+    }
+
+    @Transactional
+    public List<player> getAllPlayersInGroup() {
+        return playerdao.getAllPlayersInGroup();
+    }
+
+    @Transactional
+    public player getPlayerByAlias(String alias) {
+        return playerdao.getPlayerByAlias(alias);
+    }
+
+    @Transactional
+    public List<player> getPlayersWIthNonGeneratedFixtures() {
+        return playerdao.getPlayersWIthNonGeneratedFixtures();
+    }
+
+    @Transactional
+    public List<player> getPlayersInGroup(int groupNumber) {
+        return playerdao.getPlayersInGroup(groupNumber);
+    }
+
+    @Transactional
     public player getPlayerByUniqueId(String uniqueId) {
         return playerdao.getPlayerByUniqueId(uniqueId);
     }
