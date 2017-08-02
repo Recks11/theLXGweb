@@ -1,6 +1,5 @@
 package com.thelxg.data.models;
 
-import javafx.beans.DefaultProperty;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;

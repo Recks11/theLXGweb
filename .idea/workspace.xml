@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,12 +70,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="190" column="21" lean-forward="true" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/player.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" />
@@ -215,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
       </list>
     </option>
   </component>
@@ -346,6 +359,16 @@
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="Dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -1173,14 +1196,7 @@
       <workItem from="1501442287966" duration="8280000" />
       <workItem from="1501545950952" duration="3227000" />
       <workItem from="1501599370871" duration="8277000" />
-      <workItem from="1501608533587" duration="36162000" />
-    </task>
-    <task id="LOCAL-00099" summary="added open graph images and text">
-      <created>1499200761573</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1499200761575</updated>
+      <workItem from="1501608533587" duration="36228000" />
     </task>
     <task id="LOCAL-00100" summary="added open graph images and text">
       <created>1499201196775</created>
@@ -1518,11 +1534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501651364114</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Big Update">
+      <created>1501651439006</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1501651439006</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376649000" />
+    <option name="totallyTimeSpent" value="376715000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1907,14 +1930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -2140,6 +2155,16 @@
         <state relative-caret-position="170">
           <caret line="190" column="21" lean-forward="true" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
