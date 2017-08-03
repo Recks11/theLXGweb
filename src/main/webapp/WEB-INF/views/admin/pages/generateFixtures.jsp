@@ -36,6 +36,8 @@
 
         <a href="<spr:url value="/admin/players/fixtures/listEmails"/>" class="btn btn-info"> get Mail</a>
 
+        <a href="<spr:url value="/admin/players/fixtures/getFixtures"/>" class="btn btn-info"> get Mail</a>
+
     </section>
 </section>
 </body>

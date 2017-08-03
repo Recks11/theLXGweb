@@ -111,4 +111,13 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
+    @GetMapping("/fixtures/getFixtures")
+    public String sendFixtures(){
+
+
+
+        System.out.println(fixtureService.getAllFixtures());
+        return "admin/pages/generateFixtures";
+    }
+
 }
