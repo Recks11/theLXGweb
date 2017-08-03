@@ -35,7 +35,7 @@ public class EMailMessageImpl implements eMailMessage {
                 "Location = " + player.getLocation() + "\n" +
                 "\n\n" +
                 "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
-                "\n" +
+                "\n" +" Please download the rulebook from the website \n \n"+
                 "Details on your venue and fixture will be sent to you soon \n"+
                 "if you have any problems or enquiries contact us at \n"+
                 "info@thelxg.com.ng " +
