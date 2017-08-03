@@ -35,7 +35,7 @@ public class EMailMessageImpl implements eMailMessage {
                 "Location = " + player.getLocation() + "\n" +
                 "\n\n" +
                 "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
-                "\n" +" Please download the rulebook from the website \n \n"+
+                "\n"+
                 "Details on your venue and fixture will be sent to you soon \n"+
                 "if you have any problems or enquiries contact us at \n"+
                 "info@thelxg.com.ng " +
@@ -64,6 +64,7 @@ public class EMailMessageImpl implements eMailMessage {
                          matches[3] +"\n"+
                 "Please be present at least 10 minutes before your match or risk forfeiting the match\n\n\n"+
                 "The Venue for the competition is Hitbox Games, Leisure Mall, Adeniran Ogunsanya, Surulere, Lagos. \n"+
+                " Please download the rulebook from the website \n \n"+
                 "if you have any problems or enquiries contact us at \n"+
                 "info@thelxg.com.ng " +
                 "or call +234 808 772 0872," +
