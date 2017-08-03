@@ -115,7 +115,7 @@ public class competitionAdminFunctions {
     @GetMapping("/fixtures/getFixtures")
     public String sendFixtures(){
         List<String> scoreList = new ArrayList<String>();
-        List<fixtures> fixturesList = new ArrayList<fixtures>();
+        List<fixtures> fixturesList = fixtureService.getAllFixtures();
 
         for (fixtures fixture : fixturesList){
             scoreList.add(fixture.viewFixture());
