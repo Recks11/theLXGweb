@@ -46,7 +46,7 @@ public class fixtureDaoImpl implements fixtureDao {
     @Override
     public List<fixtures> getAllFixtures() {
         return sessionFactory.getCurrentSession()
-                .createQuery("from fixtures")
+                .createQuery("from fixtures order by fixtureTime")
                 .list();
     }
 
