@@ -141,7 +141,7 @@ public class fixtures {
     }
 
     public String viewScore() {
-        return "("+ homePlayer +") "+ homeTeam +" " +homeScore+ " : " +awayScore+ " "+awayTeam+" ("+ awayPlayer +")" ;
+        return "("+ homePlayer +") "+ homeTeam +" " +homeScore+ " : " +awayScore+ " "+awayTeam+" ("+ awayPlayer +")\n" ;
     }
 
 }

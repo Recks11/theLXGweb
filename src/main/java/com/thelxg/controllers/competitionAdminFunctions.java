@@ -3,6 +3,7 @@ package com.thelxg.controllers;
 import com.thelxg.components.groupsAndFixtures;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -113,10 +114,14 @@ public class competitionAdminFunctions {
 
     @GetMapping("/fixtures/getFixtures")
     public String sendFixtures(){
+        List<String> scoreList = new ArrayList<String>();
+        List<fixtures> fixturesList = new ArrayList<fixtures>();
 
+        for (fixtures fixture : fixturesList){
+            scoreList.add(fixture.viewScore());
+        }
 
-
-        System.out.println(fixtureService.getAllFixtures());
+        System.out.println(scoreList);
         return "admin/pages/generateFixtures";
     }
 

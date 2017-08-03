@@ -12,6 +12,8 @@ public interface fixtureDao {
 
     List<fixtures> getAllFixtures();
 
+    List getFixtures();
+
     boolean fixtureExists(String homePlayer, String awayPlayer, String groupNumber);
 
     List<fixtures> getFixturesWithoutTime();
