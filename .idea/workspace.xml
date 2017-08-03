@@ -6,9 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="no commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1236,14 +1235,7 @@
       <workItem from="1501599370871" duration="8277000" />
       <workItem from="1501608533587" duration="38292000" />
       <workItem from="1501695037706" duration="2852000" />
-      <workItem from="1501785611405" duration="8672000" />
-    </task>
-    <task id="LOCAL-00118" summary="pay and register">
-      <created>1499606559784</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1499606559785</updated>
+      <workItem from="1501785611405" duration="8780000" />
     </task>
     <task id="LOCAL-00119" summary="Began adding registration points">
       <created>1499719841236</created>
@@ -1581,11 +1573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501796459027</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="no commit">
+      <created>1501797102895</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1501797102895</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390303000" />
+    <option name="totallyTimeSpent" value="390411000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
