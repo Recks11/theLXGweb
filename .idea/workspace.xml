@@ -9,6 +9,8 @@
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,9 +57,11 @@
       <file leaf-file-name="competitionAdminFunctions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="81" column="63" lean-forward="false" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#2872#2880#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +69,8 @@
       <file leaf-file-name="generateFixtures.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="120" lean-forward="false" selection-start-line="34" selection-start-column="120" selection-end-line="34" selection-end-column="120" />
+            <state relative-caret-position="446">
+              <caret line="36" column="67" lean-forward="false" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -75,8 +79,8 @@
       <file leaf-file-name="groupsAndFixturesImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="161" column="19" lean-forward="false" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+            <state relative-caret-position="795">
+              <caret line="163" column="36" lean-forward="false" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,28 +88,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="groupsAndFixtures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/groupsAndFixtures.java">
+      <file leaf-file-name="sendNotification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/sendNotification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <file leaf-file-name="groupsAndFixtures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/groupsAndFixtures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="165" column="184" lean-forward="false" selection-start-line="165" selection-start-column="184" selection-end-line="165" selection-end-column="184" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1501696265000" expanded="true" signature="1252:1273" ph="..." />
-                <marker date="1501696265000" expanded="true" signature="1312:1333" ph="..." />
-                <marker date="1501696265000" expanded="true" signature="1386:1407" ph="..." />
-                <marker date="1501696265000" expanded="true" signature="1448:1469" ph="..." />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,21 +117,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
+      <file leaf-file-name="playerDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="58" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="465">
+              <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendNotificationImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java">
+      <file leaf-file-name="playerDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="1365">
+              <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -230,12 +228,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/groupsDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/groupsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/groupsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/player.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/fixtureService.java" />
@@ -257,6 +253,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" />
       </list>
@@ -318,7 +316,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -380,6 +380,17 @@
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="Dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -453,8 +464,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1224,14 +1233,8 @@
       <workItem from="1501545950952" duration="3227000" />
       <workItem from="1501599370871" duration="8277000" />
       <workItem from="1501608533587" duration="38292000" />
-      <workItem from="1501695037706" duration="2526000" />
-    </task>
-    <task id="LOCAL-00108" summary="changed registration text to start date">
-      <created>1499460043133</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1499460043134</updated>
+      <workItem from="1501695037706" duration="2852000" />
+      <workItem from="1501785611405" duration="4184000" />
     </task>
     <task id="LOCAL-00109" summary="changed registration text to start date">
       <created>1499465826524</created>
@@ -1569,11 +1572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501696292493</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="rearranged sponsors">
+      <created>1501720722346</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1501720722346</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381305000" />
+    <option name="totallyTimeSpent" value="385815000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1600,6 +1610,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1609,7 +1620,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38768828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20818071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21062271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1621,7 +1632,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940406" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1875,21 +1885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="78" column="54" lean-forward="true" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.groups">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1999,13 +1994,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/TheLXG_fixtures.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="45" column="149" lean-forward="true" selection-start-line="45" selection-start-column="149" selection-end-line="45" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/TheLXG_fixtures.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -2014,19 +2003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/sendNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,41 +2015,10 @@
         <state relative-caret-position="1380">
           <caret line="112" column="51" lean-forward="false" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2591#2592#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="40" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2082,10 +2031,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="2475">
           <caret line="165" column="184" lean-forward="false" selection-start-line="165" selection-start-column="184" selection-end-line="165" selection-end-column="184" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1501696265000" expanded="true" signature="1252:1273" ph="..." />
             <marker date="1501696265000" expanded="true" signature="1312:1333" ph="..." />
             <marker date="1501696265000" expanded="true" signature="1386:1407" ph="..." />
@@ -2094,29 +2042,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/groupsAndFixtures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="161" column="19" lean-forward="false" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+        <state relative-caret-position="795">
+          <caret line="163" column="36" lean-forward="false" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/sendNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="58" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="40" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="120" lean-forward="false" selection-start-line="34" selection-start-column="120" selection-end-line="34" selection-end-column="120" />
+        <state relative-caret-position="446">
+          <caret line="36" column="67" lean-forward="false" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2129,9 +2132,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="81" column="63" lean-forward="false" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#2872#2880#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,7 +3,6 @@ package com.thelxg.controllers;
 import com.thelxg.components.groupsAndFixtures;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -18,15 +18,15 @@ import java.util.List;
 @RequestMapping("/admin/players")
 public class competitionAdminFunctions {
 
-    @Autowired
-    private fixtureService fixtureService;
-    @Autowired
-    private playerService playerService;
+    private final fixtureService fixtureService;
+    private final playerService playerService;
     private final groupsAndFixtures groupsAndFixtures;
 
     @Autowired
-    public competitionAdminFunctions(groupsAndFixtures groupsAndFixtures) {
+    public competitionAdminFunctions(groupsAndFixtures groupsAndFixtures, fixtureService fixtureService, playerService playerService) {
         this.groupsAndFixtures = groupsAndFixtures;
+        this.fixtureService = fixtureService;
+        this.playerService = playerService;
     }
 
     @RequestMapping("/fixtures")
@@ -79,7 +79,7 @@ public class competitionAdminFunctions {
     @GetMapping("/fixtures/sendMailForEveningGroup")
     public String sendAgainFixtureMail(){
 
-        for(int i = 5;i < 9; i ++) { //iterate through fixtures
+        for(int i = 9;i < 14; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
@@ -89,6 +89,25 @@ public class competitionAdminFunctions {
             }
         }
 
+        return "admin/pages/generateFixtures";
+    }
+
+    @GetMapping("/fixtures/listEmails")
+    public String sendListMail(){
+
+        List<String> list = new ArrayList<String>();
+        for(int i = 5;i < 9; i ++) { //iterate through fixtures
+            List<player> playerList = playerService.getPlayersInGroup(i);
+
+
+            for (player play : playerList) {
+
+                list.add(play.getEmail()+play.getPlayerGroup());
+                System.out.println(play.getEmail()+"\n");
+            }
+        }
+
+        System.out.println(list);
         return "admin/pages/generateFixtures";
     }
 
