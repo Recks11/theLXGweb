@@ -30,7 +30,9 @@
             </c:if>
         </div>
 
-        <a href="<spr:url value="/admin/players/fixtures/sendMail"/>" class="btn btn-info"> sendMail</a>
+        <a href="<spr:url value="/admin/players/fixtures/sendMailForMorningGroup"/>" class="btn btn-info"> sendMail</a>
+
+        <a href="<spr:url value="/admin/players/fixtures/sendMailForEveningGroup"/>" class="btn btn-info"> send Evening Mail</a>
 
     </section>
 </section>

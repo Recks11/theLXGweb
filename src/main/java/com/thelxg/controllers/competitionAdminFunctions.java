@@ -60,10 +60,26 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/sendMail")
+    @GetMapping("/fixtures/sendMailForMorningGroup")
     public String sendFixtureMail(){
 
         for(int i = 1;i < 5; i ++) {
+            List<player> playerList = playerService.getPlayersInGroup(i);
+
+
+            for (player play : playerList) {
+
+                groupsAndFixtures.sendFixtureMail(play);
+            }
+        }
+
+        return "admin/pages/generateFixtures";
+    }
+
+    @GetMapping("/fixtures/sendMailForEveningGroup")
+    public String sendAgainFixtureMail(){
+
+        for(int i = 5;i < 9; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
