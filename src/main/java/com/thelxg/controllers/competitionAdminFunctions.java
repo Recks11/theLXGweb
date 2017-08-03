@@ -118,7 +118,7 @@ public class competitionAdminFunctions {
         List<fixtures> fixturesList = new ArrayList<fixtures>();
 
         for (fixtures fixture : fixturesList){
-            scoreList.add(fixture.viewScore());
+            scoreList.add(fixture.viewFixture());
         }
 
         System.out.println(scoreList);

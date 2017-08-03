@@ -140,8 +140,12 @@ public class fixtures {
                 '}';
     }
 
+    public String viewFixture() {
+        return fixtureTime+" "+"("+ homePlayer +") "+ homeTeam +" : "+awayTeam+" ("+ awayPlayer +")\n" ;
+    }
+
     public String viewScore() {
-        return "("+ homePlayer +") "+ homeTeam +" " +homeScore+ " : " +awayScore+ " "+awayTeam+" ("+ awayPlayer +")\n" ;
+        return fixtureTime+" "+"("+ homePlayer +") "+ homeTeam +" " +homeScore+ " : " +awayScore+ " "+awayTeam+" ("+ awayPlayer +")\n" ;
     }
 
 }
