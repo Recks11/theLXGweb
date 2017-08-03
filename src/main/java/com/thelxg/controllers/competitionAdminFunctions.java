@@ -96,13 +96,13 @@ public class competitionAdminFunctions {
     public String sendListMail(){
 
         List<String> list = new ArrayList<String>();
-        for(int i = 5;i < 9; i ++) { //iterate through fixtures
+        for(int i = 1;i < 15; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
             for (player play : playerList) {
 
-                list.add(play.getEmail()+play.getPlayerGroup());
+                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+"\n");
                 System.out.println(play.getEmail()+"\n");
             }
         }
