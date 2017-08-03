@@ -6,13 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="no commit">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The_LXGWeb.iml" afterPath="$PROJECT_DIR$/The_LXGWeb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,12 +54,12 @@
       <file leaf-file-name="competitionAdminFunctions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+            <state relative-caret-position="287">
+              <caret line="105" column="120" lean-forward="false" selection-start-line="105" selection-start-column="120" selection-end-line="105" selection-end-column="120" />
               <folding>
                 <element signature="e#2921#2929#0" expanded="true" />
-                <element signature="e#3505#3513#0" expanded="true" />
-                <element signature="e#3568#3578#0" expanded="true" />
+                <element signature="e#3541#3549#0" expanded="true" />
+                <element signature="e#3604#3614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1263,14 +1259,7 @@
       <workItem from="1501599370871" duration="8277000" />
       <workItem from="1501608533587" duration="38292000" />
       <workItem from="1501695037706" duration="2852000" />
-      <workItem from="1501785611405" duration="7733000" />
-    </task>
-    <task id="LOCAL-00115" summary="tweaked save player function">
-      <created>1499471937364</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1499471937364</updated>
+      <workItem from="1501785611405" duration="7902000" />
     </task>
     <task id="LOCAL-00116" summary="tweaked save player function">
       <created>1499472341410</created>
@@ -1608,11 +1597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501795019319</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="no commit">
+      <created>1501796114613</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1501796114613</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389364000" />
+    <option name="totallyTimeSpent" value="389533000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2168,12 +2164,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/competitionAdminFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        <state relative-caret-position="287">
+          <caret line="105" column="120" lean-forward="false" selection-start-line="105" selection-start-column="120" selection-end-line="105" selection-end-column="120" />
           <folding>
             <element signature="e#2921#2929#0" expanded="true" />
-            <element signature="e#3505#3513#0" expanded="true" />
-            <element signature="e#3568#3578#0" expanded="true" />
+            <element signature="e#3541#3549#0" expanded="true" />
+            <element signature="e#3604#3614#0" expanded="true" />
           </folding>
         </state>
       </provider>

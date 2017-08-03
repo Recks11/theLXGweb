@@ -103,7 +103,7 @@ public class competitionAdminFunctions {
 
             for (player play : playerList) {
 
-                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+"\n");
+                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+ " Club: "+ play.getTeamSelected() +"\n");
                 System.out.println(play.getEmail()+"\n");
             }
         }
