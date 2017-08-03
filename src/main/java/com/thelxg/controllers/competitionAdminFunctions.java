@@ -79,7 +79,7 @@ public class competitionAdminFunctions {
     @GetMapping("/fixtures/sendMailForEveningGroup")
     public String sendAgainFixtureMail(){
 
-        for(int i = 9;i < 14; i ++) { //iterate through fixtures
+        for(int i = 9;i < 15; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
