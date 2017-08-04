@@ -172,9 +172,6 @@
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/hitbox_logo.PNG"/>" alt="Innards Ventures" class="img-responsive sponsor-image" style="margin-top: 30px;"/> </div>
             </div>
-            <%--<div class="sponsor-parent">--%>
-
-            <%--</div>--%>
         </div>
     </div>
 </section>

@@ -17,14 +17,14 @@
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <div class="bg-cover">
-    <section class="scroll">
+    <section>
         <div class="search text-center">
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias">
         </div>
         <div class="no-pad">
             <div class="about-details text-center mont-Font">
                 <div class="fixture-table">
-                    <table id="fixtureTable" class="table table-condensed text-center white-font">
+                    <table id="fixtureTable" class="table table-condensed text-center white-font" >
                         <thead>
                         <tr>
                             <th></th>
@@ -37,7 +37,7 @@
                             <th></th>
                         </tr>
                         </thead>
-                        <tbody style="overflow: scroll">
+                        <tbody style="padding-bottom: 100px;">
                         <c:forEach items="${fixtures}" var="fixture">
                             <tr>
                                 <td>${fixture.time}</td>
@@ -55,9 +55,10 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="fragment/footer.jsp"/>
+        <%--<jsp:include page="fragment/footer.jsp"/>--%>
     </section>
 </div>
+
 <script>
     function myFunction() {
         // Declare variables
