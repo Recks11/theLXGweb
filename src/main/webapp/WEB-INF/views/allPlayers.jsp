@@ -16,47 +16,48 @@
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
-    <div class="bg-cover">
-        <section class="scroll">
-            <div class="search text-center">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias">
-            </div>
-            <div class="no-pad">
-                <div class="about-details text-center mont-Font">
-                    <div class="fixture-table">
-                        <table id="fixtureTable" class="table table-condensed text-center white-font">
-                            <thead>
+<div class="bg-cover">
+    <section class="scroll">
+        <div class="search text-center">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias">
+        </div>
+        <div class="no-pad">
+            <div class="about-details text-center mont-Font">
+                <div class="fixture-table">
+                    <table id="fixtureTable" class="table table-condensed text-center white-font">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody style="overflow: scroll">
+                        <c:forEach items="${fixtures}" var="fixture">
                             <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
+                                <td>${fixture.time}</td>
+                                <td>${fixture.homePlayer}</td>
+                                <td>${fixture.homeTeam}</td>
+                                <td>${fixture.homeScore}</td>
+                                <td>:</td>
+                                <td>${fixture.awayScore}</td>
+                                <td>${fixture.awayTeam}</td>
+                                <td>${fixture.awayPlayer}</td>
                             </tr>
-                            </thead>
-                            <tbody style="overflow: scroll">
-                            <c:forEach items="${fixtures}" var="fixture">
-                                <tr>
-                                    <td>${fixture.time}</td>
-                                    <td>${fixture.homePlayer}</td>
-                                    <td>${fixture.homeTeam}</td>
-                                    <td>${fixture.homeScore}</td>
-                                    <td>:</td>
-                                    <td>${fixture.awayScore}</td>
-                                    <td>${fixture.awayTeam}</td>
-                                    <td>${fixture.awayPlayer}</td>
-                                </tr>
-                            </c:forEach>
-                            </tbody>
-                        </table>
-                    </div>
+                        </c:forEach>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+        <jsp:include page="fragment/footer.jsp"/>
+    </section>
+</div>
 <script>
     function myFunction() {
         // Declare variables
@@ -81,6 +82,6 @@
     }
 </script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
-<jsp:include page="fragment/footer.jsp"/>
+
 </body>
 </html>

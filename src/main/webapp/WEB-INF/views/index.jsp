@@ -70,7 +70,7 @@
                     <div class="col-xs-12 text-center head-text mont-font">
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
                         <br/>
-                        <p class="gold">Venues at Lagos Mainland and Lagos Island</p>
+                        <p class="gold">Venue is Hitbox Games, Leisure Mall, Surulere</p>
                         <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
                     </div>
                 </div>
@@ -168,6 +168,9 @@
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/walkr.png"/>" alt="WALKR" class="img-responsive sponsor-image" style="margin-top: 40px;"/> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/jekaplay_small.JPG"/>" alt="jekaplay" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/logo.jpg"/>" alt="pecksgey holdings" class="img-responsive sponsor-image" style="margin-top: 40px;"/></div>
+            </div>
+            <div class="sponsor-parent">
+                <div><img src="<spr:url value="/resources/images/Web_Sponsors/hitbox_logo.PNG"/>" alt="Innards Ventures" class="img-responsive sponsor-image" style="margin-top: 30px;"/> </div>
             </div>
             <%--<div class="sponsor-parent">--%>
 
