@@ -79,12 +79,12 @@ form{
     transition: background-color .4s;
     background-color: rgba(0,0,0,0.4);
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1280px){
     .navbar{
         padding: 5px;
     }
     .navbar-nav >li >a{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 651px) {

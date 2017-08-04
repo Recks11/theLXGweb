@@ -19,7 +19,7 @@
     <div class="bg-cover">
         <section class="scroll">
             <div class="search text-center">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="find Name">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias">
             </div>
             <div class="no-pad">
                 <div class="about-details text-center mont-Font">
