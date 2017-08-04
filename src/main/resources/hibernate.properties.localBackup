@@ -9,7 +9,6 @@ hibernate.session_context_class = thread
 connection.pool_size = 1
 hibernate.hbm2ddl.auto = update
 
-
 jdbc.driverClassName = com.mysql.jdbc.Driver
 jdbc.url = jdbc:mysql://mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/d5i4eu2xg358oafh?useSSL=false
 jdbc.username = lqauvezm70nwrgjq

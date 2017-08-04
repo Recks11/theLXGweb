@@ -11,7 +11,7 @@
     padding: 30px;
 }
 .nav-scroll{
-    padding: 10px;
+    padding: 5px;
 }
 .nav-scroll .navbar-toggle .icon-bar {
     background-color: #888;
@@ -78,6 +78,14 @@ form{
     -o-transition: background-color .4s;
     transition: background-color .4s;
     background-color: rgba(0,0,0,0.4);
+}
+@media only screen and (max-width: 900px){
+    .navbar{
+        padding: 5px;
+    }
+    .navbar-nav >li >a{
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 651px) {
     .navbar {

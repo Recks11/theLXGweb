@@ -27,4 +27,7 @@
     padding-top: 10px;
     padding-bottom: 30px;
 }
+.scroll{
+    overflow: scroll;
+}
 .gold{ color: gold;}

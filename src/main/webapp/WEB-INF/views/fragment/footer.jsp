@@ -18,6 +18,7 @@
                 <li class="first-line">NAVIGATION</li>
                 <li><a href="<spr:url value="/"/> ">HOME</a></li>
                 <%--<li><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
+                <li><a style="color: springgreen;" href="<spr:url value="/fixtures/"/> ">FIXTURES</a></li>
                 <li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
                 <li><a href="<spr:url value="/enter/"/> ">ENTER COMPETITION</a></li>
                 <li> <a href="<spr:url value="/enter/registrationCenters"/> "> REGISTRATION CENTERS </a></li>
