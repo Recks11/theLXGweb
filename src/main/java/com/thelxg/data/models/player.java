@@ -51,12 +51,14 @@ public class player {
 
     private String fixtureGenerated;
 
+    private boolean inTables;
+
     @Transient
     private MultipartFile image;
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, String reference, int group, String mailStatus, String fixtureGenerated, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, String reference, int playerGroup, String mailStatus, String fixtureGenerated, boolean inTables, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -71,9 +73,10 @@ public class player {
         this.teamCountry = teamCountry;
         this.location = location;
         this.reference = reference;
-        this.playerGroup = group;
+        this.playerGroup = playerGroup;
         this.mailStatus = mailStatus;
         this.fixtureGenerated = fixtureGenerated;
+        this.inTables = inTables;
         this.image = image;
     }
 
@@ -110,7 +113,7 @@ public class player {
     }
 
     public String getFullName() {
-        return getFirstName() + " " + getLastName();
+        return fullName;
     }
 
     public void setFullName(String fullName) {
@@ -201,8 +204,8 @@ public class player {
         return playerGroup;
     }
 
-    public void setPlayerGroup(int group) {
-        this.playerGroup = group;
+    public void setPlayerGroup(int playerGroup) {
+        this.playerGroup = playerGroup;
     }
 
     public String getMailStatus() {
@@ -219,6 +222,14 @@ public class player {
 
     public void setFixtureGenerated(String fixtureGenerated) {
         this.fixtureGenerated = fixtureGenerated;
+    }
+
+    public boolean isInTables() {
+        return inTables;
+    }
+
+    public void setInTables(boolean inTables) {
+        this.inTables = inTables;
     }
 
     public MultipartFile getImage() {
@@ -247,9 +258,10 @@ public class player {
                 ", teamCountry='" + teamCountry + '\'' +
                 ", location='" + location + '\'' +
                 ", reference='" + reference + '\'' +
-                ", group=" + playerGroup +
+                ", playerGroup=" + playerGroup +
                 ", mailStatus='" + mailStatus + '\'' +
                 ", fixtureGenerated='" + fixtureGenerated + '\'' +
+                ", inTables=" + inTables +
                 ", image=" + image +
                 '}';
     }

@@ -23,22 +23,38 @@
                         <ul>
                             <li><a href="<spring:url value="/admin/players/all"/>"><i class="fa fa-user"></i> All Players</a></li>
                             <li><a href="<spring:url value="/admin/players/changeTeam"/>"><i class="fa fa-user"></i> Change Team</a></li>
-                            <li><a href="<spring:url value="/admin/players/fixtures"/>"><i class="fa fa-user"></i> Fixtures </a></li>
+                            <li><a href="<spring:url value="/admin/players/getData/"/>"><i class="fa fa-user"></i> get Data </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="">
+                <a data-toggle="collapse" data-parent="#accordion" href="#events"><i class="fa fa-globe"></i>  Competition <i class="fa fa-arrow-down"></i></a>
+                <div id="events" class="panel-collapse collapse">
+                    <div class="side-content">
+                        <ul>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${1}/${4}"/>"><i class="fa fa-user"></i> Group 1 - 4 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${5}/${8}"/>"><i class="fa fa-user"></i> Group 5 - 8 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${9}/${12}"/>"><i class="fa fa-user"></i> Group 9 - 12 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${13}/${14}"/>"><i class="fa fa-user"></i> Group 13 - 14 </a></li>
                         </ul>
                     </div>
                 </div>
             </li>
         </ul>
 
+
+
+
+
         <ul class="nav navbar-nav navbar-right navbar-user">
             <li class="dropdown user-dropdown">
                 <c:if test="${pageContext.request.userPrincipal.name != null}">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="margin-right: 15px;">
                         <i class="fa fa-user"></i>  ${pageContext.request.userPrincipal.name}<b class="caret"></b></a>
 
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                        <li class="divider"></li>
                         <li><a >
                             <c:url var="logoutUrl" value="/logout"/>
                             <form:form action="${logoutUrl}" method="post" cssStyle="margin-bottom: 0;padding: 7px 0 7px;">

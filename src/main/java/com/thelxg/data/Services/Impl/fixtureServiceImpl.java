@@ -30,8 +30,23 @@ public class fixtureServiceImpl implements fixtureService {
     }
 
     @Transactional
+    public void updateFixture(fixtures fixture) {
+        fixtures.updateFixture(fixture);
+    }
+
+    @Transactional
     public void setScore(fixtures fixture) {
         fixtures.setScore(fixture);
+    }
+
+    @Transactional
+    public fixtures getFixturesById(long id) {
+        return fixtures.getFixturesById(id);
+    }
+
+    @Transactional
+    public fixtures getUngeneratedFixturesById(long id) {
+        return fixtures.getUngeneratedFixturesById(id);
     }
 
     @Transactional
@@ -58,6 +73,15 @@ public class fixtureServiceImpl implements fixtureService {
     @Transactional
     public List<fixtures> getFixturesByGroupNumber(String groupNumber) {
         return fixtures.getFixturesByGroupNumber(groupNumber);
+    }
+    @Transactional
+    public List<fixtures> getUngeneratedFixturesByGroupNumber(String groupNumber) {
+        return fixtures.getUngeneratedFixturesByGroupNumber(groupNumber);
+    }
+
+    @Transactional
+    public List<fixtures> getUngeneratedFixtures() {
+        return fixtures.getUngeneratedFixtures();
     }
 
     @Transactional

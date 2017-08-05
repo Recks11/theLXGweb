@@ -51,7 +51,7 @@ public class EMailMessageImpl implements eMailMessage {
         String matches[] = new String[4];
         List<fixtures> fixturesList = fixtureService.getFixturesByAlias(player.getAlias());
         for(int i = 0; i < 4; i++){
-            matches[i] = fixturesList.get(i).getTime();
+            matches[i] = fixturesList.get(i).getFixtureTime();
         }
 
         String theMessage = " Hello " + player.getFullName() + ", \n" +

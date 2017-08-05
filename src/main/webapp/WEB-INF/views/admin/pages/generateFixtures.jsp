@@ -17,26 +17,28 @@
 <section class="admin-body">
     <section class="admin-wrapper">
         <div>
-            <a href="<spr:url value="/admin/players/fixtures/generate"/>" class="btn btn-success"> generate fixtures</a>
+            <a href="<spr:url value="/admin/players/getData/generate"/>" class="btn btn-success"> generate fixtures</a>
             <c:if test="${!empty playerList}">
                 <p>pending fixture list ${playerList}</p>
             </c:if>
         </div>
         <br/>
         <div>
-            <a href="<spr:url value="/admin/players/fixtures/generateGroup"/>" class="btn btn-info"> generate groups</a>
+            <a href="<spr:url value="/admin/players/getData/generateGroup"/>" class="btn btn-info"> generate groups</a>
             <c:if test="${!empty groupListStatus}">
                 <p> ${groupListStatus}</p>
             </c:if>
         </div>
 
-        <a href="<spr:url value="/admin/players/fixtures/sendMailForMorningGroup"/>" class="btn btn-info"> sendMail</a>
+        <a href="<spr:url value="/admin/players/getData/sendMailForMorningGroup"/>" class="btn btn-info"> sendMail</a>
 
-        <a href="<spr:url value="/admin/players/fixtures/sendMailForEveningGroup"/>" class="btn btn-info"> send Evening Mail</a>
+        <a href="<spr:url value="/admin/players/getData/sendMailForEveningGroup"/>" class="btn btn-info"> send Evening Mail</a>
 
-        <a href="<spr:url value="/admin/players/fixtures/listEmails"/>" class="btn btn-info"> get Mail</a>
+        <a href="<spr:url value="/admin/players/getData/listEmails"/>" class="btn btn-info"> get Mail</a>
 
-        <a href="<spr:url value="/admin/players/fixtures/getFixtures"/>" class="btn btn-info"> get Fixtures</a>
+        <a href="<spr:url value="/admin/players/getData/getFixtures"/>" class="btn btn-info"> get Fixtures</a>
+
+        <a href="<spr:url value="/admin/players/getData/generateTables"/>" class="btn btn-success"> Generate Tables </a>
 
     </section>
 </section>

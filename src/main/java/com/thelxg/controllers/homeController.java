@@ -1,6 +1,8 @@
 package com.thelxg.controllers;
 
+import com.thelxg.data.Dao.groupsDao;
 import com.thelxg.data.Services.fixtureService;
+import com.thelxg.data.Services.tableService;
 import com.thelxg.data.models.features.fixtures;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +21,10 @@ public class homeController {
 
     @Autowired
     private fixtureService fixtureService;
+    @Autowired
+    private tableService tableService;
+    @Autowired
+    private groupsDao groupsDao;
 
 
     @RequestMapping
@@ -53,5 +59,15 @@ public class homeController {
         model.addAttribute("title", "TheLXG - Fixtures");
         model.addAttribute("fixtures",fixturesList);
         return "allPlayers";
+    }
+
+    @RequestMapping("/tables")
+    public String getTables(Model model){
+
+        int numberOfGroups = groupsDao.getLastGroup().getGroupNumber();
+
+        model.addAttribute("numberOfGroups", numberOfGroups);
+        model.addAttribute("tables",tableService.getTableForGroup(1));
+        return "playerTables";
     }
 }

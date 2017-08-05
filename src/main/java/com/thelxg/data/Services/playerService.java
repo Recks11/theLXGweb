@@ -34,4 +34,8 @@ public interface playerService {
     player getPlayerByUniqueId(String uniqueId);
 
     player getPlayerByAlias(String alias);
+
+    List<player> getAllPlayersNotInTable();
+
+    List<player> getAllPlayersInTable();
 }

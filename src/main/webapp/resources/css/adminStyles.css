@@ -126,7 +126,30 @@ body {
     font-family: 'Sansita', sans-serif; /* to be paired with Open-sans*/
 }
 .user-dropdown{
-    background-color: #080808'';
+    background-color: #080808;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 3px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid gold;
+    color: gold;
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: black;
+    cursor: default;
+    background-color: gold;
+    border-color: white;
 }
 table{
     color: white;
@@ -134,21 +157,7 @@ table{
 .table-striped>tbody>tr:nth-of-type(odd) {
     background-color: #222222;
 }
-@media (min-width: 769px){
-    .side-nav {
-        margin-left: -225px;
-        left: 225px;
-        width: 225px;
-        position: fixed;
-        top: 50px;
-        height: 100%;
-        border-radius: 0;
-        border: none;
-        background-color: #222222;
-        overflow-y: auto;
-    }
-}
-@media (max-width: 768px){
+@media (max-width: 767px){
     .side-nav{
         margin-top: 50px;
     }
@@ -163,6 +172,72 @@ table{
     }
     table{
         font-size: 12px;
+    }
+    thead > tr > th, tbody > tr > td, tbody > tr > td > .btn {
+        font-size: 8px;
+    }
+}
+@media (min-width: 768px) {
+    .side-nav {
+        margin-left: -170px;
+        left: 170px;
+        width: 170px;
+        position: fixed;
+        top: 50px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: #222222;
+        overflow-y: auto;
+    }
+
+    .side-nav > li > a {
+        width: 170px;
+    }
+
+    .side-nav > li.dropdown > ul.dropdown-menu {
+        position: relative;
+        min-width: 170px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    .admin-body {
+        margin-left: 170px;
+        color: #FFFFFF;
+    }
+
+    thead > tr > th, tbody > tr > td, tbody > tr > td > .btn {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1280px){
+    .side-nav {
+        margin-left: -225px;
+        left: 225px;
+        width: 225px;
+        position: fixed;
+        top: 50px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: #222222;
+        overflow-y: auto;
+    }
+
+
+    .side-nav > li > a {
+        width: 225px;
+    }
+
+    .admin-body {
+        margin-left: 225px;
+        color: #FFFFFF;
     }
 }
 /* Fix navbar on iphone 6*/

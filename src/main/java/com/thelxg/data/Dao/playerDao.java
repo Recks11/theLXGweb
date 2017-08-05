@@ -34,5 +34,9 @@ public interface playerDao {
 
     player getPlayerByAlias(String alias);
 
+    List<player> getAllPlayersNotInTable();
+
+    List<player> getAllPlayersInTable();
+
 
 }

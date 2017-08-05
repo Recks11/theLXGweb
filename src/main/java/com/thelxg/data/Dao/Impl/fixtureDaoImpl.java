@@ -34,13 +34,28 @@ public class fixtureDaoImpl implements fixtureDao {
     }
 
     @Override
-    public void setScore(fixtures fixture) {
-        sessionFactory.getCurrentSession().update(fixture);
+    public void updateFixture(fixtures fixture) {
+
+            sessionFactory.getCurrentSession().update(fixture);
+    }
+
+
+    @Override
+    public fixtures getFixturesById(long id) {
+        return sessionFactory.getCurrentSession().get(fixtures.class, id);
     }
 
     @Override
-    public List getFixtures() {
-        return null;
+    public fixtures getUngeneratedFixturesById(long id) {
+        return (fixtures) sessionFactory.getCurrentSession()
+                .createQuery("from fixtures where tableGenerated = :tableGenerated")
+                .setParameter("tableGenerated", false)
+                .uniqueResult();
+    }
+
+    @Override
+    public void setScore(fixtures fixture) {
+        sessionFactory.getCurrentSession().update(fixture);
     }
 
     @Override
@@ -83,9 +98,23 @@ public class fixtureDaoImpl implements fixtureDao {
     }
 
     @Override
+    public List<fixtures> getUngeneratedFixturesByGroupNumber(String groupNumber) {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from fixtures where group = :groupNumber and tableGenerated = false")
+                .setParameter("groupNumber", groupNumber).list();
+    }
+
+    @Override
     public List<fixtures> getFixturesByAlias(String Alias) {
         return sessionFactory.getCurrentSession()
                 .createQuery("from fixtures where homePlayer = :alias or awayPlayer = :alias order by fixtureTime")
                 .setParameter("alias", Alias).list();
+    }
+
+    @Override
+    public List<fixtures> getUngeneratedFixtures() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from fixtures where tableGenerated = :tableGenerated")
+                .setParameter("tableGenerated", false).list();
     }
 }

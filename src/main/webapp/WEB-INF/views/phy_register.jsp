@@ -13,6 +13,7 @@
 <html>
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/registerStyle.css"/>"/>
+<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/formStyle.css"/>"/>
 <script src="<spr:url value="/resources/js/selectTeams.js"/>"></script>
 <script src="<spr:url value="/resources/js/payVendor.js"/>"></script>
 <body>

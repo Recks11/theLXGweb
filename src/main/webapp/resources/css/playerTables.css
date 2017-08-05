@@ -1,0 +1,8 @@
+.table>caption+thead>tr>td{
+    font-size: 9px;
+}
+
+ .table>caption+thead>tr:first-child>th{
+     text-align: center;
+     font-size: 10px;
+ }

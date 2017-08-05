@@ -40,7 +40,7 @@
                         <tbody style="padding-bottom: 100px;">
                         <c:forEach items="${fixtures}" var="fixture">
                             <tr>
-                                <td>${fixture.time}</td>
+                                <td>${fixture.fixtureTime}</td>
                                 <td>${fixture.homePlayer}</td>
                                 <td>${fixture.homeTeam}</td>
                                 <td>${fixture.homeScore}</td>

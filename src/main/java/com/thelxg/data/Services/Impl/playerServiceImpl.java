@@ -63,7 +63,6 @@ public class playerServiceImpl implements playerService {
     public player getPlayerByAlias(String alias) {
         return playerdao.getPlayerByAlias(alias);
     }
-
     @Transactional
     public List<player> getPlayersWIthNonGeneratedFixtures() {
         return playerdao.getPlayersWIthNonGeneratedFixtures();
@@ -82,5 +81,15 @@ public class playerServiceImpl implements playerService {
     @Transactional
     public List getPlayersInLocation(String location) {
         return playerdao.getPlayersInLocation(location);
+    }
+
+    @Transactional
+    public List<player> getAllPlayersNotInTable() {
+        return playerdao.getAllPlayersNotInTable();
+    }
+
+    @Transactional
+    public List<player> getAllPlayersInTable() {
+        return playerdao.getAllPlayersInTable();
     }
 }

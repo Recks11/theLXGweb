@@ -1,8 +1,9 @@
-package com.thelxg.controllers;
+package com.thelxg.controllers.admin;
 
 import com.thelxg.components.groupsAndFixtures;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.Services.tableService;
 import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,21 +17,23 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/admin/players")
-public class competitionAdminFunctions {
+@RequestMapping("/admin/players/getData")
+public class AdminPlayerGetData {
 
+    @Autowired
+    private tableService tableService;
     private final fixtureService fixtureService;
     private final playerService playerService;
     private final groupsAndFixtures groupsAndFixtures;
 
     @Autowired
-    public competitionAdminFunctions(groupsAndFixtures groupsAndFixtures, fixtureService fixtureService, playerService playerService) {
+    public AdminPlayerGetData(groupsAndFixtures groupsAndFixtures, fixtureService fixtureService, playerService playerService) {
         this.groupsAndFixtures = groupsAndFixtures;
         this.fixtureService = fixtureService;
         this.playerService = playerService;
     }
 
-    @RequestMapping("/fixtures")
+    @RequestMapping("/")
     public String fixtures(Model model){
 
         model.addAttribute("playerList", "unfetched");
@@ -39,7 +42,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/generate")
+    @GetMapping("/generate")
     public String generateFixtures(Model model){
 
         if(groupsAndFixtures.generateFixtures()){
@@ -51,7 +54,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/generateGroup")
+    @GetMapping("/generateGroup")
     public String generateGroups(Model model){
 
         if(groupsAndFixtures.generateGroups()){
@@ -61,7 +64,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/sendMailForMorningGroup")
+    @GetMapping("/sendMailForMorningGroup")
     public String sendFixtureMail(){
 
         for(int i = 1;i < 5; i ++) {
@@ -77,7 +80,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/sendMailForEveningGroup")
+    @GetMapping("/sendMailForEveningGroup")
     public String sendAgainFixtureMail(){
 
         for(int i = 9;i < 15; i ++) { //iterate through fixtures
@@ -93,7 +96,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/listEmails")
+    @GetMapping("/listEmails")
     public String sendListMail(){
 
         List<String> list = new ArrayList<String>();
@@ -112,7 +115,7 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
-    @GetMapping("/fixtures/getFixtures")
+    @GetMapping("/getFixtures")
     public String sendFixtures(){
         List<String> scoreList = new ArrayList<String>();
         List<fixtures> fixturesList = fixtureService.getAllFixtures();
@@ -125,4 +128,21 @@ public class competitionAdminFunctions {
         return "admin/pages/generateFixtures";
     }
 
+
+    @GetMapping("/changeTeam")
+    public String changeTeam(Model model){
+
+        return "redirect:/admin/players/all";
+    }
+
+    @GetMapping("/generateTables")
+    public String generateTables(){
+        List<player> playerList = playerService.getAllPlayersNotInTable();
+
+        for(player player : playerList){
+            tableService.addPlayerToTable(player);
+        }
+
+        return "admin/pages/generateFixtures";
+    }
 }

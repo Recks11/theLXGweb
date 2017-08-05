@@ -17,6 +17,13 @@
 <jsp:include page="../../fragment/admin/navbar.jsp"/>
 <section class="admin-body">
     <section class="admin-wrapper">
+        <c:if test="${not empty oldPlayerTeam}">
+            <div class="alert alert-success alert-dismissible">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Success!</strong>
+            </div>
+        </c:if>
+
         <div class="table-responsive">
             <table class="table table-striped table-condensed">
                 <thead>
@@ -43,9 +50,11 @@
                         <td>${player.phoneNumber}</td>
                         <td>${player.playerId}</td>
                         <td>${player.mailStatus}</td>
-                        <td class="text-center"><a href="<spr:url value="/admin/all/get/${player.playerId}"/>" class="btn btn-success btn-xs" type="button">info</a>
-                            <a href="<spr:url value="/admin/all/mail/${player.playerId}"/>" class="btn btn-info btn-xs">Resend Mail</a>
-                            <a href="<spr:url value="/admin/all/delete/${player.playerId}"/>" class="btn btn-danger btn-xs">delete</a></td>
+                        <td class="text-center">
+                            <a href="<spr:url value="/admin/players/get/${player.playerId}"/>" class="btn btn-success btn-xs" type="button">Info</a>
+                            <a href="<spr:url value="/admin/players/send/mail/${player.playerId}"/>" class="btn btn-info btn-xs ">New Mail</a>
+                            <%--<a href="<spr:url value="/admin/all/delete/${player.playerId}"/>" class="btn btn-danger btn-xs">delete</a>--%>
+                        </td>
                     </tr>
                 </c:forEach>
                 </tbody>

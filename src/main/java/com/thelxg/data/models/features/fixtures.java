@@ -30,9 +30,11 @@ public class fixtures {
 
     private String fixtureTime;
 
+    private boolean tableGenerated;
+
     public fixtures(){}
 
-    public fixtures(String group, String homePlayer, String awayPlayer, String homeTeam, String awayTeam, int homeScore, int awayScore, String mailSent, String time) {
+    public fixtures(String group, String homePlayer, String awayPlayer, String homeTeam, String awayTeam, int homeScore, int awayScore, String mailSent, String fixtureTime, boolean tableGenerated) {
         this.group = group;
         this.homePlayer = homePlayer;
         this.awayPlayer = awayPlayer;
@@ -41,7 +43,8 @@ public class fixtures {
         this.homeScore = homeScore;
         this.awayScore = awayScore;
         this.mailSent = mailSent;
-        this.fixtureTime = time;
+        this.fixtureTime = fixtureTime;
+        this.tableGenerated = tableGenerated;
     }
 
     public long getId() {
@@ -116,12 +119,20 @@ public class fixtures {
         this.mailSent = mailSent;
     }
 
-    public String getTime() {
+    public String getFixtureTime() {
         return fixtureTime;
     }
 
-    public void setTime(String time) {
-        this.fixtureTime = time;
+    public void setFixtureTime(String fixtureTime) {
+        this.fixtureTime = fixtureTime;
+    }
+
+    public boolean isTableGenerated() {
+        return tableGenerated;
+    }
+
+    public void setTableGenerated(boolean tableGenerated) {
+        this.tableGenerated = tableGenerated;
     }
 
     @Override

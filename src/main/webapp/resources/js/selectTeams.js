@@ -3,6 +3,8 @@ $(document).ready(function(){
     var team = $("#team");
     var teamNation = $("#teamNation");
     var selectedTeam = $('#selectedTeam');
+    var teamSelectedInHiddenInput = $('#teamSelected');
+
 
     var ENGLAND = [
 
@@ -262,12 +264,15 @@ $(document).ready(function(){
     team.change(function(){
 
             selectedTeam.text($(this).val());
+        teamSelectedInHiddenInput.val(team.val());
             console.log(selectedTeam.text());
         });
 
     teamNation.change(function(){
 
         selectedTeam.text(team.val());
+        teamSelectedInHiddenInput.val(team.val());
+
     });
 
 });

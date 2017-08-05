@@ -82,7 +82,7 @@ public class playerDaoImpl implements playerDao {
 
     @Override
     public List getAllPlayers() {
-        return sessionFactory.getCurrentSession().createQuery("from player").list();
+        return sessionFactory.getCurrentSession().createQuery("from player order by date asc ").list();
     }
 
     @Override
@@ -107,5 +107,23 @@ public class playerDaoImpl implements playerDao {
                 .createQuery("from player where alias = :alias")
                 .setParameter("alias", alias)
                 .uniqueResult();
+    }
+
+    @Override
+    public List<player> getAllPlayersNotInTable() {
+
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where inTables = :inTables order by date asc ")
+                .setParameter("inTables",false)
+                .list();
+    }
+
+    @Override
+    public List<player> getAllPlayersInTable() {
+
+        return sessionFactory.getCurrentSession()
+                .createQuery("from player where inTables = :inTables order by date asc ")
+                .setParameter("inTables",true)
+                .list();
     }
 }

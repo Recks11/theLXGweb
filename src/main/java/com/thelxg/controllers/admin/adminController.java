@@ -1,4 +1,4 @@
-package com.thelxg.controllers;
+package com.thelxg.controllers.admin;
 
 import com.thelxg.components.eMailMessage;
 import com.thelxg.components.paginationService;
@@ -20,16 +20,10 @@ import javax.servlet.http.HttpServletRequest;
 public class adminController {
 
     private final playerService players;
-    private final paginationService pagination;
-    private final sendNotification sendMail;
-    private final eMailMessage eMail;
 
     @Autowired
-    public adminController(playerService players, paginationService pagedList, sendNotification sendMail, eMailMessage eMail) {
+    public adminController(playerService players) {
         this.players = players;
-        this.pagination = pagedList;
-        this.sendMail = sendMail;
-        this.eMail = eMail;
     }
 
     @RequestMapping
@@ -39,24 +33,5 @@ public class adminController {
         model.addAttribute("mainlandRegistered", players.getPlayersInLocation("Lagos Mainland").size());
         model.addAttribute("islandRegistered", players.getPlayersInLocation("Lagos Island").size());
         return "admin/index";
-    }
-
-    @RequestMapping("/players/all")
-    public String allPlayers(HttpServletRequest request, Model model){
-
-        PagedListHolder pagedList = pagination.pagedListImpl(10, request, players.getAllPlayers());
-        model.addAttribute("allPlayers", pagedList);
-        return "admin/pages/allPlayers";
-    }
-
-    @GetMapping("/all/mail/{playerId}")
-    public String sendMail(@PathVariable("playerId") String playerId, Model model){
-
-        player recipient = players.getPlayerByUniqueId(playerId);
-
-        sendMail.sendEmail(recipient, eMail,"The LXG - Registration");
-        players.updatePlayer(recipient);
-        return "redirect:/admin/players/all";
-
     }
 }

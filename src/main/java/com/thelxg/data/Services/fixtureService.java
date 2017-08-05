@@ -8,7 +8,13 @@ public interface fixtureService {
 
     void saveFixture(fixtures fixture);
 
+    void updateFixture(fixtures fixture);
+
     void setScore(fixtures fixture);
+
+    fixtures getFixturesById(long id);
+
+    fixtures getUngeneratedFixturesById(long id);
 
     List<fixtures> getAllFixtures();
 
@@ -20,6 +26,10 @@ public interface fixtureService {
 
     List<fixtures> getFixturesByGroupNumber(String groupNumber);
 
+    List<fixtures> getUngeneratedFixturesByGroupNumber(String groupNumber);
+
     List<fixtures> getFixturesByAlias(String Alias);
+
+    List<fixtures> getUngeneratedFixtures();
 
 }

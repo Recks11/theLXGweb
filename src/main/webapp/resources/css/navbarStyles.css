@@ -8,7 +8,7 @@
 }
 
 .navbar{
-    padding: 30px;
+    padding: 20px;
 }
 .nav-scroll{
     padding: 5px;
@@ -79,12 +79,36 @@ form{
     transition: background-color .4s;
     background-color: rgba(0,0,0,0.4);
 }
-@media only screen and (max-width: 1280px){
+.dropdown-menu{
+    min-width: 126px;
+    background-color: black;
+}
+.dropdown-menu>li>a{
+    padding: 15px;
+    text-align: center;
+    color:whitesmoke;
+    /*border-bottom: 2px solid gold;*/
+}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:active,.dropdown-menu>li>a:focus{
+    background-color: gold;
+    color: black;
+}
+@media screen and (max-width: 1024px){
+
     .navbar{
-        padding: 5px;
+        padding: 3px;
+        /*background-color: black;*/
     }
     .navbar-nav >li >a{
-        font-size: 15px;
+        font-size: 12px;
+        padding: 10px;
+        padding-top: 15px;
+    }
+    .navbar-brand{
+        padding: 10px 10px;
+    }
+    .dropdown-menu>li>a{
+        padding: 10px;
     }
 }
 @media only screen and (max-width: 651px) {
