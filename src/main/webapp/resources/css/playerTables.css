@@ -6,3 +6,33 @@
      text-align: center;
      font-size: 10px;
  }
+
+
+.table>tbody>tr:nth-child(1)>td:first-child:before{
+    /*background-color: blue;*/
+    content: "1";
+}
+.table>tbody>tr:nth-child(1){
+    background-color: gold;
+    color: black;
+}
+.table>tbody>tr:nth-child(2)>td:first-child:before{
+    /*background-color: blue;*/
+    content: "2";
+}
+.table>tbody>tr:nth-child(2){
+    background-color: gold;
+    color: black;
+}
+.table>tbody>tr:nth-child(3)>td:first-child:before{
+    /*background-color: blue;*/
+    content: "3";
+}
+.table>tbody>tr:nth-child(4)>td:first-child:before{
+    /*background-color: blue;*/
+    content: "4";
+}
+.table>tbody>tr:nth-child(5)>td:first-child:before{
+    /*background-color: blue;*/
+    content: "5";
+}

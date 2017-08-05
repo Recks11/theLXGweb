@@ -14,6 +14,8 @@
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/allPlayers.css"/>"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/playerTables.css"/>"/>
+<style>
+</style>
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
@@ -30,7 +32,7 @@
                     <div class="col-sm-4">
                         <div class="fixture-table">
                             <table id="fixtureTable" class="table table-bordered table-condensed text-center white-font" >
-                                <caption>Group ${number}</caption>
+                                <caption class="text-center" style="color: gold;">Group ${number}</caption>
                                 <thead>
                                 <tr class="text-center">
                                     <th>S/N</th>
@@ -39,6 +41,7 @@
                                     <th>W</th>
                                     <th>D</th>
                                     <th>L</th>
+                                    <th>GD</th>
                                     <th>Pts</th>
                                 </tr>
                                 </thead>
@@ -46,12 +49,13 @@
                                 <c:forEach items="${tables}" var="table">
                                     <c:if test="${table.group == number}">
                                         <tr>
-                                            <td>${tables.indexOf(table)}</td>
+                                            <td></td>
                                             <td>${table.playerAlias}</td>
                                             <td>${table.played}</td>
                                             <td>${table.wins}</td>
                                             <td>${table.draws}</td>
                                             <td>${table.losses}</td>
+                                            <td>${table.goalDifference}</td>
                                             <td>${table.points}</td>
                                         </tr>
                                     </c:if>

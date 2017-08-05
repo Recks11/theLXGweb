@@ -166,6 +166,6 @@ public class tableDaoImpl implements tableDao {
     @Override
     public List<tables> getAllTables() {
 
-        return  sessionFactory.getCurrentSession().createQuery("from tables").list();
+        return  sessionFactory.getCurrentSession().createQuery("from tables order by points desc, goalDifference desc").list();
     }
 }
