@@ -1,7 +1,7 @@
 package com.thelxg.controllers;
 
-import com.thelxg.data.Dao.groupsDao;
 import com.thelxg.data.Services.fixtureService;
+import com.thelxg.data.Services.groupsService;
 import com.thelxg.data.Services.tableService;
 import com.thelxg.data.models.features.fixtures;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 /**
@@ -19,12 +19,16 @@ import java.util.List;
 @RequestMapping("/")
 public class homeController {
 
+    private final fixtureService fixtureService;
+    private final tableService tableService;
+    private final groupsService groupsService;
+
     @Autowired
-    private fixtureService fixtureService;
-    @Autowired
-    private tableService tableService;
-    @Autowired
-    private groupsDao groupsDao;
+    public homeController(fixtureService fixtureService, tableService tableService, groupsService groupsService) {
+        this.fixtureService = fixtureService;
+        this.tableService = tableService;
+        this.groupsService = groupsService;
+    }
 
 
     @RequestMapping
@@ -64,7 +68,7 @@ public class homeController {
     @RequestMapping("/tables")
     public String getTables(Model model){
 
-        int numberOfGroups = groupsDao.getLastGroup().getGroupNumber();
+        int numberOfGroups = groupsService.getLastGroup().getGroupNumber();
 
         model.addAttribute("numberOfGroups", numberOfGroups);
         model.addAttribute("tables",tableService.getTableForGroup(1));
