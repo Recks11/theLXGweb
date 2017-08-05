@@ -70,7 +70,7 @@
                                     </td>
                                     <td>${fixture.awayTeam}</td>
                                     <td>${fixture.awayPlayer}</td>
-                                    <td>${fixture.fixtureTime}</td>
+                                    <td>${fixture.group}</td>
                                     <td>
                                             <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
                                             <button type="submit" class="btn btn-success btn-xs"> Update Score</button>
