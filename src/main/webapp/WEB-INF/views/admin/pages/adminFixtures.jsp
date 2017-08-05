@@ -31,7 +31,7 @@
     <section class="admin-wrapper">
         <section>
             <div class="search text-center">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias" style="color: black">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias" style="color: gold;">
             </div>
             <div class="no-pad">
                 <div class="about-details text-center mont-Font">
