@@ -73,8 +73,8 @@
       <file leaf-file-name="updateFixturesController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="71" column="70" lean-forward="false" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
+            <state relative-caret-position="409">
+              <caret line="71" column="74" lean-forward="false" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -1569,14 +1569,7 @@
       <workItem from="1501810457272" duration="68000" />
       <workItem from="1501860149689" duration="42544000" />
       <workItem from="1501905669986" duration="1601000" />
-      <workItem from="1501937463639" duration="3517000" />
-    </task>
-    <task id="LOCAL-00137" summary="homepage center fixes">
-      <created>1501332321819</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1501332321820</updated>
+      <workItem from="1501937463639" duration="3590000" />
     </task>
     <task id="LOCAL-00138" summary="homepage center fixes">
       <created>1501332361305</created>
@@ -1914,11 +1907,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501940251603</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Added live reload to fixtures and Tables">
+      <created>1501941013683</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1501941013683</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447380000" />
+    <option name="totallyTimeSpent" value="447453000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2550,8 +2550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="71" column="70" lean-forward="false" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
+        <state relative-caret-position="409">
+          <caret line="71" column="74" lean-forward="false" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
           <folding />
         </state>
       </provider>

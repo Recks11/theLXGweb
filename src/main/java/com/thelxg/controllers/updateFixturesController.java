@@ -69,7 +69,7 @@ public class updateFixturesController {
         updatedFixture.setAwayScore(fixture.getAwayScore());
         fixturesService.updateFixture(updatedFixture);
         System.out.println(updatedFixture);
-        return "redirect:/admin/competition/fixtures/"+start+"/"+start;
+        return "redirect:/admin/competition/fixtures/"+start+"/"+start + 3;
     }
 
     @GetMapping("/done/{fixtureId}")
