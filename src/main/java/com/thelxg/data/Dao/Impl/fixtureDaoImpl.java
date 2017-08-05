@@ -61,7 +61,7 @@ public class fixtureDaoImpl implements fixtureDao {
     @Override
     public List<fixtures> getAllFixtures() {
         return sessionFactory.getCurrentSession()
-                .createQuery("from fixtures order by fixtureTime")
+                .createQuery("from fixtures order by fixtureTime, group asc, homePlayer asc ")
                 .list();
     }
 
@@ -116,5 +116,12 @@ public class fixtureDaoImpl implements fixtureDao {
         return sessionFactory.getCurrentSession()
                 .createQuery("from fixtures where tableGenerated = :tableGenerated")
                 .setParameter("tableGenerated", false).list();
+    }
+
+    @Override
+    public List<fixtures> getUnDuplicatedFixtures() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from fixtures where duplicated = :duplicated")
+                .setParameter("duplicated", false).list();
     }
 }

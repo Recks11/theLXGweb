@@ -88,4 +88,9 @@ public class fixtureServiceImpl implements fixtureService {
     public List<fixtures> getFixturesByAlias(String Alias) {
         return fixtures.getFixturesByAlias(Alias);
     }
+
+    @Transactional
+    public List<fixtures> getUnDuplicatedFixtures() {
+        return fixtures.getUnDuplicatedFixtures();
+    }
 }

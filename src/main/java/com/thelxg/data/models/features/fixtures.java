@@ -32,9 +32,14 @@ public class fixtures {
 
     private boolean tableGenerated;
 
+    private boolean duplicated;
+
     public fixtures(){}
 
-    public fixtures(String group, String homePlayer, String awayPlayer, String homeTeam, String awayTeam, int homeScore, int awayScore, String mailSent, String fixtureTime, boolean tableGenerated) {
+    public fixtures(String group, String homePlayer, String awayPlayer,
+                    String homeTeam, String awayTeam, int homeScore,
+                    int awayScore, String mailSent, String fixtureTime,
+                    boolean tableGenerated,boolean duplicated) {
         this.group = group;
         this.homePlayer = homePlayer;
         this.awayPlayer = awayPlayer;
@@ -45,6 +50,7 @@ public class fixtures {
         this.mailSent = mailSent;
         this.fixtureTime = fixtureTime;
         this.tableGenerated = tableGenerated;
+        this.duplicated = duplicated;
     }
 
     public long getId() {
@@ -133,6 +139,14 @@ public class fixtures {
 
     public void setTableGenerated(boolean tableGenerated) {
         this.tableGenerated = tableGenerated;
+    }
+
+    public boolean isDuplicated() {
+        return duplicated;
+    }
+
+    public void setDuplicated(boolean duplicated) {
+        this.duplicated = duplicated;
     }
 
     @Override

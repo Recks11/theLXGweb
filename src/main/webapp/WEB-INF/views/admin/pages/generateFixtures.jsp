@@ -40,6 +40,8 @@
 
         <a href="<spr:url value="/admin/players/getData/generateTables"/>" class="btn btn-success"> Generate Tables </a>
 
+        <a href="<spr:url value="/admin/players/getData/duplicateFixtures"/>" class="btn btn-success"> get 2nd leg fixtures </a>
+
     </section>
 </section>
 </body>

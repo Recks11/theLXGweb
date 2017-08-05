@@ -31,4 +31,6 @@ public interface fixtureDao {
     List<fixtures> getFixturesByAlias(String Alias);
 
     List<fixtures> getUngeneratedFixtures();
+
+    List<fixtures> getUnDuplicatedFixtures();
 }

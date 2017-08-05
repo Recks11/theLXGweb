@@ -145,4 +145,26 @@ public class AdminPlayerGetData {
 
         return "admin/pages/generateFixtures";
     }
+
+    @GetMapping("/duplicateFixtures")
+    public String Duplicatefixtures() {
+        List<fixtures> fixturesList = fixtureService.getUnDuplicatedFixtures();
+
+        for (fixtures fixtures : fixturesList) {
+            String homeTeam = fixtures.getHomeTeam();
+            String awayTeam = fixtures.getAwayTeam();
+            String homePlayer = fixtures.getHomePlayer();
+            String awayPlayer = fixtures.getAwayPlayer();
+
+            fixtures.setHomeTeam(awayTeam);
+            fixtures.setAwayTeam(homeTeam);
+            fixtures.setHomePlayer(awayPlayer);
+            fixtures.setAwayPlayer(homePlayer);
+
+            fixtureService.saveFixture(fixtures);
+
+        }
+        return "admin/pages/generateFixtures";
+    }
+
 }

@@ -32,4 +32,6 @@ public interface fixtureService {
 
     List<fixtures> getUngeneratedFixtures();
 
+    List<fixtures> getUnDuplicatedFixtures();
+
 }
