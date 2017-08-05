@@ -33,4 +33,6 @@ public interface fixtureDao {
     List<fixtures> getUngeneratedFixtures();
 
     List<fixtures> getUnDuplicatedFixtures();
+
+    List<fixtures> getUpdatedFixtures();
 }

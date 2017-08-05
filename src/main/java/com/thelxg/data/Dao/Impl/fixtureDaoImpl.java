@@ -36,6 +36,7 @@ public class fixtureDaoImpl implements fixtureDao {
     @Override
     public void updateFixture(fixtures fixture) {
 
+        fixture.setFixtureUpdated(true);
             sessionFactory.getCurrentSession().update(fixture);
     }
 
@@ -123,5 +124,9 @@ public class fixtureDaoImpl implements fixtureDao {
         return sessionFactory.getCurrentSession()
                 .createQuery("from fixtures where duplicated = :duplicated")
                 .setParameter("duplicated", false).list();
+    }
+    @Override
+    public List<fixtures> getUpdatedFixtures() {
+        return sessionFactory.getCurrentSession().createQuery("from fixtures where fixtureUpdated = false ").list();
     }
 }

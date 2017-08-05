@@ -76,7 +76,13 @@ public class tableDaoImpl implements tableDao {
 
         //accumulated points
         int homePoints = homeTableEntry.getPoints();
+        int homeWins = homeTableEntry.getWins();
+        int homeLoss = homeTableEntry.getLosses();
+        int homeDraws = homeTableEntry.getDraws();
         int awayPoints = awayTableEntry.getPoints();
+        int awayWins = awayTableEntry.getWins();
+        int awayDraws = awayTableEntry.getDraws();
+        int awayLoss = awayTableEntry.getLosses();
 
         //accumulated goal difference
         int homeGoalDifference = homeTableEntry.getGoalDifference();
@@ -94,6 +100,10 @@ public class tableDaoImpl implements tableDao {
                 awayTableEntry.setGoalDifference(awayGoalDifference + (awayFixtureScore - homeFixtureScore));
                 homeTableEntry.setPlayed(homePlayed + 1);
                 awayTableEntry.setPlayed(awayPlayed + 1);
+
+                homeTableEntry.setWins(homeWins + 1);
+                awayTableEntry.setLosses(awayLoss + 1);
+
                 updateTables(homeTableEntry);
                 updateTables(awayTableEntry);
                 fixture.setTableGenerated(true);
@@ -106,6 +116,10 @@ public class tableDaoImpl implements tableDao {
                 homeTableEntry.setGoalDifference(homeGoalDifference + (homeFixtureScore - awayFixtureScore));
                 homeTableEntry.setPlayed(homePlayed + 1);
                 awayTableEntry.setPlayed(awayPlayed + 1);
+
+                homeTableEntry.setLosses(homeLoss + 1);
+                awayTableEntry.setWins(awayWins + 1);
+
                 updateTables(awayTableEntry);
                 updateTables(homeTableEntry);
                 fixture.setTableGenerated(true);
@@ -117,6 +131,10 @@ public class tableDaoImpl implements tableDao {
                 awayTableEntry.setGoalDifference(awayGoalDifference + (awayFixtureScore - homeFixtureScore));
                 homeTableEntry.setPlayed(homePlayed + 1);
                 awayTableEntry.setPlayed(awayPlayed + 1);
+
+                homeTableEntry.setDraws(homeDraws + 1);
+                awayTableEntry.setDraws(awayDraws + 1);
+
                 updateTables(awayTableEntry);
                 updateTables(homeTableEntry);
                 fixture.setTableGenerated(true);

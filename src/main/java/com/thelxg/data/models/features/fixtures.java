@@ -34,12 +34,14 @@ public class fixtures {
 
     private boolean duplicated;
 
+    private boolean fixtureUpdated;
+
     public fixtures(){}
 
     public fixtures(String group, String homePlayer, String awayPlayer,
                     String homeTeam, String awayTeam, int homeScore,
                     int awayScore, String mailSent, String fixtureTime,
-                    boolean tableGenerated,boolean duplicated) {
+                    boolean tableGenerated,boolean duplicated, boolean fixtureUpdated) {
         this.group = group;
         this.homePlayer = homePlayer;
         this.awayPlayer = awayPlayer;
@@ -51,6 +53,7 @@ public class fixtures {
         this.fixtureTime = fixtureTime;
         this.tableGenerated = tableGenerated;
         this.duplicated = duplicated;
+        this.fixtureUpdated = fixtureUpdated;
     }
 
     public long getId() {
@@ -147,6 +150,14 @@ public class fixtures {
 
     public void setDuplicated(boolean duplicated) {
         this.duplicated = duplicated;
+    }
+
+    public boolean isFixtureUpdated() {
+        return fixtureUpdated;
+    }
+
+    public void setFixtureUpdated(boolean fixtureUpdated) {
+        this.fixtureUpdated = fixtureUpdated;
     }
 
     @Override

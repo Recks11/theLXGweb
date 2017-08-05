@@ -34,4 +34,6 @@ public interface fixtureService {
 
     List<fixtures> getUnDuplicatedFixtures();
 
+    List<fixtures> getUpdatedFixtures();
+
 }

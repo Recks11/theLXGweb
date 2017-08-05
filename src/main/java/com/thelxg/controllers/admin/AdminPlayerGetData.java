@@ -167,4 +167,15 @@ public class AdminPlayerGetData {
         return "admin/pages/generateFixtures";
     }
 
+    @GetMapping("/updateTableData")
+    public String updateTable(){
+
+        List<fixtures> fixturesList = fixtureService.getUpdatedFixtures();
+
+        for(fixtures fixture : fixturesList){
+            tableService.generateTableForFixture(fixture.getId());
+        }
+        return "admin/pages/generateFixtures";
+    }
+
 }
