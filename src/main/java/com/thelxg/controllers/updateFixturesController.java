@@ -35,11 +35,15 @@ public class updateFixturesController {
     * make fixtures get data by time
     * that is fixtureService.getFixturesByMatchTime;
     * */
-
+    int start = 0;
+    int  end = 0;
     @RequestMapping("/fixtures/{startFixtureNumber}/{endFixtureNumber}")
     public String getFixtures(Model model,
                               @PathVariable("startFixtureNumber") int startFixtureNumber,
                               @PathVariable("endFixtureNumber") int endFixtureNumber){
+
+        this.start = startFixtureNumber;
+        this.end = endFixtureNumber;
 
         List<fixtures> fixturesList = new ArrayList<fixtures>();
         for(int i = startFixtureNumber; i <= endFixtureNumber; i ++ ){
@@ -58,13 +62,14 @@ public class updateFixturesController {
     @PostMapping("/change.score")
     public String updateScore(Model model, @ModelAttribute("fixtureObject") fixtures fixture){
 
+        String start = Integer.toString(this.start);
         System.out.println("Data added: "+fixture.toString());
         fixtures updatedFixture = fixturesService.getFixturesById(fixture.getId());
         updatedFixture.setHomeScore(fixture.getHomeScore());
         updatedFixture.setAwayScore(fixture.getAwayScore());
         fixturesService.updateFixture(updatedFixture);
         System.out.println(updatedFixture);
-        return "redirect:/admin/competition/fixtures/1/13";
+        return "redirect:/admin/competition/fixtures/"+start+"/"+start;
     }
 
     @GetMapping("/done/{fixtureId}")
