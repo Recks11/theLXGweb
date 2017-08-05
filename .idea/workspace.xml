@@ -9,7 +9,6 @@
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,16 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="groupsDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/groupsDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,15 +63,6 @@
                 <element signature="e#569#570#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables" pinned="false" current-in-tab="false">
-        <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -109,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="380">
+              <caret line="73" column="63" lean-forward="false" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminStyles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="172" column="1" lean-forward="false" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groupsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/groupsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -263,8 +233,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
       </list>
     </option>
   </component>
@@ -1285,14 +1255,7 @@
       <workItem from="1501799020208" duration="100000" />
       <workItem from="1501799260419" duration="7838000" />
       <workItem from="1501810457272" duration="68000" />
-      <workItem from="1501860149689" duration="38467000" />
-    </task>
-    <task id="LOCAL-00128" summary="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)">
-      <created>1501285613421</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1501285613421</updated>
+      <workItem from="1501860149689" duration="38883000" />
     </task>
     <task id="LOCAL-00129" summary="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)">
       <created>1501285735408</created>
@@ -1630,11 +1593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501900505111</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="could not obtain transaction synchronised session fix&#10;tweaked css">
+      <created>1501900908582</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1501900908582</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438185000" />
+    <option name="totallyTimeSpent" value="438601000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1773,7 +1743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="phone number field added" />
     <MESSAGE value="Q and A modified" />
     <MESSAGE value="Added most needed files for admin section" />
     <MESSAGE value="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to eMailMessageImpl&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)" />
@@ -1798,7 +1767,8 @@
     <MESSAGE value="Added fixtures page&#10;navbar padding reduced for some devices" />
     <MESSAGE value="Competition Update&#10;&#10;added groups&#10;added fixture update&#10;&#10;tweaked navbar" />
     <MESSAGE value="changed duplicate fixture entry to fixture group" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed duplicate fixture entry to fixture group" />
+    <MESSAGE value="could not obtain transaction synchronised session fix&#10;tweaked css" />
+    <option name="LAST_COMMIT_MESSAGE" value="could not obtain transaction synchronised session fix&#10;tweaked css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1819,17 +1789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1859,13 +1818,6 @@
         <state relative-caret-position="585">
           <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2331,13 +2283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1314">
@@ -2353,27 +2298,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/groupsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2398,6 +2322,48 @@
         <state relative-caret-position="500">
           <caret line="172" column="1" lean-forward="false" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.fixtures">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/groupsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="73" column="63" lean-forward="false" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -71,7 +71,7 @@ public class homeController {
         int numberOfGroups = groupsService.getLastGroup().getGroupNumber();
 
         model.addAttribute("numberOfGroups", numberOfGroups);
-        model.addAttribute("tables",tableService.getTableForGroup(1));
+        model.addAttribute("tables",tableService.getAllTables());
         return "playerTables";
     }
 }
