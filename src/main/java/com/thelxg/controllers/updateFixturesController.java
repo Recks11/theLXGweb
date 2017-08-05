@@ -71,7 +71,8 @@ public class updateFixturesController {
         System.out.println(updatedFixture);
 
         int end = Integer.parseInt(updatedFixture.getGroup());
-        return "redirect:/admin/competition/fixtures/"+start+"/"+end;
+        int actual = Integer.parseInt(updatedFixture.getGroup());
+        return "redirect:/admin/competition/fixtures/"+actual+"/"+end;
     }
 
     @GetMapping("/done/{fixtureId}")
