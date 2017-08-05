@@ -107,6 +107,7 @@ public class tableDaoImpl implements tableDao {
                 updateTables(homeTableEntry);
                 updateTables(awayTableEntry);
                 fixture.setTableGenerated(true);
+                fixtureService.updateFixture(fixture);
 
             }else if(awayFixtureScore > homeFixtureScore){
                 //set away points and goal difference
@@ -123,6 +124,7 @@ public class tableDaoImpl implements tableDao {
                 updateTables(awayTableEntry);
                 updateTables(homeTableEntry);
                 fixture.setTableGenerated(true);
+                fixtureService.updateFixture(fixture);
             }else{
                 homeTableEntry.setPoints(homePoints + 1);
                 awayTableEntry.setPoints(awayPoints + 1);
@@ -138,6 +140,7 @@ public class tableDaoImpl implements tableDao {
                 updateTables(awayTableEntry);
                 updateTables(homeTableEntry);
                 fixture.setTableGenerated(true);
+                fixtureService.updateFixture(fixture);
             }
             return true;
 

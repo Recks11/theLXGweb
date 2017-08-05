@@ -127,6 +127,6 @@ public class fixtureDaoImpl implements fixtureDao {
     }
     @Override
     public List<fixtures> getUpdatedFixtures() {
-        return sessionFactory.getCurrentSession().createQuery("from fixtures where fixtureUpdated = false ").list();
+        return sessionFactory.getCurrentSession().createQuery("from fixtures where fixtureUpdated = true and tableGenerated = false ").list();
     }
 }

@@ -6,18 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="Added live reload to fixtures and Tables">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/fixtureServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/fixtureServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/fixtureService.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/fixtureService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +61,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminPlayerGetData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminPlayerGetData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2652">
+            <state relative-caret-position="1684">
               <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateFixturesController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d5i4eu2xg358oafh.tables" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d5i4eu2xg358oafh.fixtures" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.fixtures">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,22 +146,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtureService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/fixtureService.java">
+      <file leaf-file-name="fixtureDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="1989">
+              <caret line="129" column="131" lean-forward="false" selection-start-line="129" selection-start-column="131" selection-end-line="129" selection-end-column="131" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtureDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java">
+      <file leaf-file-name="tableDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="122" column="50" lean-forward="false" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="766">
+              <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,20 +174,6 @@
             <state relative-caret-position="170">
               <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fixtures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="154" column="39" lean-forward="false" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
-              <folding>
-                <element signature="e#3337#3338#0" expanded="true" />
-                <element signature="e#3398#3399#0" expanded="true" />
-                <element signature="e#3450#3451#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -241,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/tables.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/changeTeam.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/tableDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
@@ -252,14 +273,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/playerTables.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/fixtureService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/fixtureServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" />
       </list>
     </option>
   </component>
@@ -1558,14 +1580,7 @@
       <workItem from="1501810457272" duration="68000" />
       <workItem from="1501860149689" duration="42544000" />
       <workItem from="1501905669986" duration="1601000" />
-      <workItem from="1501937463639" duration="1864000" />
-    </task>
-    <task id="LOCAL-00135" summary="homepage center fixes">
-      <created>1501330984583</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1501330984583</updated>
+      <workItem from="1501937463639" duration="2748000" />
     </task>
     <task id="LOCAL-00136" summary="homepage center fixes">
       <created>1501331956074</created>
@@ -1903,11 +1918,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501905433626</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Added live reload to fixtures and Tables">
+      <created>1501939453976</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1501939453977</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445727000" />
+    <option name="totallyTimeSpent" value="446611000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2076,21 +2098,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/registerStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/allPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/groups.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2427,24 +2434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="122" column="50" lean-forward="false" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2245">
-          <caret line="175" column="13" lean-forward="true" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -2474,19 +2463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2503,14 +2479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -2519,10 +2487,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.tables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/5a7895b0/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.fixtures">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="129" column="131" lean-forward="false" selection-start-line="129" selection-start-column="131" selection-end-line="129" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
+        <state relative-caret-position="1684">
           <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
