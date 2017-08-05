@@ -62,7 +62,7 @@ public class homeController {
         List<fixtures> fixturesList = fixtureService.getAllFixtures();
         model.addAttribute("title", "TheLXG - Fixtures");
         model.addAttribute("fixtures",fixturesList);
-        return "allPlayers";
+        return "allFixtures";
     }
 
     @RequestMapping("/tables")
@@ -70,6 +70,7 @@ public class homeController {
 
         int numberOfGroups = groupsService.getLastGroup().getGroupNumber();
 
+        model.addAttribute("title", "TheLXG - Tables");
         model.addAttribute("numberOfGroups", numberOfGroups);
         model.addAttribute("tables",tableService.getAllTables());
         return "playerTables";

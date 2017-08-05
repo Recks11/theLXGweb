@@ -20,7 +20,7 @@
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <div class="bg-cover">
-    <section>
+    <section id="allTables">
         <div class="no-pad">
             <div class="about-details text-center mont-Font">
                 <div class="row">
@@ -79,6 +79,18 @@
     </section>
 </div>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script>
+    $(document).ready(function () {
+        setInterval(function () {
+            updateDiv();
+    }, 3000);
+    });
 
+    function updateDiv()
+    {
+        $("#allTables").load(window.location.href + " #allTables");
+        console.log('page reloaded')
+    }
+</script>
 </body>
 </html>

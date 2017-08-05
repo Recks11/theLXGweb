@@ -17,7 +17,7 @@
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <div class="bg-cover">
-    <section>
+    <section class="allFixtures">
         <div class="search text-center">
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias">
         </div>
@@ -83,6 +83,18 @@
     }
 </script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script>
+    $(document).ready(function () {
+        setInterval(function () {
+            updateDiv();
+        }, 5000);
+    });
 
+    function updateDiv()
+    {
+        $("#allFixtures").load(window.location.href + " #allFixtures");
+        console.log('Fixtures reloaded')
+    }
+</script>
 </body>
 </html>
