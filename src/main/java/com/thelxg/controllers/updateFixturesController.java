@@ -72,6 +72,8 @@ public class updateFixturesController {
 
         int end = Integer.parseInt(updatedFixture.getGroup());
         int actual = Integer.parseInt(updatedFixture.getGroup());
+        this.start = actual;
+        this.end = end;
         return "redirect:/admin/competition/fixtures/"+actual+"/"+end;
     }
 
@@ -79,6 +81,6 @@ public class updateFixturesController {
     public String done(@PathVariable("fixtureId") long fixtureId){
 
         tableService.generateTableForFixture(fixtureId);
-        return "redirect:/admin/competition/fixtures/1/13";
+        return "redirect:/admin/competition/fixtures/"+start+"/"+end;
     }
 }
