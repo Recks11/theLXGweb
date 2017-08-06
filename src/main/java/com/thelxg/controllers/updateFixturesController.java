@@ -72,8 +72,8 @@ public class updateFixturesController {
 
         int end = Integer.parseInt(updatedFixture.getGroup());
         int actual = Integer.parseInt(updatedFixture.getGroup());
-        this.start = actual;
-        this.end = end;
+//        this.start = actual;
+//        this.end = end;
         return "redirect:/admin/competition/fixtures/"+actual+"/"+end;
     }
 
