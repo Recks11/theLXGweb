@@ -36,8 +36,12 @@
                         <ul>
                             <li><a href="<spring:url value="/admin/competition/fixtures/${1}/${4}"/>"><i class="fa fa-user"></i> Group 1 - 4 </a></li>
                             <li><a href="<spring:url value="/admin/competition/fixtures/${5}/${8}"/>"><i class="fa fa-user"></i> Group 5 - 8 </a></li>
-                            <li><a href="<spring:url value="/admin/competition/fixtures/${9}/${12}"/>"><i class="fa fa-user"></i> Group 9 - 12 </a></li>
-                            <li><a href="<spring:url value="/admin/competition/fixtures/${13}/${14}"/>"><i class="fa fa-user"></i> Group 13 - 14 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${9}/${9}"/>"><i class="fa fa-user"></i> 9 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${10}/${10}"/>"><i class="fa fa-user"></i> 10 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${11}/${11}"/>"><i class="fa fa-user"></i> 11 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${12}/${12}"/>"><i class="fa fa-user"></i> 12 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${13}/${13}"/>"><i class="fa fa-user"></i> 13 </a></li>
+                            <li><a href="<spring:url value="/admin/competition/fixtures/${14}/${14}"/>"><i class="fa fa-user"></i> 14 </a></li>
                         </ul>
                     </div>
                 </div>

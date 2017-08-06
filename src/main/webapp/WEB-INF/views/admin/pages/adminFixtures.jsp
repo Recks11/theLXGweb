@@ -20,6 +20,10 @@
         .table>tbody>tr>td{
             font-size: 15px;
         }
+        .updatedFixture{
+            background: gold;
+            color: black;
+        }
     </style>
     <script>
         var playerId = [""]
@@ -53,7 +57,14 @@
                             <tbody style="padding-bottom: 100px;">
                             <c:forEach items="${fixtures}" var="fixture">
                                 <c:url value="/admin/competition/change.score" var="changeScore"/>
-                                <tr>
+                                <c:choose>
+                                    <c:when test="${fixture.fixtureUpdated == true}">
+                                        <tr class="updatedFixture">
+                                    </c:when>
+                                    <c:otherwise>
+                                        <tr>
+                                    </c:otherwise>
+                                </c:choose>
                                     <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="fixtureObject" method="post" action="${changeScore}">
                                     <td>${fixture.fixtureTime}</td>
                                     <td>${fixture.homePlayer}</td>
@@ -73,7 +84,7 @@
                                     <td>${fixture.group}</td>
                                     <td>
                                             <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
-                                            <button type="submit" class="btn btn-success btn-xs"> Update Score</button>
+                                            <button type="submit" class="btn btn-success btn-sm" style="margin-bottom: 10px"> Update Score</button>
                                         <a href="<spr:url value="/admin/competition/done/${fixture.id}"/>" class="btn btn-info btn-xs"> done</a>
                                     </td>
                                     </form:form>

@@ -101,7 +101,7 @@ public class fixtureDaoImpl implements fixtureDao {
     @Override
     public List<fixtures> getUngeneratedFixturesByGroupNumber(String groupNumber) {
         return sessionFactory.getCurrentSession()
-                .createQuery("from fixtures where group = :groupNumber and tableGenerated = false")
+                .createQuery("from fixtures where group = :groupNumber and tableGenerated = false order by fixtureTime")
                 .setParameter("groupNumber", groupNumber).list();
     }
 

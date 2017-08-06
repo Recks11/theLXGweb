@@ -100,13 +100,14 @@ public class AdminPlayerGetData {
     public String sendListMail(){
 
         List<String> list = new ArrayList<String>();
-        for(int i = 1;i < 15; i ++) { //iterate through fixtures
+        for(int i = 9;i < 15; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
             for (player play : playerList) {
 
-                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+ " Club: "+ play.getTeamSelected() +"\n");
+//                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+ " Club: "+ play.getTeamSelected() +"\n");
+                list.add("E mail: "+play.getEmail()+",\n");
                 System.out.println(play.getEmail()+"\n");
             }
         }

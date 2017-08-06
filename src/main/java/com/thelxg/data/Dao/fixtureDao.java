@@ -35,4 +35,5 @@ public interface fixtureDao {
     List<fixtures> getUnDuplicatedFixtures();
 
     List<fixtures> getUpdatedFixtures();
+
 }

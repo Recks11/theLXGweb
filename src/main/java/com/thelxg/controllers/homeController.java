@@ -59,7 +59,7 @@ public class homeController {
     @RequestMapping("/fixtures")
     public String getFixtures(Model model){
 
-        List<fixtures> fixturesList = fixtureService.getAllFixtures();
+        List<fixtures> fixturesList = fixtureService.getUngeneratedFixtures();
         model.addAttribute("title", "TheLXG - Fixtures");
         model.addAttribute("fixtures",fixturesList);
         return "allFixtures";
