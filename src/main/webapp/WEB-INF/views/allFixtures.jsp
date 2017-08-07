@@ -27,38 +27,38 @@
                     <c:choose>
                         <c:when test="${fixtures.size() == 0}">
                             <h3>Fixtures for this weekend have been played</h3>
-                            <c:otherwise>
-                                <table id="fixtureTable" class="table table-condensed text-center white-font" >
-                                    <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody style="padding-bottom: 100px;">
-                                    <c:forEach items="${fixtures}" var="fixture">
-                                        <tr>
-                                            <td>${fixture.fixtureTime}</td>
-                                            <td>${fixture.homePlayer}</td>
-                                            <td>${fixture.homeTeam}</td>
-                                            <td>${fixture.homeScore}</td>
-                                            <td>:</td>
-                                            <td>${fixture.awayScore}</td>
-                                            <td>${fixture.awayTeam}</td>
-                                            <td>${fixture.awayPlayer}</td>
-                                            <td>${fixture.group}</td>
-                                        </tr>
-                                    </c:forEach>
-                                    </tbody>
-                                </table>
-                            </c:otherwise>
                         </c:when>
+                        <c:otherwise>
+                            <table id="fixtureTable" class="table table-condensed text-center white-font" >
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody style="padding-bottom: 100px;">
+                                <c:forEach items="${fixtures}" var="fixture">
+                                    <tr>
+                                        <td>${fixture.fixtureTime}</td>
+                                        <td>${fixture.homePlayer}</td>
+                                        <td>${fixture.homeTeam}</td>
+                                        <td>${fixture.homeScore}</td>
+                                        <td>:</td>
+                                        <td>${fixture.awayScore}</td>
+                                        <td>${fixture.awayTeam}</td>
+                                        <td>${fixture.awayPlayer}</td>
+                                        <td>${fixture.group}</td>
+                                    </tr>
+                                </c:forEach>
+                                </tbody>
+                            </table>
+                        </c:otherwise>
                     </c:choose>
 
                 </div>
