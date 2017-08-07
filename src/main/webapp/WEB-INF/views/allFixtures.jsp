@@ -26,7 +26,7 @@
                 <div class="fixture-table">
                     <c:choose>
                         <c:when test="${fixtures.size() == 0}">
-                            <h3>Fixtures for this weekend have been played</h3>
+                            <h3 style="color: #ffd700">Fixtures for this weekend have been played</h3>
                         </c:when>
                         <c:otherwise>
                             <table id="fixtureTable" class="table table-condensed text-center white-font" >

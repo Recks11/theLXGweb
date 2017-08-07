@@ -100,6 +100,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
         //Variables
         int groupNumber = group.getGroupNumber();
+        int updatedNumber = groupNumber + 1;
         int numberOfPlayersInLastGroup = playersInLastGroup.size();
         int numberOfPlayersNotInGroup = playersNotInGroup.size();
 
@@ -123,15 +124,15 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         if(numberOfPlayersNotInGroup > 0){
             for(int i = 1; i < numberOfPlayersNotInGroup; i++){
                 player playerToBeAddedToGroup = playersNotInGroup.get(i-1);
-                playerToBeAddedToGroup.setPlayerGroup(groupNumber);
+                playerToBeAddedToGroup.setPlayerGroup(updatedNumber);
                 playerService.updatePlayer(playerToBeAddedToGroup);
 
                 if (i % 5 == 0){
                     playerToBeAddedToGroup = playersNotInGroup.get(i-1);
-                    playerToBeAddedToGroup.setPlayerGroup(groupNumber);
+                    playerToBeAddedToGroup.setPlayerGroup(updatedNumber);
                     playerService.updatePlayer(playerToBeAddedToGroup);
-                    groupNumber ++;
-                    group.setGroupNumber(groupNumber);
+                    updatedNumber ++;
+                    group.setGroupNumber(updatedNumber);
                     groupService.setGroupNumber(group);
                 }
             }
