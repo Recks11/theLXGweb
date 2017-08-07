@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/download/pdf/ruleBook.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/download/pdf/RuleBookNew.pdf" afterPath="$PROJECT_DIR$/src/main/webapp/download/pdf/RuleBookNew.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,26 +57,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="449">
+              <caret line="52" column="124" lean-forward="false" selection-start-line="52" selection-start-column="124" selection-end-line="52" selection-end-column="124" />
               <folding>
-                <marker date="1502120434000" expanded="true" signature="1252:1273" ph="..." />
-                <marker date="1502120434000" expanded="true" signature="1312:1333" ph="..." />
-                <marker date="1502120434000" expanded="true" signature="1386:1407" ph="..." />
-                <marker date="1502120434000" expanded="true" signature="1448:1469" ph="..." />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1502122108000" expanded="true" signature="1252:1273" ph="..." />
+                <marker date="1502122108000" expanded="true" signature="1312:1333" ph="..." />
+                <marker date="1502122108000" expanded="true" signature="1386:1407" ph="..." />
+                <marker date="1502122108000" expanded="true" signature="1448:1469" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1152,13 +1147,6 @@
       <workItem from="1501905669986" duration="1601000" />
       <workItem from="1501937463639" duration="4302000" />
     </task>
-    <task id="LOCAL-00141" summary="FAQ">
-      <created>1501449128454</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1501449128454</updated>
-    </task>
     <task id="LOCAL-00142" summary="Added rule book">
       <created>1501549342436</created>
       <option name="number" value="00142" />
@@ -1495,11 +1483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502029014880</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="Minor tweaks">
+      <created>1502120508169</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1502120508169</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456191000" />
+    <option name="totallyTimeSpent" value="456983000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1534,7 +1529,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899693" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428864" sideWeight="0.497558" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38768828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21733822" sideWeight="0.49393415" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1662,7 +1657,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Big Update&#10;Added the following:&#10;&#10;-&gt; Admin Page&#10;-&gt; Admin Controller for admin functions&#10;-&gt; Pagination Service&#10;-&gt; new mail sent column for users to be used in admin page&#10;update user functionality to playerDao and player Service &#10;&#10;refactored:&#10;&#10;-&gt; sendNotification interface to support mail sent and mail not sent&#10;-&gt; EMailMessage to EMailMessageImpl and ireated EmailMessage interface&#10;-&gt; SavePlayerAndSendMail to savePlayerAndSendMailImpl (split them to interfaces and classes)" />
     <MESSAGE value="remove base url" />
     <MESSAGE value="changed player data retrieval to ascending order by date" />
     <MESSAGE value="fixed UrlAuthenticationHandler" />
@@ -1687,7 +1681,8 @@
     <MESSAGE value="fixed tables generating only 1 entry" />
     <MESSAGE value="Modified table backend to sort points while accounting for goal difference" />
     <MESSAGE value="Added live reload to fixtures and Tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added live reload to fixtures and Tables" />
+    <MESSAGE value="Minor tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1922,19 +1917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <marker date="1502120434000" expanded="true" signature="1252:1273" ph="..." />
-            <marker date="1502120434000" expanded="true" signature="1312:1333" ph="..." />
-            <marker date="1502120434000" expanded="true" signature="1386:1407" ph="..." />
-            <marker date="1502120434000" expanded="true" signature="1448:1469" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1977,9 +1959,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="52" column="124" lean-forward="false" selection-start-line="52" selection-start-column="124" selection-end-line="52" selection-end-column="124" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1502122108000" expanded="true" signature="1252:1273" ph="..." />
+            <marker date="1502122108000" expanded="true" signature="1312:1333" ph="..." />
+            <marker date="1502122108000" expanded="true" signature="1386:1407" ph="..." />
+            <marker date="1502122108000" expanded="true" signature="1448:1469" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
