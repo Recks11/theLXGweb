@@ -122,7 +122,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         }
 
         if(numberOfPlayersNotInGroup > 0){
-            for(int i = 1; i < numberOfPlayersNotInGroup; i++){
+            for(int i = 1; i <= numberOfPlayersNotInGroup; i++){
                 player playerToBeAddedToGroup = playersNotInGroup.get(i-1);
                 playerToBeAddedToGroup.setPlayerGroup(updatedNumber);
                 playerService.updatePlayer(playerToBeAddedToGroup);
@@ -139,27 +139,6 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         }
         return true;
     }
-
-//    public boolean generateTime() {
-//
-//        groups group =  groupService.getLastGroup();
-//        List fixturesWithoutTime = fixtureService.getFixturesWithoutTime();
-//        int numberOfGroups = group.getGroupNumber();
-//        DateTimeFormatter formatter = DateTimeFormat.forPattern("HH:mm");
-//        LocalTime time = formatter.parseLocalTime("10:00");
-//
-//        for (int i = 0; i < numberOfGroups; i += 4) {
-//
-//            fixtures console1_2 ;
-//            fixtures console3_4;
-//            fixtures console5_6;
-//            fixtures console7_8;
-//
-//
-//
-//        }
-//        return true;
-//    }
     public boolean sendFixtureMail(player player){
 
         return sendMail.sendFixtureMail(player, eMail);
