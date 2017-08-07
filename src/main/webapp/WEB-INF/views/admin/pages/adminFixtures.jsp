@@ -40,58 +40,66 @@
             <div class="no-pad">
                 <div class="about-details text-center mont-Font">
                     <div class="fixture-table">
-                        <table id="fixtureTable" class="table table-condensed text-center white-font" >
-                            <thead>
-                            <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            </thead>
-                            <tbody style="padding-bottom: 100px;">
-                            <c:forEach items="${fixtures}" var="fixture">
-                                <c:url value="/admin/competition/change.score" var="changeScore"/>
-                                <c:choose>
-                                    <c:when test="${fixture.fixtureUpdated == true}">
-                                        <tr class="updatedFixture">
-                                    </c:when>
-                                    <c:otherwise>
-                                        <tr>
-                                    </c:otherwise>
-                                </c:choose>
-                                    <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="fixtureObject" method="post" action="${changeScore}">
-                                    <td>${fixture.fixtureTime}</td>
-                                    <td>${fixture.homePlayer}</td>
-                                    <td>${fixture.homeTeam}</td>
-                                    <td>
-                                        <%--<div id="home-${fixture.id}" contenteditable="true">${fixture.homeScore}</div>--%>
-                                            <input id="home-${fixture.id}" name="homeScore" style="color: black; width: 30px; padding-left: 10px" type="text" placeholder="${fixture.homeScore}"/>
-                                    </td>
-                                    <td>:</td>
-                                    <td>
-                                        <%--<div id="away-${fixture.id}" contenteditable="true">${fixture.awayScore}</div>--%>
+                        <c:choose>
+                            <c:when test="${fixtures.size() == 0}">
+                                <h3> no fixtures </h3>
+                            </c:when>
+                            <c:otherwise>
+                                <table id="fixtureTable" class="table table-condensed text-center white-font" >
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody style="padding-bottom: 100px;">
+                                    <c:forEach items="${fixtures}" var="fixture">
+                                        <c:url value="/admin/competition/change.score" var="changeScore"/>
+                                        <c:choose>
+                                            <c:when test="${fixture.fixtureUpdated == true}">
+                                                <tr class="updatedFixture">
+                                            </c:when>
+                                            <c:otherwise>
+                                                <tr>
+                                            </c:otherwise>
+                                        </c:choose>
+                                        <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="fixtureObject" method="post" action="${changeScore}">
+                                            <td>${fixture.fixtureTime}</td>
+                                            <td>${fixture.homePlayer}</td>
+                                            <td>${fixture.homeTeam}</td>
+                                            <td>
+                                                    <%--<div id="home-${fixture.id}" contenteditable="true">${fixture.homeScore}</div>--%>
+                                                <input id="home-${fixture.id}" name="homeScore" style="color: black; width: 30px; padding-left: 10px" type="text" placeholder="${fixture.homeScore}"/>
+                                            </td>
+                                            <td>:</td>
+                                            <td>
+                                                    <%--<div id="away-${fixture.id}" contenteditable="true">${fixture.awayScore}</div>--%>
 
-                                        <input id="away-${fixture.id}" name="awayScore" style="color: black; width: 30px; padding-left: 10px;" type="text" placeholder="${fixture.awayScore}"/>
-                                    </td>
-                                    <td>${fixture.awayTeam}</td>
-                                    <td>${fixture.awayPlayer}</td>
-                                    <td>${fixture.group}</td>
-                                    <td>
-                                            <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
-                                            <button type="submit" class="btn btn-success btn-sm" style="margin-bottom: 10px"> Update Score</button>
-                                        <a href="<spr:url value="/admin/competition/done/${fixture.id}"/>" class="btn btn-info btn-xs"> done</a>
-                                    </td>
-                                    </form:form>
-                                </tr>
-                            </c:forEach>
-                            </tbody>
-                        </table>
+                                                <input id="away-${fixture.id}" name="awayScore" style="color: black; width: 30px; padding-left: 10px;" type="text" placeholder="${fixture.awayScore}"/>
+                                            </td>
+                                            <td>${fixture.awayTeam}</td>
+                                            <td>${fixture.awayPlayer}</td>
+                                            <td>${fixture.group}</td>
+                                            <td>
+                                                <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
+                                                <button type="submit" class="btn btn-success btn-sm" style="margin-bottom: 10px"> Update Score</button>
+                                                <a href="<spr:url value="/admin/competition/done/${fixture.id}"/>" class="btn btn-info btn-xs"> done</a>
+                                            </td>
+                                        </form:form>
+                                        </tr>
+                                    </c:forEach>
+                                    </tbody>
+                                </table>
+                            </c:otherwise>
+                        </c:choose>
+
                     </div>
                 </div>
             </div>

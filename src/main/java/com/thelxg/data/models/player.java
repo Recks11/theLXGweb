@@ -113,7 +113,7 @@ public class player {
     }
 
     public String getFullName() {
-        return fullName;
+        return getFirstName() +" "+ getLastName();
     }
 
     public void setFullName(String fullName) {
