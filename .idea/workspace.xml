@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="added new timer">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,16 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="playerDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="116" column="47" lean-forward="false" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,16 +107,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="218">
+              <caret line="51" column="169" lean-forward="false" selection-start-line="51" selection-start-column="169" selection-end-line="51" selection-end-column="169" />
               <folding>
-                <marker date="1502358789000" expanded="true" signature="1253:1274" ph="..." />
-                <marker date="1502358789000" expanded="true" signature="1313:1334" ph="..." />
-                <marker date="1502358789000" expanded="true" signature="1387:1408" ph="..." />
-                <marker date="1502358789000" expanded="true" signature="1449:1470" ph="..." />
+                <marker date="1502359278000" expanded="true" signature="1253:1274" ph="..." />
+                <marker date="1502359278000" expanded="true" signature="1313:1334" ph="..." />
+                <marker date="1502359278000" expanded="true" signature="1387:1408" ph="..." />
+                <marker date="1502359278000" expanded="true" signature="1449:1470" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,11 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/registerStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/formStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phy_register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
@@ -265,8 +263,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/groupsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -346,82 +345,6 @@
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1136,14 +1059,7 @@
       <workItem from="1501937463639" duration="4302000" />
       <workItem from="1502286398024" duration="2460000" />
       <workItem from="1502309678900" duration="898000" />
-      <workItem from="1502323350613" duration="1226000" />
-    </task>
-    <task id="LOCAL-00146" summary="Big Update">
-      <created>1501651104790</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1501651104792</updated>
+      <workItem from="1502323350613" duration="1594000" />
     </task>
     <task id="LOCAL-00147" summary="Big Update">
       <created>1501651364114</created>
@@ -1481,11 +1397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502126145299</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="added new timer">
+      <created>1502358831584</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1502358831585</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470304000" />
+    <option name="totallyTimeSpent" value="470672000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1624,7 +1547,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove base url" />
     <MESSAGE value="changed player data retrieval to ascending order by date" />
     <MESSAGE value="fixed UrlAuthenticationHandler" />
     <MESSAGE value="Added timer and flexbox to homepage" />
@@ -1649,7 +1571,8 @@
     <MESSAGE value="Modified table backend to sort points while accounting for goal difference" />
     <MESSAGE value="Added live reload to fixtures and Tables" />
     <MESSAGE value="Minor tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor tweaks" />
+    <MESSAGE value="added new timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1662,13 +1585,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/groupsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/groupsDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1976,24 +1892,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding>
-            <marker date="1502358789000" expanded="true" signature="1253:1274" ph="..." />
-            <marker date="1502358789000" expanded="true" signature="1313:1334" ph="..." />
-            <marker date="1502358789000" expanded="true" signature="1387:1408" ph="..." />
-            <marker date="1502358789000" expanded="true" signature="1449:1470" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="51" column="169" lean-forward="false" selection-start-line="51" selection-start-column="169" selection-end-line="51" selection-end-column="169" />
+          <folding>
+            <marker date="1502359278000" expanded="true" signature="1253:1274" ph="..." />
+            <marker date="1502359278000" expanded="true" signature="1313:1334" ph="..." />
+            <marker date="1502359278000" expanded="true" signature="1387:1408" ph="..." />
+            <marker date="1502359278000" expanded="true" signature="1449:1470" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
