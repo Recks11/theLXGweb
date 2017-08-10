@@ -8,7 +8,7 @@
 <body>
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Aug 5, 2017 00:00:00").getTime();
+    var countDownDate = new Date("Aug 16, 2017 23:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -32,7 +32,7 @@
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timeLeft").innerHTML = "Competition has Started";
+            document.getElementById("timeLeft").innerHTML = "Registration closed";
         }
     }, 1000);
 </script>
@@ -47,12 +47,13 @@
                         <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
                         <h3> PRESENTS</h3>
                         <br/>
-                        <br/>
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
-                        <h3 id="timeLeft"></h3>
+                        <h3 class="gold">Competition has Started</h3>
+                        <p>Registration Closes in</p>
+                        <p id="timeLeft"></p>
                         <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>" style="color:gold">You can still register here</a> &#8678;</p>
                         <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">Download rule book</a> &#8678;</p>
-                        <p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>
+                        <%--<p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>--%>
                     </div>
                 </div>
             </div>
