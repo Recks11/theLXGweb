@@ -36,17 +36,18 @@ public class updateFixturesController {
     * that is fixtureService.getFixturesByMatchTime;
     * */
     int start = 0;
-    int  end = 0;
+    int end = 0;
+
     @RequestMapping("/fixtures/{startFixtureNumber}/{endFixtureNumber}")
     public String getFixtures(Model model,
                               @PathVariable("startFixtureNumber") int startFixtureNumber,
-                              @PathVariable("endFixtureNumber") int endFixtureNumber){
+                              @PathVariable("endFixtureNumber") int endFixtureNumber) {
 
         this.start = startFixtureNumber;
         this.end = endFixtureNumber;
 
         List<fixtures> fixturesList = new ArrayList<fixtures>();
-        for(int i = startFixtureNumber; i <= endFixtureNumber; i ++ ){
+        for (int i = startFixtureNumber; i <= endFixtureNumber; i++) {
 
 
             List<fixtures> listOfFixtures = fixturesService.getUngeneratedFixturesByGroupNumber(Integer.toString(i));
@@ -60,10 +61,10 @@ public class updateFixturesController {
     }
 
     @PostMapping("/change.score")
-    public String updateScore(Model model, @ModelAttribute("fixtureObject") fixtures fixture){
+    public String updateScore(Model model, @ModelAttribute("fixtureObject") fixtures fixture) {
 
         String start = Integer.toString(this.start);
-        System.out.println("Data added: "+fixture.toString());
+        System.out.println("Data added: " + fixture.toString());
         fixtures updatedFixture = fixturesService.getFixturesById(fixture.getId());
         updatedFixture.setHomeScore(fixture.getHomeScore());
         updatedFixture.setAwayScore(fixture.getAwayScore());
@@ -74,13 +75,21 @@ public class updateFixturesController {
         int actual = Integer.parseInt(updatedFixture.getGroup());
 //        this.start = actual;
 //        this.end = end;
-        return "redirect:/admin/competition/fixtures/"+actual+"/"+end;
+        return "redirect:/admin/competition/fixtures/" + actual + "/" + end;
     }
 
     @GetMapping("/done/{fixtureId}")
-    public String done(@PathVariable("fixtureId") long fixtureId){
+    public String done(@PathVariable("fixtureId") long fixtureId) {
 
         tableService.generateTableForFixture(fixtureId);
-        return "redirect:/admin/competition/fixtures/"+start+"/"+end;
+        return "redirect:/admin/competition/fixtures/" + start + "/" + end;
+    }
+
+    @GetMapping("/results")
+    public String getResults(Model model){
+
+
+        model.addAttribute("fixtures", fixturesService.getFixturesWithTableGenerated());
+        return "admin/pages/adminResults";
     }
 }

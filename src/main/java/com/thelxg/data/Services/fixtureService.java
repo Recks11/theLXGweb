@@ -36,4 +36,6 @@ public interface fixtureService {
 
     List<fixtures> getUpdatedFixtures();
 
+    List<fixtures> getFixturesWithTableGenerated();
+
 }

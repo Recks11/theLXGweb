@@ -98,4 +98,9 @@ public class fixtureServiceImpl implements fixtureService {
     public List<fixtures> getUnDuplicatedFixtures() {
         return fixtures.getUnDuplicatedFixtures();
     }
+
+    @Transactional
+    public List<fixtures> getFixturesWithTableGenerated() {
+        return fixtures.getFixturesWithTableGenerated();
+    }
 }

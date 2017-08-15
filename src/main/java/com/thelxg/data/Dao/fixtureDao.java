@@ -36,4 +36,6 @@ public interface fixtureDao {
 
     List<fixtures> getUpdatedFixtures();
 
+    List<fixtures> getFixturesWithTableGenerated();
+
 }
