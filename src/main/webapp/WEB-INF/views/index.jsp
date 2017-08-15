@@ -49,7 +49,7 @@
                         <br/>
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                         <h3 class="gold">Competition has Started</h3>
-                        <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>" style="color:gold">You can still register here</a> &#8678;</p>
+                        <p class="gold">&#8680; <a href="<spr:url value="/enter/"/>" style="color:gold">You can still register here</a> &#8678;</p>
                         <p>Registration Closes in</p>
                         <p id="timeLeft"></p>
                         <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">Download rule book</a> &#8678;</p>
