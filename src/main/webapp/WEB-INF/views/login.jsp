@@ -20,6 +20,7 @@
 
     <title>LXG - Login</title>
     <link rel="stylesheet"  href="<c:url value="/resources/css/loginStyle.css"/>"/>
+    <link rel="stylesheet"  href="<c:url value="/resources/css/font-awesome.min.css"/>"/>
     <link rel="stylesheet"  href="<c:url value="/resources/css/LXG_animate.css"/>"/>
 </head>
 <body>
