@@ -6,12 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="Added results to admin">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClosed.jsp" />
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,16 +54,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1770">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="458">
+              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
               <folding>
-                <marker date="1502912863000" expanded="true" signature="1328:1349" ph="..." />
-                <marker date="1502912863000" expanded="true" signature="1388:1409" ph="..." />
-                <marker date="1502912863000" expanded="true" signature="1462:1483" ph="..." />
-                <marker date="1502912863000" expanded="true" signature="1524:1545" ph="..." />
+                <marker date="1502925862000" expanded="true" signature="1328:1349" ph="..." />
+                <marker date="1502925862000" expanded="true" signature="1388:1409" ph="..." />
+                <marker date="1502925862000" expanded="true" signature="1462:1483" ph="..." />
+                <marker date="1502925862000" expanded="true" signature="1524:1545" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -235,8 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClosed.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -1114,14 +1110,7 @@
       <workItem from="1502647601340" duration="231000" />
       <workItem from="1502753488302" duration="663000" />
       <workItem from="1502812240959" duration="3498000" />
-      <workItem from="1502894877970" duration="3684000" />
-    </task>
-    <task id="LOCAL-00151" summary="Big Update">
-      <created>1501653343670</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1501653343670</updated>
+      <workItem from="1502894877970" duration="3995000" />
     </task>
     <task id="LOCAL-00152" summary="updated rule book">
       <created>1501695259940</created>
@@ -1459,11 +1448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502816753956</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="registration closed">
+      <created>1502925515290</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1502925515291</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484982000" />
+    <option name="totallyTimeSpent" value="485293000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1602,7 +1598,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed UrlAuthenticationHandler" />
     <MESSAGE value="Added timer and flexbox to homepage" />
     <MESSAGE value="homepage center fixes" />
     <MESSAGE value="Admin page responsive fix" />
@@ -1627,7 +1622,8 @@
     <MESSAGE value="Minor tweaks" />
     <MESSAGE value="added new timer" />
     <MESSAGE value="Added results to admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added results to admin" />
+    <MESSAGE value="registration closed" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration closed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1982,23 +1978,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1770">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <marker date="1502912863000" expanded="true" signature="1328:1349" ph="..." />
-            <marker date="1502912863000" expanded="true" signature="1388:1409" ph="..." />
-            <marker date="1502912863000" expanded="true" signature="1462:1483" ph="..." />
-            <marker date="1502912863000" expanded="true" signature="1524:1545" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2011,11 +2002,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="458">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+          <folding>
+            <marker date="1502925862000" expanded="true" signature="1328:1349" ph="..." />
+            <marker date="1502925862000" expanded="true" signature="1388:1409" ph="..." />
+            <marker date="1502925862000" expanded="true" signature="1462:1483" ph="..." />
+            <marker date="1502925862000" expanded="true" signature="1524:1545" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

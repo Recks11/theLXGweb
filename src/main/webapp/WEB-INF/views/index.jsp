@@ -74,12 +74,12 @@
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
                         <br/>
                         <p class="gold">Venue is Hitbox Games, Leisure Mall, Surulere</p>
-                        <p class="gold">REGISTRATION FEE IS &#8358;2000</p>
+                        <%--<p class="gold">REGISTRATION FEE IS &#8358;2000</p>--%>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
-                        <a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>
+                        <%--<a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>--%>
                         <p class="gold" style="margin-top: 6px;">
                     </div>
                 </div>
