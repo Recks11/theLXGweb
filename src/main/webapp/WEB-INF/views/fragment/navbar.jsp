@@ -37,7 +37,7 @@
                         </li>
                         <li class="underline-hover"><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
                         <%--<li class="underline-hover"><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
-                        <li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>
+                        <%--<li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>--%>
                         <%--<li class="underline-hover"> <a href="<spr:url value="/enter/registrationCenters"/> "> Registration centers <i class="fa fa-edit"></i></a></li>--%>
                         <li class="underline-hover"><a href="<spr:url value="/aboutUs"/>">  ABOUT US</a></li>
                         <li class="underline-hover"><a href="<spr:url value="/faq"/>">  FAQ</a></li>

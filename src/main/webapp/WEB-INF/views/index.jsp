@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
 <%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
@@ -7,6 +7,9 @@
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
 <body>
 <script>
+    $(document).ready(function(){
+        $('#bannerText').addClass("fadeInDown");
+    });
     // Set the date we're counting down to
     var countDownDate = new Date("Aug 16, 2017 23:00:00").getTime();
 
@@ -41,7 +44,7 @@
 <section id=banner>
     <div class="section-bg-color">
         <div class="container-fluid text-center" style="height: 100%;">
-            <div class="home-face header-content animated fadeInDown centered-parent">
+            <div id="bannerText" class="home-face header-content animated centered-parent">
                 <div class="centered-content">
                     <div class="headText">
                         <h3>THE LEAGUE OF EXTRAORDINARY GAMERS</h3>
@@ -49,8 +52,6 @@
                         <br/>
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                         <h3 class="gold">Competition has Started</h3>
-                        <p class="gold">&#8680; <a href="<spr:url value="/enter/"/>" style="color:gold">You can still register here</a> &#8678;</p>
-                        <p>Registration Closes in</p>
                         <p id="timeLeft"></p>
                         <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">Download rule book</a> &#8678;</p>
                         <%--<p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>--%>

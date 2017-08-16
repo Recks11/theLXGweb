@@ -32,12 +32,19 @@ public class registerController {
     }
 
 
-    @RequestMapping("/")
+    @RequestMapping
     public String register(Model model){
 
         model.addAttribute("title","Register - TheLXG");
         model.addAttribute("playerObject", playerBean);
-        return "register";
+        return "redirect:/enter/registrationClosed";
+    }
+
+    @RequestMapping("/registrationClosed")
+    public String registrationClosedPage(Model model){
+
+        model.addAttribute("title","Closed - TheLXG");
+        return "registrationClosed";
     }
 
     @PostMapping("/")
