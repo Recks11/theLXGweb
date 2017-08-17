@@ -45,9 +45,9 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         System.out.println("number of groups: " + numberOfGroupsWithFixturesBeingGenerated);
         List playersInLastGroup = playerService.getPlayersInGroup(group.getGroupNumber());
 
-        if(playersInLastGroup.size() < 5){
-            numberOfGroupsWithFixturesBeingGenerated -= 1;
-        }
+//        if(playersInLastGroup.size() < 5){
+//            numberOfGroupsWithFixturesBeingGenerated -= 1;
+//        }
         System.out.println("number of groups after check: " + numberOfGroupsWithFixturesBeingGenerated);
         System.out.println("PlayerList: " + playerList.size());
 
@@ -61,14 +61,14 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
 
                 //if(!playerList.isEmpty() && (playerList.size() % 2 == 0)) {
-                    for(int k = 0;k < 5; k++){//iterates through player[k] in group[j]
+                    for(int k = 0;k < groupList.size(); k++){//iterates through player[k] in group[j]
                         //for group[i] match player k with player l
                         player homePlayer = groupList.get(k);
                         if(k == 4){
                             homePlayer.setFixtureGenerated("yes");
                             playerService.updatePlayer(homePlayer);
                         }else {
-                            for (int l = k + 1; l < 5; l++) {
+                            for (int l = k + 1; l < groupList.size(); l++) {
                                 fixture.setHomePlayer(homePlayer.getAlias());
                                 fixture.setHomeTeam(homePlayer.getTeamSelected());
                                 //AwayPlayer
