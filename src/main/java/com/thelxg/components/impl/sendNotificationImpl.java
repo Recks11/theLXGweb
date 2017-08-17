@@ -2,6 +2,7 @@ package com.thelxg.components.impl;
 
 import com.thelxg.components.eMailMessage;
 import com.thelxg.components.sendNotification;
+import com.thelxg.data.Services.playerService;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
@@ -15,7 +16,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class sendNotificationImpl implements sendNotification {
 
-
+    @Autowired
+    private playerService playerService;
 
     private final JavaMailSender mailSender;
     private final SimpleMailMessage mailMessage;
@@ -43,6 +45,7 @@ public class sendNotificationImpl implements sendNotification {
             System.out.println(mailMessage.toString());
             System.out.println("Mail Sent to "+ player.getEmail());
             player.setMailStatus("Fixture Mail sent");
+            playerService.updatePlayer(player);
             return true;
         }
         catch (MailException ex) {
@@ -50,6 +53,7 @@ public class sendNotificationImpl implements sendNotification {
             System.out.println("Mail not sent to "+ player.getEmail());
             player.setMailStatus("Fixture Mail not sent");
             System.err.println(ex.getMessage());
+            playerService.updatePlayer(player);
             return false;
         }
     }
