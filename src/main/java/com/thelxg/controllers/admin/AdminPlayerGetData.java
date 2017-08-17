@@ -67,7 +67,7 @@ public class AdminPlayerGetData {
     @GetMapping("/sendMailForMorningGroup")
     public String sendFixtureMail(){
 
-        for(int i = 1;i < 5; i ++) {
+        for(int i = 22;i < 28; i ++) {
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
@@ -83,7 +83,7 @@ public class AdminPlayerGetData {
     @GetMapping("/sendMailForEveningGroup")
     public String sendAgainFixtureMail(){
 
-        for(int i = 15;i <= 27; i ++) { //iterate through fixtures
+        for(int i = 15;i <= 21; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
@@ -100,7 +100,7 @@ public class AdminPlayerGetData {
     public String sendListMail(){
 
         List<String> list = new ArrayList<String>();
-        for(int i = 9;i < 15; i ++) { //iterate through fixtures
+        for(int i = 22;i < 28; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
