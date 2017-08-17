@@ -32,7 +32,7 @@
 
         <a href="<spr:url value="/admin/players/getData/sendMailForMorningGroup"/>" class="btn btn-info"> sendMail</a>
 
-        <a href="<spr:url value="/admin/players/getData/sendMailForEveningGroup"/>" class="btn btn-info"> send Evening Mail</a>
+        <a href="<spr:url value="/admin/players/getData/sendMailForEveningGroup"/>" class="btn btn-info"> send new final Mail</a>
 
         <a href="<spr:url value="/admin/players/getData/listEmails"/>" class="btn btn-info"> get Mail</a>
 

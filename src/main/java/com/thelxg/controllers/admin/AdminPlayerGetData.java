@@ -83,7 +83,7 @@ public class AdminPlayerGetData {
     @GetMapping("/sendMailForEveningGroup")
     public String sendAgainFixtureMail(){
 
-        for(int i = 9;i < 15; i ++) { //iterate through fixtures
+        for(int i = 15;i < 28; i ++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
