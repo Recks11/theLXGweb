@@ -47,6 +47,8 @@
                             <i class="fa fa-twitter"></i></a>
                             <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
                                 <i class="fa fa-instagram"></i></a>
+                            <a href="#footer" onclick="socialClickOp('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
+                                <i class="fa fa-youtube-play"></i></a>
                         </p>
                         </div>
                     </li>
