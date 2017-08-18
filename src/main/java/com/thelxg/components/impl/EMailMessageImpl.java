@@ -54,24 +54,40 @@ public class EMailMessageImpl implements eMailMessage {
             matches[i] = fixturesList.get(i).getFixtureTime();
         }
 
-        String theMessage = " Hello " + player.getFullName() + ", \n" +
-                "\n" +
-                "You have been drafted in group "+player.getPlayerGroup()+" \n"+
-                "Your Matches will take place on: \n"
-                        + matches[0] +"\n"+
-                         matches[1] +"\n"+
-                         matches[2] +"\n"+
-                         matches[3] +"\n"+
-                "Please be present at least 10 minutes before your match or risk forfeiting the match\n\n\n"+
-                "The Venue for the competition is Hitbox Games, Leisure Mall, Adeniran Ogunsanya, Surulere, Lagos. \n"+
-                " Please download the rulebook from the website \n \n"+
-                "if you have any problems or enquiries contact us at \n"+
-                "info@thelxg.com.ng " +
-                "or call +234 808 772 0872," +
-                " +234 817 698 9182";
-
-
-        this.message = theMessage;
+        if (fixturesList.size() == 3){
+            String theMessage = " Hello " + player.getFullName() + ", \n" +
+                    "\n" +
+                    "You have been drafted in group "+player.getPlayerGroup()+" \n"+
+                    "Your Matches will take place on: \n"
+                    + matches[0] +"\n"+
+                    matches[1] +"\n"+
+                    matches[2] +"\n"+
+                    "Please be present at least 10 minutes before your match or risk forfeiting the match\n\n\n"+
+                    "The Venue for the competition is Hitbox Games, Leisure Mall, Adeniran Ogunsanya, Surulere, Lagos. \n"+
+                    " Please download the rulebook from the website \n \n"+
+                    "if you have any problems or enquiries contact us at \n"+
+                    "info@thelxg.com.ng " +
+                    "or call +234 808 772 0872," +
+                    " +234 817 698 9182";
+            this.message = theMessage;
+        }else{
+            String theMessage = " Hello " + player.getFullName() + ", \n" +
+                    "\n" +
+                    "You have been drafted in group "+player.getPlayerGroup()+" \n"+
+                    "Your Matches will take place on: \n"
+                    + matches[0] +"\n"+
+                    matches[1] +"\n"+
+                    matches[2] +"\n"+
+                    matches[3] +"\n"+
+                    "Please be present at least 10 minutes before your match or risk forfeiting the match\n\n\n"+
+                    "The Venue for the competition is Hitbox Games, Leisure Mall, Adeniran Ogunsanya, Surulere, Lagos. \n"+
+                    " Please download the rulebook from the website \n \n"+
+                    "if you have any problems or enquiries contact us at \n"+
+                    "info@thelxg.com.ng " +
+                    "or call +234 808 772 0872," +
+                    " +234 817 698 9182";
+            this.message = theMessage;
+        }
     }
 
     public String getMessage(){
