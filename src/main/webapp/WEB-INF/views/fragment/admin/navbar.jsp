@@ -39,14 +39,14 @@
                                 <div id="fixtures" class="panel-collapse collapse">
                                     <div class="side-content">
                                         <ul>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${1}/${4}"/>"><i class="fa fa-user"></i> Group 1 - 4 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${5}/${8}"/>"><i class="fa fa-user"></i> Group 5 - 8 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${9}/${9}"/>"><i class="fa fa-user"></i> 9 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${10}/${10}"/>"><i class="fa fa-user"></i> 10 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${11}/${11}"/>"><i class="fa fa-user"></i> 11 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${12}/${12}"/>"><i class="fa fa-user"></i> 12 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${13}/${13}"/>"><i class="fa fa-user"></i> 13 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${14}/${14}"/>"><i class="fa fa-user"></i> 14 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${15}/${15}"/>"><i class="fa fa-user"></i> 15 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${16}/${16}"/>"><i class="fa fa-user"></i> 16 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${17}/${17}"/>"><i class="fa fa-user"></i> 17 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${18}/${18}"/>"><i class="fa fa-user"></i> 18 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${19}/${19}"/>"><i class="fa fa-user"></i> 19 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${20}/${20}"/>"><i class="fa fa-user"></i> 20 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${21}/${21}"/>"><i class="fa fa-user"></i> 21 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/${22}/${22}"/>"><i class="fa fa-user"></i> 22 </a></li>
                                         </ul>
                                     </div>
                                 </div>
