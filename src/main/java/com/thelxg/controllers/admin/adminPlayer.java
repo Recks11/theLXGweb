@@ -1,6 +1,7 @@
 package com.thelxg.controllers.admin;
 
 import com.thelxg.components.eMailMessage;
+import com.thelxg.components.groupsAndFixtures;
 import com.thelxg.components.paginationService;
 import com.thelxg.components.sendNotification;
 import com.thelxg.data.Services.playerService;
@@ -21,6 +22,8 @@ public class adminPlayer {
     private final paginationService pagination;
     private final sendNotification sendMail;
     private final eMailMessage eMail;
+    @Autowired
+    private groupsAndFixtures groupsAndFixtures;
 
 
     @Autowired
@@ -49,6 +52,17 @@ public class adminPlayer {
         player recipient = players.getPlayerByUniqueId(playerId);
 
         sendMail.sendEmail(recipient, eMail,"The LXG - Registration");
+        players.updatePlayer(recipient);
+        return "redirect:/admin/players/all";
+
+    }
+
+    @GetMapping("/send/FixturesMail/{playerId}")
+    public String sendFixturesMail(@PathVariable("playerId") String playerId, Model model){
+
+        player recipient = players.getPlayerByUniqueId(playerId);
+
+        groupsAndFixtures.sendFixtureMail(recipient);
         players.updatePlayer(recipient);
         return "redirect:/admin/players/all";
 

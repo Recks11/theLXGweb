@@ -53,6 +53,7 @@
                         <td class="text-center">
                             <a href="<spr:url value="/admin/players/get/${player.playerId}"/>" class="btn btn-success btn-xs" type="button">Info</a>
                             <a href="<spr:url value="/admin/players/send/mail/${player.playerId}"/>" class="btn btn-info btn-xs ">New Mail</a>
+                            <a href="<spr:url value="/admin/players/send/FixturesMail/${player.playerId}"/>" class="btn btn-warning btn-xs ">Fixtures Mail</a>
                             <%--<a href="<spr:url value="/admin/all/delete/${player.playerId}"/>" class="btn btn-danger btn-xs">delete</a>--%>
                         </td>
                     </tr>
