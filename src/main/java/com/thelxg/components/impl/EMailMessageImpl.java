@@ -48,9 +48,9 @@ public class EMailMessageImpl implements eMailMessage {
 
     public void setMessageForFixture(player player){
 
-        String matches[] = new String[4];
         List<fixtures> fixturesList = fixtureService.getFixturesByAlias(player.getAlias());
-        for(int i = 0; i < 4; i++){
+        String matches[] = new String[fixturesList.size()];
+        for(int i = 0; i < fixturesList.size(); i++){
             matches[i] = fixturesList.get(i).getFixtureTime();
         }
 
