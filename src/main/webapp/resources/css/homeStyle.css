@@ -69,6 +69,14 @@ body, html{
 .headText > p > a :hover {
     color: springgreen;
 }
+#videoBanner > div > div > div > div > .headText{
+    margin-top: 0;
+
+}
+#videoBanner > div > div > div > div > .headText> div{
+    max-width: 980px;
+
+}
 /* Flex */
 .centered-parent{
     display: flex;
@@ -300,6 +308,10 @@ background-color: rgba(0,0,0,0.8);
     .vendor-text > p{
         font-size: 16px;
     }
+    #videoBanner > div > div > div > div > .headText> div{
+        max-width: 720px;
+
+    }
 }
 
 
@@ -364,6 +376,10 @@ background-color: rgba(0,0,0,0.8);
 
     #videoBanner > div > div > div > div > .headText{
         padding-top: 40px;
+
+    }
+    #videoBanner > div > div > div > div > .headText> div{
+        max-width: 480px;
 
     }
 
