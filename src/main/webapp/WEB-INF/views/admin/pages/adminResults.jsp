@@ -67,6 +67,7 @@
                                             <td>${fixture.awayScore}</td>
                                             <td>${fixture.awayTeam}</td>
                                             <td>${fixture.awayPlayer}</td>
+                                            <td>Group: ${fixture.group}</td>
                                         </tr>
                                     </c:forEach>
                                     </tbody>
