@@ -142,6 +142,8 @@ public class AdminPlayerGetData {
 
         for(player player : playerList){
             tableService.addPlayerToTable(player);
+            player.setInTables(true);
+            playerService.updatePlayer(player);
         }
 
         return "admin/pages/generateFixtures";
