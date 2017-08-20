@@ -33,7 +33,7 @@ public class playerDaoImpl implements playerDao {
     public void addPlayer(player play) {
 
         play.setPlayerGroup(0);
-        play.setFixtureGenerated("no");
+        play.setFixtureGenerated(false);
         play.setMailStatus("not sent");
         sessionFactory.getCurrentSession().save(play);
     }
@@ -52,7 +52,7 @@ public class playerDaoImpl implements playerDao {
     public List<player> getPlayersWIthNonGeneratedFixtures() {
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where fixtureGenerated = :fixtureStatus")
-                .setParameter("fixtureStatus","no")
+                .setParameter("fixtureStatus",false)
                 .list();
     }
 

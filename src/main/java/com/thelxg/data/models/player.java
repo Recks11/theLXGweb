@@ -49,7 +49,7 @@ public class player {
 
     private String mailStatus;
 
-    private String fixtureGenerated;
+    private boolean fixtureGenerated;
 
     private boolean inTables;
 
@@ -58,7 +58,11 @@ public class player {
 
     public player(){}
 
-    public player(String playerId, String firstName, String lastName, String fullName, String alias, Date date, String email, String phoneNumber, String twitterHandle, String instagramHandle, String teamSelected, String teamCountry, String location, String reference, int playerGroup, String mailStatus, String fixtureGenerated, boolean inTables, MultipartFile image) {
+    public player(String playerId, String firstName, String lastName,
+                  String fullName, String alias, Date date, String email,
+                  String phoneNumber, String twitterHandle, String instagramHandle,
+                  String teamSelected, String teamCountry, String location, String reference,
+                  int playerGroup, String mailStatus, boolean fixtureGenerated, boolean inTables, MultipartFile image) {
         PlayerId = playerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -216,11 +220,11 @@ public class player {
         this.mailStatus = mailStatus;
     }
 
-    public String getFixtureGenerated() {
+    public boolean isFixtureGenerated() {
         return fixtureGenerated;
     }
 
-    public void setFixtureGenerated(String fixtureGenerated) {
+    public void setFixtureGenerated(boolean fixtureGenerated) {
         this.fixtureGenerated = fixtureGenerated;
     }
 

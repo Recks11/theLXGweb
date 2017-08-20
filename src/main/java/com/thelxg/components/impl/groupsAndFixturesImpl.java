@@ -65,7 +65,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
                         //for group[i] match player k with player l
                         player homePlayer = groupList.get(k);
                         if(k == 4){
-                            homePlayer.setFixtureGenerated("yes");
+                            homePlayer.setFixtureGenerated(true);
                             playerService.updatePlayer(homePlayer);
                         }else {
                             for (int l = k + 1; l < groupList.size(); l++) {
@@ -80,7 +80,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
                                 fixtureService.saveFixture(fixture);
                             }
-                            homePlayer.setFixtureGenerated("yes");
+                            homePlayer.setFixtureGenerated(true);
                             playerService.updatePlayer(homePlayer);
                         }
                     }
