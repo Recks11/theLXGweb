@@ -25,7 +25,7 @@
             <div class="about-details text-center mont-Font">
                 <div class="row">
                     <c:set var="n" value="${numberOfGroups}"/>
-                    <c:forEach begin="1" end="27" step="1" var="number">
+                    <c:forEach begin="1" end="29" step="1" var="number">
                         <%--<c:if test="${number % 3 == 0}">--%>
                         <%--<div class="row">--%>
                         <%--</c:if>--%>
@@ -67,7 +67,7 @@
 
                     <c:if test="${number % 3 == 0}">
                 </div>
-                        <c:if test="${number != 27}">
+                        <c:if test="${number != 29}">
                 <div class="row">
                         </c:if>
 
