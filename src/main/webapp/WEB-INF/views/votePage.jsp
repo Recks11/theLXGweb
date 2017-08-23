@@ -33,6 +33,21 @@
     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
         border-bottom: 2px;
     }
+    .table>thead:first-child>tr:first-child>th{
+        text-align: center;
+    }
+    .table-wrapper{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 768px) {
+
+        .table-wrapper{
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+    }
 </style>
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
@@ -58,7 +73,7 @@
                         </div>
                     </form:form>
                 </div>
-                <div style="max-width: 700px; margin: 0 auto">
+                <div class="table-wrapper">
                     <table id="fixtureTable" class="table table-condensed text-center white-font" style="margin-top: 30px;">
                         <thead>
                         <tr>
