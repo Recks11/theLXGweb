@@ -23,6 +23,16 @@
         background-color: gold;
         color: black;
     }
+    .about-details {
+        color: white;
+        padding-top: 50px;
+    }
+    section{
+        height: unset;
+    }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        border: 0;
+    }
 </style>
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
@@ -33,8 +43,7 @@
                 <div class="about-details text-center mont-Font">
                     <h2 class="gold">VOTE FOR YOR PLAYER!</h2>
                     <br/>
-
-                    <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="voteObject" method="post">
+                    <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="voteObject" method="post" >
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="Alias">PLAYER ALIAS:</label>
                             <div class="col-sm-10">
@@ -48,6 +57,22 @@
                         </div>
                     </form:form>
                 </div>
+                <table id="fixtureTable" class="table table-condensed text-center white-font" style="margin-top: 30px;">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <c:forEach items="${playersVotedFor}" var="votes">
+                        <tr>
+                            <td>${votes.playerAlias}</td>
+                            <td>${votes.numberOfVotes}</td>
+                        </tr>
+                    </c:forEach>
+                    </tbody>
+                </table>
             </div>
         </section>
     </div>
