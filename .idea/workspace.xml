@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -132,8 +132,8 @@
       <file leaf-file-name="votePage.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1165,14 +1165,7 @@
       <workItem from="1503193139048" duration="197000" />
       <workItem from="1503349232683" duration="5160000" />
       <workItem from="1503420592929" duration="1131000" />
-      <workItem from="1503506420729" duration="10738000" />
-    </task>
-    <task id="LOCAL-00171" summary="Added fixtures page&#10;navbar padding reduced for some devices">
-      <created>1501805960092</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1501805960092</updated>
+      <workItem from="1503506420729" duration="10906000" />
     </task>
     <task id="LOCAL-00172" summary="Added fixtures page&#10;navbar padding reduced for some devices">
       <created>1501806893793</created>
@@ -1510,11 +1503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503527934057</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Tables updated">
+      <created>1503528447163</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1503528447163</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="535397000" />
+    <option name="totallyTimeSpent" value="535565000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2201,8 +2201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

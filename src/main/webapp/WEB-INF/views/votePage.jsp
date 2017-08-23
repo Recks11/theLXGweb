@@ -60,8 +60,8 @@
                 <table id="fixtureTable" class="table table-condensed text-center white-font" style="margin-top: 30px;">
                     <thead>
                     <tr>
-                        <th></th>
-                        <th></th>
+                        <th>Player Name</th>
+                        <th>Votes</th>
                     </tr>
                     </thead>
                     <tbody>
