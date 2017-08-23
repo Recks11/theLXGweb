@@ -41,7 +41,8 @@
         <section>
             <div class="no-pad about-content animated fadeInDownBig">
                 <div class="about-details text-center mont-Font">
-                    <h2 class="gold">VOTE FOR YOR PLAYER!</h2>
+                    <h2 class="gold">TheLXG WILDCARD!</h2>
+                    <p>Vote for your player</p>
                     <br/>
                     <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="voteObject" method="post" >
                         <div class="form-group">
@@ -57,22 +58,25 @@
                         </div>
                     </form:form>
                 </div>
-                <table id="fixtureTable" class="table table-condensed text-center white-font" style="margin-top: 30px;">
-                    <thead>
-                    <tr>
-                        <th>Player Name</th>
-                        <th>Votes</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <c:forEach items="${playersVotedFor}" var="votes">
+                <div style="max-width: 700px; margin: 0 auto">
+                    <table id="fixtureTable" class="table table-condensed text-center white-font" style="margin-top: 30px;">
+                        <thead>
                         <tr>
-                            <td>${votes.playerAlias}</td>
-                            <td>${votes.numberOfVotes}</td>
+                            <th>Player Name</th>
+                            <th>Votes</th>
                         </tr>
-                    </c:forEach>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                        <c:forEach items="${playersVotedFor}" var="votes">
+                            <tr>
+                                <td>${votes.playerAlias}</td>
+                                <td>${votes.numberOfVotes}</td>
+                            </tr>
+                        </c:forEach>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
         </section>
     </div>

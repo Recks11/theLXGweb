@@ -35,6 +35,8 @@ public class voteController {
         for (vote voteItem : voteList){
             playerList.add(voteItem.getPlayerAlias());
         }
+
+        model.addAttribute("title", "TheLXG - Vote");
         model.addAttribute("playersVotedFor", voteList);
         model.addAttribute("votes", playerList);
         model.addAttribute("voteObject", new vote());
