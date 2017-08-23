@@ -33,8 +33,10 @@
                             <ul class="dropdown-menu">
                                 <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/fixtures/"/> ">FIXTURES</a></li>
                                 <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/tables/"/> ">TABLES</a></li>
+                                <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/vote/"/> ">VOTE</a></li>
                             </ul>
                         </li>
+
                         <li class="underline-hover"><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
                         <%--<li class="underline-hover"><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
                         <%--<li class="underline-hover"> <a href="<spr:url value="/enter/"/> ">ENTER <i class="fa fa-edit"></i></a></li>--%>
