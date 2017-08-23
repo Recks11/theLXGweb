@@ -32,7 +32,7 @@
             <ul class="footer-li">
                 <li class="first-line">CALL US</li>
                 <li>+234 808 772 0872</li>
-                <li>+234 817 698 9182</li>
+                <li>+234 805 228 1093</li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">
