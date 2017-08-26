@@ -49,7 +49,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a data-toggle="collapse" data-parent="#accordion" href="#Seed2"><i class="fa fa-user"></i>  Seed 3 </a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Seed2"><i class="fa fa-user"></i>  Seed 2 </a>
                                 <div id="Seed2" class="panel-collapse collapse">
                                     <div class="side-content">
                                         <ul>
