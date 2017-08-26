@@ -1,0 +1,92 @@
+div.jQBracket .team {
+    position: relative;
+    z-index: 1;
+    float: left;
+    background-color: gold;
+    border-bottom-color: black;
+    cursor: default;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+div.jQBracket .team div.score {
+    float: right;
+    padding: 3px;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+div.jQBracket .connector.highlightWinner, div.jQBracket .connector div.connector.highlightWinner {
+    border-color: springgreen;
+}
+.highlightWinner > .label {
+    background-color: #06ff52;
+}
+.label {
+    display: inline;
+    padding: unset;
+    /*font-size: unset;*/
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    /*background-color: gold;*/
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: unset;
+    font-family: 'Montserrat', sans-serif;
+}
+div.jQBracket .team div.score {
+    float: right;
+    padding: 3px;
+    background-color: black;
+    text-align: center;
+    line-height: 1;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 500;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.jQBracket .team.win div.score {
+    color: gold;
+    border-bottom-color: black;
+}
+div.jQBracket .team.lose .label{
+    background-color: black;
+    color: gold;
+    border-bottom: 1px solid gold;
+}
+div.jQBracket .team.lose div.score {
+    color: #b10400;
+    font-weight: 700;
+}
+div.jQBracket .connector {
+    border: 2px solid gold;
+    border-left-style: none;
+    position: absolute;
+    z-index: 1;
+}
+div.jQBracket .connector div.connector {
+    border: 0;
+    border-bottom: 2px solid gold;
+    height: 0;
+    position: absolute;
+}
+div.jQBracket .np .connector, div.jQBracket .np .connector div.connector {
+    border-color: gold;
+}
+.team > .lose{
+
+}
+/*About.css Alterations*/
+.bg-cover {
+    width: 1460px;
+}
+section {
+    width: 1460px;
+}
+html,body{
+    background-color: black;
+}

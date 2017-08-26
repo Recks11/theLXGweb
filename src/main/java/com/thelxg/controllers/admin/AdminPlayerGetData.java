@@ -1,16 +1,20 @@
 package com.thelxg.controllers.admin;
 
 import com.thelxg.components.groupsAndFixtures;
+import com.thelxg.data.Services.KnockoutScoreService;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.Services.tableService;
+import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,21 +24,25 @@ import java.util.List;
 @RequestMapping("/admin/players/getData")
 public class AdminPlayerGetData {
 
-    @Autowired
-    private tableService tableService;
+    private final KnockoutScoreService knockoutScoreService;
+    private final tableService tableService;
     private final fixtureService fixtureService;
     private final playerService playerService;
     private final groupsAndFixtures groupsAndFixtures;
 
     @Autowired
-    public AdminPlayerGetData(groupsAndFixtures groupsAndFixtures, fixtureService fixtureService, playerService playerService) {
+    public AdminPlayerGetData(groupsAndFixtures groupsAndFixtures, fixtureService fixtureService, playerService playerService, tableService tableService, KnockoutScoreService knockoutScoreService) {
         this.groupsAndFixtures = groupsAndFixtures;
         this.fixtureService = fixtureService;
         this.playerService = playerService;
+        this.tableService = tableService;
+        this.knockoutScoreService = knockoutScoreService;
     }
 
     @RequestMapping("/")
     public String fixtures(Model model){
+
+        model.addAttribute("style", "danger");
 
         model.addAttribute("playerList", "unfetched");
 
@@ -180,5 +188,86 @@ public class AdminPlayerGetData {
         }
         return "admin/pages/generateFixtures";
     }
+
+    @GetMapping("/createKnockoutFixtures")
+    public String createKnockoutFixtures(Model model){
+
+        KnockoutScore knockoutScore = new KnockoutScore(0,0,0,0);
+
+        for(int i = 1;i <= 16; i++){
+            knockoutScore.setRoundNumber(1);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(6);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(11);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+        }
+
+        for(int i = 1;i <= 8; i++){
+            knockoutScore.setRoundNumber(2);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(7);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(12);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+        }
+
+        for(int i = 1;i <= 4; i++){
+            knockoutScore.setRoundNumber(3);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(8);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(13);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+        }
+
+        for(int i = 1;i <= 2; i++){
+            knockoutScore.setRoundNumber(4);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(9);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+
+            knockoutScore.setRoundNumber(14);
+            knockoutScore.setScoreHeirachy(i);
+            knockoutScoreService.saveScore(knockoutScore);
+        }
+
+        knockoutScore.setRoundNumber(5);
+        knockoutScore.setScoreHeirachy(1);
+        knockoutScoreService.saveScore(knockoutScore);
+
+        knockoutScore.setRoundNumber(10);
+        knockoutScore.setScoreHeirachy(1);
+        knockoutScoreService.saveScore(knockoutScore);
+
+        knockoutScore.setRoundNumber(15);
+        knockoutScore.setScoreHeirachy(1);
+        knockoutScoreService.saveScore(knockoutScore);
+
+        model.addAttribute("style", "success");
+
+
+        return "admin/pages/generateFixtures";
+    }
+
+
 
 }

@@ -1,9 +1,8 @@
 package com.thelxg.controllers;
 
-import com.thelxg.data.Services.fixtureService;
-import com.thelxg.data.Services.groupsService;
-import com.thelxg.data.Services.playerService;
-import com.thelxg.data.Services.tableService;
+import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.thelxg.data.Services.*;
+import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,17 +16,19 @@ import java.util.List;
 @RequestMapping("/admin/competition")
 public class updateFixturesController {
 
+    private final KnockoutScoreService knockoutScoreService;
     private final fixtureService fixturesService;
     private final groupsService groupService;
     private final playerService player;
     private final tableService tableService;
 
     @Autowired
-    public updateFixturesController(fixtureService fixturesService, groupsService groupService, playerService player, tableService tableService) {
+    public updateFixturesController(fixtureService fixturesService, groupsService groupService, playerService player, tableService tableService, KnockoutScoreService knockoutScoreService) {
         this.fixturesService = fixturesService;
         this.groupService = groupService;
         this.player = player;
         this.tableService = tableService;
+        this.knockoutScoreService = knockoutScoreService;
     }
 
     /*
@@ -73,9 +74,26 @@ public class updateFixturesController {
 
         int end = Integer.parseInt(updatedFixture.getGroup());
         int actual = Integer.parseInt(updatedFixture.getGroup());
-//        this.start = actual;
-//        this.end = end;
+
         return "redirect:/admin/competition/fixtures/" + actual + "/" + end;
+    }
+
+    @GetMapping("/fixtures/knockout/{startFixtureNumber}")
+    public String showKnockoutScores(Model model,
+                                     @PathVariable("startFixtureNumber") int startFixtureNumber){
+
+        model.addAttribute("knockoutFixture",knockoutScoreService.getScoresByRound(startFixtureNumber));
+        return "admin/pages/adminKnockout";
+    }
+
+    @PostMapping("/knockoutScore")
+    public String updateKnockoutScore(Model model, @ModelAttribute("knockoutObject") KnockoutScore knockoutScore) {
+
+        int actual = knockoutScore.getRoundNumber();
+
+        knockoutScoreService.updateScore(knockoutScore);
+        return "admin/pages/adminKnockout";
+//        return "redirect:/admin/competition/fixtures/knockout/" + actual;
     }
 
     @GetMapping("/done/{fixtureId}")

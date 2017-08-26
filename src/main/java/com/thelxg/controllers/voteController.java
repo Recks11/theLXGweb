@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
-@Controller
-@RequestMapping("/vote")
+//@Controller
+//@RequestMapping("/vote")
 @SessionAttributes("buttonStatus")
 public class voteController {
 

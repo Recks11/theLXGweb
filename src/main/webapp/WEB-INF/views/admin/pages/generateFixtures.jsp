@@ -31,18 +31,27 @@
         </div>
 
         <a href="<spr:url value="/admin/players/getData/sendMailForMorningGroup"/>" class="btn btn-info"> sendMail</a>
-
+<br/>
+<br/>
         <a href="<spr:url value="/admin/players/getData/sendMailForEveningGroup"/>" class="btn btn-info"> send new final Mail</a>
-
+        <br/>
+        <br/>
         <a href="<spr:url value="/admin/players/getData/listEmails"/>" class="btn btn-info"> get Mail</a>
-
+        <br/>
+        <br/>
         <a href="<spr:url value="/admin/players/getData/getFixtures"/>" class="btn btn-info"> get Fixtures</a>
-
+        <br/>
+        <br/>
         <a href="<spr:url value="/admin/players/getData/generateTables"/>" class="btn btn-success"> Generate Tables </a>
-
+        <br/>
+        <br/>
         <a href="<spr:url value="/admin/players/getData/duplicateFixtures"/>" class="btn btn-success"> get 2nd leg fixtures </a>
-
+        <br/>
+        <br/>
         <a href="<spr:url value="/admin/players/getData/updateTableData"/>" class="btn btn-success"> update Table </a>
+        <br/>
+        <br/>
+        <a href="<spr:url value="/admin/players/getData/createKnockoutFixtures"/>" class="btn btn-${style}"> Generate Knockout </a>
 
     </section>
 </section>

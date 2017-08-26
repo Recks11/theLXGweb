@@ -30,23 +30,34 @@
             </li>
 
             <li class="">
-                <a data-toggle="collapse" data-parent="#accordion" href="#events"><i class="fa fa-globe"></i>  Competition <i class="fa fa-arrow-down"></i></a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#events"><i class="fa fa-globe"></i>  Knockout <i class="fa fa-arrow-down"></i></a>
                 <div id="events" class="panel-collapse collapse">
                     <div class="side-content">
                         <ul>
                             <li>
-                                <a data-toggle="collapse" data-parent="#accordion" href="#fixtures"><i class="fa fa-user"></i>  Fixtures </a>
-                                <div id="fixtures" class="panel-collapse collapse">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Seed1"><i class="fa fa-user"></i>  Seed 1 </a>
+                                <div id="Seed1" class="panel-collapse collapse">
                                     <div class="side-content">
                                         <ul>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${23}/${23}"/>"><i class="fa fa-user"></i> 23 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${24}/${24}"/>"><i class="fa fa-user"></i> 24 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${25}/${25}"/>"><i class="fa fa-user"></i> 25 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${26}/${26}"/>"><i class="fa fa-user"></i> 26 </a></li>
-                                            <li><a href="<spring:url value="/admin/competition/fixtures/${27}/${27}"/>"><i class="fa fa-user"></i> 27 </a></li>
-                                            <%--<li><a href="<spring:url value="/admin/competition/fixtures/${20}/${20}"/>"><i class="fa fa-user"></i> 20 </a></li>--%>
-                                            <%--<li><a href="<spring:url value="/admin/competition/fixtures/${21}/${21}"/>"><i class="fa fa-user"></i> 21 </a></li>--%>
-                                            <%--<li><a href="<spring:url value="/admin/competition/fixtures/${22}/${22}"/>"><i class="fa fa-user"></i> 22 </a></li>--%>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${1}"/>"><i class="fa fa-user"></i> 1 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${2}"/>"><i class="fa fa-user"></i> 2 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${3}"/>"><i class="fa fa-user"></i> 3 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${4}"/>"><i class="fa fa-user"></i> 4 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${5}"/>"><i class="fa fa-user"></i> 5 </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Seed2"><i class="fa fa-user"></i>  Seed 3 </a>
+                                <div id="Seed2" class="panel-collapse collapse">
+                                    <div class="side-content">
+                                        <ul>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${6}"/>"><i class="fa fa-user"></i> 1 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${7}"/>"><i class="fa fa-user"></i> 2 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${8}"/>"><i class="fa fa-user"></i> 3 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${9}"/>"><i class="fa fa-user"></i> 4 </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${10}"/>"><i class="fa fa-user"></i> 5 </a></li>
                                         </ul>
                                     </div>
                                 </div>

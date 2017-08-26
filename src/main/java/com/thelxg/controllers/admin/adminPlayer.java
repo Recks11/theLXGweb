@@ -91,6 +91,6 @@ public class adminPlayer {
         model.addAttribute("playerUpdated", updatedPlayer);
         model.addAttribute("oldPlayerTeam", oldTeam);
         return "redirect:/admin/players/all";
-
     }
+
 }

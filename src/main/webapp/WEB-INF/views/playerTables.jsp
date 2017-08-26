@@ -83,7 +83,7 @@
     $(document).ready(function () {
         setInterval(function () {
             updateDiv();
-    }, 3000);
+        }, 3000);
     });
 
     function updateDiv()
