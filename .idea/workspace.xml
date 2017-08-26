@@ -55,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="117" column="58" lean-forward="false" selection-start-line="117" selection-start-column="58" selection-end-line="117" selection-end-column="58" />
+              <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnockoutStages.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KnockoutStages.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+              <caret line="115" column="41" lean-forward="false" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -247,8 +247,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/KnockoutStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
       </list>
     </option>
   </component>
@@ -1140,14 +1140,7 @@
       <workItem from="1503506420729" duration="14055000" />
       <workItem from="1503582625025" duration="165000" />
       <workItem from="1503608884402" duration="3618000" />
-      <workItem from="1503681231005" duration="45004000" />
-    </task>
-    <task id="LOCAL-00177" summary="could not obtain transaction synchronised session fix&#10;tweaked css">
-      <created>1501900908582</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1501900908582</updated>
+      <workItem from="1503681231005" duration="45082000" />
     </task>
     <task id="LOCAL-00178" summary="fixed tables generating only 1 entry">
       <created>1501901311610</created>
@@ -1485,11 +1478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503789307640</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)">
+      <created>1503790068076</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1503790068076</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587501000" />
+    <option name="totallyTimeSpent" value="587579000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2088,21 +2088,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="117" column="58" lean-forward="false" selection-start-line="117" selection-start-column="58" selection-end-line="117" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+          <caret line="115" column="41" lean-forward="false" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

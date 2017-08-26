@@ -115,7 +115,7 @@
     }
 
     function initialiseData() {
-        $.getJSON( window.location.href + "/Seed2ScoreAPI", function( data ) {
+        $.getJSON( window.location.origin + "/Seed2ScoreAPI", function( data ) {
             apiQuery = data;
         });
 
