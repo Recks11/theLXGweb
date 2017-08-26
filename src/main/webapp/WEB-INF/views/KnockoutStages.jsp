@@ -113,7 +113,7 @@
     }
 
     function initialiseData() {
-        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
+        $.getJSON( window.location.href + "/Seed1ScoreAPI", function( data ) {
             apiQuery = data;
         });
 

@@ -7,35 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/KnockOutApiService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/KnockOutApiImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/KnockoutScoreDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/KnockoutScoreDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/KnockoutScoreServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/KnockoutScoreService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/KnockoutScore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/ScoreAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/KnockoutStyles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery.bracket.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.bracket.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,8 +58,8 @@
       <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="117" column="58" lean-forward="false" selection-start-line="117" selection-start-column="58" selection-end-line="117" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -94,7 +68,7 @@
       <file leaf-file-name="adminKnockout.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1142">
+            <state relative-caret-position="1245">
               <caret line="83" column="85" lean-forward="false" selection-start-line="83" selection-start-column="85" selection-end-line="83" selection-end-column="85" />
               <folding />
             </state>
@@ -111,30 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player" pinned="false" current-in-tab="true">
-        <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.properties.localBackup" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -150,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnockoutStages.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KnockoutStages.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="273">
+              <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -290,10 +245,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/KnockoutStyles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
       </list>
     </option>
   </component>
@@ -1185,14 +1140,7 @@
       <workItem from="1503506420729" duration="14055000" />
       <workItem from="1503582625025" duration="165000" />
       <workItem from="1503608884402" duration="3618000" />
-      <workItem from="1503681231005" duration="44290000" />
-    </task>
-    <task id="LOCAL-00176" summary="changed duplicate fixture entry to fixture group">
-      <created>1501900505111</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1501900505111</updated>
+      <workItem from="1503681231005" duration="45004000" />
     </task>
     <task id="LOCAL-00177" summary="could not obtain transaction synchronised session fix&#10;tweaked css">
       <created>1501900908582</created>
@@ -1530,11 +1478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503530174507</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)">
+      <created>1503789307639</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1503789307640</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="586787000" />
+    <option name="totallyTimeSpent" value="587501000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1675,7 +1630,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated rule book" />
     <MESSAGE value="rearranged sponsors" />
     <MESSAGE value="DB changes pushed to website" />
     <MESSAGE value="edit mail" />
@@ -1700,7 +1654,8 @@
     <MESSAGE value="Added votes page" />
     <MESSAGE value="HTML CHANGES:&#10;Modified table" />
     <MESSAGE value="HTML CHANGES:&#10;Changed phone number in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML CHANGES:&#10;Changed phone number in footer" />
+    <MESSAGE value="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1941,14 +1896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/AJAX.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -2094,32 +2041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
-          <caret line="83" column="85" lean-forward="false" selection-start-line="83" selection-start-column="85" selection-end-line="83" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2136,6 +2057,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -2144,10 +2072,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.player">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="85" lean-forward="false" selection-start-line="83" selection-start-column="85" selection-end-line="83" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="117" column="58" lean-forward="false" selection-start-line="117" selection-start-column="58" selection-end-line="117" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

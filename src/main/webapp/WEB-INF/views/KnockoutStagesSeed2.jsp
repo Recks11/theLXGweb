@@ -115,7 +115,7 @@
     }
 
     function initialiseData() {
-        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed2ScoreAPI", function( data ) {
+        $.getJSON( window.location.href + "/Seed2ScoreAPI", function( data ) {
             apiQuery = data;
         });
 
