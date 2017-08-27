@@ -139,7 +139,7 @@ public class homeController {
                "  [\"Gbovo (Manchester United)\",\"Michelwizzy123 (Real Madrid)\"],\n" +
                "  [\"Bugatti (Liverpool)\",\"Regnum044 (Real Madrid)\"],\n" +
                "  [\"Lems (Real Madrid)\",\"Chi (Juventus)\"],\n" +
-               "  [\"Still_drew_ (Real Madrid)\",\"bensonladi87 (Juventus)\"],\n" +
+               "  [\"Still_drew_ (Real Madrid)\",\"Malieq (chelsea)\"],\n" +
                "  [\"Donald_e (FC Barcelona)\",\"roga_roga (Chelsea)\"]\n";
 
 
