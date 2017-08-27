@@ -31,7 +31,7 @@ public class KnockoutScoreServiceImpl implements KnockoutScoreService {
         knockoutScoreDao.updateScore(score);
     }
 
-    @Override
+    @Transactional
     public KnockoutScore getScoreById(long id) {
         return knockoutScoreDao.getScoreById(id);
     }
