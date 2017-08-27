@@ -113,7 +113,7 @@ public class homeController {
                 "            [\"Lord mo_ (Chelsea)\", \"The black dean (Bayern Munich)\"],\n" +
                 "            [\"Derek_misfits (Barcelona)\", \"King Josh (Manchester United)\"],\n" +
                 "            [\"Gunju (Barcelona)\", \"ify 30 (real Madrid)\"],\n" +
-                "            [\"Courage (Bayern Munich)\", \"The Brazillian (Barcelona)\"],\n" +
+                "            [\"Courage (Bayern Munchen)\", \"The Brazillian (Barcelona)\"],\n" +
                 "            [\"Taheewobarca (Barcelona)\", \"Clint (Real Madrid)\"],\n" +
                 "            [\"Dewaleofficial (chelsea)\", \"A-boy (Real Madrid)\"],\n" +
                 "            [\"Finian (Chelsea)\", \"Sly_14 (Real madrid)\"]\n";
@@ -125,17 +125,17 @@ public class homeController {
     @ResponseBody
     public String seed3ScoreApi(){
 
-       String players = "[\"DD DOX (Bayern Muich)\",\"Stevonchy (Real Madrid)\"],\n" +
+       String players = "[\"DD DOX (Bayern Munchen)\",\"Stevonchy (Real Madrid)\"],\n" +
                "  [\"Mo_jnr (Chelsea)\",\"Ayenibolt (real madrid)\"],\n" +
-               "  [\"BoxRay 19 (Juventus)\",\"Tao20(realmadrid)\"],\n" +
+               "  [\"BoxRay 19 (Juventus)\",\"Tao20(Real madrid)\"],\n" +
                "  [\"Magnanimous (Real Madrid)\",\"#Greyharrison (Barcelona)\"],\n" +
-               "  [\"Great ndidi (real Madrid)\",\"Imperator (Real Madrid)\"],\n" +
+               "  [\"Great ndidi (Real Madrid)\",\"Imperator (Real Madrid)\"],\n" +
                "  [\"Eazzie_J (Barcelona)\",\"Ayo.ak (Manchester United)\"],\n" +
-               "  [\"Sir Maff (Arsenal)\",\"David01 (Bayern Munich)\"],\n" +
+               "  [\"Sir Maff (Arsenal)\",\"David01 (Bayern Munchen)\"],\n" +
                "  [\"Iamdamilare (Real madrid)\",\"Kayjay (real Madrid)\"],\n" +
-               "  [\"Daniel (Bayern Munich)\",\"Jaydikoh (Manchester United)\"],\n" +
-               "  [\"Folk da one (Bayern Munich)\",\"Dipps the Baba (Manchester United)\"],\n" +
-               "  [\"Mr. Oga (Bayern Munich)\",\"The_arogs (Real Madrid)\"],\n" +
+               "  [\"Daniel (Bayern Munchen)\",\"Jaydikoh (Manchester United)\"],\n" +
+               "  [\"Folk da one (Bayern Munchen)\",\"Dipps the Baba (Manchester United)\"],\n" +
+               "  [\"Mr. Oga (Bayern Munchen)\",\"The_arogs (Real Madrid)\"],\n" +
                "  [\"Gbovo (Manchester United)\",\"Michelwizzy123 (Real Madrid)\"],\n" +
                "  [\"Bugatti (Liverpool)\",\"Regnum044 (Real Madrid)\"],\n" +
                "  [\"Lems (Real Madrid)\",\"Chi (Juventus)\"],\n" +

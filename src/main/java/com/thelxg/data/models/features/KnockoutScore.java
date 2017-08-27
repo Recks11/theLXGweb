@@ -1,5 +1,6 @@
 package com.thelxg.data.models.features;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,8 +12,10 @@ public class KnockoutScore {
     @GeneratedValue
     private long id;
 
+    @Column(nullable = true)
     private int homeScore;
 
+    @Column(nullable = true)
     private int awayScore;
 
     private int roundNumber;
