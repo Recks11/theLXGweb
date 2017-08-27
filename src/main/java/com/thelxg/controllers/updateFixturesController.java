@@ -98,7 +98,7 @@ public class updateFixturesController {
         knockoutScoreService.updateScore(score);
 
 //        return "admin/pages/adminKnockout";
-        return "redirect:/admin/competition/fixtures/knockout/" + knockoutMatchScore.getRoundNumber();
+        return "redirect:/admin/competition/fixtures/knockout/" + score.getRoundNumber();
     }
 
     @GetMapping("/done/{fixtureId}")
