@@ -87,14 +87,16 @@ public class updateFixturesController {
         return "admin/pages/adminKnockout";
     }
 
-    @PostMapping("/knockoutScore")
-    public String updateKnockoutScore(Model model, @ModelAttribute("knockoutObject") KnockoutScore knockoutMatchScore) {
+    @PostMapping("/knock.Score")
+    public String updateKnockoutScore(Model model,
+                                      @ModelAttribute("knockoutObject") KnockoutScore knockoutMatchScore) {
 
+        System.out.println(knockoutMatchScore.toString());
         KnockoutScore score = knockoutScoreService.getScoreById(knockoutMatchScore.getId());
         score.setAwayScore(knockoutMatchScore.getAwayScore());
         score.setHomeScore(knockoutMatchScore.getHomeScore());
-
         knockoutScoreService.updateScore(score);
+
 //        return "admin/pages/adminKnockout";
         return "redirect:/admin/competition/fixtures/knockout/" + knockoutMatchScore.getRoundNumber();
     }

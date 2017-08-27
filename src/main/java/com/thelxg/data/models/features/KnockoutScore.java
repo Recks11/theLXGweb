@@ -12,10 +12,8 @@ public class KnockoutScore {
     @GeneratedValue
     private long id;
 
-    @Column(nullable = true)
     private int homeScore;
 
-    @Column(nullable = true)
     private int awayScore;
 
     private int roundNumber;

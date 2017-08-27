@@ -59,7 +59,7 @@
                                     </thead>
                                     <tbody style="padding-bottom: 100px;">
                                     <c:forEach items="${knockoutFixture}" var="fixture">
-                                        <c:url value="/admin/competition/knockoutScore" var="knockoutScore"/>
+                                        <c:url value="/admin/competition/knock.Score" var="knockoutScore"/>
                                         <c:choose>
                                             <c:when test="${fixture.homeScore != 0 || fixture.awayScore != 0}">
                                                 <tr class="updatedFixture">
@@ -84,6 +84,7 @@
                                             <td>Fixture ${fixture.scoreHeirachy}</td>
 
                                             <td>
+                                                <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
                                                 <button class="btn btn-success btn-sm" style="margin-bottom: 10px"> Update Score</button>
                                             </td>
                                         </form:form>
