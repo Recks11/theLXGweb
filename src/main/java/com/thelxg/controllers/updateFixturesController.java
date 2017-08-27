@@ -83,6 +83,7 @@ public class updateFixturesController {
                                      @PathVariable("startFixtureNumber") int startFixtureNumber){
 
         model.addAttribute("knockoutFixture",knockoutScoreService.getScoresByRound(startFixtureNumber));
+        model.addAttribute("knockoutObject", new KnockoutScore());
         return "admin/pages/adminKnockout";
     }
 
