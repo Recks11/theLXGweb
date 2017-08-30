@@ -54,7 +54,8 @@
                         <h3 class="gold">Competition has Started</h3>
                         <p id="timeLeft"></p>
                         <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a> &#8678;</p>
-                        <p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=PQvBp2MXe-U">Goals Of the Week</a> &#8678;</p>
+                        <p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=PQvBp2MXe-U">Goals Of the Week 1</a> &#8678;</p>
+                        <p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=QGHeflc0R9s">Goals Of the Week 2</a> &#8678;</p>
                         <%--<p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>--%>
                     </div>
                 </div>
