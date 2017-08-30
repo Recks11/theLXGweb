@@ -10,6 +10,7 @@ public interface KnockoutScoreDao {
 
     void updateScore(KnockoutScore score);
 
+
     KnockoutScore getScoreById(long id);
 
     List<KnockoutScore> getAllScores();

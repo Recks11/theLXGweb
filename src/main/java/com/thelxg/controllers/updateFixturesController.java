@@ -83,17 +83,22 @@ public class updateFixturesController {
                                      @PathVariable("startFixtureNumber") int startFixtureNumber){
 
         model.addAttribute("knockoutFixture",knockoutScoreService.getScoresByRound(startFixtureNumber));
+        model.addAttribute("knockoutObject", new KnockoutScore());
         return "admin/pages/adminKnockout";
     }
 
-    @PostMapping("/knockoutScore")
-    public String updateKnockoutScore(Model model, @ModelAttribute("knockoutObject") KnockoutScore knockoutScore) {
+    @PostMapping("/knock.Score")
+    public String updateKnockoutScore(Model model,
+                                      @ModelAttribute("knockoutObject") KnockoutScore knockoutMatchScore) {
 
-        int actual = knockoutScore.getRoundNumber();
+        System.out.println(knockoutMatchScore.toString());
+        KnockoutScore score = knockoutScoreService.getScoreById(knockoutMatchScore.getId());
+        score.setAwayScore(knockoutMatchScore.getAwayScore());
+        score.setHomeScore(knockoutMatchScore.getHomeScore());
+        knockoutScoreService.updateScore(score);
 
-        knockoutScoreService.updateScore(knockoutScore);
-        return "admin/pages/adminKnockout";
-//        return "redirect:/admin/competition/fixtures/knockout/" + actual;
+//        return "admin/pages/adminKnockout";
+        return "redirect:/admin/competition/fixtures/knockout/" + score.getRoundNumber();
     }
 
     @GetMapping("/done/{fixtureId}")

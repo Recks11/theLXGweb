@@ -10,6 +10,8 @@ public interface KnockoutScoreService {
 
     void updateScore(KnockoutScore score);
 
+    KnockoutScore getScoreById(long id);
+
     List<KnockoutScore> getAllScores();
 
     List<KnockoutScore> getScoresByRound(int round);

@@ -32,6 +32,11 @@ public class KnockoutScoreServiceImpl implements KnockoutScoreService {
     }
 
     @Transactional
+    public KnockoutScore getScoreById(long id) {
+        return knockoutScoreDao.getScoreById(id);
+    }
+
+    @Transactional
     public List<KnockoutScore> getAllScores() {
         return knockoutScoreDao.getAllScores();
     }
