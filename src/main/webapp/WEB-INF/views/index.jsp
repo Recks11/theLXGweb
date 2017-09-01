@@ -5,6 +5,7 @@
 
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
+<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/formStyle.css"/>"/>
 <body>
 <script>
     $(document).ready(function(){
@@ -53,9 +54,9 @@
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                         <h3 class="gold">Competition has Started</h3>
                         <p id="timeLeft"></p>
-                        <p class="gold">&#8680; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a> &#8678;</p>
-                        <p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=PQvBp2MXe-U">Goals Of the Week 1</a> &#8678;</p>
-                        <p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=QGHeflc0R9s">Goals Of the Week 2</a> &#8678;</p>
+                        <p class="gold">&#10155; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a></p>
+                        <p style="color: red">&#10155; <a href="<spr:url value="/gallery"/> ">Visit the Gallery</a> </p>
+                        <%--<p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=QGHeflc0R9s">Goals Of the Week 2 </a> &#8678;</p>--%>
                         <%--<p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>--%>
                     </div>
                 </div>
@@ -201,7 +202,7 @@
     </div>
 </section>
 
-<jsp:include page="fragment/footer.jsp"/>
+<jsp:include page="fragment/footerForm.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
 </html>

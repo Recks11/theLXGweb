@@ -1,20 +1,19 @@
 package com.thelxg.controllers;
 
 import com.thelxg.components.KnockOutApiService;
-import com.thelxg.data.Services.KnockoutScoreService;
-import com.thelxg.data.Services.fixtureService;
-import com.thelxg.data.Services.groupsService;
-import com.thelxg.data.Services.tableService;
+import com.thelxg.data.Dao.FeedbackDao;
+import com.thelxg.data.Services.*;
+import com.thelxg.data.models.features.Feedback;
 import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -24,26 +23,30 @@ import java.util.List;
 @RequestMapping("/")
 public class homeController {
 
-    @Autowired
-    private KnockOutApiService knockOutApiService;
-    @Autowired
-    private KnockoutScoreService knockoutScoreService;
+    private final FeedbackService feedbackService;
+    private final KnockOutApiService knockOutApiService;
+    private final KnockoutScoreService knockoutScoreService;
     private final fixtureService fixtureService;
     private final tableService tableService;
     private final groupsService groupsService;
 
     @Autowired
-    public homeController(fixtureService fixtureService, tableService tableService, groupsService groupsService) {
+    public homeController(fixtureService fixtureService, tableService tableService, groupsService groupsService,
+                          FeedbackService feedbackService, KnockOutApiService knockOutApiService, KnockoutScoreService knockoutScoreService) {
         this.fixtureService = fixtureService;
         this.tableService = tableService;
         this.groupsService = groupsService;
+        this.feedbackService = feedbackService;
+        this.knockOutApiService = knockOutApiService;
+        this.knockoutScoreService = knockoutScoreService;
     }
 
 
     @RequestMapping
     public String homePage(Model model){
 
-        model.addAttribute("title", "Home - TheLXG");
+        model.addAttribute("title", "Home - LXG17");
+        model.addAttribute("feedbackObject", new Feedback());
         return "index";
     }
 
@@ -55,21 +58,27 @@ public class homeController {
     @RequestMapping("/event")
     public String eventDetails(Model model){
 
-        model.addAttribute("title", "Event Details - TheLXG");
+        model.addAttribute("title", "Event Details - LXG17");
         return "eventDetails";
     }
     @RequestMapping("/aboutUs")
     public String aboutUs(Model model){
 
-        model.addAttribute("title", "TheLXG - about");
+        model.addAttribute("title", "LXG17' - about");
         return "aboutUs";
+    }
+    @GetMapping("/gallery")
+    public String showGallery(Model model){
+
+        model.addAttribute("title", "LXG17' - Gallery");
+        return "gallery";
     }
 
     @RequestMapping("/fixtures")
     public String getFixtures(Model model){
 
         List<fixtures> fixturesList = fixtureService.getUngeneratedFixtures();
-        model.addAttribute("title", "TheLXG - Fixtures");
+        model.addAttribute("title", "LXG17' - Fixtures");
         model.addAttribute("fixtures",fixturesList);
         return "allFixtures";
     }
@@ -79,17 +88,27 @@ public class homeController {
 
         int numberOfGroups = groupsService.getLastGroup().getGroupNumber();
 
-        model.addAttribute("title", "TheLXG - Tables");
+        model.addAttribute("title", "LXG17 - Tables");
         model.addAttribute("numberOfGroups", numberOfGroups);
         model.addAttribute("tables",tableService.getAllTables());
         return "playerTables";
     }
+
+    @PostMapping("/sendFeedback")
+    public String sendFeedback(Model model, @ModelAttribute("feedbackObject") Feedback feedback){
+
+        feedback.setDate(new Date());
+        feedbackService.saveFeedback(feedback);
+        return "redirect:/";
+    }
+
     @RequestMapping("/knockoutSeed1")
     public String viewKnockoutSeed1(){
 
 
         return "KnockoutStages";
     }
+
     @RequestMapping("/knockoutSeed2")
     public String viewKnockoutSeed2(){
 

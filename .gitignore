@@ -1,6 +1,8 @@
+.idea/
 .idea/workspace.xml
 /target/
 src/main/webapp/WEB-INF/classes/
 src/main/webapp/WEB-INF/lib/
 src/main/webapp/resources/images/Players/
 src/test/
+.idea/dataSources/0762bc20-243e-4567-9bc6-b0708d7b44e2.xml
