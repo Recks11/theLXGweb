@@ -45,7 +45,7 @@ public class homeController {
     @RequestMapping
     public String homePage(Model model){
 
-        model.addAttribute("title", "Home - LXG17");
+        model.addAttribute("title", "LXG - Home");
         model.addAttribute("feedbackObject", new Feedback());
         return "index";
     }
@@ -58,19 +58,19 @@ public class homeController {
     @RequestMapping("/event")
     public String eventDetails(Model model){
 
-        model.addAttribute("title", "Event Details - LXG17");
+        model.addAttribute("title", "Event Details - LXG' 17");
         return "eventDetails";
     }
     @RequestMapping("/aboutUs")
     public String aboutUs(Model model){
 
-        model.addAttribute("title", "LXG17' - about");
+        model.addAttribute("title", "LXG - about");
         return "aboutUs";
     }
     @GetMapping("/gallery")
     public String showGallery(Model model){
 
-        model.addAttribute("title", "LXG17' - Gallery");
+        model.addAttribute("title", "LXG' 17 - Gallery");
         return "gallery";
     }
 

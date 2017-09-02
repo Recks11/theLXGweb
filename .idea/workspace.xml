@@ -6,25 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="Merge branch 'master' of https://github.com/Recks11/theLXGweb&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;Added Goal of the week 2 to index.jsp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/goals-of-the-week-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/goals-of-the-week-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/FeedbackDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/FeedbackDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/FeedbackService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/FeedbackServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/Feedback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2.xml" />
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/formStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/formStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,12 +32,12 @@
     <expand>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="TheLXG@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="d5i4eu2xg358oafh@mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="TheLXG@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="TheLXG" type="e3449647:DbNodeDescriptor" />
+        <item name="d5i4eu2xg358oafh@mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com" type="e3449647:DbNodeDescriptor" />
+        <item name="d5i4eu2xg358oafh" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
@@ -85,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
@@ -96,6 +82,25 @@
                 <marker date="1504308844000" expanded="true" signature="1558:1579" ph="..." />
                 <marker date="1504308844000" expanded="true" signature="1620:1641" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player" pinned="false" current-in-tab="false">
+        <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/vote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/voteService.java" />
@@ -201,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/ScoreAPI.java" />
@@ -230,7 +233,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/feedbackDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/FeedbackService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/FeedbackDao.java" />
@@ -238,6 +240,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/FeedbackServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" />
       </list>
     </option>
   </component>
@@ -345,6 +350,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -1122,14 +1136,7 @@
       <workItem from="1503681231005" duration="47387000" />
       <workItem from="1503837786036" duration="2748000" />
       <workItem from="1504059917963" duration="334000" />
-      <workItem from="1504299174550" duration="8644000" />
-    </task>
-    <task id="LOCAL-00184" summary="Added live reload to fixtures and Tables">
-      <created>1501939453976</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1501939453977</updated>
+      <workItem from="1504299174550" duration="9361000" />
     </task>
     <task id="LOCAL-00185" summary="Added live reload to fixtures and Tables">
       <created>1501940251603</created>
@@ -1467,11 +1474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504060130322</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="New Update&#10;&#10;#Added Feedback Section to homepage&#10;#Added Gallery">
+      <created>1504308895834</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1504308895835</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="601610000" />
+    <option name="totallyTimeSpent" value="602327000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1484,7 +1498,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5496418" sideWeight="0.50305253" order="8" side_tool="true" content_ui="tabs" />
@@ -1492,7 +1505,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2893773" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1978022" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1978022" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1508,7 +1521,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21855922" sideWeight="0.49393415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21855922" sideWeight="0.49393415" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940406" sideWeight="0.49841145" order="1" side_tool="false" content_ui="tabs" />
@@ -1604,7 +1617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit mail" />
     <MESSAGE value="no commit" />
     <MESSAGE value="Added fixtures page&#10;navbar padding reduced for some devices" />
     <MESSAGE value="Competition Update&#10;&#10;added groups&#10;added fixture update&#10;&#10;tweaked navbar" />
@@ -1629,7 +1641,8 @@
     <MESSAGE value="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Recks11/theLXGweb&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Recks11/theLXGweb&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;Added Goal of the week 2 to index.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Recks11/theLXGweb&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;Added Goal of the week 2 to index.jsp" />
+    <MESSAGE value="New Update&#10;&#10;#Added Feedback Section to homepage&#10;#Added Gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Update&#10;&#10;#Added Feedback Section to homepage&#10;#Added Gallery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1642,36 +1655,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/KnockOutApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="149" lean-forward="false" selection-start-line="4" selection-start-column="149" selection-end-line="4" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.KnockoutScore" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="205" column="43" lean-forward="false" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1843,14 +1827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1896,22 +1872,14 @@
         <state relative-caret-position="413">
           <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#H4#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#H4#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#3;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2034,6 +2002,53 @@
             <marker date="1504308844000" expanded="true" signature="1558:1579" ph="..." />
             <marker date="1504308844000" expanded="true" signature="1620:1641" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/ce8c0785/0762bc20-243e-4567-9bc6-b0708d7b44e2/d5i4eu2xg358oafh.player">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2674">
+          <caret line="205" column="43" lean-forward="false" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

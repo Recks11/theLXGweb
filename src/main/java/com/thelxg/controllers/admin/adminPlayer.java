@@ -51,7 +51,7 @@ public class adminPlayer {
 
         player recipient = players.getPlayerByUniqueId(playerId);
 
-        sendMail.sendEmail(recipient, eMail,"The LXG - Registration");
+        sendMail.sendEmail(recipient, eMail,"LXG' 17 - Registration");
         players.updatePlayer(recipient);
         return "redirect:/admin/players/all";
 

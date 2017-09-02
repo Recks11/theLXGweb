@@ -17,6 +17,8 @@ public class loginController {
                         @RequestParam(value="logout", required = false)String logout,
                         Model model){
 
+        model.addAttribute("title", "LXG - Login");
+
         if(error != null){
             model.addAttribute("error", "invalid username or password");
         }
