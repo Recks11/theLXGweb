@@ -119,7 +119,7 @@
                 </a>
             </div>
             <div class="col-sm-4">
-                <a href="https://www.youtube.com/watch?v=y81DzhGWLmI&feature=youtu.be">
+                <a href="https://www.youtube.com/watch?v=y81DzhGWLmI&feature=youtu.be" target="_blank" class="gallery-link underline-hover">
                     <div class="panel panel-default">
                         <div class="panel-content">
                             <img src="<spr:url value="/resources/images/goals-of-the-week-3.jpg"/>" alt="logo" class="img-responsive panel-image"/>
