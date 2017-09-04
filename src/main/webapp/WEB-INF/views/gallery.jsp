@@ -119,10 +119,10 @@
                 <a href="https://www.youtube.com/watch?v=y81DzhGWLmI&feature=youtu.be">
                     <div class="panel panel-default">
                         <div class="panel-content">
-                            <img src="<spr:url value="/resources/images/goals-of-the-week-3.jpg"/>" alt="logo" class="img-responsive panel-image"/>
+                            <img src="<spr:url value="/resources/images/goals-of-the-week-3.jpg"/>" width="100%" alt="logo" class="img-responsive panel-image"/>
                         </div>
                         <div class="panel-footer">
-                            Week 3
+                            Goals of The Week 3
                         </div>
                     </div>
                 </a>
