@@ -6,7 +6,7 @@
   Time: 21:58
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <jsp:include page="fragment/imports.jsp" />
 <style>
@@ -40,6 +40,9 @@
     .gallery-link:hover{
         text-decoration: none;
         color: black;
+    }
+    .panel-image{
+        max-width: 336px;
     }
 </style>
 <body>
@@ -95,7 +98,7 @@
                 <a href="https://www.youtube.com/watch?v=PQvBp2MXe-U&t=2s" target="_blank" class="gallery-link underline-hover">
                     <div class="panel panel-default">
                         <div class="panel-content">
-                            <img src="<spr:url value="/resources/images/goals-of-the-week-1.jpg"/>" width="100%" alt="logo" class="img-responsive panel-image"/>
+                            <img src="<spr:url value="/resources/images/goals-of-the-week-1.jpg"/>" alt="logo" class="img-responsive panel-image"/>
                         </div>
                         <div class="panel-footer">
                             Goals of The Week 1
@@ -107,7 +110,7 @@
                 <a href="https://www.youtube.com/watch?v=QGHeflc0R9s" target="_blank" class="gallery-link underline-hover">
                     <div class="panel panel-default">
                         <div class="panel-content">
-                            <img src="<spr:url value="/resources/images/goals-of-the-week-2.jpg"/>" width="100%" alt="logo" class="img-responsive panel-image"/>
+                            <img src="<spr:url value="/resources/images/goals-of-the-week-2.jpg"/>"  alt="logo" class="img-responsive panel-image"/>
                         </div>
                         <div class="panel-footer">
                             Goals of The Week 2
@@ -119,7 +122,7 @@
                 <a href="https://www.youtube.com/watch?v=y81DzhGWLmI&feature=youtu.be">
                     <div class="panel panel-default">
                         <div class="panel-content">
-                            <img src="<spr:url value="/resources/images/goals-of-the-week-3.jpg"/>" width="100%" alt="logo" class="img-responsive panel-image"/>
+                            <img src="<spr:url value="/resources/images/goals-of-the-week-3.jpg"/>" alt="logo" class="img-responsive panel-image"/>
                         </div>
                         <div class="panel-footer">
                             Goals of The Week 3
