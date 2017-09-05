@@ -67,10 +67,10 @@
 
     $(document).ready(function () {
 
-        reload();
+        getTableDataFromDatabase();
         setInterval(function () {
 
-            reload()
+            getTableDataFromDatabase()
         }, 5000);
     });
 
@@ -92,7 +92,7 @@
     }
 
 
-    function reload() {
+    function getTableDataFromDatabase() {
         var xhttp;
         if (window.XMLHttpRequest) {
             // code for modern browsers
