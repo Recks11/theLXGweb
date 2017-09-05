@@ -60,62 +60,24 @@
 <jsp:include page="fragment/footer.jsp"/>
 
 <script>
+    $.holdReady( true );
+    getDataFromSeedAPI();
+    $.holdReady( false );
+
     $(document).ready(function () {
 
-        initStaticData();
+        reload();
         setInterval(function () {
 
             reload()
         }, 5000);
+
     });
     var apiQuery;
 
-    var Data = {
-        "teams" : [
-            ["TEAM 1", "TEAM 2"],
-            ["TEAM 3", "TEAM 4"],
-            ["TEAM 5", "TEAM 6"],
-            ["TEAM 7", "TEAM 8"],
-            ["TEAM 9", "TEAM 10"],
-            ["TEAM 11", "TEAM 12"],
-            ["TEAM 13", "TEAM 14"],
-            ["TEAM 15", "TEAM 16"],
-            ["TEAM 17", "TEAM 18"],
-            ["TEAM 19", "TEAM 20"],
-            ["TEAM 21", "TEAM 22"],
-            ["TEAM 23", "TEAM 24"],
-            ["TEAM 25", "TEAM 26"],
-            ["TEAM 27", "TEAM 28"],
-            ["TEAM 29", "TEAM 30"],
-            ["TEAM 31", "TEAM 32"]
-        ],
-        "results" : [
-            [[0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0]],
-            [[0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0], [0,0]],
-            [[0,0], [0,0], [0,0], [0,0]],
-            [[0,0], [0,0]],
-            [
-                [0,0]
-            ]
-        ]
-    };
-
-    function initStaticData(){
-        $('.saturday').bracket({
-            teamWidth: 180,
-            scoreWidth: 40,
-            matchMargin: 7,
-            roundMargin: 50,
-            init: Data,
-            centerConnectors: true,
-            skipConsolationRound: false
-        });
-    }
-
     function initialiseData() {
-        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
-            apiQuery = data;
-        });
+
+        getDataFromSeedAPI();
 
         $('.saturday').bracket({
             teamWidth: 180,
@@ -128,8 +90,6 @@
         });
 
     }
-
-
     function reload() {
         var xhttp;
         if (window.XMLHttpRequest) {
@@ -149,6 +109,16 @@
         xhttp.open("GET",window.location.href , true);
         xhttp.send();
     }
+
+    function getDataFromSeedAPI(){
+
+//        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
+        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
+            apiQuery = data;
+        });
+    }
+
+
 </script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
