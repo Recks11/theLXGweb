@@ -14,8 +14,6 @@
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/registerStyle.css"/>"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/formStyle.css"/>"/>
-<script src="<spr:url value="/resources/js/selectTeams.js"/>"></script>
-<script src="<spr:url value="/resources/js/payVendor.js"/>"></script>
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
@@ -136,8 +134,10 @@
         </section>
     </div>
 </div>
+<script src="<spr:url value="/resources/js/selectTeams.js"/>"></script>
+<script src="<spr:url value="/resources/js/payVendor.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 <script>var ctx = "${pageContext.request.contextPath}";</script>
-
 </body>
 </html>

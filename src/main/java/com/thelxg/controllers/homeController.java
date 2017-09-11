@@ -55,6 +55,11 @@ public class homeController {
         return "forward:/resources/images/favicon.ico";
     }
 
+    @RequestMapping("apple-touch-icon")
+    public String touchIcon() {
+        return "forward:/resources/images/favicon.ico";
+    }
+
     @RequestMapping("/event")
     public String eventDetails(Model model){
 

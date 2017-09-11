@@ -40,6 +40,9 @@
         </section>
     </div>
 </div>
-
+<!--JavaScript-->
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 </body>
 </html>

@@ -56,35 +56,12 @@
                         <p id="timeLeft"></p>
                         <p class="gold">&#10155; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a></p>
                         <p style="color: red">&#10155; <a href="<spr:url value="/gallery"/> ">Visit the Gallery</a> </p>
-                        <%--<p style="color: red">&#8680; <a href="https://www.youtube.com/watch?v=QGHeflc0R9s">Goals Of the Week 2 </a> &#8678;</p>--%>
-                        <%--<p class="gold">&#8680; <a href="<spr:url value="/fixtures"/>">Weekend 1 Fixtures</a> &#8678;</p>--%>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<%--<section id=videoBanner>--%>
-    <%--<div class="section-bg-color">--%>
-        <%--<div class="container-fluid text-center" style="height: 100%;">--%>
-            <%--<div class="home-face header-content">--%>
-                <%--<div class="centered-content">--%>
-                    <%--<div class="headText">--%>
-                        <%--<h3>TheLXG Goals of The Week</h3>--%>
-                        <%--<br/>--%>
-                        <%--<div style="max-width: 1280px; margin: 0 auto" class="text-center">--%>
-                            <%--<div class="embed-responsive embed-responsive-16by9">--%>
-                                <%--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PQvBp2MXe-U" allowfullscreen></iframe>--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</section>--%>
-
 <section class="section-0">
     <div class="darkGrey-color">
         <!-- Second Container -->
@@ -98,12 +75,10 @@
                         <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
                         <br/>
                         <p class="gold">Venue is Hitbox Games, Leisure Mall, Surulere</p>
-                        <%--<p class="gold">REGISTRATION FEE IS &#8358;2000</p>--%>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 text-center full-pad head-text mont-font">
-                        <%--<a class="enterBtn" href="<spr:url value="/enter/"/>"> Register Here </a>--%>
                         <p class="gold" style="margin-top: 6px;">
                     </div>
                 </div>
@@ -175,7 +150,6 @@
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/Pulse-4-.png"/>" alt="Pulse 4 NG" class="img-responsive sponsor-image" /> </div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/CYCLES.png"/>" alt="Cycles" class="img-responsive sponsor-image" /></div>
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/ynaija_small.PNG"/>" alt="Y naija" class="img-responsive sponsor-image" /> </div>
-
             </div>
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/White.png"/>" alt="Godwin Olatunde" class="img-responsive sponsor-image" /></div>
@@ -204,5 +178,7 @@
 
 <jsp:include page="fragment/footerForm.jsp"/>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
 </body>
 </html>

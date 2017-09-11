@@ -134,6 +134,7 @@
 <script>
     var ctx = "${pageContext.request.contextPath}";
 </script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
 </html>
