@@ -16,10 +16,10 @@
         <div class="col-sm-3 white-font">
             <ul class="footer-li">
                 <li class="first-line">NAVIGATION</li>
-                <li><a href="<spr:url value="/"/> ">HOME</a></li>
+                <li><a href="<spr:url value="/fiesta/home"/> ">LXG'17 FIESTA <span class="sr-only">(current)</span></a></li>
                 <%--<li><a href="<spr:url value="/vendor/"/> ">VENDORS</a></li>--%>
                 <li><a style="color: springgreen;" href="<spr:url value="/fixtures/"/> ">FIXTURES</a></li>
-                <li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>
+                <%--<li><a href="<spr:url value="/event/"/> ">EVENT DETAILS</a></li>--%>
                 <%--<li><a href="<spr:url value="/enter/"/> ">ENTER COMPETITION</a></li>--%>
                 <%--<li> <a href="<spr:url value="/enter/registrationCenters"/> "> REGISTRATION CENTERS </a></li>--%>
                 <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>

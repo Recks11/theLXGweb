@@ -1,0 +1,35 @@
+.form-container{
+    height: 100%;
+    padding-top: 60px;
+}
+.form-container  form {
+    color: white;
+}
+.form-container > h1, .form-container > h4{
+    color:white;
+    margin-bottom: 20px;
+}
+form {
+    padding-bottom: 50px;
+}
+.form-button-wrapper {
+    text-align: center;
+}
+.form-button-wrapper>p{
+    padding-top: 20px;
+}
+.valid {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.error {
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+}
+@media only screen and (max-width: 768px) {
+    .form-button-wrapper {
+        text-align: center;
+    }
+}

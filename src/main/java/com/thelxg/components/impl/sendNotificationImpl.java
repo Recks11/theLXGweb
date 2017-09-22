@@ -3,6 +3,7 @@ package com.thelxg.components.impl;
 import com.thelxg.components.eMailMessage;
 import com.thelxg.components.sendNotification;
 import com.thelxg.data.Services.playerService;
+import com.thelxg.data.models.FiestaPlayer;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
@@ -26,6 +27,33 @@ public class sendNotificationImpl implements sendNotification {
     public sendNotificationImpl(SimpleMailMessage mailMessage, JavaMailSender mailSender) {
         this.mailMessage = mailMessage;
         this.mailSender = mailSender;
+    }
+
+    @Override
+    public boolean sendFiestaEmail(FiestaPlayer fiestaPlayer, eMailMessage e_mail, String subject) {
+        // creates a simple e-mail object
+        mailMessage.setTo(fiestaPlayer.getEmail());
+        mailMessage.setFrom("noreply@thelxg.com.ng");
+        mailMessage.setSubject(subject);
+        e_mail.setMessageForFiestaPlayer(fiestaPlayer);
+        mailMessage.setText(e_mail.getMessage());
+
+        // sends the e-mail
+
+        try {
+            mailSender.send(mailMessage);
+            System.out.println(mailMessage.toString());
+            System.out.println("Mail Sent to "+ fiestaPlayer.getEmail());
+            fiestaPlayer.setMailStatus("Mail sent");
+            return true;
+        }
+        catch (MailException ex) {
+            // simply log it and go on...
+            System.out.println("Mail not sent to "+ fiestaPlayer.getEmail());
+            fiestaPlayer.setMailStatus("Mail not sent");
+            System.err.println(ex.getMessage());
+            return false;
+        }
     }
 
     @Override

@@ -2,6 +2,7 @@ package com.thelxg.components.impl;
 
 import com.thelxg.components.eMailMessage;
 import com.thelxg.data.Services.fixtureService;
+import com.thelxg.data.models.FiestaPlayer;
 import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,6 +38,29 @@ public class EMailMessageImpl implements eMailMessage {
                 "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
                 "\n"+
                 "Details on your venue and fixture will be sent to you soon \n"+
+                "if you have any problems or enquiries contact us at \n"+
+                "info@thelxg.com.ng " +
+                "or call +234 808 772 0872," +
+                " +234 817 698 9182";
+
+
+        this.message = theMessage;
+    }
+
+    public void setMessageForFiestaPlayer(FiestaPlayer player){
+
+        String theMessage = " Hello " + player.getFirstName() +" "+ player.getLastName() + ", \n" +
+                "\n" +
+                "You have successfully registered for LXG '17 FIESTA. \n" +
+                "Your details are \n" +
+                "Player ID = " + player.getPlayerId() + "\n" +
+                "Last Name = " + player.getLastName() + "\n" +
+                "First Name = " + player.getFirstName() + "\n" +
+                "Alias = " + player.getAlias() + "\n" +
+                "\n\n" +
+                "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
+                "\n"+
+                "\n"+
                 "if you have any problems or enquiries contact us at \n"+
                 "info@thelxg.com.ng " +
                 "or call +234 808 772 0872," +

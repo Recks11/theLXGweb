@@ -54,6 +54,7 @@
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
                         <h3 class="gold">Competition has Started</h3>
                         <p id="timeLeft"></p>
+                        <p class="gold">&#10155; <a href="<spr:url value="/fiesta/home"/>">LXG'17 FIESTA IS HERE!</a></p>
                         <p class="gold">&#10155; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a></p>
                         <p style="color: red">&#10155; <a href="<spr:url value="/gallery"/> ">Visit the Gallery</a> </p>
                     </div>
