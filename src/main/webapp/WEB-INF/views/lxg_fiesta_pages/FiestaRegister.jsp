@@ -12,6 +12,9 @@
 <jsp:include page="fragment/imports.jsp"/>
 <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/register_fiesta.css"/> ">
 <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFormStyles.css"/> ">
+<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/register_fiesta.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 <body class="bg-hero-dark">
 <jsp:include page="fragment/navbar.jsp"/>
 <section class="bg-wrapper">
@@ -76,6 +79,7 @@
                 <div class="form-group form-button-wrapper">
                     <button type="submit" class="btn btn-primary">REGISTER</button>
                     <p> LIMITED SLOTS AVAILABLE</p>
+                    <p> REGISTRATION FEE IS &#8358;2000</p>
                 </div>
             </form:form>
         </div>
@@ -87,11 +91,9 @@
 </script>
 
 <%--<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/jquery-3.1.1.slim.min.js"/>"></script>--%>
-<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
-<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
+
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/popper.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/bootstrap.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
-<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/register_fiesta.js"/>"></script>
 </body>
 </html>
