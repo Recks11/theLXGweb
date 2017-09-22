@@ -45,6 +45,16 @@
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
     </filter>
+    <!--COMPRESSION FILTER-->
+    <filter>
+        <filter-name>CompressingFilter</filter-name>
+        <filter-class>com.github.ziplet.filter.compression.CompressingFilter</filter-class>
+    </filter>
+    <!--COMPRESSION FILTER MAPPING-->
+    <filter-mapping>
+        <filter-name>CompressingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
     <!-- URL rewrite filter mapping-->
     <filter-mapping>
         <filter-name>UrlRewriteFilter</filter-name>

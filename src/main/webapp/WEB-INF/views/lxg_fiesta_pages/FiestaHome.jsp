@@ -7,7 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
     <jsp:include page="fragment/imports.jsp"/>
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/lxg_firesta_main.css"/> ">
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFooterStyles.css"/> ">
@@ -110,7 +110,7 @@
             <div class="events row d-flex justify-content-center">
                 <div class="col-xs-12 text-center">
                     <div>
-                        <img src="<spr:url value="/resources/lxg_fiesta/media/images/pl.png"/>" width="70">
+                        <img src="<spr:url value="/resources/lxg_fiesta/media/images/pl.png"/>" alt="PL LOGO" width="70">
 
                         <p>WATCH PL</p>
                     </div>
