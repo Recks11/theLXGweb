@@ -144,7 +144,7 @@
 </section>
 
 <section class="sponsor-bg vendor-section">
-    <div class="sponsor-container">
+    <div class="sponsor-image-container">
         <div class="row">
             <div class="sponsor-parent">
                 <div><img src="<spr:url value="/resources/images/Web_Sponsors/red-media.png"/>" alt="Red Media" class="img-responsive sponsor-image" /> </div>
