@@ -26,7 +26,7 @@
     <meta name="description" content="Welcome! to TheLXG fifa competition website. Register now and stand a chance to win N500,000">
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>
-    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery.selectBoxIt.css"/> "/>
+    <%--<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery.selectBoxIt.css"/> "/>--%>
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/font-awesome.min.css"/>"/>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
