@@ -19,7 +19,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<spr:url value="/"/> "><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive nav-image" style="display:inline"
+                    <a class="navbar-brand" href="<spr:url value="/"/> "><img src="<spr:url value="/resources/images/theLXGlogo-small.png"/>" class="img-responsive nav-image" style="display:inline"
                                                           alt="THE LXG LOGO" height="auto"></a>
                 </div>
 

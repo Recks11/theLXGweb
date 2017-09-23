@@ -5,7 +5,7 @@
 <footer id="footer" class="bg-footer">
     <div class="container-fluid text-center">
         <div class="col-sm-3 white-font">
-            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img" style="display:inline"
+            <H4><img src="<spr:url value="/resources/images/theLXGlogo-small.png"/>" class="img-responsive footer-img" style="display:inline"
                      alt="THE LXG LOGO" height="auto"></H4>
             <p>The League of Extraordinary Gamers</p>
 
