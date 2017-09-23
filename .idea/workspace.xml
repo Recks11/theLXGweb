@@ -7,9 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/920.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa_17_pogba.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/53vn-future-logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/53vn-future-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/FIFA-17-review-copy.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/FIFA-17-review-copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/FIFA17_BG-HOME.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/FIFA17_BG-HOME.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/CYCLES.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/CYCLES.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/Pulse-4-.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/Pulse-4-.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/White.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/White.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/arcoLOGO.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/arcoLOGO.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/hitbox_logo.PNG" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/hitbox_logo.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/innards logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/innards logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/jekaplay_small.JPG" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/jekaplay_small.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/logo.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/naijaloaded.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/naijaloaded.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/puvrex.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/puvrex.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/red-media.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/red-media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/toby_daniels.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/toby_daniels.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/walkr.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/walkr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/ynaija_small.PNG" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/Web_Sponsors/ynaija_small.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-DEtails-small.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-DEtails-small.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-DEtails.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-DEtails.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-details 720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa-17-details 720.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa17pogba-sm.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa17pogba-sm.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa17pogba.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/fifa17pogba.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,14 +75,24 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="146" column="39" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+            <state relative-caret-position="73">
+              <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
               <folding>
-                <marker date="1506125500000" expanded="true" signature="1424:1445" ph="..." />
-                <marker date="1506125500000" expanded="true" signature="1484:1505" ph="..." />
-                <marker date="1506125500000" expanded="true" signature="1558:1579" ph="..." />
-                <marker date="1506125500000" expanded="true" signature="1620:1641" ph="..." />
+                <marker date="1506126077000" expanded="true" signature="1424:1445" ph="..." />
+                <marker date="1506126077000" expanded="true" signature="1484:1505" ph="..." />
+                <marker date="1506126077000" expanded="true" signature="1558:1579" ph="..." />
+                <marker date="1506126077000" expanded="true" signature="1620:1641" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-scroll-filter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2151" lean-forward="true" selection-start-line="0" selection-start-column="2128" selection-end-line="0" selection-end-column="2151" />
+              <caret line="0" column="2151" lean-forward="false" selection-start-line="0" selection-start-column="2128" selection-end-line="0" selection-end-column="2151" />
               <folding />
             </state>
           </provider>
@@ -111,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="-171">
               <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
               <folding />
             </state>
@@ -136,16 +172,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compression.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/compression.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -208,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/FeedbackServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery.jsp" />
@@ -256,9 +281,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" />
       </list>
     </option>
   </component>
@@ -412,7 +438,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Web_Sponsors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -421,17 +458,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1174,14 +1200,7 @@
       <workItem from="1504912842303" duration="14000" />
       <workItem from="1505109607304" duration="449000" />
       <workItem from="1505168799606" duration="3076000" />
-      <workItem from="1506088132184" duration="21114000" />
-    </task>
-    <task id="LOCAL-00198" summary="Added results to admin">
-      <created>1502815581919</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1502815581919</updated>
+      <workItem from="1506088132184" duration="22683000" />
     </task>
     <task id="LOCAL-00199" summary="Added results to admin">
       <created>1502816753956</created>
@@ -1519,11 +1538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506125508419</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="## PERFORMANCE UPDATES&#10;&#10;Image optimization">
+      <created>1506125601504</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1506125601504</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="632450000" />
+    <option name="totallyTimeSpent" value="634019000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1556,7 +1582,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899693" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3899693" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1656,7 +1682,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified table backend to sort points while accounting for goal difference" />
     <MESSAGE value="Added live reload to fixtures and Tables" />
     <MESSAGE value="Minor tweaks" />
     <MESSAGE value="added new timer" />
@@ -1681,7 +1706,8 @@
     <MESSAGE value="## LXG'17 Fiesta Updates&#10;&#10;added lxg'17 fiesta sections for registration" />
     <MESSAGE value="## LXG'17 Fiesta Updates&#10;&#10;Icon Changes" />
     <MESSAGE value="## PERFORMANCE UPDATES&#10;&#10;Added Compression" />
-    <option name="LAST_COMMIT_MESSAGE" value="## PERFORMANCE UPDATES&#10;&#10;Added Compression" />
+    <MESSAGE value="## PERFORMANCE UPDATES&#10;&#10;Image optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="## PERFORMANCE UPDATES&#10;&#10;Image optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1694,17 +1720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-          <folding>
-            <element signature="e#4965#4966#0" expanded="false" />
-            <element signature="e#4995#4996#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -2131,7 +2146,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2151" lean-forward="true" selection-start-line="0" selection-start-column="2128" selection-end-line="0" selection-end-column="2151" />
+          <caret line="0" column="2151" lean-forward="false" selection-start-line="0" selection-start-column="2128" selection-end-line="0" selection-end-column="2151" />
           <folding />
         </state>
       </provider>
@@ -2141,19 +2156,6 @@
         <state relative-caret-position="473">
           <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="146" column="39" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
-          <folding>
-            <marker date="1506125500000" expanded="true" signature="1424:1445" ph="..." />
-            <marker date="1506125500000" expanded="true" signature="1484:1505" ph="..." />
-            <marker date="1506125500000" expanded="true" signature="1558:1579" ph="..." />
-            <marker date="1506125500000" expanded="true" signature="1620:1641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2175,8 +2177,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="-171">
           <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
+          <folding>
+            <marker date="1506126077000" expanded="true" signature="1424:1445" ph="..." />
+            <marker date="1506126077000" expanded="true" signature="1484:1505" ph="..." />
+            <marker date="1506126077000" expanded="true" signature="1558:1579" ph="..." />
+            <marker date="1506126077000" expanded="true" signature="1620:1641" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>

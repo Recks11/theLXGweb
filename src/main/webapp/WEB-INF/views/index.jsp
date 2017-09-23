@@ -143,7 +143,7 @@
     </div>
 </section>
 
-<section class="sponsor-bg vendor-section">
+<section class="sponsor-bg vendor-section hide">
     <div class="sponsor-image-container">
         <div class="row">
             <div class="sponsor-parent">
@@ -178,8 +178,9 @@
 </section>
 
 <jsp:include page="fragment/footerForm.jsp"/>
-<script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
+<script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
 </html>

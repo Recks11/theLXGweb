@@ -8,8 +8,11 @@ var features = "status=yes,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resi
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 70) {
             $(".navbar").addClass("nav-scroll grey-bg");
-        } else {
+        } else if ($(".navbar").offset().top < 70) {
             $(".navbar").removeClass("nav-scroll grey-bg");
+        }
+        if ($(".navbar").offset().top > 1024) {
+            $(".vendor-section").removeClass("hide");
         }
     });
 })(jQuery);
