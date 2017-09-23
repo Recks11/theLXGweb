@@ -88,22 +88,5 @@
         </div>
     </div>
 
-<script>
-    $("#feedbackForm").validate({
-        rules:{
-            email:{
-                required: true,
-                email: true
-            },
-            message: {
-                required: "#email:valid",
-                minlength: 20
-            }
-        },
-        messages:{
-            email: "Please Enter a valid email",
-            message: "Must be at least 20 characters"
-        }
-    });
-</script>
+
 </footer>

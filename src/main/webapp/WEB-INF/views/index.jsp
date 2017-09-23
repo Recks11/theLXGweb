@@ -7,39 +7,7 @@
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/homeStyle.css"/>"/>
 <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/formStyle.css"/>"/>
 <body>
-<script>
-    $(document).ready(function(){
-        $('#bannerText').addClass("fadeInDown");
-    });
-    // Set the date we're counting down to
-    var countDownDate = new Date("Aug 16, 2017 23:00:00").getTime();
 
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Output the result in an element with id="demo"
-        document.getElementById("timeLeft").innerHTML = days + "<span style=\" color: springgreen; \">d</span> " + hours + "<span style=\" color: springgreen; \">h</span> "
-            + minutes + "<span style=\" color: springgreen; \">m</span> " + seconds + "<span style=\" color: springgreen; \">sec</span> ";
-
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("timeLeft").innerHTML = "Registration closed";
-        }
-    }, 1000);
-</script>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
 <section id=banner>
@@ -180,6 +148,58 @@
 <jsp:include page="fragment/footerForm.jsp"/>
 
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
+<script>
+    $("#feedbackForm").validate({
+        rules:{
+            email:{
+                required: true,
+                email: true
+            },
+            message: {
+                required: "#email:valid",
+                minlength: 20
+            }
+        },
+        messages:{
+            email: "Please Enter a valid email",
+            message: "Must be at least 20 characters"
+        }
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $('#bannerText').addClass("fadeInDown");
+    });
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 16, 2017 23:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("timeLeft").innerHTML = days + "<span style=\" color: springgreen; \">d</span> " + hours + "<span style=\" color: springgreen; \">h</span> "
+            + minutes + "<span style=\" color: springgreen; \">m</span> " + seconds + "<span style=\" color: springgreen; \">sec</span> ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timeLeft").innerHTML = "Registration closed";
+        }
+    }, 1000);
+</script>
 <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 </body>
