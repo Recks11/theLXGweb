@@ -42,6 +42,7 @@
 
     <link rel="apple-touch-icon" href="<spr:url value="/resources/lxg_fiesta/media/images/theLXGlogo-small.png"/> ">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/font-awesome.min.css"/>"/>
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/bootstrap.min.css"/> ">
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/navbar4.0.css"/>">
 </head>
