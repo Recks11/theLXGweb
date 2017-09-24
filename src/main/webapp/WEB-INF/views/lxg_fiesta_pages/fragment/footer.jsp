@@ -9,7 +9,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <footer id="footer">
     <div class="container text-center">
         <div class="row">
@@ -38,13 +37,13 @@
                     <ul class="footer-li">
                         <li class="first-line"> FOLLOW US</li>
                         <li><div class="footer-social">
-                            <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
+                            <p><a href="#footer" onclick="openInNewTab('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
                                 <i class="fa fa-facebook"></i></a>
-                                <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
+                                <a href="#footer" onclick="openInNewTab('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
                                     <i class="fa fa-twitter"></i></a>
-                                <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
+                                <a href="#footer" onclick="openInNewTab('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
                                     <i class="fa fa-instagram"></i></a>
-                                <a href="#footer" onclick="socialClickOp('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
+                                <a href="#footer" onclick="openInNewTab('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
                                     <i class="fa fa-youtube-play"></i></a>
                             </p>
                         </div>
@@ -53,7 +52,6 @@
                         <li><a href="mailto:info@thelxg.com.ng">email: info@thelxg.com.ng</a></li>
                     </ul>
                 </div>
-
             </div>
             <div class="col-sm-3 white-font">
                 <ul class="footer-li">
@@ -78,8 +76,9 @@
         </div>
 
     </div>
-    <div class="container-fluid" style="border-top: 2px solid white">
-        <p class="d-flex justify-content-end">copyright &copy; 2017 League of Extraordinary Gamers</p>
+    <div class="container-fluid d-flex justify-content-between copyright-section" style="border-top: 2px solid white">
+        <p style="color: #202574"> <small>Website made By <a onclick="openInNewTab('https://twitter.com/recks11')" href="#footer" style="text-decoration: none; color: inherit;"><i class="fa fa-twitter"></i> Ijiekhuamen Rex</a></small> </p>
+        <p><small>copyright &copy; 2017 League of Extraordinary Gamers</small></p>
     </div>
     <script>
         $("#feedbackForm").validate({
@@ -100,3 +99,4 @@
         });
     </script>
 </footer>
+<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/openInNewTab.js"/>"></script>

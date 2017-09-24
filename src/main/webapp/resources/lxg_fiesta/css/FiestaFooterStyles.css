@@ -85,3 +85,6 @@ hr{
     background-color: #c0ff36;
     color: black
 }
+@media screen and (max-width: 440px){
+    .copyright-section{ display: block !important;}
+}

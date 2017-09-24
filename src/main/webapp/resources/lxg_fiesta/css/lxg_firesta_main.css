@@ -1,6 +1,4 @@
-html{
-    -webkit-tap-highlight-color: transparent;
-}
+html{  -webkit-tap-highlight-color: transparent;}
 body{
     margin: 0;
     color: #161616;
@@ -11,9 +9,7 @@ body{
     line-height: 2.2rem;
     overflow-x: hidden;
 }
-.bg-fifa18{
-    background-color: rgb(32, 28, 85);
-}
+.bg-fifa18{  background-color: rgb(32, 28, 85);color: #FFFFFF;}
 .hero-layer{
     position: relative;
     display: block;
@@ -37,16 +33,18 @@ body{
     color: #0e1025;
     font-weight: 500;
     background-color: white;
+    margin-bottom: 2px;
 }
-.bg-hero-image{
-    z-index: 3;
+.description-dark{
+    font-size: 1.3rem;
+    background-color: #0e1025;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 2px;
 }
-.bg-hero-image .bg-hero-image-img, .bg-hero-image>svg {
-    width: 100%;
-}
-.hero-content{
-    z-index: 5;
-}
+.bg-hero-image{ z-index: 3;}
+.bg-hero-image .bg-hero-image-img, .bg-hero-image>svg {  width: 100%;}
+.hero-content{  z-index: 5;}
 .events-container{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -55,32 +53,18 @@ body{
     text-align: center;
     font-family: "Open Sans","Franklin Gothic Medium",Calibri,Arial,HelveticaNeue-Light,sans-serif;
 }
-svg{
-    width: 70px;
-    height: 70px;
-}
-.events > div > p {
-    text-transform: uppercase;
-}
+svg{  width: 70px;height: 70px;}
+.events > div > p {  text-transform: uppercase;}
 
 @media screen and (max-width: 1280px) {
-
-    .hero-child > h1 {
-        font-size: 4rem;
-    }
+    .hero-child > h1 {  font-size: 4rem;}
 }
 @media screen and (max-width: 768px) {
-
-    .hero-child > h1 {
-        font-size: 3rem;
-    }
-    .events-container > .display-3 {
-        font-size: 3rem;
-    }
-    .hero-child > .description {
-        font-size: 1rem;
-        color: #0e1025;
-        font-weight: 300;
-        background-color: white;
-    }
+    .hero-child{  width: 225px;}
+    .hero-child > h1 {  font-size: 2rem;}
+    .events-container > .display-3 {  font-size: 2rem;}
+    .hero-child > .description {  font-size: 0.6rem;color: #0e1025;font-weight: 300;background-color: white;  }
+    .description-dark{  font-size: 0.6rem; background-color: #0e1025;font-weight: 300;color: #FFFFFF;margin-bottom: 2px;  }
+    .events > div > p { font-size: 1rem}
+    .events > div > div > p { font-size: 1rem}
 }

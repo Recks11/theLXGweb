@@ -43,13 +43,13 @@
                 <ul class="footer-li">
                     <li class="first-line"> FOLLOW US</li>
                     <li><div class="footer-social">
-                        <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
+                        <p><a href="#footer" onclick="openInNewTab('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
                             <i class="fa fa-facebook"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
+                            <a href="#footer" onclick="openInNewTab('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
                             <i class="fa fa-twitter"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
+                            <a href="#footer" onclick="openInNewTab('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
                                 <i class="fa fa-instagram"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
+                            <a href="#footer" onclick="openInNewTab('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
                                 <i class="fa fa-youtube-play"></i></a>
                         </p>
                         </div>
@@ -65,7 +65,7 @@
     <div class="row">
         <div class="col-xs-offset-2 col-xs-8 text-center white-font no-bottom-margin bottom-foot">
             <hr/>
-            <p class="no-bottom-margin"> <small>Website made By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
+            <p class="no-bottom-margin"> <small>Website made By <a onclick="openInNewTab('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
             <p><small>medal icons made by <a href="http://www.flaticon.com/authors/vectors-market"> vector market </a> from <a href="http://www.flaticon.com"> www.flaticon.com </a></small></p>
         </div>
     </div>
@@ -73,7 +73,9 @@
 
 
 </footer>
+
 <!--JavaScript-->
+<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/openInNewTab.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
