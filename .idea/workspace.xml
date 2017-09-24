@@ -6,14 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/openInNewTab.js" />
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="## FIESTA&#10;&#10;Added venue and tweaked footer">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,45 +46,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#small#0;n#p#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiestaFooterStyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="88" column="50" lean-forward="false" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FiestaHome.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="63" column="787" lean-forward="false" selection-start-line="63" selection-start-column="787" selection-end-line="63" selection-end-column="787" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#2;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#g#0;n#g#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#g#0;n#g#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,28 +64,8 @@
       <file leaf-file-name="lxg_firesta_main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home-scroll-filter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="openInNewTab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/openInNewTab.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="426">
+              <caret line="48" column="115" lean-forward="false" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -129,16 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.properties.localBackup" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -244,13 +181,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/imports.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/openInNewTab.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
       </list>
     </option>
@@ -424,6 +361,16 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="lxg_fiesta_pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1169,14 +1116,7 @@
       <workItem from="1505109607304" duration="449000" />
       <workItem from="1505168799606" duration="3076000" />
       <workItem from="1506088132184" duration="23780000" />
-      <workItem from="1506270489916" duration="3150000" />
-    </task>
-    <task id="LOCAL-00203" summary="Fixtures Set">
-      <created>1503008018203</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1503008018204</updated>
+      <workItem from="1506270489916" duration="6065000" />
     </task>
     <task id="LOCAL-00204" summary="Fixtures Set">
       <created>1503009255984</created>
@@ -1514,11 +1454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506128173475</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="## FIESTA&#10;&#10;Added venue and tweaked footer">
+      <created>1506274010335</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1506274010336</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638266000" />
+    <option name="totallyTimeSpent" value="641181000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1651,7 +1598,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added live reload to fixtures and Tables" />
     <MESSAGE value="Minor tweaks" />
     <MESSAGE value="added new timer" />
     <MESSAGE value="Added results to admin" />
@@ -1676,7 +1622,8 @@
     <MESSAGE value="## LXG'17 Fiesta Updates&#10;&#10;Icon Changes" />
     <MESSAGE value="## PERFORMANCE UPDATES&#10;&#10;Added Compression" />
     <MESSAGE value="## PERFORMANCE UPDATES&#10;&#10;Image optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="## PERFORMANCE UPDATES&#10;&#10;Image optimization" />
+    <MESSAGE value="## FIESTA&#10;&#10;Added venue and tweaked footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="## FIESTA&#10;&#10;Added venue and tweaked footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2059,14 +2006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2099,22 +2038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="63" column="787" lean-forward="false" selection-start-line="63" selection-start-column="787" selection-end-line="63" selection-end-column="787" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -2131,6 +2054,35 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#small#0;n#p#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#2;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#g#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#0;n#g#0;n#svg#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="48" column="115" lean-forward="false" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
+          <folding />
         </state>
       </provider>
     </entry>
