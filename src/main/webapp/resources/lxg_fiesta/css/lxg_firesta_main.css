@@ -22,7 +22,7 @@ body{
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-.nav-link{ padding: 0 .5rem;}
+
 .hero-child > .description { font-size: 1rem; color: #0e1025; font-weight: 500; background-color: white; margin-bottom: 0;}
 .description-dark{ font-size: 1rem;background-color: #0e1025;font-weight: 500;color: #FFFFFF;margin-bottom: 0;  }
 .bg-hero-image{ z-index: 3;}
