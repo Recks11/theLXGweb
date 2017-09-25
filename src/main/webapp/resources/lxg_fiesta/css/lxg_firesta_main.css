@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 .bg-fifa18{  background-color: rgb(32, 28, 85);color: #FFFFFF;}
-.hero-layer{ position: relative; display: block;margin: 0 auto;min-height: 400px; width: 100vw;}
+.hero-layer{ position: relative; display: block;margin: 0 auto; width: 100vw;}
 .hero-child{
     color: #ffffff;
     position: absolute;

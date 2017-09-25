@@ -12,13 +12,21 @@
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/lxg_firesta_main.css"/> ">
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFooterStyles.css"/> ">
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFormStyles.css"/> ">
+    <style>
+        .hero-layer{
+            min-height: 60vw;
+        }
+        @media only screen and(max-width: 768px){
+            .hero-layer{ min-height: 120vw; }
+        }
+    </style>
 <body>
 <%--Additional css files--%>
 
 <%--end--%>
     <jsp:include page="fragment/navbar.jsp"/>
 
-    <section class="hero-layer bg-image-container bg-hero-dark" style="width:100%; min-height: 50vw">
+    <section class="hero-layer bg-image-container bg-hero-dark">
         <picture class="bg-hero-image" >
             <source srcset="<spr:url value="/resources/lxg_fiesta/media/images/fifa18-homepage-marquee-bg-lg.jpg"/>
                                 ,<spr:url value="/resources/lxg_fiesta/media/images/fifa18-homepage-marquee-bg-lg-2x.jpg 2x"/>
