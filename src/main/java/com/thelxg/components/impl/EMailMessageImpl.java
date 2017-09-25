@@ -34,7 +34,8 @@ public class EMailMessageImpl implements eMailMessage {
                 "Alias = " + player.getAlias() + "\n" +
                 "Team Selected = " + player.getTeamSelected() + "\n" +
                 "Location = " + player.getLocation() + "\n" +
-                "\n\n" +
+                "\n" +
+                "\n" +
                 "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
                 "\n"+
                 "Details on your venue and fixture will be sent to you soon \n"+
@@ -57,7 +58,11 @@ public class EMailMessageImpl implements eMailMessage {
                 "Last Name = " + player.getLastName() + "\n" +
                 "First Name = " + player.getFirstName() + "\n" +
                 "Alias = " + player.getAlias() + "\n" +
-                "\n\n" +
+                "\n" +
+                "\n" +
+                "The event takes place in Hitbox Games, Leisure mall Surulere \n" +
+                "By 11AM" +
+                ""+
                 "Remember, Your Unique ID is "+player.getPlayerId()+"\n" +
                 "\n"+
                 "\n"+
