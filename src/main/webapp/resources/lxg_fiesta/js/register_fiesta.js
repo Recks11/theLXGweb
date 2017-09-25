@@ -110,7 +110,7 @@ $(document).ready(function() {
 
             success: function (response) {
                 alert( data.firstName + " " +data.lastName +' Welcome To the Tournament');
-                window.location.href = ctx+"/";
+                window.location.href = ctx+"/fiesta/home";
                 //...
             },
             error : function(xhr, status, error) {

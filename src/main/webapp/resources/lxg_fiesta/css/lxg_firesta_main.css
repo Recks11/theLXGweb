@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 .bg-fifa18{  background-color: rgb(32, 28, 85);color: #FFFFFF;}
-.hero-layer{ position: relative; display: block;margin: 0 auto;min-height: inherit; width: 100vw;}
+.hero-layer{ position: relative; display: block;margin: 0 auto;min-height: 400px; width: 100vw;}
 .hero-child{
     color: #ffffff;
     position: absolute;
@@ -22,7 +22,6 @@ body{
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-
 .hero-child > .description { font-size: 1rem; color: #0e1025; font-weight: 500; background-color: white; margin-bottom: 0;}
 .description-dark{ font-size: 1rem;background-color: #0e1025;font-weight: 500;color: #FFFFFF;margin-bottom: 0;  }
 .bg-hero-image{ z-index: 3;}
