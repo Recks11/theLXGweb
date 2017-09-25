@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFormStyles.css"/> ">
     <style>
         .hero-layer{
-            min-height: 60vw;
+            min-height: 50vw;
         }
         @media only screen and(max-width: 768px){
             .hero-layer{ min-height: 120vw; }
