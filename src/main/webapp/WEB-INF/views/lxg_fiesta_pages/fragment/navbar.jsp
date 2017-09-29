@@ -26,9 +26,9 @@
                 <li class="nav-item ">
                     <a class="nav-link ${register}" href="<spr:url value="/fiesta/register"/>">REGISTER</a>
                 </li>
-                <li class="nav-item">
-                    <%--<a class="nav-link ${payment}"  href="<spr:url value="/fiesta/payment"/> ">CASH REGISTRATION</a>--%>
-                </li>
+                <%--<li class="nav-item">--%>
+                    <%--&lt;%&ndash;<a class="nav-link ${payment}"  href="<spr:url value="/fiesta/payment"/> ">CASH REGISTRATION</a>&ndash;%&gt;--%>
+                <%--</li>--%>
                 <li class="nav-item">
                     <a class="nav-link ${finalists}"  href="<spr:url value="/fiesta/meet-finalists"/> ">MEET THE FINALISTS</a>
                 </li>
