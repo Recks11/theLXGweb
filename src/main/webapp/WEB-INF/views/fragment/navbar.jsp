@@ -36,6 +36,7 @@
                                 <%--<li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/vote/"/> ">VOTE</a></li>--%>
                                 <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/knockoutSeed1"/> ">KNOCKOUT Seed 1</a></li>
                                 <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/knockoutSeed2"/> ">KNOCKOUT Seed 2</a></li>
+                                <li class="underline-hover" style="width: 100%;"><a href="<spr:url value="/finals"/> ">FINALS</a></li>
                             </ul>
                         </li>
 

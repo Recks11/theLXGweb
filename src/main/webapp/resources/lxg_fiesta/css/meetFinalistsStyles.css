@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+    background-color: #0e1025;
+}
+.flex-parent{
+    display: flex;
+}
+.flex-parent > div{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-align: -webkit-center;
+    margin-bottom: 30px;
+}
+.player-image{
+    width: 100px;
+}
+.navbar {
+    border-bottom: 1px solid white;
+}
+.finalists-section{
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+
+    .flex-parent {
+        flex-direction: column;
+    }
+}

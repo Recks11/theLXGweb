@@ -6,6 +6,7 @@ import com.thelxg.data.models.features.Feedback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,5 +46,23 @@ public class fiestaIndexController {
         feedback.setDate(new Date());
         feedbackService.saveFeedback(feedback);
         return "redirect:/fiesta/home";
+    }
+    @GetMapping("/payment")
+    public String showPayments(Model model) {
+
+
+        model.addAttribute("title","LXG'17 FIESTA - PAYMENT");
+        model.addAttribute("payment","active");
+        model.addAttribute("feedbackObject", new Feedback());
+        return "lxg_fiesta_pages/paymentMethods";
+    }
+    @GetMapping("/meet-finalists")
+    public String showfinalists(Model model) {
+
+
+        model.addAttribute("title","LXG'17 FIESTA - FINALISTS");
+        model.addAttribute("finalists","active");
+        model.addAttribute("feedbackObject", new Feedback());
+        return "lxg_fiesta_pages/meetFinalists";
     }
 }

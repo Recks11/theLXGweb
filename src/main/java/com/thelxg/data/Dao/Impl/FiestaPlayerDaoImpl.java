@@ -1,5 +1,6 @@
-package com.thelxg.data.Dao;
+package com.thelxg.data.Dao.Impl;
 
+import com.thelxg.data.Dao.FiestaPlayerDao;
 import com.thelxg.data.models.FiestaPlayer;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -30,9 +30,6 @@
     <link rel="stylesheet" href="<spr:url value="/resources/css/jquery.bracket.min.css" />">
     <link rel="stylesheet" href="<spr:url value="/resources/css/KnockoutStyles.css" />">
     <%--<script src="<spr:url value="/resources/js/jquery-3.2.1.min.js" />"></script>--%>
-    <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
-    <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
-    <script type="text/javascript" src="<spr:url value="/resources/js/jquery.bracket.min.js" />"></script>
 </head>
 <body id="body">
 
@@ -58,7 +55,9 @@
     </section>
 </div>
 <jsp:include page="fragment/footer.jsp"/>
-
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.bracket.min.js" />"></script>
 <script>
     $.holdReady( true );
     getDataFromSeedAPI();
@@ -112,8 +111,8 @@
 
     function getDataFromSeedAPI(){
 
-//        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
-        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
+        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
+//        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
             apiQuery = data;
         });
     }

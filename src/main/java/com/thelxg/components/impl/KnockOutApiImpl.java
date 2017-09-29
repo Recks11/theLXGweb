@@ -12,9 +12,12 @@ import java.util.List;
 @Service
 public class KnockOutApiImpl implements KnockOutApiService {
 
-    @Autowired
-    private KnockoutScoreService knockoutScoreService;
+    private final KnockoutScoreService knockoutScoreService;
 
+    @Autowired
+    public KnockOutApiImpl(KnockoutScoreService knockoutScoreService) {
+        this.knockoutScoreService = knockoutScoreService;
+    }
 
 
     @Override
@@ -48,6 +51,33 @@ public class KnockOutApiImpl implements KnockOutApiService {
                 "            "+round3Score.toString()+",\n" +
                 "            "+round4Score.toString()+",\n" +
                 "            "+round5Score.toString()+"\n" +
+                "           ]\n" +
+                "    }";
+        return scores.trim();
+    }
+
+    @Override
+    public String GetFinalsScoresApi(int firstRoundNumber, int secondRoundNumber, int thirdRoundNumber, String players) {
+        List<KnockoutScore> round1 =  knockoutScoreService.getScoresByRound(firstRoundNumber);
+        List<KnockoutScore> round2 =  knockoutScoreService.getScoresByRound(secondRoundNumber);
+        List<KnockoutScore> round3 =  knockoutScoreService.getScoresByRound(thirdRoundNumber);
+
+        List<String> round1Score = new ArrayList<String>();
+        List<String> round2Score = new ArrayList<String>();
+        List<String> round3Score = new ArrayList<String>();
+
+        for(KnockoutScore knockoutScore : round1){ round1Score.add(knockoutScore.scoreApi());}
+        for(KnockoutScore knockoutScore2 : round2){ round2Score.add(knockoutScore2.scoreApi());}
+        for(KnockoutScore knockoutScore3 : round3){ round3Score.add(knockoutScore3.scoreApi());}
+
+        String scores = "{"+
+                "\"teams\" : [\n" + players
+                +
+                "        ],\n" +
+                "        \"results\" : [\n" +
+                "            "+round1Score.toString()+",\n" +
+                "            "+round2Score.toString()+",\n" +
+                "            "+round3Score.toString()+"\n"  +
                 "           ]\n" +
                 "    }";
         return scores.trim();

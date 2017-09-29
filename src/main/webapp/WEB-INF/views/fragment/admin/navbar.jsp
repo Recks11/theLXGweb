@@ -62,6 +62,18 @@
                                     </div>
                                 </div>
                             </li>
+                            <li>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Finals"><i class="fa fa-user"></i>  FINALS! </a>
+                                <div id="Finals" class="panel-collapse collapse">
+                                    <div class="side-content">
+                                        <ul>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${11}"/>"><i class="fa fa-user"></i> Quaters </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${12}"/>"><i class="fa fa-user"></i> Semis </a></li>
+                                            <li><a href="<spring:url value="/admin/competition/fixtures/knockout/${13}"/>"><i class="fa fa-user"></i> Final + 3rd place </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="<spring:url value="/admin/competition/results"/>"><i class="fa fa-user"></i> Results </a></li>
                         </ul>
                     </div>

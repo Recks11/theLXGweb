@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="<spr:url value="/resources/css/jquery.bracket.min.css" />">
     <link rel="stylesheet" href="<spr:url value="/resources/css/KnockoutStyles.css" />">
     <%--<script src="<spr:url value="/resources/js/jquery-3.2.1.min.js" />"></script>--%>
+
 </head>
 <body id="body">
 
@@ -40,10 +41,10 @@
     <section id="reloadAll">
         <div class="no-pad about-content">
             <div class=" mont-Font">
-                <h2 class="gold">TheLXG KNOCKOUT SEED 2!</h2>
+                <h2 class="gold">TheLXG FINALS!</h2>
                 <div  class="row">
                     <div class="col-sm-12">
-                        <div class="saturday" style="width: 100%;height: 1000px;">
+                        <div class="saturday" style="width: 100%;height: 600px;">
 
                         </div>
 
@@ -56,7 +57,6 @@
     </section>
 </div>
 <jsp:include page="fragment/footer.jsp"/>
-
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery.bracket.min.js" />"></script>
@@ -81,10 +81,10 @@
         getDataFromSeedAPI();
 
         $('.saturday').bracket({
-            teamWidth: 180,
-            scoreWidth: 40,
-            matchMargin: 7,
-            roundMargin: 50,
+            teamWidth: 200,
+            scoreWidth: 50,
+            matchMargin: 100,
+            roundMargin: 80,
             init: apiQuery,
             centerConnectors: true,
             skipConsolationRound: false
@@ -113,8 +113,8 @@
 
     function getDataFromSeedAPI(){
 
-        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed2ScoreAPI", function( data ) {
-//        $.getJSON( window.location.origin + "/Seed2ScoreAPI", function( data ) {
+        $.getJSON( "http://localhost:8080/thelxg.com.ng/FinalScoreAPI", function( data ) {
+//        $.getJSON( window.location.origin + "/FinalScoreAPI", function( data ) {
             apiQuery = data;
         });
     }
