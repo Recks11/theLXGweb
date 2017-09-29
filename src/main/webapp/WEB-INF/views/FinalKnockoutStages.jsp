@@ -57,9 +57,6 @@
     </section>
 </div>
 <jsp:include page="fragment/footer.jsp"/>
-<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
-<script type="text/javascript" src="<spr:url value="/resources/js/bootstrap.min.js"/>"></script>
-<script type="text/javascript" src="<spr:url value="/resources/js/jquery.bracket.min.js" />"></script>
 <script>
     $.holdReady( true );
     getDataFromSeedAPI();

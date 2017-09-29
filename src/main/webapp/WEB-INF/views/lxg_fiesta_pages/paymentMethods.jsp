@@ -50,6 +50,9 @@
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
+<script src="<spr:url value="/resources/lxg_fiesta/js/popper.min.js"/>"></script>
+<script src="<spr:url value="/resources/lxg_fiesta/js/bootstrap.min.js"/>"></script>
+<script src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
 <jsp:include page="fragment/footer.jsp"/>
 
 </body>
