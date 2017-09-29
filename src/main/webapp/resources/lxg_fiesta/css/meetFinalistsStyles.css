@@ -1,13 +1,12 @@
 html,body{
-    height: 100%;
     background-color: #0e1025;
 }
 .flex-parent{
     display: flex;
+    width: 100%;
 }
 .flex-parent > div{
     width: 100%;
-    height: 100px;
     text-align: center;
     text-align: -webkit-center;
     margin-bottom: 30px;
@@ -22,9 +21,25 @@ html,body{
     margin-top: 60px;
     color: #FFFFFF;
 }
+.finalist-parent{
+    width: 100%;
+}
+.finalist-image {
+    width: 30vw;
+}
 @media only screen and (max-width: 768px) {
 
     .flex-parent {
         flex-direction: column;
+    }
+    .finalist-image {
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 670px) {
+
+    .display-3 {
+        font-size: 2.2rem;
+        padding-bottom: 50px;
     }
 }
