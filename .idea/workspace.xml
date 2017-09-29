@@ -6,13 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="##FIXED broken Dropdown menus">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/paymentMethods.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/paymentMethods.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,11 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="meetFinalists.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meetFinalists.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="46" column="103" lean-forward="false" selection-start-line="46" selection-start-column="103" selection-end-line="46" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -236,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/paymentStyles.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/lxgFiesta/fiestaIndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/meetFinalists.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/meetFinalists.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/FiestaPlayerDaoImpl.java" />
@@ -253,6 +258,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/paymentMethods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" />
       </list>
     </option>
   </component>
@@ -417,6 +423,17 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="lxg_fiesta_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="lxg_fiesta_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1166,14 +1183,7 @@
       <workItem from="1506458406662" duration="207000" />
       <workItem from="1506475112163" duration="92000" />
       <workItem from="1506678318160" duration="4675000" />
-      <workItem from="1506711832053" duration="7652000" />
-    </task>
-    <task id="LOCAL-00217" summary="Tables updated">
-      <created>1503351971387</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1503351971388</updated>
+      <workItem from="1506711832053" duration="8068000" />
     </task>
     <task id="LOCAL-00218" summary="Tables updated">
       <created>1503524061087</created>
@@ -1511,11 +1521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506719338343</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="##FIXED broken Dropdown menus">
+      <created>1506720121133</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1506720121133</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657679000" />
+    <option name="totallyTimeSpent" value="658095000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1542,12 +1559,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280943" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3899693" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899693" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1648,7 +1665,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed fixture generation" />
     <MESSAGE value="Fixtures Set" />
     <MESSAGE value="Tables" />
     <MESSAGE value="messages changed" />
@@ -1673,7 +1689,8 @@
     <MESSAGE value="##LXG'17 Finals tables added" />
     <MESSAGE value="##FIESTA meet the finalists" />
     <MESSAGE value="##SCORE API FIX" />
-    <option name="LAST_COMMIT_MESSAGE" value="##SCORE API FIX" />
+    <MESSAGE value="##FIXED broken Dropdown menus" />
+    <option name="LAST_COMMIT_MESSAGE" value="##FIXED broken Dropdown menus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1818,14 +1835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="122" lean-forward="false" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
           <folding />
         </state>
       </provider>
@@ -2083,6 +2092,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="46" column="103" lean-forward="false" selection-start-line="46" selection-start-column="103" selection-end-line="46" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>
