@@ -111,8 +111,8 @@
 
     function getDataFromSeedAPI(){
 
-        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
-//        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
+//        $.getJSON( "http://localhost:8080/thelxg.com.ng/Seed1ScoreAPI", function( data ) {
+        $.getJSON( window.location.origin + "/Seed1ScoreAPI", function( data ) {
             apiQuery = data;
         });
     }
