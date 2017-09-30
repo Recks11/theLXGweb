@@ -70,8 +70,8 @@ public class RESTcontroller {
     @ResponseBody
     public String FinalScoreApi(){
 
-        String players ="[\"Ify30 (real Madrid)\" , \"obinna1231 (Barcelona)\"],\n" +
-                "[\"BUGATTI (Liverpool)\" , \"godMC (Juventus)\"],\n" +
+        String players ="[\"godMC (Juventus)\" , \"obinna1231 (Barcelona)\"],\n" +
+                "[\"Ify30 (real Madrid)\" , \"The Brazilian (Barcelona)\"],\n" +
                 "[\"Magnanimous (Real Madrid)\" , \"KayJay (real Madrid)\"],\n" +
                 "[\"Mr_Oga (Bayern Munchen)\" , \"The Brazilian (Barcelona)\"]";
 

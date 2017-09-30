@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,11 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RESTcontroller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="787">
+              <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -227,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/KnockOutApiImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/KnockOutApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/meetFinalistsStyles.css" />
@@ -237,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" />
       </list>
     </option>
   </component>
@@ -370,54 +377,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="lxg_fiesta_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="lxg_fiesta_pages" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1172,14 +1132,7 @@
       <workItem from="1506678318160" duration="4675000" />
       <workItem from="1506711832053" duration="9129000" />
       <workItem from="1506728050815" duration="361000" />
-      <workItem from="1506733501465" duration="330000" />
-    </task>
-    <task id="LOCAL-00221" summary="Added votes page">
-      <created>1503528734971</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1503528734971</updated>
+      <workItem from="1506733501465" duration="1118000" />
     </task>
     <task id="LOCAL-00222" summary="Added votes page">
       <created>1503529394538</created>
@@ -1517,11 +1470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506733693775</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="changed thelxg to LXG'17">
+      <created>1506734388601</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1506734388601</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659847000" />
+    <option name="totallyTimeSpent" value="660635000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1654,7 +1614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixtures Set" />
     <MESSAGE value="Tables" />
     <MESSAGE value="messages changed" />
     <MESSAGE value="video uploaded" />
@@ -1679,7 +1638,8 @@
     <MESSAGE value="##FIESTA meet the finalists" />
     <MESSAGE value="##SCORE API FIX" />
     <MESSAGE value="##FIXED broken Dropdown menus" />
-    <option name="LAST_COMMIT_MESSAGE" value="##FIXED broken Dropdown menus" />
+    <MESSAGE value="changed thelxg to LXG'17" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed thelxg to LXG'17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1908,18 +1868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/ce8c0785/b9fd1d57-4d4a-4b05-af25-3b370f63eaa2/TheLXG.KnockoutScore">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -2061,6 +2009,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding />
         </state>
       </provider>
