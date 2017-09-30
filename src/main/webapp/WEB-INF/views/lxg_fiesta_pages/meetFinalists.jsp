@@ -17,7 +17,7 @@
 <body>
     <jsp:include page="fragment/navbar.jsp"/>
     <section class="finalists-section">
-        <h1 class="display-3 text-center"> MEET THE FINALISTS </h1>
+        <h1 class="display-3 text-center"> MEET THE LXG'17 FINALISTS </h1>
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="flex-parent">

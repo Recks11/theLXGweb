@@ -41,7 +41,7 @@
     <section id="reloadAll">
         <div class="no-pad about-content">
             <div class=" mont-Font">
-                <h2 class="gold">TheLXG FINALS!</h2>
+                <h2 class="gold">LXG'17 FINALS!</h2>
                 <div  class="row">
                     <div class="col-sm-12">
                         <div class="saturday" style="width: 100%;height: 600px;">
