@@ -73,7 +73,7 @@ public class RESTcontroller {
         String players ="[\"godMC (Juventus)\" , \"obinna1231 (Barcelona)\"],\n" +
                 "[\"Ify30 (real Madrid)\" , \"The Brazilian (Barcelona)\"],\n" +
                 "[\"Magnanimous (Real Madrid)\" , \"KayJay (real Madrid)\"],\n" +
-                "[\"Mr_Oga (Bayern Munchen)\" , \"The Brazilian (Barcelona)\"]";
+                "[\"Mr_Oga (Bayern Munchen)\" , \"BUGATTI (Liverpool)\"]";
 
 
         return knockOutApiService.GetFinalsScoresApi(11,12,13, players);
