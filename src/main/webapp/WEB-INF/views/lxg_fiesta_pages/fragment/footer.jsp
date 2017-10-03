@@ -21,7 +21,7 @@
                     <li class="first-line">NAVIGATION</li>
                     <li><a href="<spr:url value="/"/> ">HOME</a></li>
                     <li><a href="<spr:url value="/fiesta/home"/> ">FIESTA HOME</a></li>
-                    <li><a href="<spr:url value="/fiesta/register"/>">REGISTER</a></li>
+                    <%--<li><a href="<spr:url value="/fiesta/register"/>">REGISTER</a></li>--%>
                     <%--<li><a href="<spr:url value="/fiesta/finalists"/>">FINALISTS</a></li>--%>
                     <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">RULE BOOK</a></li>
                 </ul>
