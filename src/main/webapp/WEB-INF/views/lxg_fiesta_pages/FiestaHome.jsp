@@ -46,8 +46,8 @@
             <h1 class="display-3 text-center">LXG'17 FIESTA</h1>
             <p class="text-center description">Date & Time: 30th September - 1st October | 11AM.</p>
             <p class="text-center description-dark">Venue: Hitbox Games, Leisure Mall Surulere</p>
-            <p class="text-center description"><a href="<spr:url value="/fiesta/register"/>" style="text-decoration: none; color: inherit">REGISTER NOW!!</a></p>
-            <p class="text-center description-dark">LIMITED SLOTS AVAILABLE</p>
+            <%--<p class="text-center description"><a href="<spr:url value="/fiesta/register"/>" style="text-decoration: none; color: inherit">REGISTER NOW!!</a></p>--%>
+            <%--<p class="text-center description-dark">LIMITED SLOTS AVAILABLE</p>--%>
         </section>
     </section>
     <section class="events-container">
