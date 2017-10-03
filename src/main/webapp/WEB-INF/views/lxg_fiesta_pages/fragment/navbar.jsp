@@ -23,9 +23,9 @@
                 <li class="nav-item">
                     <a class="nav-link ${home}" href="<spr:url value="/fiesta/home"/> ">18 HOME <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link ${register}" href="<spr:url value="/fiesta/register"/>">REGISTER</a>
-                </li>
+                <%--<li class="nav-item ">--%>
+                    <%--<a class="nav-link ${register}" href="<spr:url value="/fiesta/register"/>">REGISTER</a>--%>
+                <%--</li>--%>
                 <%--<li class="nav-item">--%>
                     <%--&lt;%&ndash;<a class="nav-link ${payment}"  href="<spr:url value="/fiesta/payment"/> ">CASH REGISTRATION</a>&ndash;%&gt;--%>
                 <%--</li>--%>

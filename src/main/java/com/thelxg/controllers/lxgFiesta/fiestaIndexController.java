@@ -32,7 +32,7 @@ public class fiestaIndexController {
         model.addAttribute("feedbackObject", new Feedback());
         return "lxg_fiesta_pages/FiestaHome";
     }
-    @RequestMapping("/register")
+//    @RequestMapping("/register")
     public String registerPage(Model model){
         model.addAttribute("title","LXG'17 FIESTA - REGISTER");
         model.addAttribute("register","active");
@@ -47,7 +47,7 @@ public class fiestaIndexController {
         feedbackService.saveFeedback(feedback);
         return "redirect:/fiesta/home";
     }
-    @GetMapping("/payment")
+//    @GetMapping("/payment")
     public String showPayments(Model model) {
 
 
