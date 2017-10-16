@@ -20,7 +20,7 @@
                         <h3> PRESENTS</h3>
                         <br/>
                         <h3>LXG<span>FIFA 17</span> TOURNAMENT</h3>
-                        <h3 class="gold">Competition has Started</h3>
+                        <h3 class="gold">Competition Over!</h3>
                         <p id="timeLeft"></p>
                         <p class="gold">&#10155; <a href="<spr:url value="/fiesta/home"/>">LXG'17 FIESTA IS HERE!</a></p>
                         <p class="gold">&#10155; <a href="<spr:url value="/download/pdf/Rules.pdf"/>">Download rule book</a></p>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 text-center head-text mont-font">
-                        <p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>
+                        <%--<p>Earn yourself bragging rights and stand a chance to win &#8358;500,000</p>--%>
                         <br/>
                         <p class="gold">Venue is Hitbox Games, Leisure Mall, Surulere</p>
                     </div>
@@ -56,60 +56,60 @@
     </div>
 </section>
 
-<section class="section-bg">
-    <div class="grey-color">
-        <section class="section-1">
-            <div class="container skewed-text">
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<spr:url value="/resources/images/vectors-market.svg"/>" class="img-responsive prize-image" height="auto"/>
-                    </div>
+<%--<section class="section-bg">--%>
+    <%--<div class="grey-color">--%>
+        <%--<section class="section-1">--%>
+            <%--<div class="container skewed-text">--%>
+                <%--<div class="row">--%>
+                    <%--<div class="col-xs-12 col-md-4 col-md-push-8">--%>
+                        <%--<img src="<spr:url value="/resources/images/vectors-market.svg"/>" class="img-responsive prize-image" height="auto"/>--%>
+                    <%--</div>--%>
 
-                    <div class="col-xs-12 col-md-8 col-md-pull-4">
-                        <div class="prize-container text-center">
-                            <H1 class=" gold mont-Font">FIRST PLACE</H1>
-                            <p class="gold" >&#8358 500,000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <%--<div class="col-xs-12 col-md-8 col-md-pull-4">--%>
+                        <%--<div class="prize-container text-center">--%>
+                            <%--<H1 class=" gold mont-Font">FIRST PLACE</H1>--%>
+                            <%--<p class="gold" >&#8358 500,000</p>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</section>--%>
 
-        <section class="section-2">
-            <div class="container skewed-text">
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<spr:url value="/resources/images/vectors-market2.svg"/>" class="img-responsive prize-image" height="auto"/>
-                    </div>
+        <%--<section class="section-2">--%>
+            <%--<div class="container skewed-text">--%>
+                <%--<div class="row">--%>
+                    <%--<div class="col-xs-12 col-md-4 col-md-push-8">--%>
+                        <%--<img src="<spr:url value="/resources/images/vectors-market2.svg"/>" class="img-responsive prize-image" height="auto"/>--%>
+                    <%--</div>--%>
 
-                    <div class="col-xs-12 col-md-8 col-md-pull-4">
-                        <div class="prize-container text-center">
-                            <h2 class="silver mont-Font">SECOND PLACE</h2>
-                            <p class="silver">&#8358 200,000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <%--<div class="col-xs-12 col-md-8 col-md-pull-4">--%>
+                        <%--<div class="prize-container text-center">--%>
+                            <%--<h2 class="silver mont-Font">SECOND PLACE</h2>--%>
+                            <%--<p class="silver">&#8358 200,000</p>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</section>--%>
 
-        <section class="section-3">
-            <div class="container skewed-text">
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-md-push-8">
-                        <img src="<spr:url value="/resources/images/medal.svg"/>" class="img-responsive prize-image" height="auto"/>
-                    </div>
+        <%--<section class="section-3">--%>
+            <%--<div class="container skewed-text">--%>
+                <%--<div class="row">--%>
+                    <%--<div class="col-xs-12 col-md-4 col-md-push-8">--%>
+                        <%--<img src="<spr:url value="/resources/images/medal.svg"/>" class="img-responsive prize-image" height="auto"/>--%>
+                    <%--</div>--%>
 
-                    <div class="col-xs-12 col-md-8 col-md-pull-4">
-                        <div class="prize-container text-center">
-                            <h3 class="bronze mont-Font">THIRD PLACE</h3>
-                            <p class="bronze">&#8358 100,000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</section>
+                    <%--<div class="col-xs-12 col-md-8 col-md-pull-4">--%>
+                        <%--<div class="prize-container text-center">--%>
+                            <%--<h3 class="bronze mont-Font">THIRD PLACE</h3>--%>
+                            <%--<p class="bronze">&#8358 100,000</p>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</section>--%>
+    <%--</div>--%>
+<%--</section>--%>
 
 <section class="sponsor-bg vendor-section hide">
     <div class="sponsor-image-container">
