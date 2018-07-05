@@ -6,44 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="code cleanup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/eMailMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/groupsAndFixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/groupsAndFixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/UrlAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/UrlAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/paginationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/paginationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/savePlayerAndSendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/savePlayerAndSendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/sendNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/sendNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/playerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/tableDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/tableDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/tableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/tableServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/playerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/tableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/tableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/KnockoutScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/KnockoutScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminResults.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminResults.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/allPlayers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/allPlayers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" afterDir="false" />
+    <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,33 +53,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnockoutStages.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KnockoutStagesSeed2.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,15 +62,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="182">
               <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#1360#1361#0" expanded="true" />
                 <element signature="e#1422#1423#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -206,8 +152,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Ijiekhuamen Rex &lt;rexijie@gmail.com&gt;" />
         <option value="Ijiekhuamen Rex &lt;dev.rexijie@gmail.com&gt;" />
+        <option value="Ijiekhuamen Rex &lt;rexijie@gmail.com&gt;" />
         <option value="ADDED" />
         <option value="ij" />
         <option value="Fixtures" />
@@ -227,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thelxg/components/GZIPFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/compression.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
@@ -278,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -385,7 +331,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thelxg" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -400,22 +356,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -932,14 +872,7 @@
       <workItem from="1521646404255" duration="947000" />
       <workItem from="1530634760846" duration="981000" />
       <workItem from="1530810585738" duration="3766000" />
-      <workItem from="1530821761150" duration="1327000" />
-    </task>
-    <task id="LOCAL-00232" summary="Merge branch 'master' of https://github.com/Recks11/theLXGweb&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;Added Goal of the week 2 to index.jsp">
-      <created>1504060130322</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1504060130322</updated>
+      <workItem from="1530821761150" duration="1649000" />
     </task>
     <task id="LOCAL-00233" summary="New Update&#10;&#10;#Added Feedback Section to homepage&#10;#Added Gallery">
       <created>1504308895834</created>
@@ -1277,11 +1210,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530814786692</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="code cleanup">
+      <created>1530823338339</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1530823338339</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="674011000" />
+    <option name="totallyTimeSpent" value="674333000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1294,12 +1234,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1001" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50305253" side_tool="true" weight="0.5496418" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50427353" side_tool="true" weight="0.34181416" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32857144" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.2893773" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32964602" />
+      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.4993895" weight="0.32964602" />
       <window_info id="Capture Tool" order="9" />
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32853982" />
@@ -1309,21 +1250,21 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39918116" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32743362" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.32743362" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="TCPMON" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841145" weight="0.3897436" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3428864" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.4957265" visible="true" weight="0.34181416" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.38689867" />
       <window_info id="Persistence" order="6" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49393415" visible="true" weight="0.23687424" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841145" weight="0.32853982" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.497558" weight="0.32853982" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="8" sideWeight="0.50606585" side_tool="true" weight="0.1978022" />
@@ -1406,6 +1347,14 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -1416,6 +1365,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="HTML CHANGES:&#10;Modified table" />
     <MESSAGE value="HTML CHANGES:&#10;Changed phone number in footer" />
     <MESSAGE value="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)" />
@@ -1453,30 +1403,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="71" column="167" selection-start-line="71" selection-start-column="167" selection-end-line="71" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="45" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/meetFinalistsStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/aboutUs.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1761,12 +1687,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="182">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#1360#1361#0" expanded="true" />
             <element signature="e#1422#1423#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_9.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_github_ziplet_ziplet_2_2_0.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/920.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
