@@ -11,7 +11,7 @@ public class fixtures {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name="fixtureGroup")
+    @Column(name = "fixtureGroup")
     private String group;
 
     private String homePlayer;
@@ -36,12 +36,13 @@ public class fixtures {
 
     private boolean fixtureUpdated;
 
-    public fixtures(){}
+    public fixtures() {
+    }
 
     public fixtures(String group, String homePlayer, String awayPlayer,
                     String homeTeam, String awayTeam, int homeScore,
                     int awayScore, String mailSent, String fixtureTime,
-                    boolean tableGenerated,boolean duplicated, boolean fixtureUpdated) {
+                    boolean tableGenerated, boolean duplicated, boolean fixtureUpdated) {
         this.group = group;
         this.homePlayer = homePlayer;
         this.awayPlayer = awayPlayer;
@@ -177,11 +178,11 @@ public class fixtures {
     }
 
     public String viewFixture() {
-        return fixtureTime+" "+"("+ homePlayer +") "+ homeTeam +" : "+awayTeam+" ("+ awayPlayer +")\n" ;
+        return fixtureTime + " " + "(" + homePlayer + ") " + homeTeam + " : " + awayTeam + " (" + awayPlayer + ")\n";
     }
 
     public String viewScore() {
-        return fixtureTime+" "+"("+ homePlayer +") "+ homeTeam +" " +homeScore+ " : " +awayScore+ " "+awayTeam+" ("+ awayPlayer +")\n" ;
+        return fixtureTime + " " + "(" + homePlayer + ") " + homeTeam + " " + homeScore + " : " + awayScore + " " + awayTeam + " (" + awayPlayer + ")\n";
     }
 
 }

@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <jsp:include page="../fragment/admin/imports.jsp" />
+    <jsp:include page="../fragment/admin/imports.jsp"/>
 </head>
 <body>
 <jsp:include page="../fragment/admin/navbar.jsp"/>

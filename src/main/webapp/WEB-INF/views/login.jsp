@@ -19,9 +19,9 @@
     <link rel="icon" href="<spring:url value="/favicon.ico"/>">
 
     <title>LXG - Login</title>
-    <link rel="stylesheet"  href="<c:url value="/resources/css/loginStyle.css"/>"/>
-    <link rel="stylesheet"  href="<c:url value="/resources/css/font-awesome.min.css"/>"/>
-    <link rel="stylesheet"  href="<c:url value="/resources/css/LXG_animate.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/resources/css/loginStyle.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/resources/css/font-awesome.min.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/resources/css/LXG_animate.css"/>"/>
 </head>
 <body>
 <div class="parent">
@@ -29,15 +29,19 @@
         <div class="actual-form">
             <!--<c:url value="/login" var="login"/>-->
             <div class="form-body">
-                <a href="<spr:url value="/"/>"><img class="profile-img" src="<c:url value="/resources/images/theLXGlogo-small.png"/>" alt="Amuwo-odofin"/></a>
+                <a href="<spr:url value="/"/>"><img class="profile-img"
+                                                    src="<c:url value="/resources/images/theLXGlogo-small.png"/>"
+                                                    alt="Amuwo-odofin"/></a>
                 <form:form class="form-signin" action="login" method="post">
                     <div class="input-group">
                         <i class="fa fa-user"></i>
-                        <input path="username" id="username"  type="text" class="form-control underline-blue" name="username" placeholder="Username" />
+                        <input path="username" id="username" type="text" class="form-control underline-blue"
+                               name="username" placeholder="Username"/>
                     </div>
                     <div class="input-group">
                         <i class="fa fa-lock"></i>
-                        <input id="password" type="password" class="form-control underline-blue" name="password" placeholder="Password" />
+                        <input id="password" type="password" class="form-control underline-blue" name="password"
+                               placeholder="Password"/>
                     </div>
                     <div class="submit-btn">
                         <input type="submit" value="login" class="underline-blue"/>
@@ -45,7 +49,7 @@
                     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
                     <%--Sign in</button>--%>
                     <c:if test="${not empty error}">
-                        <div id="status"  class="text-center" style="padding-top:5px; text-align: center">
+                        <div id="status" class="text-center" style="padding-top:5px; text-align: center">
                                 ${error}
                         </div>
                     </c:if>

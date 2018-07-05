@@ -29,7 +29,8 @@
                         <div class="col-xs-12 text-center head-text no-pad mont-Font">
 
                             <p>Participants across Lagos will participate in a Playstation 4 FIFA 17 competition.</p>
-                            <p>The preliminaries will run from the 5th of August to the 27th of August, 2017, with all games running on weekends only</p>
+                            <p>The preliminaries will run from the 5th of August to the 27th of August, 2017, with all
+                                games running on weekends only</p>
                             <p>This competition will run at Hitbox Games, Leisure Mall, Surulere</p>
                             <p>with the Main event holding on the 9th of september, 2017 </p>
                             <p>which will feature the final and third place matches.</p>

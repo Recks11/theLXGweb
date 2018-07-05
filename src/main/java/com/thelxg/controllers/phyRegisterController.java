@@ -16,11 +16,12 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("phy_register")
-public class phyRegisterController{
+public class phyRegisterController {
 
     private final savePlayerAndSendMail saveAndSend;
     private final pinService pinService;
     private final player playerBean;
+
     @Autowired
     public phyRegisterController(player playerBean, pinService pinService, savePlayerAndSendMail saveAndSend) {
         this.playerBean = playerBean;
@@ -29,28 +30,29 @@ public class phyRegisterController{
     }
 
     @RequestMapping("/io")
-    public String registerPlayer(Model model){
+    public String registerPlayer(Model model) {
 
-        model.addAttribute("title","Register - TheLXG");
+        model.addAttribute("title", "Register - TheLXG");
         model.addAttribute("playerObject", playerBean);
         return "phy_register";
     }
-    @RequestMapping("/pin")
-    public @ResponseBody String checkPin(){
 
-      //  System.out.println(pinService.getPin());
+    @RequestMapping("/pin")
+    public @ResponseBody
+    String checkPin() {
+
+        //  System.out.println(pinService.getPin());
         return pinService.getPin();
     }
 
 
     @PostMapping("/io")
-    public String phyRegisterPlayer(@RequestBody player play){
+    public String phyRegisterPlayer(@RequestBody player play) {
 
         play.setReference("Registered physically");
         saveAndSend.savePlayer(play);
         return "index";
     }
-
 
 
     @ModelAttribute("locationList")

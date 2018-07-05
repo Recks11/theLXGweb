@@ -1,4 +1,4 @@
-<%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -6,7 +6,8 @@
 <footer id="footer" class="bg-footer">
     <div class="container-fluid text-center">
         <div class="col-sm-3 white-font">
-            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img" style="display:inline"
+            <H4><img src="<spr:url value="/resources/images/theLXGlogo.png"/>" class="img-responsive footer-img"
+                     style="display:inline"
                      alt="THE LXG LOGO" height="auto"></H4>
             <p>The League of Extraordinary Gamers</p>
 
@@ -26,7 +27,8 @@
                 <li><a href="<spr:url value="/aboutUs"/> ">ABOUT US</a></li>
                 <li><a href="<spr:url value="/faq"/> ">FAQ</a></li>
                 <li><a href="<spr:url value="/gallery"/> ">GALLERY</a></li>
-                <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">RULE BOOK</a></li>
+                <li><a style="color: springgreen;" href="<spr:url value="/download/pdf/RuleBookNew.pdf"/>">RULE BOOK</a>
+                </li>
             </ul>
         </div>
         <div class="col-sm-3 white-font">
@@ -39,19 +41,27 @@
             <div class="container-fluid no-pad">
                 <ul class="footer-li">
                     <li class="first-line"> FOLLOW US</li>
-                    <li><div class="footer-social">
-                        <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')" style="font-size: 30px; color: white;">
-                            <i class="fa fa-facebook"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')" style="font-size: 30px; color: white;">
-                                <i class="fa fa-twitter"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')" style="font-size: 30px; color: white;">
-                                <i class="fa fa-instagram"></i></a>
-                            <a href="#footer" onclick="socialClickOp('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')" style="font-size: 30px; color: white;">
-                                <i class="fa fa-youtube-play"></i></a>
-                        </p>
-                    </div>
+                    <li>
+                        <div class="footer-social">
+                            <p><a href="#footer" onclick="socialClickOp('https://facebook.com/thereallxg')"
+                                  style="font-size: 30px; color: white;">
+                                <i class="fa fa-facebook"></i></a>
+                                <a href="#footer" onclick="socialClickOp('https://twitter.com/thelxg_')"
+                                   style="font-size: 30px; color: white;">
+                                    <i class="fa fa-twitter"></i></a>
+                                <a href="#footer" onclick="socialClickOp('https://instagram.com/thelxg_')"
+                                   style="font-size: 30px; color: white;">
+                                    <i class="fa fa-instagram"></i></a>
+                                <a href="#footer"
+                                   onclick="socialClickOp('https://www.youtube.com/channel/UChEKFU3rf_-9UWwfasaDi0A')"
+                                   style="font-size: 30px; color: white;">
+                                    <i class="fa fa-youtube-play"></i></a>
+                            </p>
+                        </div>
                     </li>
-                    <li><small>@thelxg_</small></li>
+                    <li>
+                        <small>@thelxg_</small>
+                    </li>
                     <li><a href="mailto:info@thelxg.com.ng">email: info@thelxg.com.ng</a></li>
                 </ul>
             </div>
@@ -62,14 +72,16 @@
                 <li class="first-line">FEEDBACK</li>
                 <li>
                     <c:url value="//sendFeedback" var="sendFeedback"/>
-                    <form:form id="feedbackForm" action="${sendFeedback}" modelAttribute="feedbackObject" >
+                    <form:form id="feedbackForm" action="${sendFeedback}" modelAttribute="feedbackObject">
                         <div class="form-group">
                             <label for="email">Email address:</label>
-                            <form:input path="email" type="email" cssClass="form-control" cssStyle="border: 2px solid;"/>
+                            <form:input path="email" type="email" cssClass="form-control"
+                                        cssStyle="border: 2px solid;"/>
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <form:textarea path="message" rows="5" cssClass="form-control" cssStyle="border: 2px solid;"/>
+                            <form:textarea path="message" rows="5" cssClass="form-control"
+                                           cssStyle="border: 2px solid;"/>
                         </div>
                         <button class="btn btn-default btn-sm">Submit</button>
                     </form:form>
@@ -82,8 +94,14 @@
         <div class="row">
             <div class="col-xs-offset-2 col-xs-8 text-center white-font no-bottom-margin bottom-foot">
                 <hr/>
-                <p class="no-bottom-margin"> <small>Website made By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen Rex</a></small> </p>
-                <p><small>medal icons made by <a href="http://www.flaticon.com/authors/vectors-market"> vector market </a> from <a href="http://www.flaticon.com"> www.flaticon.com </a></small></p>
+                <p class="no-bottom-margin">
+                    <small>Website made By <a onclick="socialClickOp('https://twitter.com/recks11')" href="#footer">Ijiekhuamen
+                        Rex</a></small>
+                </p>
+                <p>
+                    <small>medal icons made by <a href="http://www.flaticon.com/authors/vectors-market"> vector
+                        market </a> from <a href="http://www.flaticon.com"> www.flaticon.com </a></small>
+                </p>
             </div>
         </div>
     </div>

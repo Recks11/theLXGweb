@@ -40,7 +40,7 @@ public class AdminPlayerGetData {
     }
 
     @RequestMapping("/")
-    public String fixtures(Model model){
+    public String fixtures(Model model) {
 
         model.addAttribute("style", "danger");
 
@@ -51,21 +51,21 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/generate")
-    public String generateFixtures(Model model){
+    public String generateFixtures(Model model) {
 
-        if(groupsAndFixtures.generateFixtures()){
+        if (groupsAndFixtures.generateFixtures()) {
             System.out.println("fixtures generated");
-        }else{
-            model.addAttribute("playerList","empty or odd number");
+        } else {
+            model.addAttribute("playerList", "empty or odd number");
         }
 
         return "admin/pages/generateFixtures";
     }
 
     @GetMapping("/generateGroup")
-    public String generateGroups(Model model){
+    public String generateGroups(Model model) {
 
-        if(groupsAndFixtures.generateGroups()){
+        if (groupsAndFixtures.generateGroups()) {
             model.addAttribute("groupListStatus", "groups generated");
         }
 
@@ -73,9 +73,9 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/sendMailForMorningGroup")
-    public String sendFixtureMail(){
+    public String sendFixtureMail() {
 
-        for(int i = 22;i < 28; i ++) {
+        for (int i = 22; i < 28; i++) {
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
@@ -89,9 +89,9 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/sendMailForEveningGroup")
-    public String sendAgainFixtureMail(){
+    public String sendAgainFixtureMail() {
 
-        for(int i = 15;i <= 21; i ++) { //iterate through fixtures
+        for (int i = 15; i <= 21; i++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
@@ -105,18 +105,18 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/listEmails")
-    public String sendListMail(){
+    public String sendListMail() {
 
         List<String> list = new ArrayList<String>();
-        for(int i = 22;i < 28; i ++) { //iterate through fixtures
+        for (int i = 22; i < 28; i++) { //iterate through fixtures
             List<player> playerList = playerService.getPlayersInGroup(i);
 
 
             for (player play : playerList) {
 
 //                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+ " Club: "+ play.getTeamSelected() +"\n");
-                list.add("E mail: "+play.getEmail()+",\n");
-                System.out.println(play.getEmail()+"\n");
+                list.add("E mail: " + play.getEmail() + ",\n");
+                System.out.println(play.getEmail() + "\n");
             }
         }
 
@@ -125,11 +125,11 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/getFixtures")
-    public String sendFixtures(){
+    public String sendFixtures() {
         List<String> scoreList = new ArrayList<String>();
         List<fixtures> fixturesList = fixtureService.getAllFixtures();
 
-        for (fixtures fixture : fixturesList){
+        for (fixtures fixture : fixturesList) {
             scoreList.add(fixture.viewFixture());
         }
 
@@ -139,16 +139,16 @@ public class AdminPlayerGetData {
 
 
     @GetMapping("/changeTeam")
-    public String changeTeam(Model model){
+    public String changeTeam(Model model) {
 
         return "redirect:/admin/players/all";
     }
 
     @GetMapping("/generateTables")
-    public String generateTables(){
+    public String generateTables() {
         List<player> playerList = playerService.getAllPlayersNotInTable();
 
-        for(player player : playerList){
+        for (player player : playerList) {
             tableService.addPlayerToTable(player);
             player.setInTables(true);
             playerService.updatePlayer(player);
@@ -179,22 +179,22 @@ public class AdminPlayerGetData {
     }
 
     @GetMapping("/updateTableData")
-    public String updateTable(){
+    public String updateTable() {
 
         List<fixtures> fixturesList = fixtureService.getUpdatedFixtures();
 
-        for(fixtures fixture : fixturesList){
+        for (fixtures fixture : fixturesList) {
             tableService.generateTableForFixture(fixture.getId());
         }
         return "admin/pages/generateFixtures";
     }
 
     @GetMapping("/createKnockoutFixtures")
-    public String createKnockoutFixtures(Model model){
+    public String createKnockoutFixtures(Model model) {
 
-        KnockoutScore knockoutScore = new KnockoutScore(0,0,0,0);
+        KnockoutScore knockoutScore = new KnockoutScore(0, 0, 0, 0);
 
-        for(int i = 1;i <= 16; i++){
+        for (int i = 1; i <= 16; i++) {
             knockoutScore.setRoundNumber(1);
             knockoutScore.setScoreHeirachy(i);
             knockoutScoreService.saveScore(knockoutScore);
@@ -208,7 +208,7 @@ public class AdminPlayerGetData {
             knockoutScoreService.saveScore(knockoutScore);
         }
 
-        for(int i = 1;i <= 8; i++){
+        for (int i = 1; i <= 8; i++) {
             knockoutScore.setRoundNumber(2);
             knockoutScore.setScoreHeirachy(i);
             knockoutScoreService.saveScore(knockoutScore);
@@ -222,7 +222,7 @@ public class AdminPlayerGetData {
             knockoutScoreService.saveScore(knockoutScore);
         }
 
-        for(int i = 1;i <= 4; i++){
+        for (int i = 1; i <= 4; i++) {
             knockoutScore.setRoundNumber(3);
             knockoutScore.setScoreHeirachy(i);
             knockoutScoreService.saveScore(knockoutScore);
@@ -236,7 +236,7 @@ public class AdminPlayerGetData {
             knockoutScoreService.saveScore(knockoutScore);
         }
 
-        for(int i = 1;i <= 2; i++){
+        for (int i = 1; i <= 2; i++) {
             knockoutScore.setRoundNumber(4);
             knockoutScore.setScoreHeirachy(i);
             knockoutScoreService.saveScore(knockoutScore);
@@ -267,7 +267,6 @@ public class AdminPlayerGetData {
 
         return "admin/pages/generateFixtures";
     }
-
 
 
 }

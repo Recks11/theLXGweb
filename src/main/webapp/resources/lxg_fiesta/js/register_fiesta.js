@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     var fiestaForm = $("#fiestaRegForm");
     fiestaForm.submit(function (event) {
@@ -86,10 +86,10 @@ $(document).ready(function() {
     });
 
 
-    function savePlayer(reference){
+    function savePlayer(reference) {
         var headers = {};
         headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
-        var  data = {};
+        var data = {};
         data['firstName'] = $('#firstName').val();
         data['lastName'] = $('#lastName').val();
         data['alias'] = $('#alias').val();
@@ -102,25 +102,25 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: ctx+"/fiesta/rest/register",
+            url: ctx + "/fiesta/rest/register",
             data: JSON.stringify(data),
             dataType: 'html',
             timeout: 360000,
             headers: headers,
 
             success: function (response) {
-                alert( data.firstName + " " +data.lastName +' Welcome To the Tournament');
-                window.location.href = ctx+"/fiesta/home";
+                alert(data.firstName + " " + data.lastName + ' Welcome To the Tournament');
+                window.location.href = ctx + "/fiesta/home";
                 //...
             },
-            error : function(xhr, status, error) {
-                alert("There was an error" +error);
+            error: function (xhr, status, error) {
+                alert("There was an error" + error);
             }
         });
     }
 
-    function payWithPaystack(){
-        var email =$('#emailAddress').val();
+    function payWithPaystack() {
+        var email = $('#emailAddress').val();
         var phone = $('#phoneNumber').val();
         var handler = PaystackPop.setup({
             key: 'pk_live_6d4f0fb7e519ebaedaf2953fac3b261a9197d02f',
@@ -136,12 +136,12 @@ $(document).ready(function() {
                     }
                 ]
             },
-            callback: function(response){
+            callback: function (response) {
                 alert('success. transaction ref is ' + response.reference)
                 var reference = response.reference;
                 savePlayer(reference);
             },
-            onClose: function(){
+            onClose: function () {
                 alert('Payment must be made successfully before registration can be completed');
             }
         });

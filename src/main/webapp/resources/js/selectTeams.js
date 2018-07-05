@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     var team = $("#team");
     var teamNation = $("#teamNation");
@@ -52,45 +52,45 @@ $(document).ready(function(){
 
     var FRANCE = [
 
-        {display: "SC Bastia", value: "SC Bastia" },
+        {display: "SC Bastia", value: "SC Bastia"},
 
-        {display: "Girondins de Bordeaux", value: "Girondins de Bordeaux" },
+        {display: "Girondins de Bordeaux", value: "Girondins de Bordeaux"},
 
-        {display: "En Avant Guingamp", value: "En Avant Guingamp" },
+        {display: "En Avant Guingamp", value: "En Avant Guingamp"},
 
-        {display: "LOSC Lille", value: "LOSC Lille" },
+        {display: "LOSC Lille", value: "LOSC Lille"},
 
-        {display: "Olympique Lyonnais", value: "Olympique Lyonnais" },
+        {display: "Olympique Lyonnais", value: "Olympique Lyonnais"},
 
-        {display: "FC Metz", value: "FC Metz" },
+        {display: "FC Metz", value: "FC Metz"},
 
-        {display: "AS Monaco", value: "AS Monaco" },
+        {display: "AS Monaco", value: "AS Monaco"},
 
-        {display: "Montpellier HSC", value: "Montpellier HSC" },
+        {display: "Montpellier HSC", value: "Montpellier HSC"},
 
-        {display: "FC Nantes", value: "FC Nantes" },
+        {display: "FC Nantes", value: "FC Nantes"},
 
-        {display: "OGC Nice", value: "OGC Nice" },
+        {display: "OGC Nice", value: "OGC Nice"},
 
-        {display: "Paris Saint-Germain", value: "Paris Saint-Germain" },
+        {display: "Paris Saint-Germain", value: "Paris Saint-Germain"},
 
-        {display: "Stade Rennais", value: "Stade Rennais" },
+        {display: "Stade Rennais", value: "Stade Rennais"},
 
-        {display: "SM Caen", value: "SM Caen" },
+        {display: "SM Caen", value: "SM Caen"},
 
-        {display: "FC Lorient", value: "FC Lorient" },
+        {display: "FC Lorient", value: "FC Lorient"},
 
-        {display: "Olympique de Marseille", value: "Olympique de Marseille" },
+        {display: "Olympique de Marseille", value: "Olympique de Marseille"},
 
-        {display: "Angers SCO", value: "Angers SCO" },
+        {display: "Angers SCO", value: "Angers SCO"},
 
-        {display: "Toulouse FC", value: "Toulouse FC" },
+        {display: "Toulouse FC", value: "Toulouse FC"},
 
-        {display: "AS Saint-Étienne", value: "AS Saint-Étienne" },
+        {display: "AS Saint-Étienne", value: "AS Saint-Étienne"},
 
-        {display: "AS Nancy", value: "AS Nancy" },
+        {display: "AS Nancy", value: "AS Nancy"},
 
-        {display: "Dijon Football", value: "Dijon Football" }
+        {display: "Dijon Football", value: "Dijon Football"}
 
     ];
 
@@ -223,10 +223,10 @@ $(document).ready(function(){
     ];
 
 //If parent option is changed
-    teamNation.change(function() {
+    teamNation.change(function () {
         var parent = $(this).val(); //get option value from parent
 
-        switch(parent){ //using switch compare selected option and populate child
+        switch (parent) { //using switch compare selected option and populate child
             case 'ENGLAND':
                 list(ENGLAND);
                 break;
@@ -250,25 +250,24 @@ $(document).ready(function(){
 
 
 //function to populate child select box
-    function list(array_list)
-    {
+    function list(array_list) {
         team.html(""); //reset child options
         $(array_list).each(function (i) { //populate child options
 
-            var item = "\""+array_list[i].value+ "\"";
-            team.append("<option value="+ item +">"+array_list[i].display+"</option>");
+            var item = "\"" + array_list[i].value + "\"";
+            team.append("<option value=" + item + ">" + array_list[i].display + "</option>");
         });
     }
 
 
-    team.change(function(){
+    team.change(function () {
 
-            selectedTeam.text($(this).val());
+        selectedTeam.text($(this).val());
         teamSelectedInHiddenInput.val(team.val());
-            console.log(selectedTeam.text());
-        });
+        console.log(selectedTeam.text());
+    });
 
-    teamNation.change(function(){
+    teamNation.change(function () {
 
         selectedTeam.text(team.val());
         teamSelectedInHiddenInput.val(team.val());

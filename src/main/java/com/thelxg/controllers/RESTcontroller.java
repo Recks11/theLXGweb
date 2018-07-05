@@ -17,9 +17,9 @@ public class RESTcontroller {
         this.knockOutApiService = knockOutApiService;
     }
 
-    @RequestMapping( value = "/Seed1ScoreAPI", produces = "application/json")
+    @RequestMapping(value = "/Seed1ScoreAPI", produces = "application/json")
     @ResponseBody
-    public String seed2ScoreApi(){
+    public String seed2ScoreApi() {
 
         String players = "   [\"Ose_ (Manchester United)\", \"Mr. Micheal (Manchester United)\"],\n" +
                 "            [\"Jayblingz (Manchester United)\", \"OTIS101 (Manchester United)\"],\n" +
@@ -38,12 +38,12 @@ public class RESTcontroller {
                 "            [\"Dewaleofficial (chelsea)\", \"A-boy (Real Madrid)\"],\n" +
                 "            [\"Finian (Chelsea)\", \"Sly_14 (Real madrid)\"]\n";
 
-        return knockOutApiService.GetScoresApi(1,2,3,4,5,players);
+        return knockOutApiService.GetScoresApi(1, 2, 3, 4, 5, players);
     }
 
-    @RequestMapping( value = "/Seed2ScoreAPI", produces = "application/json")
+    @RequestMapping(value = "/Seed2ScoreAPI", produces = "application/json")
     @ResponseBody
-    public String seed3ScoreApi(){
+    public String seed3ScoreApi() {
 
         String players = "[\"DD DOX (Bayern Munchen)\",\"Stevonchy (Real Madrid)\"],\n" +
                 "  [\"Mo_jnr (Chelsea)\",\"Ayenibolt (real madrid)\"],\n" +
@@ -63,22 +63,21 @@ public class RESTcontroller {
                 "  [\"Donald_e (FC Barcelona)\",\"roga_roga (Chelsea)\"]\n";
 
 
-        return knockOutApiService.GetScoresApi(6,7,8,9,10,players);
+        return knockOutApiService.GetScoresApi(6, 7, 8, 9, 10, players);
     }
 
-    @RequestMapping( value = "/FinalScoreAPI", produces = "application/json")
+    @RequestMapping(value = "/FinalScoreAPI", produces = "application/json")
     @ResponseBody
-    public String FinalScoreApi(){
+    public String FinalScoreApi() {
 
-        String players ="[\"godMC (Juventus)\" , \"obinna1231 (Barcelona)\"],\n" +
+        String players = "[\"godMC (Juventus)\" , \"obinna1231 (Barcelona)\"],\n" +
                 "[\"Ify30 (real Madrid)\" , \"The Brazilian (Barcelona)\"],\n" +
                 "[\"Magnanimous (Real Madrid)\" , \"KayJay (real Madrid)\"],\n" +
                 "[\"Mr_Oga (Bayern Munchen)\" , \"Bugatti (Liverpool)\"]";
 
 
-        return knockOutApiService.GetFinalsScoresApi(11,12,13, players);
+        return knockOutApiService.GetFinalsScoresApi(11, 12, 13, players);
     }
-
 
 
 }

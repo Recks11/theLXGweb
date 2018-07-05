@@ -44,10 +44,10 @@
     <!-- Mail sender configuration -->
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <!-- SMTP settings -->
-        <property name="host" value="${smtp.host}" />
-        <property name="port" value="${smtp.port}" />
-        <property name="username" value="${smtp.username}" />
-        <property name="password" value="${smtp.password}" />
+        <property name="host" value="${smtp.host}"/>
+        <property name="port" value="${smtp.port}"/>
+        <property name="username" value="${smtp.username}"/>
+        <property name="password" value="${smtp.password}"/>
 
         <property name="javaMailProperties">
             <!-- additional properties specific to JavaMail -->
@@ -58,7 +58,7 @@
             </props>
         </property>
     </bean>
-    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory"/>
@@ -78,14 +78,14 @@
           class="org.springframework.beans.support.PagedListHolder"/>
 
     <bean id="simpleMailMessage"
-            class = "org.springframework.mail.SimpleMailMessage"/>
+          class="org.springframework.mail.SimpleMailMessage"/>
 
     <bean id="authenticationSuccessHandler"
-          class= "com.thelxg.components.impl.UrlAuthenticationSuccessHandler" />
-<!-- Spring Security config -->
+          class="com.thelxg.components.impl.UrlAuthenticationSuccessHandler"/>
+    <!-- Spring Security config -->
     <security:http auto-config="true">
-        <security:intercept-url pattern="/phy_register/**" access="hasRole('REGISTER-ROLE')" />
-        <security:intercept-url pattern="/admin/**" access="hasRole('ADMIN')" />
+        <security:intercept-url pattern="/phy_register/**" access="hasRole('REGISTER-ROLE')"/>
+        <security:intercept-url pattern="/admin/**" access="hasRole('ADMIN')"/>
         <security:form-login
                 login-page="/login"
                 default-target-url="/phy_register/io"
@@ -102,10 +102,10 @@
     <security:authentication-manager>
         <security:authentication-provider>
             <security:jdbc-user-service data-source-ref="dataSource"
-                                        authorities-by-username-query = "SELECT username, authority FROM authorities WHERE username = ?"
-                                        users-by-username-query="SELECT username, password, enabled FROM users WHERE username = ? " />
+                                        authorities-by-username-query="SELECT username, authority FROM authorities WHERE username = ?"
+                                        users-by-username-query="SELECT username, password, enabled FROM users WHERE username = ? "/>
         </security:authentication-provider>
     </security:authentication-manager>
-<!-- End Config -->
+    <!-- End Config -->
 
 </beans>

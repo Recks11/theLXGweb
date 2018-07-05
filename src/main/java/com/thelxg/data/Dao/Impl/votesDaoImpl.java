@@ -44,6 +44,6 @@ public class votesDaoImpl implements voteDao {
 
         return (Integer) sessionFactory.getCurrentSession()
                 .createQuery("select numberOfVotes from vote where playerAlias = :playerAlias")
-                .setParameter("playerAlias",playerAlias).uniqueResult();
+                .setParameter("playerAlias", playerAlias).uniqueResult();
     }
 }

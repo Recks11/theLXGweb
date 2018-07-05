@@ -1,14 +1,18 @@
-body,html {
+body, html {
     /*background-color: rgba(14,16,37, 1);*/
     margin: 0;
     color: #000000;
     display: block;
-    font-family: "Open Sans","Franklin Gothic Medium",Calibri,Arial,HelveticaNeue-Light,sans-serif;
+    font-family: "Open Sans", "Franklin Gothic Medium", Calibri, Arial, HelveticaNeue-Light, sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
+
 .faq-details {
     margin-top: 50px;
     padding-bottom: 50px;
 }
-.children{ margin-bottom: 2px}
+
+.children {
+    margin-bottom: 2px
+}

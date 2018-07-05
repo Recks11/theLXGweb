@@ -25,43 +25,46 @@ public class fiestaIndexController {
     }
 
     @RequestMapping("/home")
-    public String home(Model model){
+    public String home(Model model) {
 
-        model.addAttribute("title","LXG'17 - FIESTA");
-        model.addAttribute("home","active");
+        model.addAttribute("title", "LXG'17 - FIESTA");
+        model.addAttribute("home", "active");
         model.addAttribute("feedbackObject", new Feedback());
         return "lxg_fiesta_pages/FiestaHome";
     }
-//    @RequestMapping("/register")
-    public String registerPage(Model model){
-        model.addAttribute("title","LXG'17 FIESTA - REGISTER");
-        model.addAttribute("register","active");
+
+    //    @RequestMapping("/register")
+    public String registerPage(Model model) {
+        model.addAttribute("title", "LXG'17 FIESTA - REGISTER");
+        model.addAttribute("register", "active");
         model.addAttribute("FiestaPlayerObject", new FiestaPlayer());
         return "lxg_fiesta_pages/FiestaRegister";
     }
 
     @PostMapping("/sendFeedback")
-    public String sendFeedback(Model model, @ModelAttribute("feedbackObject") Feedback feedback){
+    public String sendFeedback(Model model, @ModelAttribute("feedbackObject") Feedback feedback) {
 
         feedback.setDate(new Date());
         feedbackService.saveFeedback(feedback);
         return "redirect:/fiesta/home";
     }
-//    @GetMapping("/payment")
+
+    //    @GetMapping("/payment")
     public String showPayments(Model model) {
 
 
-        model.addAttribute("title","LXG'17 FIESTA - PAYMENT");
-        model.addAttribute("payment","active");
+        model.addAttribute("title", "LXG'17 FIESTA - PAYMENT");
+        model.addAttribute("payment", "active");
         model.addAttribute("feedbackObject", new Feedback());
         return "lxg_fiesta_pages/paymentMethods";
     }
+
     @GetMapping("/meet-finalists")
     public String showfinalists(Model model) {
 
 
-        model.addAttribute("title","LXG'17 FIESTA - FINALISTS");
-        model.addAttribute("finalists","active");
+        model.addAttribute("title", "LXG'17 FIESTA - FINALISTS");
+        model.addAttribute("finalists", "active");
         model.addAttribute("feedbackObject", new Feedback());
         return "lxg_fiesta_pages/meetFinalists";
     }

@@ -16,51 +16,51 @@ import java.io.IOException;
 import java.util.Collection;
 
 public class UrlAuthenticationSuccessHandler
-  implements AuthenticationSuccessHandler {
-  
+        implements AuthenticationSuccessHandler {
+
     private Log logger = LogFactory.getLog(this.getClass());
- 
+
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
- 
+
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request,
                                         HttpServletResponse response, Authentication authentication)
-      throws IOException {
-  
+            throws IOException {
+
         handle(request, response, authentication);
         clearAuthenticationAttributes(request);
     }
- 
+
     private void handle(HttpServletRequest request,
                         HttpServletResponse response, Authentication authentication)
-      throws IOException {
-  
+            throws IOException {
+
         String targetUrl = determineTargetUrl(authentication);
- 
+
         if (response.isCommitted()) {
             logger.debug(
-              "Response has already been committed. Unable to redirect to "
-              + targetUrl);
+                    "Response has already been committed. Unable to redirect to "
+                            + targetUrl);
             return;
         }
         redirectStrategy.sendRedirect(request, response, targetUrl);
     }
- 
+
     private String determineTargetUrl(Authentication authentication) {
         boolean isUser = false;
         boolean isAdmin = false;
         Collection<? extends GrantedAuthority> authorities
-         = authentication.getAuthorities();
-        for (GrantedAuthority grantedAuthority : authorities){
+                = authentication.getAuthorities();
+        for (GrantedAuthority grantedAuthority : authorities) {
             if (grantedAuthority.getAuthority().equals("ROLE_REGISTER-ROLE")) {
                 isUser = true;
                 break;
-            }else if (grantedAuthority.getAuthority().equals("ROLE_ADMIN")) {
+            } else if (grantedAuthority.getAuthority().equals("ROLE_ADMIN")) {
                 isAdmin = true;
                 break;
             }
         }
- 
+
         if (isAdmin) {
             return "/admin/";
         } else if (isUser) {
@@ -69,7 +69,7 @@ public class UrlAuthenticationSuccessHandler
             throw new IllegalStateException();
         }
     }
- 
+
     private void clearAuthenticationAttributes(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
         if (session == null) {
@@ -77,10 +77,11 @@ public class UrlAuthenticationSuccessHandler
         }
         session.removeAttribute(WebAttributes.AUTHENTICATION_EXCEPTION);
     }
- 
+
     public void setRedirectStrategy(RedirectStrategy redirectStrategy) {
         this.redirectStrategy = redirectStrategy;
     }
+
     protected RedirectStrategy getRedirectStrategy() {
         return redirectStrategy;
     }

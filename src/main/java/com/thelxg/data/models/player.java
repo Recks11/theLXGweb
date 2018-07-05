@@ -56,7 +56,8 @@ public class player {
     @Transient
     private MultipartFile image;
 
-    public player(){}
+    public player() {
+    }
 
     public player(String playerId, String firstName, String lastName,
                   String fullName, String alias, Date date, String email,
@@ -117,7 +118,7 @@ public class player {
     }
 
     public String getFullName() {
-        return getFirstName() +" "+ getLastName();
+        return getFirstName() + " " + getLastName();
     }
 
     public void setFullName(String fullName) {

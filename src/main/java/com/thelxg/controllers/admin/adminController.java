@@ -27,7 +27,7 @@ public class adminController {
     }
 
     @RequestMapping
-    public String adminHome(Model model){
+    public String adminHome(Model model) {
 
         model.addAttribute("numberRegistered", players.getAllPlayers().size());
         model.addAttribute("mainlandRegistered", players.getPlayersInLocation("Lagos Mainland").size());

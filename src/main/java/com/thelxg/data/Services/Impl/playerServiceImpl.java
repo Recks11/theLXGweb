@@ -45,7 +45,7 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
-    public List getAllPlayers(){
+    public List getAllPlayers() {
         return playerdao.getAllPlayers();
     }
 
@@ -63,6 +63,7 @@ public class playerServiceImpl implements playerService {
     public player getPlayerByAlias(String alias) {
         return playerdao.getPlayerByAlias(alias);
     }
+
     @Transactional
     public List<player> getPlayersWIthNonGeneratedFixtures() {
         return playerdao.getPlayersWIthNonGeneratedFixtures();

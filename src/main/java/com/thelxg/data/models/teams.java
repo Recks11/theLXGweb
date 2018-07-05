@@ -20,7 +20,8 @@ public class teams {
 
     private String region;
 
-    public teams() {}
+    public teams() {
+    }
 
     public teams(String teamName, String teamCountry, String region) {
         this.teamName = teamName;

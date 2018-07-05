@@ -3,26 +3,31 @@ html, body {
     padding: 0;
     margin: 0;
 }
-*{
+
+* {
     -webkit-transition: font-size .6s;
     -moz-transition: font-size .6s;
     -ms-transition: font-size .6s;
     -o-transition: font-size .6s;
     transition: font-size .6s;
 }
-.navbar{
+
+.navbar {
     background-color: #000000;
     padding: 5px;
 }
-section{
+
+section {
     padding-top: 60px;
     padding-bottom: 50px;
 }
-.search{
+
+.search {
     max-width: 500px;
     margin: auto;
 }
-.search> input{
+
+.search > input {
     background-color: black;
     border: 2px solid gold;
     padding: 5px;
@@ -33,69 +38,83 @@ section{
     width: 100%;
     margin: 10px auto;
 }
-.search > input:hover, .search > input:focus, .search > input:active{
+
+.search > input:hover, .search > input:focus, .search > input:active {
     border: 2px solid gold !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px gold;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px gold;
     outline: gold;
 }
-.bg-cover{
-    background: rgba(0,0,0,1);
-    min-height:100%
+
+.bg-cover {
+    background: rgba(0, 0, 0, 1);
+    min-height: 100%
 }
-.head-text{
+
+.head-text {
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 50px;
 }
-.white-font{
+
+.white-font {
     color: #ffffff;
 }
+
 .fixture-details {
     color: white;
 }
-.children{
+
+.children {
     margin-left: 22px;
     margin-bottom: 1px;
 }
-.pricing{
+
+.pricing {
     margin-bottom: 1px;
 }
-.row{
+
+.row {
     margin-left: 0;
     margin-right: 0;
 }
-.grey-bg{
+
+.grey-bg {
     background-color: #0f0f0f;
 }
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
 
     border: 0;
 }
-.table{
+
+.table {
     background-color: black;
 }
-.fixture-table{
+
+.fixture-table {
     max-width: 1200px;
     margin: 0 auto;
 }
-.table>tbody>tr>td{
+
+.table > tbody > tr > td {
     font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
 
-    .fixture-table{
+    .fixture-table {
         max-width: 700px;
         margin: 0 auto;
     }
-    .table>tbody>tr>td{
+
+    .table > tbody > tr > td {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 600px) {
 
-    .search> input{
+    .search > input {
         background-color: black;
         border: 2px solid gold;
         padding-left: 5px;
@@ -107,11 +126,13 @@ section{
         width: 100%;
         margin: 10px auto;
     }
-    .fixture-table{
+
+    .fixture-table {
         max-width: 550px;
         margin: 0 auto;
     }
-    .table>tbody>tr>td{
+
+    .table > tbody > tr > td {
         font-size: 8px;
     }
 

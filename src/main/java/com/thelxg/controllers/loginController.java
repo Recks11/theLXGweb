@@ -13,18 +13,18 @@ public class loginController {
 
 
     @RequestMapping("/login")
-    public String login(@RequestParam(value="error", required = false)String error,
-                        @RequestParam(value="logout", required = false)String logout,
-                        Model model){
+    public String login(@RequestParam(value = "error", required = false) String error,
+                        @RequestParam(value = "logout", required = false) String logout,
+                        Model model) {
 
         model.addAttribute("title", "LXG - Login");
 
-        if(error != null){
+        if (error != null) {
             model.addAttribute("error", "invalid username or password");
         }
 
-        if(logout != null){
-            model.addAttribute("message","You have been logged out");
+        if (logout != null) {
+            model.addAttribute("message", "You have been logged out");
         }
 
         return "login";

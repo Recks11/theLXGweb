@@ -26,9 +26,9 @@ public class fixtureDaoImpl implements fixtureDao {
     public void saveFixture(fixtures fixture) {
 
         if ((this.fixtureExists(fixture.getHomePlayer(), fixture.getAwayPlayer(), fixture.getGroup()))
-                && (!fixture.getHomePlayer().equals(fixture.getAwayPlayer())) ){
-            System.out.println("fixture "+fixture.viewScore()+ " exists \n");
-        }else {
+                && (!fixture.getHomePlayer().equals(fixture.getAwayPlayer()))) {
+            System.out.println("fixture " + fixture.viewScore() + " exists \n");
+        } else {
             sessionFactory.getCurrentSession().save(fixture);
         }
     }
@@ -37,7 +37,7 @@ public class fixtureDaoImpl implements fixtureDao {
     public void updateFixture(fixtures fixture) {
 
         fixture.setFixtureUpdated(true);
-            sessionFactory.getCurrentSession().update(fixture);
+        sessionFactory.getCurrentSession().update(fixture);
     }
 
 
@@ -125,6 +125,7 @@ public class fixtureDaoImpl implements fixtureDao {
                 .createQuery("from fixtures where duplicated = :duplicated")
                 .setParameter("duplicated", false).list();
     }
+
     @Override
     public List<fixtures> getUpdatedFixtures() {
         return sessionFactory.getCurrentSession().createQuery("from fixtures where fixtureUpdated = true and tableGenerated = false ").list();

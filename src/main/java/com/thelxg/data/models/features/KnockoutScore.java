@@ -82,6 +82,6 @@ public class KnockoutScore {
     }
 
     public String scoreApi() {
-        return "["+homeScore+','+awayScore+"]";
+        return "[" + homeScore + ',' + awayScore + "]";
     }
 }

@@ -40,7 +40,10 @@
                 <p class="children">&#8594; Account Type: Savings</p>
                 <p class="children">&#8594; Account Number: 2062888776</p>
                 <p class="children" style="margin-bottom: 10px;">&#8594; Bank: UBA</p>
-                <p class="gold" style="margin-bottom: 2px;">&#8595; Send evidence of payment (your teller) and  your registration data to <a href="mailto:info@thelxg.com.ng" style="text-decoration: none; color:springgreen; font-size: inherit">info@thelxg.com.ng </a></p>
+                <p class="gold" style="margin-bottom: 2px;">&#8595; Send evidence of payment (your teller) and your
+                    registration data to <a href="mailto:info@thelxg.com.ng"
+                                            style="text-decoration: none; color:springgreen; font-size: inherit">info@thelxg.com.ng </a>
+                </p>
                 <p class="children">Registration data includes:</p>
                 <p class="children">&#8594; First Name</p>
                 <p class="children">&#8594; Last Name</p>

@@ -28,8 +28,6 @@ public class tableDaoImpl implements tableDao {
     }
 
 
-
-
     @Override
     public void addPlayerToTable(player player) {
 
@@ -90,9 +88,9 @@ public class tableDaoImpl implements tableDao {
         int homePlayed = homeTableEntry.getPlayed();
         int awayPlayed = awayTableEntry.getPlayed();
 
-        if (!fixture.isTableGenerated()){
+        if (!fixture.isTableGenerated()) {
 
-            if(homeFixtureScore > awayFixtureScore){
+            if (homeFixtureScore > awayFixtureScore) {
                 //set home points and goal difference
                 homeTableEntry.setPoints(homePoints + 3);
                 homeTableEntry.setGoalDifference(homeGoalDifference + (homeFixtureScore - awayFixtureScore));
@@ -109,7 +107,7 @@ public class tableDaoImpl implements tableDao {
                 fixture.setTableGenerated(true);
                 fixtureService.updateFixture(fixture);
 
-            }else if(awayFixtureScore > homeFixtureScore){
+            } else if (awayFixtureScore > homeFixtureScore) {
                 //set away points and goal difference
                 awayTableEntry.setPoints(awayPoints + 3);
                 awayTableEntry.setGoalDifference(awayGoalDifference + (awayFixtureScore - homeFixtureScore));
@@ -125,7 +123,7 @@ public class tableDaoImpl implements tableDao {
                 updateTables(homeTableEntry);
                 fixture.setTableGenerated(true);
                 fixtureService.updateFixture(fixture);
-            }else{
+            } else {
                 homeTableEntry.setPoints(homePoints + 1);
                 awayTableEntry.setPoints(awayPoints + 1);
                 homeTableEntry.setGoalDifference(homeGoalDifference + (homeFixtureScore - awayFixtureScore));
@@ -144,7 +142,7 @@ public class tableDaoImpl implements tableDao {
             }
             return true;
 
-        }else{
+        } else {
             return false;
         }
     }
@@ -153,7 +151,7 @@ public class tableDaoImpl implements tableDao {
     public boolean generateTableForAllFixtures() {
         List<fixtures> fixturesList = fixtureService.getUngeneratedFixtures();
 
-        for(fixtures fixture : fixturesList){
+        for (fixtures fixture : fixturesList) {
             generateTableForFixture(fixture.getId());
         }
         return true;
@@ -164,15 +162,16 @@ public class tableDaoImpl implements tableDao {
 
         return (tables) sessionFactory.getCurrentSession()
                 .createQuery("from tables where playerAlias = :playerId")
-                .setParameter("playerId",playerId)
+                .setParameter("playerId", playerId)
                 .uniqueResult();
     }
+
     @Override
     public tables getTableEntryByAwayPlayer(String playerId) {
 
         return (tables) sessionFactory.getCurrentSession()
                 .createQuery("from tables where playerAlias = :playerId")
-                .setParameter("playerId",playerId)
+                .setParameter("playerId", playerId)
                 .uniqueResult();
     }
 
@@ -187,6 +186,6 @@ public class tableDaoImpl implements tableDao {
     @Override
     public List<tables> getAllTables() {
 
-        return  sessionFactory.getCurrentSession().createQuery("from tables order by points desc, goalDifference desc").list();
+        return sessionFactory.getCurrentSession().createQuery("from tables order by points desc, goalDifference desc").list();
     }
 }

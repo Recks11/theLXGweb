@@ -13,9 +13,9 @@ public class FaqController {
 
     @SuppressWarnings("SameReturnValue")
     @RequestMapping
-    public String showFaq(Model model){
+    public String showFaq(Model model) {
 
-        model.addAttribute("LXG - Faq","title");
+        model.addAttribute("LXG - Faq", "title");
         return "faq";
 
     }

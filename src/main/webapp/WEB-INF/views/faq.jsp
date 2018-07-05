@@ -27,16 +27,20 @@
                 <p class="gold">A1: The exact venue for your fixture will be sent to you via email.</p>
                 <br/>
                 <p>Q2: I didn't get an email when I registered, what should I do?</p>
-                <p class="gold">A2: Send a mail to info@thelxg.com.ng using a valid email address and your complaint. We will take it form there.</p>
+                <p class="gold">A2: Send a mail to info@thelxg.com.ng using a valid email address and your complaint. We
+                    will take it form there.</p>
                 <br/>
                 <p>Q3: How will I know the time for my game?</p>
-                <p class="gold">A3: Times for your fixture will be sent to you before each game provided as you qualify for each round of the competition</p>
+                <p class="gold">A3: Times for your fixture will be sent to you before each game provided as you qualify
+                    for each round of the competition</p>
                 <br/>
                 <p>Q4: Do I have to pay once or will I pay for each game I play?</p>
-                <p class="gold">A4: You only pay once for the competition. Your payment secures you to every game in the competition, provided you qualify for those games.</p>
+                <p class="gold">A4: You only pay once for the competition. Your payment secures you to every game in the
+                    competition, provided you qualify for those games.</p>
                 <br/>
                 <p>Q5: How many matches will I play to win &#8358;500,000?</p>
-                <p class="gold">A5: To win the &#8358;500,000, you must qualify from the group stages to the knock out rounds before you reach the finals. A win then secures you the cash prize.</p>
+                <p class="gold">A5: To win the &#8358;500,000, you must qualify from the group stages to the knock out
+                    rounds before you reach the finals. A win then secures you the cash prize.</p>
                 <br/>
                 <p>Q6: Is it a PlayStation 3, PlayStation 4, X Box or X Box one competition?</p>
                 <p class="gold">A6: It is a PlayStation 4 competition.</p>
@@ -49,7 +53,9 @@
                 <%--<br/>--%>
                 <br/>
                 <br/>
-                <p class="text-right">*** Don't seem to find what you're looking for. Kindly send a mail to <span class="gold"><a href="mailto:info@thelxg.com.ng">info@thelxg.com.ng</a></span> or reach us via our social media channels and we'd be glad to answer your questions.</p>
+                <p class="text-right">*** Don't seem to find what you're looking for. Kindly send a mail to <span
+                        class="gold"><a href="mailto:info@thelxg.com.ng">info@thelxg.com.ng</a></span> or reach us via
+                    our social media channels and we'd be glad to answer your questions.</p>
             </div>
         </div>
     </section>

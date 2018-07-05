@@ -31,7 +31,8 @@
                         <%--</c:if>--%>
                     <div class="col-sm-4">
                         <div class="fixture-table">
-                            <table id="fixtureTable" class="table table-bordered table-condensed text-center white-font" >
+                            <table id="fixtureTable"
+                                   class="table table-bordered table-condensed text-center white-font">
                                 <caption class="text-center" style="color: gold;">Group ${number}</caption>
                                 <thead>
                                 <tr class="text-center">
@@ -67,9 +68,9 @@
 
                     <c:if test="${number % 3 == 0}">
                 </div>
-                        <c:if test="${number != 29}">
+                <c:if test="${number != 29}">
                 <div class="row">
-                        </c:if>
+                    </c:if>
 
                     </c:if>
                     </c:forEach>
@@ -86,8 +87,7 @@
         }, 3000);
     });
 
-    function updateDiv()
-    {
+    function updateDiv() {
         $("#allTables").load(window.location.href + " #allTables");
         console.log('page reloaded')
     }

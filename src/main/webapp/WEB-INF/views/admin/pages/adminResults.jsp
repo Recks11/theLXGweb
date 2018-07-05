@@ -4,23 +4,27 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <jsp:include page="../../fragment/admin/imports.jsp" />
+    <jsp:include page="../../fragment/admin/imports.jsp"/>
     <style>
-        .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
 
             border: 0;
         }
-        .table{
+
+        .table {
             background-color: transparent;
         }
-        .fixture-table{
+
+        .fixture-table {
             max-width: 1200px;
             margin: 0 auto;
         }
-        .table>tbody>tr>td{
+
+        .table > tbody > tr > td {
             font-size: 15px;
         }
-        .updatedFixture{
+
+        .updatedFixture {
             background: gold;
             color: black;
         }
@@ -35,7 +39,8 @@
     <section class="admin-wrapper">
         <section>
             <div class="search text-center">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias" style="color: gold;">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias"
+                       style="color: gold;">
             </div>
             <div class="no-pad">
                 <div class="about-details text-center mont-Font">
@@ -45,7 +50,7 @@
                                 <h3> no fixtures </h3>
                             </c:when>
                             <c:otherwise>
-                                <table id="fixtureTable" class="table table-condensed text-center white-font" >
+                                <table id="fixtureTable" class="table table-condensed text-center white-font">
                                     <thead>
                                     <tr>
                                         <th></th>
@@ -84,7 +89,7 @@
     <script>
         function myFunction() {
             // Declare variables
-            var input, filter, table, tr, td,td1, i;
+            var input, filter, table, tr, td, td1, i;
             input = document.getElementById("myInput");
             filter = input.value.toUpperCase();
             table = document.getElementById("fixtureTable");
@@ -94,8 +99,8 @@
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[1];//home player
                 td1 = tr[i].getElementsByTagName("td")[7];//away player
-                if (td||td1) {
-                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1||td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                if (td || td1) {
+                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1 || td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         tr[i].style.display = "";
                     } else {
                         tr[i].style.display = "none";

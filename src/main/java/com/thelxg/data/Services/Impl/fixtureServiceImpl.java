@@ -74,6 +74,7 @@ public class fixtureServiceImpl implements fixtureService {
     public List<fixtures> getFixturesByGroupNumber(String groupNumber) {
         return fixtures.getFixturesByGroupNumber(groupNumber);
     }
+
     @Transactional
     public List<fixtures> getUngeneratedFixturesByGroupNumber(String groupNumber) {
         return fixtures.getUngeneratedFixturesByGroupNumber(groupNumber);

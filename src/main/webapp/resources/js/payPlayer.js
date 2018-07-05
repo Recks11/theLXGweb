@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     $("#paymentForm").submit(function (event) {
         //stop submit the form, we will post it manually.
@@ -9,7 +9,7 @@ $(document).ready(function() {
     var csrfHeader = $("meta[name='_csrf_header']").attr("content"); //CSRF token for non-www-encoded-ajax requests
     var csrfToken = $("meta[name='_csrf']").attr("content"); //CSRF token for non-www-encoded-ajax requests
 
-    var fullname = function (){
+    var fullname = function () {
         var fname = $('#firstname').val();
         var lname = $('#lastname').val();
 
@@ -17,22 +17,22 @@ $(document).ready(function() {
     };
 
     $("#paymentForm").validate({
-        rules:{
+        rules: {
             firstName: "required",
             lastName: "required",
             alias: {
                 required: true,
                 minlength: 4
             },
-            email:{
+            email: {
                 required: true,
                 email: true
             },
-            phoneNumber:{
+            phoneNumber: {
                 required: true,
                 minlength: 11
             },
-            twitterHandle:{
+            twitterHandle: {
                 required: "#twitter:checked",
                 minlength: 3
             },
@@ -43,23 +43,23 @@ $(document).ready(function() {
             location: {
                 required: true
             },
-            social_acc:{
+            social_acc: {
                 required: true,
                 minlength: 1
             }
         },
-        messages:{
+        messages: {
             firstName: "Please Enter your first name",
             lastName: "Please Enter your last name",
             alias: {
                 required: "please enter your username",
                 minlength: "username must be more than 4 letters"
             },
-            phoneNumber:{
+            phoneNumber: {
                 required: "Please enter your phone number",
                 minlength: "phone number might be incorrect"
             },
-            twitterHandle:{
+            twitterHandle: {
                 required: "Please enter your twitter handle",
                 minlength: "please enter a valid twitter handle"
             },
@@ -67,15 +67,15 @@ $(document).ready(function() {
                 required: "Please enter your instagram name",
                 minlength: "instagram handle not valid"
             },
-            location:{
+            location: {
                 required: ""
             },
-            social_acc:{
-                required:  "",
+            social_acc: {
+                required: "",
                 minlength: ""
             }
         },
-        submitHandler: function(form){
+        submitHandler: function (form) {
             payWithPaystack();
             // var test = 'TX2oo1334';
             // savePlayer(test);
@@ -94,22 +94,21 @@ $(document).ready(function() {
     var instahandle = $("#gram")[initialInsta ? "removeClass" : "addClass"]("hide");
     var instahandleInput = instahandle.find("input").attr("disabled", !initial);
 
-    twitter.click(function(){
+    twitter.click(function () {
         handle[this.checked ? "removeClass" : "addClass"]("hide");
-        handleInput.attr("disabled" , !this.checked);
+        handleInput.attr("disabled", !this.checked);
     });
 
-    insta.click(function(){
-       instahandle[this.checked ? "removeClass" : "addClass"]("hide");
-       instahandleInput.attr("disabled", !this.checked)
+    insta.click(function () {
+        instahandle[this.checked ? "removeClass" : "addClass"]("hide");
+        instahandleInput.attr("disabled", !this.checked)
     });
 
 
-
-    function savePlayer(reference){
+    function savePlayer(reference) {
         var headers = {};
         headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
-        var  data = {};
+        var data = {};
         data['firstName'] = $('#firstname').val();
         data['lastName'] = $('#lastname').val();
         data['alias'] = $('#alias').val();
@@ -124,27 +123,27 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: ctx+"/enter/",
+            url: ctx + "/enter/",
             data: JSON.stringify(data),
             dataType: 'html',
             timeout: 360000,
             headers: headers,
 
             success: function (response) {
-                alert( data.firstName + " " +data.lastName +' Welcome To the Tournament');
-                window.location.href = ctx+"/";
+                alert(data.firstName + " " + data.lastName + ' Welcome To the Tournament');
+                window.location.href = ctx + "/";
                 //...
             },
-            error : function(xhr, status, error) {
-                alert("There was an error" +error);
+            error: function (xhr, status, error) {
+                alert("There was an error" + error);
             }
         });
 
     }
 
 
-    function payWithPaystack(){
-        var email =$('#email').val();
+    function payWithPaystack() {
+        var email = $('#email').val();
         var phone = $('#phoneNumber').val();
         var handler = PaystackPop.setup({
             key: 'pk_live_6d4f0fb7e519ebaedaf2953fac3b261a9197d02f',
@@ -160,12 +159,12 @@ $(document).ready(function() {
                     }
                 ]
             },
-            callback: function(response){
+            callback: function (response) {
                 alert('success. transaction ref is ' + response.reference)
                 var reference = response.reference;
                 savePlayer(reference);
             },
-            onClose: function(){
+            onClose: function () {
                 alert('Payment must be made successfully before registration can be completed');
             }
         });

@@ -1,4 +1,4 @@
-<%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
@@ -9,21 +9,24 @@
     <meta charset="UTF-8">
     <!-- Twitter Card data -->
     <meta name="twitter:title" content="TheLXG - Home">
-    <meta name="twitter:description" content="Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
+    <meta name="twitter:description"
+          content="Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
     <meta name="twitter:creator" content="@Recks11">
     <meta name="twitter:image" content="http://www.thelxg.com.ng/resources/images/metaThumbNail-lg.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="TheLXG background">
     <meta property="og:title" content="TheLXG FIFA Competition">
-    <meta property="og:description" content=" Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
+    <meta property="og:description"
+          content=" Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
     <meta property="og:image" content="http://www.thelxg.com.ng/resources/images/metaThumbNail-lg.jpg">
     <meta property="og:url" content="http://www.thelxg.com.ng">
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="TheLXG - Home">
-    <sec:csrfMetaTags /> <!--//CSRF token for non-www-encoded-ajax requests-->
+    <sec:csrfMetaTags/> <!--//CSRF token for non-www-encoded-ajax requests-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="theLXG, fifa competition nigeria, thelxg fifa">
-    <meta name="description" content="Welcome! to TheLXG fifa competition website. Register now and stand a chance to win N500,000">
+    <meta name="description"
+          content="Welcome! to TheLXG fifa competition website. Register now and stand a chance to win N500,000">
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>
     <%--<link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/jquery.selectBoxIt.css"/> "/>--%>

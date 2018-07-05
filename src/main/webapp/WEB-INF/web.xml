@@ -5,9 +5,6 @@
          version="3.1">
 
 
-
-
-
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -31,7 +28,7 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-<!-- URL REWRITE FILTER -->
+    <!-- URL REWRITE FILTER -->
     <filter>
         <filter-name>UrlRewriteFilter</filter-name>
         <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
@@ -67,35 +64,35 @@
     </filter-mapping>
 
     <!--<filter>-->
-        <!--<filter-name>redirectFilter</filter-name>-->
-        <!--<filter-clcom.thelxg.components.redirectFilterlter</filter-class>-->
+    <!--<filter-name>redirectFilter</filter-name>-->
+    <!--<filter-clcom.thelxg.components.redirectFilterlter</filter-class>-->
     <!--</filter>-->
     <!--<filter-mapping>-->
-        <!--<filter-name>redirectFilter</filter-name>-->
-        <!--<url-pattern>/*</url-pattern>-->
+    <!--<filter-name>redirectFilter</filter-name>-->
+    <!--<url-pattern>/*</url-pattern>-->
     <!--</filter-mapping>-->
 
     <!--&lt;!&ndash; Multipart Filter&ndash;&gt;-->
     <!--<filter>-->
-        <!--<filter-name>MultipartFilter</filter-name>-->
-        <!--<filter-class>org.springframework.web.multipart.support.MultipartFilter</filter-class>-->
-        <!--<init-param>-->
-            <!--<param-name>multipartResolverBeanName</param-name>-->
-            <!--<param-value>commonsMultiPartResolver</param-value>-->
-        <!--</init-param>-->
+    <!--<filter-name>MultipartFilter</filter-name>-->
+    <!--<filter-class>org.springframework.web.multipart.support.MultipartFilter</filter-class>-->
+    <!--<init-param>-->
+    <!--<param-name>multipartResolverBeanName</param-name>-->
+    <!--<param-value>commonsMultiPartResolver</param-value>-->
+    <!--</init-param>-->
     <!--</filter>-->
     <!--<filter>-->
-        <!--<filter-name>filterChainProxy</filter-name>-->
-        <!--<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
+    <!--<filter-name>filterChainProxy</filter-name>-->
+    <!--<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
     <!--</filter>-->
     <!--&lt;!&ndash;Spring Security&ndash;&gt;-->
     <!--<filter-mapping>-->
-        <!--<filter-name>MultipartFilter</filter-name>-->
-        <!--<url-pattern>/*</url-pattern>-->
+    <!--<filter-name>MultipartFilter</filter-name>-->
+    <!--<url-pattern>/*</url-pattern>-->
     <!--</filter-mapping>-->
     <!--<filter-mapping>-->
-        <!--<filter-name>filterChainProxy</filter-name>-->
-        <!--<url-pattern>/*</url-pattern>-->
+    <!--<filter-name>filterChainProxy</filter-name>-->
+    <!--<url-pattern>/*</url-pattern>-->
     <!--</filter-mapping>-->
 
 

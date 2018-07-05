@@ -17,8 +17,9 @@ public class fiestaRegisterController {
     public fiestaRegisterController(savePlayerAndSendMail saveAndSend) {
         this.saveAndSend = saveAndSend;
     }
+
     @PostMapping("/register")
-    public String phyRegisterPlayer(@RequestBody FiestaPlayer fiestaPlayer){
+    public String phyRegisterPlayer(@RequestBody FiestaPlayer fiestaPlayer) {
 
         saveAndSend.saveFiestaPlayer(fiestaPlayer);
         return "index";

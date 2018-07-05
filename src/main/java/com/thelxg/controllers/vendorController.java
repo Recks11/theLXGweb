@@ -33,9 +33,9 @@ public class vendorController {
 
 
     @RequestMapping("/")
-    public String register(Model model){
+    public String register(Model model) {
 
-        model.addAttribute("title","Vendor - TheLXG");
+        model.addAttribute("title", "Vendor - TheLXG");
         model.addAttribute("vendorObject", vendorBean);
         return "vendorDetails";
     }
@@ -50,7 +50,7 @@ public class vendorController {
     }
 
     @PostMapping("/")
-    public String addVendor(@ModelAttribute("vendorObject") vendor vend, HttpServletRequest request){
+    public String addVendor(@ModelAttribute("vendorObject") vendor vend, HttpServletRequest request) {
 
         vendorServic.addVendor(vend);
         return "redirect:/";

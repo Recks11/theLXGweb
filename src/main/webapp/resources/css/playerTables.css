@@ -1,33 +1,38 @@
-.table>caption+thead>tr>td{
+.table > caption + thead > tr > td {
     font-size: 9px;
 }
 
- .table>caption+thead>tr:first-child>th{
-     text-align: center;
-     font-size: 10px;
- }
+.table > caption + thead > tr:first-child > th {
+    text-align: center;
+    font-size: 10px;
+}
 
-
-.table>tbody>tr:nth-child(1)>td:first-child:before{
+.table > tbody > tr:nth-child(1) > td:first-child:before {
     content: "1";
 }
-.table>tbody>tr:nth-child(1){
+
+.table > tbody > tr:nth-child(1) {
     background-color: gold !important;
     color: black;
 }
-.table>tbody>tr:nth-child(2)>td:first-child:before{
+
+.table > tbody > tr:nth-child(2) > td:first-child:before {
     content: "2";
 }
-.table>tbody>tr:nth-child(2){
+
+.table > tbody > tr:nth-child(2) {
     background-color: gold !important;
     color: black;
 }
-.table>tbody>tr:nth-child(3)>td:first-child:before{
+
+.table > tbody > tr:nth-child(3) > td:first-child:before {
     content: "3";
 }
-.table>tbody>tr:nth-child(4)>td:first-child:before{
+
+.table > tbody > tr:nth-child(4) > td:first-child:before {
     content: "4";
 }
-.table>tbody>tr:nth-child(5)>td:first-child:before{
+
+.table > tbody > tr:nth-child(5) > td:first-child:before {
     content: "5";
 }

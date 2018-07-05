@@ -11,7 +11,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <jsp:include page="../../fragment/admin/imports.jsp" />
+    <jsp:include page="../../fragment/admin/imports.jsp"/>
 </head>
 <body>
 <jsp:include page="../../fragment/admin/navbar.jsp"/>
@@ -43,7 +43,7 @@
                 <c:forEach items="${allPlayers.pageList}" var="player">
                     <tr>
                         <td>${player.id}</td>
-                        <td>${player.firstName}  ${player.lastName}</td>
+                        <td>${player.firstName} ${player.lastName}</td>
                         <td>${player.alias}</td>
                         <td>${player.email}</td>
                         <td>${player.teamSelected}</td>
@@ -51,10 +51,13 @@
                         <td>${player.playerId}</td>
                         <td>${player.mailStatus}</td>
                         <td class="text-center">
-                            <a href="<spr:url value="/admin/players/get/${player.playerId}"/>" class="btn btn-success btn-xs" type="button">Info</a>
-                            <a href="<spr:url value="/admin/players/send/mail/${player.playerId}"/>" class="btn btn-info btn-xs ">New Mail</a>
-                            <a href="<spr:url value="/admin/players/send/FixturesMail/${player.playerId}"/>" class="btn btn-warning btn-xs ">Fixtures Mail</a>
-                            <%--<a href="<spr:url value="/admin/all/delete/${player.playerId}"/>" class="btn btn-danger btn-xs">delete</a>--%>
+                            <a href="<spr:url value="/admin/players/get/${player.playerId}"/>"
+                               class="btn btn-success btn-xs" type="button">Info</a>
+                            <a href="<spr:url value="/admin/players/send/mail/${player.playerId}"/>"
+                               class="btn btn-info btn-xs ">New Mail</a>
+                            <a href="<spr:url value="/admin/players/send/FixturesMail/${player.playerId}"/>"
+                               class="btn btn-warning btn-xs ">Fixtures Mail</a>
+                                <%--<a href="<spr:url value="/admin/all/delete/${player.playerId}"/>" class="btn btn-danger btn-xs">delete</a>--%>
                         </td>
                     </tr>
                 </c:forEach>
@@ -62,7 +65,7 @@
             </table>
         </div>
         <jsp:useBean id="allPlayers" scope="request"
-                     type="org.springframework.beans.support.PagedListHolder" />
+                     type="org.springframework.beans.support.PagedListHolder"/>
         <c:url value="/admin/players/all" var="pagedLink">
             <c:param name="page" value="~"/>
         </c:url>

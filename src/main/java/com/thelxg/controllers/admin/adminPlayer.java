@@ -37,7 +37,7 @@ public class adminPlayer {
     @RequestMapping("/all")
     public String allPlayers(HttpServletRequest request, Model model,
                              @RequestParam(value = "playerUpdated", required = false) player player,
-                             @RequestParam(value = "oldPlayerTeam", required = false) String oldTeam){
+                             @RequestParam(value = "oldPlayerTeam", required = false) String oldTeam) {
 
         PagedListHolder pagedList = pagination.pagedListImpl(15, request, players.getAllPlayers());
         model.addAttribute("allPlayers", pagedList);
@@ -47,18 +47,18 @@ public class adminPlayer {
     }
 
     @GetMapping("/send/mail/{playerId}")
-    public String sendMail(@PathVariable("playerId") String playerId, Model model){
+    public String sendMail(@PathVariable("playerId") String playerId, Model model) {
 
         player recipient = players.getPlayerByUniqueId(playerId);
 
-        sendMail.sendEmail(recipient, eMail,"LXG' 17 - Registration");
+        sendMail.sendEmail(recipient, eMail, "LXG' 17 - Registration");
         players.updatePlayer(recipient);
         return "redirect:/admin/players/all";
 
     }
 
     @GetMapping("/send/FixturesMail/{playerId}")
-    public String sendFixturesMail(@PathVariable("playerId") String playerId, Model model){
+    public String sendFixturesMail(@PathVariable("playerId") String playerId, Model model) {
 
         player recipient = players.getPlayerByUniqueId(playerId);
 
@@ -69,7 +69,7 @@ public class adminPlayer {
     }
 
     @GetMapping("/get/{playerId}")
-    public String getPlayer(@PathVariable("playerId") String playerId, Model model){
+    public String getPlayer(@PathVariable("playerId") String playerId, Model model) {
 
 
         model.addAttribute("playerObject", players.getPlayerByUniqueId(playerId));
@@ -77,8 +77,9 @@ public class adminPlayer {
         return "admin/pages/changeTeam";
 
     }
+
     @PostMapping("/get/change.team")
-    public String updatePlayer(@ModelAttribute("playerObject") player player, Model model){
+    public String updatePlayer(@ModelAttribute("playerObject") player player, Model model) {
 
         player updatedPlayer = players.getPlayerById(player.getId());
         String oldTeam = updatedPlayer.getTeamSelected();

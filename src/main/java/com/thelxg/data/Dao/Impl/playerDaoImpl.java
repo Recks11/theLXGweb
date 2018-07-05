@@ -52,7 +52,7 @@ public class playerDaoImpl implements playerDao {
     public List<player> getPlayersWIthNonGeneratedFixtures() {
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where fixtureGenerated = :fixtureStatus")
-                .setParameter("fixtureStatus",false)
+                .setParameter("fixtureStatus", false)
                 .list();
     }
 
@@ -76,7 +76,7 @@ public class playerDaoImpl implements playerDao {
 
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where playerGroup = :groupNumber")
-                .setParameter("groupNumber",groupNumber)
+                .setParameter("groupNumber", groupNumber)
                 .list();
     }
 
@@ -89,7 +89,7 @@ public class playerDaoImpl implements playerDao {
     public player getPlayerByUniqueId(String uniqueId) {
         return (player) sessionFactory.getCurrentSession()
                 .createQuery("from player where PlayerId = :uniqueId")
-                .setParameter("uniqueId", uniqueId )
+                .setParameter("uniqueId", uniqueId)
                 .uniqueResult();
     }
 
@@ -97,7 +97,7 @@ public class playerDaoImpl implements playerDao {
     public List getPlayersInLocation(String location) {
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where location = :location order by date asc ")
-                .setParameter("location",location)
+                .setParameter("location", location)
                 .list();
     }
 
@@ -114,7 +114,7 @@ public class playerDaoImpl implements playerDao {
 
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where inTables = :inTables order by date asc ")
-                .setParameter("inTables",false)
+                .setParameter("inTables", false)
                 .list();
     }
 
@@ -123,7 +123,7 @@ public class playerDaoImpl implements playerDao {
 
         return sessionFactory.getCurrentSession()
                 .createQuery("from player where inTables = :inTables order by date asc ")
-                .setParameter("inTables",true)
+                .setParameter("inTables", true)
                 .list();
     }
 }

@@ -19,7 +19,7 @@ public class pagination implements paginationService {
     private PagedListHolder pagedListHolder;
 
     @Autowired
-    public pagination(PagedListHolder pagedListHolder){
+    public pagination(PagedListHolder pagedListHolder) {
         this.pagedListHolder = pagedListHolder;
     }
 

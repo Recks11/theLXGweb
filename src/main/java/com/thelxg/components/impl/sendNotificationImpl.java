@@ -43,13 +43,12 @@ public class sendNotificationImpl implements sendNotification {
         try {
             mailSender.send(mailMessage);
             System.out.println(mailMessage.toString());
-            System.out.println("Mail Sent to "+ fiestaPlayer.getEmail());
+            System.out.println("Mail Sent to " + fiestaPlayer.getEmail());
             fiestaPlayer.setMailStatus("Mail sent");
             return true;
-        }
-        catch (MailException ex) {
+        } catch (MailException ex) {
             // simply log it and go on...
-            System.out.println("Mail not sent to "+ fiestaPlayer.getEmail());
+            System.out.println("Mail not sent to " + fiestaPlayer.getEmail());
             fiestaPlayer.setMailStatus("Mail not sent");
             System.err.println(ex.getMessage());
             return false;
@@ -71,14 +70,13 @@ public class sendNotificationImpl implements sendNotification {
         try {
             mailSender.send(mailMessage);
             System.out.println(mailMessage.toString());
-            System.out.println("Mail Sent to "+ player.getEmail());
+            System.out.println("Mail Sent to " + player.getEmail());
             player.setMailStatus("Fixture Mail sent");
             playerService.updatePlayer(player);
             return true;
-        }
-        catch (MailException ex) {
+        } catch (MailException ex) {
             // simply log it and go on...
-            System.out.println("Mail not sent to "+ player.getEmail());
+            System.out.println("Mail not sent to " + player.getEmail());
             player.setMailStatus("Fixture Mail not sent");
             System.err.println(ex.getMessage());
             playerService.updatePlayer(player);
@@ -101,13 +99,12 @@ public class sendNotificationImpl implements sendNotification {
         try {
             mailSender.send(mailMessage);
             System.out.println(mailMessage.toString());
-            System.out.println("Mail Sent to "+ player.getEmail());
+            System.out.println("Mail Sent to " + player.getEmail());
             player.setMailStatus("Mail sent");
             return true;
-        }
-        catch (MailException ex) {
+        } catch (MailException ex) {
             // simply log it and go on...
-            System.out.println("Mail not sent to "+ player.getEmail());
+            System.out.println("Mail not sent to " + player.getEmail());
             player.setMailStatus("Mail not sent");
             System.err.println(ex.getMessage());
             return false;

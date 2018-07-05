@@ -39,7 +39,8 @@
                 </div>
                 <div class="form-group">
                     <label for="emailAddress" class="col-form-label">Email Address</label>
-                    <form:input type="email" class="form-control" path="email" id="emailAddress" placeholder="E-Mail Address"/>
+                    <form:input type="email" class="form-control" path="email" id="emailAddress"
+                                placeholder="E-Mail Address"/>
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber" class="col-form-label">Phone Number</label>
@@ -71,7 +72,8 @@
                 <fieldset id="gram">
                     <div class="form-group">
                         <label for="instagramHandle" class="col-form-label">Instagram</label>
-                        <form:input type="text" class="form-control" path="instagramHandle" placeholder="Instagram Handle"/>
+                        <form:input type="text" class="form-control" path="instagramHandle"
+                                    placeholder="Instagram Handle"/>
                     </div>
                 </fieldset>
                 <div class="form-group form-button-wrapper">
@@ -93,7 +95,8 @@
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/popper.min.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/bootstrap.min.js"/>"></script>
-<script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
+<script type="text/javascript"
+        src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
 <script type="text/javascript" src="<spr:url value="/resources/lxg_fiesta/js/register_fiesta.js"/>"></script>
 </body>
 </html>

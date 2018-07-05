@@ -42,7 +42,7 @@
         <div class="no-pad about-content">
             <div class=" mont-Font">
                 <h2 class="gold">LXG'17 FINALS!</h2>
-                <div  class="row">
+                <div class="row">
                     <div class="col-sm-12">
                         <div class="saturday" style="width: 100%;height: 600px;">
 
@@ -59,9 +59,9 @@
 <jsp:include page="fragment/footer.jsp"/>
 <script type="text/javascript" src="<spr:url value="/resources/js/jquery.bracket.min.js"/>"></script>
 <script>
-    $.holdReady( true );
+    $.holdReady(true);
     getDataFromSeedAPI();
-    $.holdReady( false );
+    $.holdReady(false);
 
     $(document).ready(function () {
 
@@ -97,7 +97,7 @@
             xhttp = new XMLHttpRequest();
             xhttp.responseType = "document"
         }
-        xhttp.onreadystatechange = function() {
+        xhttp.onreadystatechange = function () {
             if (this.readyState === 4 && this.status === 200) {
                 var body = this.response;
                 document.getElementById("body").innerHTML = $(body)["0"].body.innerHTML;
@@ -105,14 +105,14 @@
                 initialiseData();
             }
         };
-        xhttp.open("GET",window.location.href , true);
+        xhttp.open("GET", window.location.href, true);
         xhttp.send();
     }
 
-    function getDataFromSeedAPI(){
+    function getDataFromSeedAPI() {
 
-//        $.getJSON( "http://localhost:8080/thelxg.com.ng/FinalScoreAPI", function( data ) {
-        $.getJSON( window.location.origin + "/FinalScoreAPI", function( data ) {
+        $.getJSON("http://localhost:8080/thelxg.com.ng/FinalScoreAPI", function (data) {
+//        $.getJSON( window.location.origin + "/FinalScoreAPI", function( data ) {
             apiQuery = data;
         });
     }

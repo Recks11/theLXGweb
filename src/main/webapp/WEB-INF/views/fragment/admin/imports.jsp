@@ -1,4 +1,4 @@
-<%@ taglib prefix="spr" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="spr" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -10,7 +10,7 @@
     <!--  Essential META Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <sec:csrfMetaTags /> <!--//CSRF token for non-www-encoded-ajax requests-->
+    <sec:csrfMetaTags/> <!--//CSRF token for non-www-encoded-ajax requests-->
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="<spr:url value="/resources/css/bootstrap3/bootstrap.min.css"/> "/>
 

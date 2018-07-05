@@ -1,10 +1,10 @@
-<%@tag language="java" pageEncoding="ISO-8859-1"%>
+<%@tag language="java" pageEncoding="ISO-8859-1" %>
 <%@ tag import="org.springframework.util.StringUtils" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@ attribute name="pagedList" required="true"
-              type="org.springframework.beans.support.PagedListHolder"%>
+              type="org.springframework.beans.support.PagedListHolder" %>
 <%@ attribute name="pagedLink" required="true" type="java.lang.String" %>
 <%--
   Created by IntelliJ IDEA.
@@ -18,7 +18,7 @@
     <ul class="pagination pageStyle">
         <c:if test="${!pagedList.firstPage}">
             <li class="previous">
-            <a href="<%= StringUtils.replace(pagedLink,"~",String.valueOf(pagedList.getPage() - 1))%>"> < </a></li>
+                <a href="<%= StringUtils.replace(pagedLink,"~",String.valueOf(pagedList.getPage() - 1))%>"> < </a></li>
         </c:if>
         <c:if test="${pagedList.firstLinkedPage > 0}">
             <li><a href="<%= StringUtils.replace(pagedLink,"~","0")%>"> 1 </a></li>
@@ -40,7 +40,7 @@
             </c:choose>
         </c:forEach>
         <c:if test="${pagedList.lastLinkedPage < pagedList.pageCount - 2}">
-            <li> <i class="fa fa-plus"></i></li>
+            <li><i class="fa fa-plus"></i></li>
         </c:if>
         <c:if test="${pagedList.lastLinkedPage < pagedList.pageCount - 1}">
             <li href="<%= StringUtils.replace(pagedLink,"~", String.valueOf(pagedList.getPageCount() - 1))%>">${pagedList.pageCount}</li>

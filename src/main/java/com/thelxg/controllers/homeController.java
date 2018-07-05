@@ -39,7 +39,7 @@ public class homeController {
 
 
     @RequestMapping
-    public String homePage(Model model){
+    public String homePage(Model model) {
 
         model.addAttribute("title", "LXG - Home");
         model.addAttribute("feedbackObject", new Feedback());
@@ -57,46 +57,48 @@ public class homeController {
     }
 
     @RequestMapping("/event")
-    public String eventDetails(Model model){
+    public String eventDetails(Model model) {
 
         model.addAttribute("title", "Event Details - LXG' 17");
         return "eventDetails";
     }
+
     @RequestMapping("/aboutUs")
-    public String aboutUs(Model model){
+    public String aboutUs(Model model) {
 
         model.addAttribute("title", "LXG - about");
         return "aboutUs";
     }
+
     @GetMapping("/gallery")
-    public String showGallery(Model model){
+    public String showGallery(Model model) {
 
         model.addAttribute("title", "LXG' 17 - Gallery");
         return "gallery";
     }
 
     @RequestMapping("/fixtures")
-    public String getFixtures(Model model){
+    public String getFixtures(Model model) {
 
         List<fixtures> fixturesList = fixtureService.getUngeneratedFixtures();
         model.addAttribute("title", "LXG17' - Fixtures");
-        model.addAttribute("fixtures",fixturesList);
+        model.addAttribute("fixtures", fixturesList);
         return "allFixtures";
     }
 
     @RequestMapping("/tables")
-    public String getTables(Model model){
+    public String getTables(Model model) {
 
         int numberOfGroups = groupsService.getLastGroup().getGroupNumber();
 
         model.addAttribute("title", "LXG17 - Tables");
         model.addAttribute("numberOfGroups", numberOfGroups);
-        model.addAttribute("tables",tableService.getAllTables());
+        model.addAttribute("tables", tableService.getAllTables());
         return "playerTables";
     }
 
     @PostMapping("/sendFeedback")
-    public String sendFeedback(Model model, @ModelAttribute("feedbackObject") Feedback feedback){
+    public String sendFeedback(Model model, @ModelAttribute("feedbackObject") Feedback feedback) {
 
         feedback.setDate(new Date());
         feedbackService.saveFeedback(feedback);
@@ -104,20 +106,21 @@ public class homeController {
     }
 
     @RequestMapping("/knockoutSeed1")
-    public String viewKnockoutSeed1(){
+    public String viewKnockoutSeed1() {
 
 
         return "KnockoutStages";
     }
 
     @RequestMapping("/knockoutSeed2")
-    public String viewKnockoutSeed2(){
+    public String viewKnockoutSeed2() {
 
 
         return "KnockoutStagesSeed2";
     }
+
     @RequestMapping("/finals")
-    public String viewFinalKnockout(){
+    public String viewFinalKnockout() {
 
 
         return "FinalKnockoutStages";

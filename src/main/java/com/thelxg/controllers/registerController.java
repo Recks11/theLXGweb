@@ -33,23 +33,23 @@ public class registerController {
 
 
     @RequestMapping
-    public String register(Model model){
+    public String register(Model model) {
 
-        model.addAttribute("title","Register - TheLXG");
+        model.addAttribute("title", "Register - TheLXG");
         model.addAttribute("playerObject", playerBean);
         return "redirect:/enter/registrationClosed";
     }
 
     @RequestMapping("/registrationClosed")
-    public String registrationClosedPage(Model model){
+    public String registrationClosedPage(Model model) {
 
-        model.addAttribute("title","Closed - TheLXG");
+        model.addAttribute("title", "Closed - TheLXG");
         return "registrationClosed";
     }
 
     @PostMapping("/")
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public String registerPlayer(@RequestBody player play){
+    public String registerPlayer(@RequestBody player play) {
 
         play.setFixtureGenerated(false);
         saveAndSendMail.savePlayer(play);
@@ -57,19 +57,22 @@ public class registerController {
     }
 
     @RequestMapping("/rest")
-    public @ResponseBody String restSetviec(@ModelAttribute("playerObject")player play, HttpServletRequest request){
-        System.out.println( request.toString());
+    public @ResponseBody
+    String restSetviec(@ModelAttribute("playerObject") player play, HttpServletRequest request) {
+        System.out.println(request.toString());
         System.out.println(play.toString());
 
         return play.toString();
     }
+
     @RequestMapping("/registrationCenters")
-    public String registrationCenters(Model model){
-        model.addAttribute("title","Locations - TheLXG");
+    public String registrationCenters(Model model) {
+        model.addAttribute("title", "Locations - TheLXG");
         return "registrationCenters";
     }
+
     @RequestMapping("/check-reg@theLXG")
-    public String checkReg( Model model){
+    public String checkReg(Model model) {
 
         model.addAttribute("numberReg", playerService.getAllPlayers().size());
         return "checkReg";

@@ -15,7 +15,8 @@ public class groups {
 
     private int groupNumber;
 
-    public groups(){}
+    public groups() {
+    }
 
     public groups(int groupNumber) {
         this.groupNumber = groupNumber;

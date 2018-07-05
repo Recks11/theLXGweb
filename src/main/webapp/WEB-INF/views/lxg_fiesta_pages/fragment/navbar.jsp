@@ -10,7 +10,8 @@
 <div class="contianer">
     <nav class="navbar fixed-top navbar-expand-md navbar-inverse navbar-dark bg-hero-dark d-flex flex-row justify-content-between">
         <a class="navbar-brand" href="<spr:url value="/"/> ">
-            <img src="<spr:url value="/resources/lxg_fiesta/media/images/theLXGlogo-small.png"/>" width="80"  class="d-inline-block align-top" alt="LXG'17 FIESTA">
+            <img src="<spr:url value="/resources/lxg_fiesta/media/images/theLXGlogo-small.png"/>" width="80"
+                 class="d-inline-block align-top" alt="LXG'17 FIESTA">
         </a>
         <button class="navbar-toggler" type="button"
                 data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
@@ -24,13 +25,14 @@
                     <a class="nav-link ${home}" href="<spr:url value="/fiesta/home"/> ">18 HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <%--<li class="nav-item ">--%>
-                    <%--<a class="nav-link ${register}" href="<spr:url value="/fiesta/register"/>">REGISTER</a>--%>
+                <%--<a class="nav-link ${register}" href="<spr:url value="/fiesta/register"/>">REGISTER</a>--%>
                 <%--</li>--%>
                 <%--<li class="nav-item">--%>
-                    <%--&lt;%&ndash;<a class="nav-link ${payment}"  href="<spr:url value="/fiesta/payment"/> ">CASH REGISTRATION</a>&ndash;%&gt;--%>
+                <%--&lt;%&ndash;<a class="nav-link ${payment}"  href="<spr:url value="/fiesta/payment"/> ">CASH REGISTRATION</a>&ndash;%&gt;--%>
                 <%--</li>--%>
                 <li class="nav-item">
-                    <a class="nav-link ${finalists}"  href="<spr:url value="/fiesta/meet-finalists"/> ">MEET THE FINALISTS</a>
+                    <a class="nav-link ${finalists}" href="<spr:url value="/fiesta/meet-finalists"/> ">MEET THE
+                        FINALISTS</a>
                 </li>
             </ul>
         </div>

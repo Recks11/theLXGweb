@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     document.getElementById("registerBtn").disabled = true;
 
@@ -10,8 +10,6 @@ $(document).ready(function() {
     var csrfParameter = $("meta[name='_csrf_parameter']").attr("content"); //CSRF token for non-www-encoded-ajax requests
     var csrfHeader = $("meta[name='_csrf_header']").attr("content"); //CSRF token for non-www-encoded-ajax requests
     var csrfToken = $("meta[name='_csrf']").attr("content"); //CSRF token for non-www-encoded-ajax requests
-
-
 
 
     /* functions to execute*/
@@ -26,22 +24,22 @@ $(document).ready(function() {
 
 
     paymentForm.validate({
-        rules:{
+        rules: {
             firstName: "required",
             lastName: "required",
             alias: {
                 required: true,
                 minlength: 4
             },
-            email:{
+            email: {
                 required: true,
                 email: true
             },
-            phoneNumber:{
+            phoneNumber: {
                 required: true,
                 minlength: 11
             },
-            twitterHandle:{
+            twitterHandle: {
                 required: "#twitter:checked",
                 minlength: 3
             },
@@ -52,24 +50,24 @@ $(document).ready(function() {
             location: {
                 required: true
             },
-            social_acc:{
+            social_acc: {
                 required: true,
                 minlength: 1
             },
             ignore: ".ignore"
         },
-        messages:{
+        messages: {
             firstName: "Please Enter your first name",
             lastName: "Please Enter your last name",
             alias: {
                 required: "please enter your username",
                 minlength: "username must be more than 4 letters"
             },
-            phoneNumber:{
+            phoneNumber: {
                 required: "Please enter your phone number",
                 minlength: "phone number might be incorrect"
             },
-            twitterHandle:{
+            twitterHandle: {
                 required: "Please enter your twitter handle",
                 minlength: "please enter a valid twitter handle"
             },
@@ -77,26 +75,26 @@ $(document).ready(function() {
                 required: "Please enter your instagram name",
                 minlength: "instagram handle not valid"
             },
-            location:{
+            location: {
                 required: ""
             },
-            social_acc:{
-                required:  "",
+            social_acc: {
+                required: "",
                 minlength: ""
             }
         },
-        submitHandler: function(form){
+        submitHandler: function (form) {
             // payWithPaystack();
             setPin();
             var pinNumber1 = pinBox.val();
-            console.log("pin-Number: "+ pin_no);
-            console.log("pinBox.val(): "+ pinNumber1);
-            if(pinNumber1 === pin_no){
+            console.log("pin-Number: " + pin_no);
+            console.log("pinBox.val(): " + pinNumber1);
+            if (pinNumber1 === pin_no) {
                 savePlayer();
 
-            }else{
+            } else {
                 alert("Wrong Pin! SCAM!!");
-                window.location.href = ctx+"/";
+                window.location.href = ctx + "/";
             }
         }
     });
@@ -113,22 +111,21 @@ $(document).ready(function() {
     var instahandle = $("#gram")[initialInsta ? "removeClass" : "addClass"]("hide");
     var instahandleInput = instahandle.find("input").attr("disabled", !initial);
 
-    twitter.click(function(){
+    twitter.click(function () {
         handle[this.checked ? "removeClass" : "addClass"]("hide");
-        handleInput.attr("disabled" , !this.checked);
+        handleInput.attr("disabled", !this.checked);
     });
 
-    insta.click(function(){
+    insta.click(function () {
         instahandle[this.checked ? "removeClass" : "addClass"]("hide");
         instahandleInput.attr("disabled", !this.checked)
     });
 
 
-
-    function savePlayer(){
+    function savePlayer() {
         var headers = {};
         headers[csrfHeader] = csrfToken; //CSRF token for non -x-www-form-urlencoded requests
-        var  player_data = {};
+        var player_data = {};
         player_data['firstName'] = $('#firstname').val();
         player_data['lastName'] = $('#lastname').val();
         player_data['alias'] = $('#alias').val();
@@ -142,43 +139,43 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url: ctx+"/phy_register/io",
+            url: ctx + "/phy_register/io",
             data: JSON.stringify(player_data),
             dataType: 'html',
             timeout: 60000,
             headers: headers,
 
             success: function (response) {
-                alert( player_data.firstName + " " +player_data.lastName +' Welcome To the Tournament');
-                window.location.href = ctx+"/";
+                alert(player_data.firstName + " " + player_data.lastName + ' Welcome To the Tournament');
+                window.location.href = ctx + "/";
                 //...
             },
-            error : function(xhr, status, error) {
-                alert("There was an error" +error);
+            error: function (xhr, status, error) {
+                alert("There was an error" + error);
             }
         });
 
     }
 
 
-    function setPin(){
-        $.get(ctx+"/phy_register/pin", function(data, status, jqXHR){
+    function setPin() {
+        $.get(ctx + "/phy_register/pin", function (data, status, jqXHR) {
             pin_no = jqXHR.responseText;
             console.log(pin_no);
         });
     }
 
 
-    function verifyPinAndRegister(){
+    function verifyPinAndRegister() {
 
-        if(pinBox.val() === pin_no){
+        if (pinBox.val() === pin_no) {
             regBtn.removeClass("invalid");
             regBtn.addClass("valid");
             pinBox.addClass("green-border");
             pinBox.addClass("valid");
             pinBox.removeClass("invalid");
             document.getElementById("registerBtn").disabled = false;
-        }else{
+        } else {
             regBtn.removeClass("valid");
             regBtn.addClass("invalid");
             pinBox.addClass("invalid");
@@ -189,7 +186,7 @@ $(document).ready(function() {
     }
 
 
-    pinBox.on('keyup', function() {
+    pinBox.on('keyup', function () {
         if (this.value.length > 1) {
             verifyPinAndRegister();
         }

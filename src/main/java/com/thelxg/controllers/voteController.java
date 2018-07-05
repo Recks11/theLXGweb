@@ -27,12 +27,12 @@ public class voteController {
     }
 
     @GetMapping("/")
-    public String votePage(Model model){
+    public String votePage(Model model) {
 
         List<String> playerList = new ArrayList<String>();
         List<vote> voteList = votes.getAllVotes();
 
-        for (vote voteItem : voteList){
+        for (vote voteItem : voteList) {
             playerList.add(voteItem.getPlayerAlias());
         }
 
@@ -45,7 +45,7 @@ public class voteController {
     }
 
     @PostMapping("/")
-    public String castVote(@ModelAttribute("voteObject") vote voteObject, Model model){
+    public String castVote(@ModelAttribute("voteObject") vote voteObject, Model model) {
 
         votes.voteForPlayer(voteObject.getPlayerAlias());
         model.addAttribute("buttonStatus", "disabled");

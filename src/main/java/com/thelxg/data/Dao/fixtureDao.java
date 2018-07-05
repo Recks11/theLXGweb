@@ -5,7 +5,7 @@ import com.thelxg.data.models.features.fixtures;
 import java.util.List;
 
 public interface fixtureDao {
-    
+
     void saveFixture(fixtures fixture);
 
     void updateFixture(fixtures fixture);

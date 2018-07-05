@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * Created by rex on 29/05/2017.
  */
 @Repository
-public class vendorDaoImpl  implements vendorDao {
+public class vendorDaoImpl implements vendorDao {
 
     private final SessionFactory sessionFactory;
 

@@ -1,6 +1,5 @@
 package com.thelxg.controllers;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.thelxg.data.Services.*;
 import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
@@ -32,10 +31,10 @@ public class updateFixturesController {
     }
 
     /*
-    * @TODO
-    * make fixtures get data by time
-    * that is fixtureService.getFixturesByMatchTime;
-    * */
+     * @TODO
+     * make fixtures get data by time
+     * that is fixtureService.getFixturesByMatchTime;
+     * */
     int start = 0;
     int end = 0;
 
@@ -80,9 +79,9 @@ public class updateFixturesController {
 
     @GetMapping("/fixtures/knockout/{startFixtureNumber}")
     public String showKnockoutScores(Model model,
-                                     @PathVariable("startFixtureNumber") int startFixtureNumber){
+                                     @PathVariable("startFixtureNumber") int startFixtureNumber) {
 
-        model.addAttribute("knockoutFixture",knockoutScoreService.getScoresByRound(startFixtureNumber));
+        model.addAttribute("knockoutFixture", knockoutScoreService.getScoresByRound(startFixtureNumber));
         model.addAttribute("knockoutObject", new KnockoutScore());
         return "admin/pages/adminKnockout";
     }
@@ -109,7 +108,7 @@ public class updateFixturesController {
     }
 
     @GetMapping("/results")
-    public String getResults(Model model){
+    public String getResults(Model model) {
 
 
         model.addAttribute("fixtures", fixturesService.getFixturesWithTableGenerated());

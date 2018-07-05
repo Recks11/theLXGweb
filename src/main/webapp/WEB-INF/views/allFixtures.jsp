@@ -29,7 +29,7 @@
                             <h3 style="color: #ffd700">Fixtures for this weekend have been played</h3>
                         </c:when>
                         <c:otherwise>
-                            <table id="fixtureTable" class="table table-condensed text-center white-font" >
+                            <table id="fixtureTable" class="table table-condensed text-center white-font">
                                 <thead>
                                 <tr>
                                     <th></th>
@@ -71,7 +71,7 @@
 <script>
     function myFunction() {
         // Declare variables
-        var input, filter, table, tr, td,td1, i;
+        var input, filter, table, tr, td, td1, i;
         input = document.getElementById("myInput");
         filter = input.value.toUpperCase();
         table = document.getElementById("fixtureTable");
@@ -81,8 +81,8 @@
         for (i = 0; i < tr.length; i++) {
             td = tr[i].getElementsByTagName("td")[1];//home player
             td1 = tr[i].getElementsByTagName("td")[7];//away player
-            if (td||td1) {
-                if (td.innerHTML.toUpperCase().indexOf(filter) > -1||td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            if (td || td1) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1 || td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
                     tr[i].style.display = "";
                 } else {
                     tr[i].style.display = "none";
@@ -99,8 +99,7 @@
         }, 5000);
     });
 
-    function updateDiv()
-    {
+    function updateDiv() {
         $("#allFixtures").load(window.location.href + " #allFixtures");
         console.log('Fixtures reloaded')
     }

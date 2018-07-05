@@ -28,7 +28,8 @@ public class vendor {
 
     private String standLocation;
 
-    public vendor(){}
+    public vendor() {
+    }
 
     public vendor(String businessName, String email, String phoneNumber, String description, String standLocation) {
         this.businessName = businessName;

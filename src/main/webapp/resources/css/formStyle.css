@@ -1,37 +1,43 @@
 
-
-.register-form{
+.register-form {
     padding-bottom: 60px;
 
 }
 
-.radioBtn{
+.radioBtn {
     padding-top: 13px;
 }
-#location1, #location2{
+
+#location1, #location2 {
     margin-right: 10px;
 }
-#location2{
+
+#location2 {
     margin-left: 10px;
 }
+
 /* VENDOR */
-#standLocation1, #standLocation2{
+#standLocation1, #standLocation2 {
     margin-right: 10px;
 }
-#standLocation2{
+
+#standLocation2 {
     margin-left: 10px;
 }
+
 /* VENDOR */
 .form-horizontal .form-group .control-label {
-    color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
     font-size: 24px;
 }
-.register-form > h2{
+
+.register-form > h2 {
     color: #ffffff;
     /*height: 100%;*/
     font-family: 'Orbitron', sans-serif;
 }
-.form-control{
+
+.form-control {
     background-color: transparent;
     color: white;
     border-top: 0;
@@ -42,11 +48,13 @@
     -moz-border-radius: 0;
     border-radius: 5px;
 }
-.select-drop{
+
+.select-drop {
     border: 2px solid white;
     border-radius: 2px;
 }
-.submitBtn{
+
+.submitBtn {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 5px;
@@ -55,73 +63,86 @@
     width: 100px;
 }
 
-
-#selectedTeam{
+#selectedTeam {
     padding-top: 30px;
 }
-#pin{
+
+#pin {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-input{
+
+input {
     outline: gold;
 }
-.form-control:focus{
+
+.form-control:focus {
     border-color: gold !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,215,0,.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 215, 0, .6);
 }
-.valid{
+
+.valid {
     /*background-color: rgba(173,255,47,0.4);*/
     border: 2px solid greenyellow;
     color: greenyellow;
 }
-.valid:hover,.valid:active, .valid:focus{
+
+.valid:hover, .valid:active, .valid:focus {
     border: 2px solid greenyellow;
     color: greenyellow;
-    background-color: rgba(48,48,48,0.2);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px greenyellow;
+    background-color: rgba(48, 48, 48, 0.2);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px greenyellow;
 }
-.invalid,.error{
+
+.invalid, .error {
     /*background-color: rgba(173,255,47,0.4);*/
     border: 2px solid red;
     color: red;
 }
-.invalid:hover,.invalid:focus,.error:hover,.error:focus{
+
+.invalid:hover, .invalid:focus, .error:hover, .error:focus {
     /*background-color: rgba(173,255,47,0.4);*/
     border: 2px solid red;
     color: red;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px red;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px red;
 }
-button[disabled]:hover, html input[disabled]:hover{
+
+button[disabled]:hover, html input[disabled]:hover {
     border: 2px solid;
     border-color: red !important;
     color: red;
     outline: gold;
 }
+
 select {
     color: white;
 }
+
 select option {
     color: #0f0f0f;
 }
-label[id$="error"], label[id$="error"]:hover,label[id$="error"]:active{
+
+label[id$="error"], label[id$="error"]:hover, label[id$="error"]:active {
     border: 0;
     box-shadow: unset;
 }
-.submitBtn{
+
+.submitBtn {
     min-width: 130px;
 }
-@media only screen and (max-width: 767px){
 
+@media only screen and (max-width: 767px) {
 
     .form-horizontal .form-group .control-label {
         font-size: 16px;
     }
-    .teamSel{
+
+    .teamSel {
         padding-top: 10px;
     }
-    #selectedTeam{
+
+    #selectedTeam {
         padding-top: 7px;
     }
 }

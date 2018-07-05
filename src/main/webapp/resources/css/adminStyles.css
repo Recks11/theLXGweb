@@ -2,7 +2,8 @@ body {
     margin-top: 70px;
     background-color: #0f0f0f;
 }
-.admin-body{
+
+.admin-body {
     margin-left: 225px;
     color: #FFFFFF;
 }
@@ -13,50 +14,100 @@ body {
 }
 
 /* Logout Button */
-.logout-btn{
+.logout-btn {
     background-color: transparent;
-    border:none;
-}
-.logout-btn:active{
     border: none;
 }
 
-.no-pad{
+.logout-btn:active {
+    border: none;
+}
+
+.no-pad {
     padding-right: 0;
     padding-left: 0;
 }
-.bg-red{background-color: #ff8800;color: white;}
-.bg-blue{background-color: #2a9fd6;color: white;}
-.bg-white{background-color: #ffffff;color: grey;}
-.bg-green{background-color: springgreen;color: white;}
+
+.bg-red {
+    background-color: #ff8800;
+    color: white;
+}
+
+.bg-blue {
+    background-color: #2a9fd6;
+    color: white;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    color: grey;
+}
+
+.bg-green {
+    background-color: springgreen;
+    color: white;
+}
 
 /* Rex styles*/
-.no-full-pad{padding:0;}
-.no-top-pad{padding-top: 0;}
-.no-left-pad{padding-left: 0;}
-.no-right-pad{padding-right:0;}
-.no-bottom-pad{padding-bottom:0;}
-.no-margin{margin: 0;}
-.no-top-margin{margin-top:0;}
-.no-left-margin{margin-left:0;}
-.no-right-margin{margin-right: 0}
-.no-bottom-margin{margin-bottom: 0}
-.fixed-table-container tbody .selected td{
+.no-full-pad {
+    padding: 0;
+}
+
+.no-top-pad {
+    padding-top: 0;
+}
+
+.no-left-pad {
+    padding-left: 0;
+}
+
+.no-right-pad {
+    padding-right: 0;
+}
+
+.no-bottom-pad {
+    padding-bottom: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-top-margin {
+    margin-top: 0;
+}
+
+.no-left-margin {
+    margin-left: 0;
+}
+
+.no-right-margin {
+    margin-right: 0
+}
+
+.no-bottom-margin {
+    margin-bottom: 0
+}
+
+.fixed-table-container tbody .selected td {
     background-color: #282828;
 }
+
 /* end Rex sty;es*/
 
 /* Flex */
-.centered-parent{
+.centered-parent {
     display: flex;
     flex-direction: row;
     height: 100%;
     justify-content: center;
 }
-.centered-content{
+
+.centered-content {
     align-self: center;
     height: 100%;
 }
+
 /* End Flex*/
 
 /* Side Nav */
@@ -74,7 +125,7 @@ body {
 }
 
 /*menu overrides*/
-.side-nav>li.dropdown>ul.dropdown-menu {
+.side-nav > li.dropdown > ul.dropdown-menu {
     position: relative;
     min-width: 225px;
     margin: 0;
@@ -86,49 +137,58 @@ body {
     -webkit-box-shadow: none;
 }
 
-.side-nav>li.dropdown>ul.dropdown-menu>li>a {
+.side-nav > li.dropdown > ul.dropdown-menu > li > a {
     color: #999999;
     padding: 15px 15px 15px 25px;
 }
 
-.side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
-.side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
-.side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+.side-nav > li.dropdown > ul.dropdown-menu > li > a:hover,
+.side-nav > li.dropdown > ul.dropdown-menu > li > a.active,
+.side-nav > li.dropdown > ul.dropdown-menu > li > a:focus {
     color: #fff;
     background-color: #080808;
 }
-.side-nav>li>a {
+
+.side-nav > li > a {
     width: 225px;
 }
-.side-content ul{
+
+.side-content ul {
     list-style: none;
     padding-left: 0;
 }
-.side-content ul li{
+
+.side-content ul li {
     padding: 10px 15px;
 }
-.side-content ul li a{
+
+.side-content ul li a {
     color: #FFFFFF;
     text-decoration: none;
-    padding:10px 15px;
+    padding: 10px 15px;
     font-family: Sansita, sans-serif;
 }
-.side-content ul li:hover{
+
+.side-content ul li:hover {
     background-color: #0f0f0f;
     border-left: 5px solid #289fd6;
 }
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
     background-color: #080808;
 }
-.navbar-inverse .navbar-nav > li > a{ /* navbar font*/
+
+.navbar-inverse .navbar-nav > li > a { /* navbar font*/
     color: #ffffff;
     font-family: 'Sansita', sans-serif; /* to be paired with Open-sans*/
 }
-.user-dropdown{
+
+.user-dropdown {
     background-color: #080808;
 }
-.pagination>li>a, .pagination>li>span {
+
+.pagination > li > a, .pagination > li > span {
     position: relative;
     float: left;
     padding: 3px 12px;
@@ -139,23 +199,26 @@ body {
     border: 1px solid gold;
     color: gold;
 }
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover,
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover {
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
     z-index: 3;
     color: black;
     cursor: default;
     background-color: gold;
     border-color: white;
 }
-.search{
+
+.search {
     max-width: 500px;
     margin: auto;
 }
-.search> input{
+
+.search > input {
     background-color: black;
     border: 2px solid gold;
     padding: 5px;
@@ -166,37 +229,47 @@ body {
     width: 100%;
     margin: 10px auto;
 }
-.search > input:hover, .search > input:focus, .search > input:active{
+
+.search > input:hover, .search > input:focus, .search > input:active {
     border: 2px solid gold !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px gold;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px gold;
     outline: gold;
 }
-table{
+
+table {
     color: white;
 }
-.table-striped>tbody>tr:nth-of-type(odd) {
+
+.table-striped > tbody > tr:nth-of-type(odd) {
     background-color: #222222;
 }
-@media (max-width: 767px){
-    .side-nav{
+
+@media (max-width: 767px) {
+    .side-nav {
         margin-top: 50px;
     }
+
     .navbar-nav .open .dropdown-menu {
         background-color: black !important;
     }
-    .admin-body{
+
+    .admin-body {
         margin-left: 0;
     }
+
     .navbar-nav .open .dropdown-menu {
         background-color: inherit;
     }
-    table{
+
+    table {
         font-size: 12px;
     }
+
     thead > tr > th, tbody > tr > td, tbody > tr > td > .btn {
         font-size: 8px;
     }
 }
+
 @media (min-width: 768px) {
     .side-nav {
         margin-left: -170px;
@@ -236,7 +309,8 @@ table{
         font-size: 12px;
     }
 }
-@media (min-width: 1280px){
+
+@media (min-width: 1280px) {
     .side-nav {
         margin-left: -225px;
         left: 225px;
@@ -250,7 +324,6 @@ table{
         overflow-y: auto;
     }
 
-
     .side-nav > li > a {
         width: 225px;
     }
@@ -260,7 +333,8 @@ table{
         color: #FFFFFF;
     }
 }
+
 /* Fix navbar on iphone 6*/
-.navbar-collapse{
+.navbar-collapse {
     -webkit-overflow-scrolling: auto;
 }

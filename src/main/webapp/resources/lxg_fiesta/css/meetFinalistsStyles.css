@@ -1,41 +1,51 @@
-html,body{
+html, body {
     background-color: #0e1025;
 }
-.flex-parent{
+
+.flex-parent {
     display: flex;
     width: 100%;
 }
-.flex-parent > div{
+
+.flex-parent > div {
     width: 100%;
     text-align: center;
     text-align: -webkit-center;
     margin-bottom: 30px;
 }
-.player-image{
+
+.player-image {
     width: 100px;
 }
+
 .navbar {
     border-bottom: 1px solid white;
 }
-.finalists-section{
+
+.finalists-section {
     margin-top: 60px;
     color: #FFFFFF;
 }
-.finalist-parent{
+
+.finalist-parent {
     width: 100%;
 }
+
 .finalist-image {
     width: 30vw;
 }
+
 @media only screen and (max-width: 768px) {
 
     .flex-parent {
         flex-direction: column;
     }
+
     .finalist-image {
         width: 90vw;
     }
 }
+
 @media only screen and (max-width: 670px) {
 
     .display-3 {

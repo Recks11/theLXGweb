@@ -3,10 +3,12 @@ html, body {
     padding: 0;
     margin: 0;
 }
-.error{
+
+.error {
     color: red;
 }
-*{
+
+* {
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
     -ms-transition: font-size 1s;
@@ -15,50 +17,55 @@ html, body {
     outline: none;
 }
 
-.bg-image{
+.bg-image {
     background: url('../images/reus-reg.jpg') no-repeat fixed center;
     background-size: cover;
     /*height: 100%;*/
     position: relative;
 }
 
-.bg-cover{
-    background: rgba(0,0,0,0.7);
-    min-height:100%
+.bg-cover {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100%
 }
-.white-font{
+
+.white-font {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
 }
-section{
+
+section {
     padding-top: 111px;
 }
 
-.green-border{
+.green-border {
     border: 2px solid greenyellow;
     color: greenyellow;
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 767px){
-    .bg-image{
+@media only screen and (max-width: 767px) {
+    .bg-image {
         height: unset;
         min-height: 100%;
     }
+
     .form-horizontal .form-group .control-label {
         font-size: 16px;
     }
-    .teamSel{
+
+    .teamSel {
         padding-top: 10px;
     }
-    #selectedTeam{
+
+    #selectedTeam {
         padding-top: 7px;
     }
 }
 
-@media only screen and (max-height: 960px){
-    .bg-image{
-        height:unset;
+@media only screen and (max-height: 960px) {
+    .bg-image {
+        height: unset;
         min-height: 100%;
     }
 }

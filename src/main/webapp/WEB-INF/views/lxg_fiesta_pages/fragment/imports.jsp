@@ -23,12 +23,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="TheLXG background">
     <meta property="og:title" content="LXG'17 FIESTA - HOME">
-    <meta property="og:description" content=" Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
+    <meta property="og:description"
+          content=" Welcome to the League of Extraordinary Gamers FIFA 17 competition​. Click to register">
     <meta property="og:image" content="http://www.thelxg.com.ng/resources/lxg_fiesta/media/images/LXG'17_FIESTA.jpg">
     <meta property="og:url" content="http://www.thelxg.com.ng/fiesta/home">
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="TheLXG - Home">
-    <sec:csrfMetaTags /> <!--//CSRF token for non-www-encoded-ajax requests-->
+    <sec:csrfMetaTags/> <!--//CSRF token for non-www-encoded-ajax requests-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="theLXG, fifa competition nigeria, thelxg fifa, lxg fiesta">
     <meta name="description" content="Welcome! to LXG'17 fiesta.">

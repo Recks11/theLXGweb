@@ -1,37 +1,41 @@
 .underline-hover {
-	display: inline-block;
-	position: relative;
-	padding-bottom: 3px;
-}
-.underline-hover:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0;
-	background: transparent;
-	transition: width .3s ease, background-color .3s ease;
-}
-.underline-hover:hover:after {
-	width: 100%;
-	background: gold;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
 }
 
-.underline-blue{
-	display: inline-block;
-	position: relative;
-	padding-bottom: 3px;
+.underline-hover:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
 }
+
+.underline-hover:hover:after {
+    width: 100%;
+    background: gold;
+}
+
+.underline-blue {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
 .underline-blue:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0;
-	background: transparent;
-	transition: width .3s ease, background-color .3s ease;
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
 }
+
 .underline-blue:hover:after {
-	width: 100%;
-	background: #4155ff;
+    width: 100%;
+    background: #4155ff;
 }

@@ -15,35 +15,43 @@
     <link rel="stylesheet" href="<spr:url value="/resources/lxg_fiesta/css/FiestaFooterStyles.css"/> ">
 </head>
 <body>
-    <jsp:include page="fragment/navbar.jsp"/>
-    <section class="finalists-section">
-        <h1 class="display-3 text-center"> MEET THE LXG'17 FINALISTS </h1>
-        <div class="container-fluid text-center">
-            <div class="row">
-                <div class="flex-parent">
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/IFY30.JPG"/>" alt="Red Media" class="img-responsive finalist-image"/> </div>
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/OBINNA1231.JPG"/>" alt="Pulse 4 NG" class="img-responsive finalist-image"/> </div>
-                </div>
-                <div class="flex-parent">
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/BUGATTI.JPG"/>" alt="Godwin Olatunde" class="img-responsive finalist-image"/></div>
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/GODMC.JPG"/>" alt="Toby Daniels" class="img-responsive finalist-image" /> </div>
-                </div>
-                <div class="flex-parent">
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/MAGNANIMOUS.JPG"/>" alt="Burger Zone" class="img-responsive finalist-image"/> </div>
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/KAYJAY.JPG"/>" alt="53vn" class="img-responsive finalist-image" /></div>
-                </div>
-                <div class="flex-parent">
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/MR.OGA.JPG"/>" alt="Innards Ventures" class="img-responsive finalist-image"/> </div>
-                    <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/THE_BRAZILIAN.JPG"/>" alt="WALKR" class="img-responsive finalist-image"/> </div>
-                </div>
+<jsp:include page="fragment/navbar.jsp"/>
+<section class="finalists-section">
+    <h1 class="display-3 text-center"> MEET THE LXG'17 FINALISTS </h1>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="flex-parent">
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/IFY30.JPG"/>" alt="Red Media"
+                          class="img-responsive finalist-image"/></div>
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/OBINNA1231.JPG"/>" alt="Pulse 4 NG"
+                          class="img-responsive finalist-image"/></div>
+            </div>
+            <div class="flex-parent">
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/BUGATTI.JPG"/>"
+                          alt="Godwin Olatunde" class="img-responsive finalist-image"/></div>
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/GODMC.JPG"/>" alt="Toby Daniels"
+                          class="img-responsive finalist-image"/></div>
+            </div>
+            <div class="flex-parent">
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/MAGNANIMOUS.JPG"/>"
+                          alt="Burger Zone" class="img-responsive finalist-image"/></div>
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/KAYJAY.JPG"/>" alt="53vn"
+                          class="img-responsive finalist-image"/></div>
+            </div>
+            <div class="flex-parent">
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/MR.OGA.JPG"/>"
+                          alt="Innards Ventures" class="img-responsive finalist-image"/></div>
+                <div><img src="<spr:url value="/resources/lxg_fiesta/media/finalists/THE_BRAZILIAN.JPG"/>" alt="WALKR"
+                          class="img-responsive finalist-image"/></div>
             </div>
         </div>
-    </section>
-    <script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
-    <script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
-    <jsp:include page="fragment/footer.jsp"/>
-    <script src="<spr:url value="/resources/lxg_fiesta/js/popper.min.js"/>"></script>
-    <script src="<spr:url value="/resources/lxg_fiesta/js/bootstrap.min.js"/>"></script>
-    <script src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
+    </div>
+</section>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery-3.2.1.min.js"/>"></script>
+<script type="text/javascript" src="<spr:url value="/resources/js/jquery.validate.min.js"/>"></script>
+<jsp:include page="fragment/footer.jsp"/>
+<script src="<spr:url value="/resources/lxg_fiesta/js/popper.min.js"/>"></script>
+<script src="<spr:url value="/resources/lxg_fiesta/js/bootstrap.min.js"/>"></script>
+<script src="<spr:url value="/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js"/>"></script>
 </body>
 </html>

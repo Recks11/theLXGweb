@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class FeedbackDaoImpl implements FeedbackDao{
+public class FeedbackDaoImpl implements FeedbackDao {
 
     private final SessionFactory sessionFactory;
 

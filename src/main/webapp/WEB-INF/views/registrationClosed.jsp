@@ -16,17 +16,17 @@
 <body>
 <jsp:include page="fragment/navbar.jsp"/>
 <!-- top Container -->
-    <div class="bg-cover">
-        <section>
-            <div class="no-pad about-content animated fadeInUpBig">
-                <div class="about-details text-center mont-Font">
-                    <h2 class="gold">&#10539; Registration Closed &#10539;</h2>
-                    <br/>
-                   <P> Registration for the competition is closed</P>
-                </div>
+<div class="bg-cover">
+    <section>
+        <div class="no-pad about-content animated fadeInUpBig">
+            <div class="about-details text-center mont-Font">
+                <h2 class="gold">&#10539; Registration Closed &#10539;</h2>
+                <br/>
+                <P> Registration for the competition is closed</P>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+</div>
 <script src="<spr:url value="/resources/js/home-scroll-filter.js"/> "></script>
 <jsp:include page="fragment/footer.jsp"/>
 </body>

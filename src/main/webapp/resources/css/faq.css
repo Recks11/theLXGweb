@@ -3,163 +3,191 @@ html, body {
     padding: 0;
     margin: 0;
 }
-*{
+
+* {
     -webkit-transition: font-size .6s;
     -moz-transition: font-size .6s;
     -ms-transition: font-size .6s;
     -o-transition: font-size .6s;
     transition: font-size .6s;
 }
-section{
+
+section {
     padding-top: 111px;
     /*height: 100%;*/
     padding-bottom: 50px;
 }
-.about-content{
+
+.about-content {
     width: 90%;
     margin: 0 auto;
 }
-.children{
+
+.children {
     margin-left: 30px;
     margin-bottom: 1px;
 }
-.bg-cover{
-    background: rgba(0,0,0,1);
-    min-height:100%
+
+.bg-cover {
+    background: rgba(0, 0, 0, 1);
+    min-height: 100%
 }
-.head-text{
+
+.head-text {
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 50px;
 }
-.white-font{
+
+.white-font {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
 }
+
 .faq-details {
     color: white;
 }
-.children{
+
+.children {
     margin-left: 22px;
     margin-bottom: 1px;
 }
-.pricing{
+
+.pricing {
     margin-bottom: 1px;
 }
-.row{
+
+.row {
     margin-left: 0;
     margin-right: 0;
 }
-.grey-bg{
+
+.grey-bg {
     background-color: #0f0f0f;
 }
-span > a{
+
+span > a {
     text-decoration: none;
     color: inherit;
     font-size: inherit;
     font-family: inherit;
 }
-span > a:hover{
+
+span > a:hover {
     text-decoration: underline;
     color: inherit;
     font-size: inherit;
     font-family: inherit;
 }
+
 /*Media Queries*/
-@media only screen and (min-width: 1280px){
-    .faq-details > h2{
+@media only screen and (min-width: 1280px) {
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 50px;
         font-family: 'Orbitron', sans-serif;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 18px;
     }
 }
 
-@media only screen and (max-width: 1280px){
-    .faq-details > h2{
+@media only screen and (max-width: 1280px) {
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 50px;
         font-family: 'Orbitron', sans-serif;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 1080px){
-    .header-content{
+@media only screen and (max-width: 1080px) {
+    .header-content {
         padding: 10px;
     }
-    .bg-image{
-        height:unset;
+
+    .bg-image {
+        height: unset;
         min-height: 100%;
     }
-    .faq-details > h2{
+
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 768px){
-    .bg-image{
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
         background: url('../images/fifa-17-details 720.jpg') no-repeat fixed center;
         background-size: cover;
         height: unset;
         min-height: 100%;
     }
-    .faq-details > h2{
+
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 651px) {
-    .faq-details > h2{
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 15px;
         font-size: 30px;
         font-family: 'Orbitron', sans-serif;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 12px;
     }
-    h2{
+
+    h2 {
         font-size: 14px;
     }
 
 }
 
-@media only screen and (max-width: 620px){
-    .faq-details > h2{
+@media only screen and (max-width: 620px) {
+    .faq-details > h2 {
         width: 100%;
         margin: 0 auto;
         font-size: 23px;
     }
-    h3{
+
+    h3 {
         font-size: 20px;
     }
-    .faq-details > p{
+
+    .faq-details > p {
         font-size: 10px;
     }
-    .head-text{
+
+    .head-text {
         padding-left: 10px;
         padding-right: 10px;
     }

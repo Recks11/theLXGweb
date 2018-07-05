@@ -4,7 +4,7 @@
 (function ($) {
 
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(".navbar").offset().top > 70) {
             $(".navbar").addClass("nav-scroll grey-bg");
         } else if ($(".navbar").offset().top < 70) {

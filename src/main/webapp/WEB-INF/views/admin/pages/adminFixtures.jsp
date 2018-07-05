@@ -4,23 +4,27 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <jsp:include page="../../fragment/admin/imports.jsp" />
+    <jsp:include page="../../fragment/admin/imports.jsp"/>
     <style>
-        .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
 
             border: 0;
         }
-        .table{
+
+        .table {
             background-color: transparent;
         }
-        .fixture-table{
+
+        .fixture-table {
             max-width: 1200px;
             margin: 0 auto;
         }
-        .table>tbody>tr>td{
+
+        .table > tbody > tr > td {
             font-size: 15px;
         }
-        .updatedFixture{
+
+        .updatedFixture {
             background: gold;
             color: black;
         }
@@ -35,7 +39,8 @@
     <section class="admin-wrapper">
         <section>
             <div class="search text-center">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias" style="color: gold;">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for alias"
+                       style="color: gold;">
             </div>
             <div class="no-pad">
                 <div class="about-details text-center mont-Font">
@@ -45,7 +50,7 @@
                                 <h3> no fixtures </h3>
                             </c:when>
                             <c:otherwise>
-                                <table id="fixtureTable" class="table table-condensed text-center white-font" >
+                                <table id="fixtureTable" class="table table-condensed text-center white-font">
                                     <thead>
                                     <tr>
                                         <th></th>
@@ -70,27 +75,36 @@
                                                 <tr>
                                             </c:otherwise>
                                         </c:choose>
-                                        <form:form id="paymentForm" class="form-horizontal white-font" modelAttribute="fixtureObject" method="post" action="${changeScore}">
+                                        <form:form id="paymentForm" class="form-horizontal white-font"
+                                                   modelAttribute="fixtureObject" method="post" action="${changeScore}">
                                             z
                                             <td>${fixture.homePlayer}</td>
                                             <td>${fixture.homeTeam}</td>
                                             <td>
                                                     <%--<div id="home-${fixture.id}" contenteditable="true">${fixture.homeScore}</div>--%>
-                                                <input id="home-${fixture.id}" name="homeScore" style="color: black; width: 30px; padding-left: 10px" type="text" placeholder="${fixture.homeScore}"/>
+                                                <input id="home-${fixture.id}" name="homeScore"
+                                                       style="color: black; width: 30px; padding-left: 10px" type="text"
+                                                       placeholder="${fixture.homeScore}"/>
                                             </td>
                                             <td>:</td>
                                             <td>
                                                     <%--<div id="away-${fixture.id}" contenteditable="true">${fixture.awayScore}</div>--%>
 
-                                                <input id="away-${fixture.id}" name="awayScore" style="color: black; width: 30px; padding-left: 10px;" type="text" placeholder="${fixture.awayScore}"/>
+                                                <input id="away-${fixture.id}" name="awayScore"
+                                                       style="color: black; width: 30px; padding-left: 10px;"
+                                                       type="text" placeholder="${fixture.awayScore}"/>
                                             </td>
                                             <td>${fixture.awayTeam}</td>
                                             <td>${fixture.awayPlayer}</td>
                                             <td>Group: ${fixture.group}</td>
                                             <td>
-                                                <input id="id-${fixture.id}" name="id" style="color: black" type="hidden" value="${fixture.id}"/>
-                                                <button type="submit" class="btn btn-success btn-sm" style="margin-bottom: 10px"> Update Score</button>
-                                                <a href="<spr:url value="/admin/competition/done/${fixture.id}"/>" class="btn btn-info btn-xs"> done</a>
+                                                <input id="id-${fixture.id}" name="id" style="color: black"
+                                                       type="hidden" value="${fixture.id}"/>
+                                                <button type="submit" class="btn btn-success btn-sm"
+                                                        style="margin-bottom: 10px"> Update Score
+                                                </button>
+                                                <a href="<spr:url value="/admin/competition/done/${fixture.id}"/>"
+                                                   class="btn btn-info btn-xs"> done</a>
                                             </td>
                                         </form:form>
                                         </tr>
@@ -109,7 +123,7 @@
     <script>
         function myFunction() {
             // Declare variables
-            var input, filter, table, tr, td,td1, i;
+            var input, filter, table, tr, td, td1, i;
             input = document.getElementById("myInput");
             filter = input.value.toUpperCase();
             table = document.getElementById("fixtureTable");
@@ -119,8 +133,8 @@
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[1];//home player
                 td1 = tr[i].getElementsByTagName("td")[7];//away player
-                if (td||td1) {
-                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1||td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                if (td || td1) {
+                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1 || td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         tr[i].style.display = "";
                     } else {
                         tr[i].style.display = "none";
