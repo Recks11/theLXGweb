@@ -126,8 +126,8 @@
 
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[1];//home player
-                td1 = tr[i].getElementsByTagName("td")[7];//away player
+                td = tr[i].getElementsByTagName("td")[1];//home Player
+                td1 = tr[i].getElementsByTagName("td")[7];//away Player
                 if (td || td1) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1 || td1.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         tr[i].style.display = "";

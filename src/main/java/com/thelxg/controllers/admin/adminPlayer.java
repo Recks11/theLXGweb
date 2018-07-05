@@ -5,7 +5,7 @@ import com.thelxg.components.groupsAndFixtures;
 import com.thelxg.components.paginationService;
 import com.thelxg.components.sendNotification;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.support.PagedListHolder;
 import org.springframework.stereotype.Controller;
@@ -36,7 +36,7 @@ public class adminPlayer {
 
     @RequestMapping("/all")
     public String allPlayers(HttpServletRequest request, Model model,
-                             @RequestParam(value = "playerUpdated", required = false) player player,
+                             @RequestParam(value = "playerUpdated", required = false) Player player,
                              @RequestParam(value = "oldPlayerTeam", required = false) String oldTeam) {
 
         PagedListHolder pagedList = pagination.pagedListImpl(15, request, players.getAllPlayers());
@@ -49,7 +49,7 @@ public class adminPlayer {
     @GetMapping("/send/mail/{playerId}")
     public String sendMail(@PathVariable("playerId") String playerId, Model model) {
 
-        player recipient = players.getPlayerByUniqueId(playerId);
+        Player recipient = players.getPlayerByUniqueId(playerId);
 
         sendMail.sendEmail(recipient, eMail, "LXG' 17 - Registration");
         players.updatePlayer(recipient);
@@ -60,7 +60,7 @@ public class adminPlayer {
     @GetMapping("/send/FixturesMail/{playerId}")
     public String sendFixturesMail(@PathVariable("playerId") String playerId, Model model) {
 
-        player recipient = players.getPlayerByUniqueId(playerId);
+        Player recipient = players.getPlayerByUniqueId(playerId);
 
         groupsAndFixtures.sendFixtureMail(recipient);
         players.updatePlayer(recipient);
@@ -79,16 +79,16 @@ public class adminPlayer {
     }
 
     @PostMapping("/get/change.team")
-    public String updatePlayer(@ModelAttribute("playerObject") player player, Model model) {
+    public String updatePlayer(@ModelAttribute("playerObject") Player player, Model model) {
 
-        player updatedPlayer = players.getPlayerById(player.getId());
+        Player updatedPlayer = players.getPlayerById(player.getId());
         String oldTeam = updatedPlayer.getTeamSelected();
 
         updatedPlayer.setTeamSelected(player.getTeamSelected());
         updatedPlayer.setTeamCountry(player.getTeamCountry());
 
         players.updatePlayer(updatedPlayer);
-//        System.out.println(player.toString());
+//        System.out.println(Player.toString());
         model.addAttribute("playerUpdated", updatedPlayer);
         model.addAttribute("oldPlayerTeam", oldTeam);
         return "redirect:/admin/players/all";

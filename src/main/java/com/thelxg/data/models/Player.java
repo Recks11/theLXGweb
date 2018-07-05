@@ -9,7 +9,7 @@ import java.util.Date;
  * Created by rex on 27/05/2017.
  */
 @Entity
-public class player {
+public class Player {
 
     @Id
     @GeneratedValue
@@ -56,10 +56,10 @@ public class player {
     @Transient
     private MultipartFile image;
 
-    public player() {
+    public Player() {
     }
 
-    public player(String playerId, String firstName, String lastName,
+    public Player(String playerId, String firstName, String lastName,
                   String fullName, String alias, Date date, String email,
                   String phoneNumber, String twitterHandle, String instagramHandle,
                   String teamSelected, String teamCountry, String location, String reference,
@@ -247,7 +247,7 @@ public class player {
 
     @Override
     public String toString() {
-        return "player{" +
+        return "Player{" +
                 "id=" + id +
                 ", PlayerId='" + PlayerId + '\'' +
                 ", firstName='" + firstName + '\'' +

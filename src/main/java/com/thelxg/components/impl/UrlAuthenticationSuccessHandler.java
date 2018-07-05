@@ -18,7 +18,7 @@ import java.util.Collection;
 public class UrlAuthenticationSuccessHandler
         implements AuthenticationSuccessHandler {
 
-    private Log logger = LogFactory.getLog(this.getClass());
+    private final Log logger = LogFactory.getLog(this.getClass());
 
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
 

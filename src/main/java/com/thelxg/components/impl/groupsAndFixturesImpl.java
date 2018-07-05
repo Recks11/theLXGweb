@@ -8,11 +8,9 @@ import com.thelxg.data.Services.groupsService;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.features.groups;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.joda.time.*;
-import org.joda.time.format.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,21 +23,21 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
     private final playerService playerService;
     private final fixtures fixture;
     private final groupsService groupService;
-    @Autowired
-    private eMailMessage eMail;
+    private final eMailMessage eMail;
 
     @Autowired
-    public groupsAndFixturesImpl(fixtureService fixtureService, playerService playerService, fixtures fixture, groupsService groupService, sendNotification sendMail) {
+    public groupsAndFixturesImpl(fixtureService fixtureService, playerService playerService, fixtures fixture, groupsService groupService, sendNotification sendMail, eMailMessage eMail) {
         this.fixtureService = fixtureService;
         this.playerService = playerService;
         this.fixture = fixture;
         this.groupService = groupService;
         this.sendMail = sendMail;
+        this.eMail = eMail;
     }
 
     public boolean generateFixtures() {
 
-        List<player> playerList = new ArrayList<player>(playerService.getPlayersWIthNonGeneratedFixtures());
+        List<Player> playerList = new ArrayList<Player>(playerService.getPlayersWIthNonGeneratedFixtures());
         groups group = groupService.getLastGroup();
         int numberOfGroupsWithFixturesBeingGenerated = group.getGroupNumber();
         System.out.println("number of groups: " + numberOfGroupsWithFixturesBeingGenerated);
@@ -51,8 +49,8 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         System.out.println("number of groups after check: " + numberOfGroupsWithFixturesBeingGenerated);
         System.out.println("PlayerList: " + playerList.size());
 
-        for (int i = 0; i <= numberOfGroupsWithFixturesBeingGenerated; i++) { //iterates through player group[i]
-            List<player> groupList = new ArrayList<player>(playerService.getPlayersInGroup(i));
+        for (int i = 0; i <= numberOfGroupsWithFixturesBeingGenerated; i++) { //iterates through Player group[i]
+            List<Player> groupList = new ArrayList<Player>(playerService.getPlayersInGroup(i));
             System.out.println("group Number: " + i);
 
 
@@ -61,9 +59,9 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
 
                 //if(!playerList.isEmpty() && (playerList.size() % 2 == 0)) {
-                for (int k = 0; k < groupList.size(); k++) {//iterates through player[k] in group[j]
-                    //for group[i] match player k with player l
-                    player homePlayer = groupList.get(k);
+                for (int k = 0; k < groupList.size(); k++) {//iterates through Player[k] in group[j]
+                    //for group[i] match Player k with Player l
+                    Player homePlayer = groupList.get(k);
                     if (k == 4) {
                         homePlayer.setFixtureGenerated(true);
                         playerService.updatePlayer(homePlayer);
@@ -72,7 +70,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
                             fixture.setHomePlayer(homePlayer.getAlias());
                             fixture.setHomeTeam(homePlayer.getTeamSelected());
                             //AwayPlayer
-                            player awayPlayer = groupList.get(l);
+                            Player awayPlayer = groupList.get(l);
                             fixture.setAwayPlayer(awayPlayer.getAlias());
                             fixture.setAwayTeam(awayPlayer.getTeamSelected());
                             //fixture group
@@ -94,8 +92,8 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
     public boolean generateGroups() {
 
         groups group = groupService.getLastGroup();
-        List<player> playersNotInGroup = new ArrayList<player>(playerService.getAllPlayersNotInGroup());
-        List<player> playersInLastGroup = new ArrayList<player>(playerService.getPlayersInGroup(group.getGroupNumber()));
+        List<Player> playersNotInGroup = new ArrayList<Player>(playerService.getAllPlayersNotInGroup());
+        List<Player> playersInLastGroup = new ArrayList<Player>(playerService.getPlayersInGroup(group.getGroupNumber()));
 
 
         //Variables
@@ -111,7 +109,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
         if ((numberOfPlayersInLastGroup > 0 && numberOfPlayersInLastGroup < 5) && (numberOfPlayersNotInGroup > 0 && numberOfPlayersNotInGroup <= 4)) {
             for (int i = 0; i < numberOfPlayersInLastGroup - 1; i++) {
-                player playerToBeAddedToGroup = playersNotInGroup.get(i);
+                Player playerToBeAddedToGroup = playersNotInGroup.get(i);
                 playerToBeAddedToGroup.setPlayerGroup(groupNumber);
                 System.out.println("Player upgating: " + playersNotInGroup);
                 System.out.println("Number " + groupNumber);
@@ -122,7 +120,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
 
         if (numberOfPlayersNotInGroup > 0) {
             for (int i = 1; i <= numberOfPlayersNotInGroup; i++) {
-                player playerToBeAddedToGroup = playersNotInGroup.get(i - 1);
+                Player playerToBeAddedToGroup = playersNotInGroup.get(i - 1);
                 playerToBeAddedToGroup.setPlayerGroup(updatedNumber);
                 playerService.updatePlayer(playerToBeAddedToGroup);
 
@@ -139,7 +137,7 @@ public class groupsAndFixturesImpl implements groupsAndFixtures {
         return true;
     }
 
-    public boolean sendFixtureMail(player player) {
+    public boolean sendFixtureMail(Player player) {
 
         return sendMail.sendFixtureMail(player, eMail);
     }

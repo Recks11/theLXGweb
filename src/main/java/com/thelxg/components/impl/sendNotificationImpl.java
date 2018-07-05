@@ -4,7 +4,7 @@ import com.thelxg.components.eMailMessage;
 import com.thelxg.components.sendNotification;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.models.FiestaPlayer;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
@@ -56,7 +56,7 @@ public class sendNotificationImpl implements sendNotification {
     }
 
     @Override
-    public boolean sendFixtureMail(player player, eMailMessage mail) {
+    public boolean sendFixtureMail(Player player, eMailMessage mail) {
 
         // creates a simple e-mail object
         mailMessage.setTo(player.getEmail());
@@ -85,7 +85,7 @@ public class sendNotificationImpl implements sendNotification {
     }
 
     @Override
-    public boolean sendEmail(player player, eMailMessage e_mail, String subject) {
+    public boolean sendEmail(Player player, eMailMessage e_mail, String subject) {
 
         // creates a simple e-mail object
         mailMessage.setTo(player.getEmail());

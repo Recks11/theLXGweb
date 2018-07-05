@@ -35,8 +35,8 @@ public class updateFixturesController {
      * make fixtures get data by time
      * that is fixtureService.getFixturesByMatchTime;
      * */
-    int start = 0;
-    int end = 0;
+    private int start = 0;
+    private int end = 0;
 
     @RequestMapping("/fixtures/{startFixtureNumber}/{endFixtureNumber}")
     public String getFixtures(Model model,

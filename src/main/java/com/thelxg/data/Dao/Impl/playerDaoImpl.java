@@ -1,14 +1,12 @@
 package com.thelxg.data.Dao.Impl;
 
 import com.thelxg.data.Dao.playerDao;
-import com.thelxg.data.models.features.fixtures;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by rex on 27/05/2017.
@@ -25,12 +23,12 @@ public class playerDaoImpl implements playerDao {
 
 
     @Override
-    public void updatePlayer(player play) {
+    public void updatePlayer(Player play) {
         sessionFactory.getCurrentSession().update(play);
     }
 
     @Override
-    public void addPlayer(player play) {
+    public void addPlayer(Player play) {
 
         play.setPlayerGroup(0);
         play.setFixtureGenerated(false);
@@ -39,8 +37,8 @@ public class playerDaoImpl implements playerDao {
     }
 
     @Override
-    public player getPlayerById(long id) {
-        return sessionFactory.getCurrentSession().get(player.class, id);
+    public Player getPlayerById(long id) {
+        return sessionFactory.getCurrentSession().get(Player.class, id);
     }
 
     @Override
@@ -49,9 +47,9 @@ public class playerDaoImpl implements playerDao {
     }
 
     @Override
-    public List<player> getPlayersWIthNonGeneratedFixtures() {
-        return sessionFactory.getCurrentSession()
-                .createQuery("from player where fixtureGenerated = :fixtureStatus")
+    public List<Player> getPlayersWIthNonGeneratedFixtures() {
+        return  sessionFactory.getCurrentSession()
+                .createQuery("from Player where fixtureGenerated = :fixtureStatus")
                 .setParameter("fixtureStatus", false)
                 .list();
     }
@@ -59,36 +57,36 @@ public class playerDaoImpl implements playerDao {
     @Override
     public List getAllPlayersNotInGroup() {
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where playerGroup = :playerGroup")
+                .createQuery("from Player where playerGroup = :playerGroup")
                 .setParameter("playerGroup", 0)
                 .list();
     }
 
     @Override
-    public List<player> getAllPlayersInGroup() {
+    public List<Player> getAllPlayersInGroup() {
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where playerGroup is not null")
+                .createQuery("from Player where playerGroup is not null")
                 .list();
     }
 
     @Override
-    public List<player> getPlayersInGroup(int groupNumber) {
+    public List<Player> getPlayersInGroup(int groupNumber) {
 
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where playerGroup = :groupNumber")
+                .createQuery("from Player where playerGroup = :groupNumber")
                 .setParameter("groupNumber", groupNumber)
                 .list();
     }
 
     @Override
     public List getAllPlayers() {
-        return sessionFactory.getCurrentSession().createQuery("from player order by date asc ").list();
+        return sessionFactory.getCurrentSession().createQuery("from Player order by date asc ").list();
     }
 
     @Override
-    public player getPlayerByUniqueId(String uniqueId) {
-        return (player) sessionFactory.getCurrentSession()
-                .createQuery("from player where PlayerId = :uniqueId")
+    public Player getPlayerByUniqueId(String uniqueId) {
+        return (Player) sessionFactory.getCurrentSession()
+                .createQuery("from Player where PlayerId = :uniqueId")
                 .setParameter("uniqueId", uniqueId)
                 .uniqueResult();
     }
@@ -96,33 +94,33 @@ public class playerDaoImpl implements playerDao {
     @Override
     public List getPlayersInLocation(String location) {
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where location = :location order by date asc ")
+                .createQuery("from Player where location = :location order by date asc ")
                 .setParameter("location", location)
                 .list();
     }
 
     @Override
-    public player getPlayerByAlias(String alias) {
-        return (player) sessionFactory.getCurrentSession()
-                .createQuery("from player where alias = :alias")
+    public Player getPlayerByAlias(String alias) {
+        return (Player) sessionFactory.getCurrentSession()
+                .createQuery("from Player where alias = :alias")
                 .setParameter("alias", alias)
                 .uniqueResult();
     }
 
     @Override
-    public List<player> getAllPlayersNotInTable() {
+    public List<Player> getAllPlayersNotInTable() {
 
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where inTables = :inTables order by date asc ")
+                .createQuery("from Player where inTables = :inTables order by date asc ")
                 .setParameter("inTables", false)
                 .list();
     }
 
     @Override
-    public List<player> getAllPlayersInTable() {
+    public List<Player> getAllPlayersInTable() {
 
         return sessionFactory.getCurrentSession()
-                .createQuery("from player where inTables = :inTables order by date asc ")
+                .createQuery("from Player where inTables = :inTables order by date asc ")
                 .setParameter("inTables", true)
                 .list();
     }

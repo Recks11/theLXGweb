@@ -2,7 +2,7 @@ package com.thelxg.controllers;
 
 import com.thelxg.components.savePlayerAndSendMail;
 import com.thelxg.data.Services.pinService;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,10 +20,10 @@ public class phyRegisterController {
 
     private final savePlayerAndSendMail saveAndSend;
     private final pinService pinService;
-    private final player playerBean;
+    private final Player playerBean;
 
     @Autowired
-    public phyRegisterController(player playerBean, pinService pinService, savePlayerAndSendMail saveAndSend) {
+    public phyRegisterController(Player playerBean, pinService pinService, savePlayerAndSendMail saveAndSend) {
         this.playerBean = playerBean;
         this.pinService = pinService;
         this.saveAndSend = saveAndSend;
@@ -47,7 +47,7 @@ public class phyRegisterController {
 
 
     @PostMapping("/io")
-    public String phyRegisterPlayer(@RequestBody player play) {
+    public String phyRegisterPlayer(@RequestBody Player play) {
 
         play.setReference("Registered physically");
         saveAndSend.savePlayer(play);

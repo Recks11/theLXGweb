@@ -1,14 +1,14 @@
 package com.thelxg.data.Services;
 
 import com.thelxg.data.models.features.tables;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 
 import java.util.List;
 
 public interface tableService {
 
 
-    void addPlayerToTable(player player);
+    void addPlayerToTable(Player player);
 
     boolean generateTableForFixture(long fixtureId);
 

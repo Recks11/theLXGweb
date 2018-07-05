@@ -2,7 +2,7 @@ package com.thelxg.controllers;
 
 import com.thelxg.components.impl.SavePlayerAndSendMailImpl;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -22,10 +22,10 @@ public class registerController {
 
     private final SavePlayerAndSendMailImpl saveAndSendMail;
     private final playerService playerService;
-    private final player playerBean;
+    private final Player playerBean;
 
     @Autowired
-    public registerController(player playerBean, playerService playerService, SavePlayerAndSendMailImpl saveAndSendMail) {
+    public registerController(Player playerBean, playerService playerService, SavePlayerAndSendMailImpl saveAndSendMail) {
         this.playerBean = playerBean;
         this.playerService = playerService;
         this.saveAndSendMail = saveAndSendMail;
@@ -49,7 +49,7 @@ public class registerController {
 
     @PostMapping("/")
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public String registerPlayer(@RequestBody player play) {
+    public String registerPlayer(@RequestBody Player play) {
 
         play.setFixtureGenerated(false);
         saveAndSendMail.savePlayer(play);
@@ -58,7 +58,7 @@ public class registerController {
 
     @RequestMapping("/rest")
     public @ResponseBody
-    String restSetviec(@ModelAttribute("playerObject") player play, HttpServletRequest request) {
+    String restSetviec(@ModelAttribute("playerObject") Player play, HttpServletRequest request) {
         System.out.println(request.toString());
         System.out.println(play.toString());
 

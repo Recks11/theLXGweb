@@ -2,8 +2,8 @@ package com.thelxg.data.Services.Impl;
 
 import com.thelxg.data.Dao.tableDao;
 import com.thelxg.data.Services.tableService;
+import com.thelxg.data.models.Player;
 import com.thelxg.data.models.features.tables;
-import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +22,7 @@ public class tableServiceImpl implements tableService {
     }
 
     @Transactional
-    public void addPlayerToTable(player player) {
+    public void addPlayerToTable(Player player) {
         tableDao.addPlayerToTable(player);
     }
 

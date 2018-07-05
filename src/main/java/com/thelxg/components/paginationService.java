@@ -1,7 +1,6 @@
 package com.thelxg.components;
 
 import org.springframework.beans.support.PagedListHolder;
-import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

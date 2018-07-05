@@ -1,7 +1,6 @@
 package com.thelxg.data.Dao;
 
-import com.thelxg.data.models.features.fixtures;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 
 import java.util.List;
 
@@ -10,33 +9,33 @@ import java.util.List;
  */
 public interface playerDao {
 
-    void addPlayer(player play);
+    void addPlayer(Player play);
 
-    void updatePlayer(player play);
+    void updatePlayer(Player play);
 
-    player getPlayerById(long id);
+    Player getPlayerById(long id);
 
     void removePlayer(long id);
 
     List getAllPlayers();
 
-    List<player> getPlayersWIthNonGeneratedFixtures();
+    List<Player> getPlayersWIthNonGeneratedFixtures();
 
     List getAllPlayersNotInGroup();
 
-    List<player> getAllPlayersInGroup();
+    List<Player> getAllPlayersInGroup();
 
-    List<player> getPlayersInGroup(int groupNumber);
+    List<Player> getPlayersInGroup(int groupNumber);
 
     List getPlayersInLocation(String location);
 
-    player getPlayerByUniqueId(String uniqueId);
+    Player getPlayerByUniqueId(String uniqueId);
 
-    player getPlayerByAlias(String alias);
+    Player getPlayerByAlias(String alias);
 
-    List<player> getAllPlayersNotInTable();
+    List<Player> getAllPlayersNotInTable();
 
-    List<player> getAllPlayersInTable();
+    List<Player> getAllPlayersInTable();
 
 
 }

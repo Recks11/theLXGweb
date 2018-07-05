@@ -7,19 +7,17 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Controller
-//@RequestMapping("/vote")
+@Controller
+@RequestMapping("/vote")
 @SessionAttributes("buttonStatus")
 public class voteController {
 
     private final voteService votes;
 
-//    private String buttonStatus = "";
+    private String buttonStatus = "";
 
     @Autowired
     public voteController(voteService votes) {
@@ -40,7 +38,7 @@ public class voteController {
         model.addAttribute("playersVotedFor", voteList);
         model.addAttribute("votes", playerList);
         model.addAttribute("voteObject", new vote());
-//        model.addAttribute("buttonStatus", buttonStatus);
+        model.addAttribute("buttonStatus", buttonStatus);
         return "votePage";
     }
 
@@ -49,7 +47,7 @@ public class voteController {
 
         votes.voteForPlayer(voteObject.getPlayerAlias());
         model.addAttribute("buttonStatus", "disabled");
-//        this.buttonStatus = "disabled";
+        this.buttonStatus = "disabled";
 
         return "redirect:/vote/";
     }

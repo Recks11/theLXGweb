@@ -6,7 +6,7 @@ import com.thelxg.data.Services.FiestaPlayerService;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.components.sendNotification;
 import com.thelxg.data.models.FiestaPlayer;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -34,7 +34,7 @@ public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
     }
 
 
-    public void savePlayer(@RequestBody player play) {
+    public void savePlayer(@RequestBody Player play) {
 
         Random rand = new Random();
         int value = rand.nextInt(99);
@@ -42,7 +42,7 @@ public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
 
         String identityNumber = "TheLXG-Phy" + value + "1" + value2 + "-" + play.getAlias();
         play.setPlayerId(identityNumber);
-//        eMail.setMessageForPlayer(play);/*sets player Object mail is sent to and embeds details to message.*/
+//        eMail.setMessageForPlayer(play);/*sets Player Object mail is sent to and embeds details to message.*/
         Date date = new Date();
         play.setDate(date);
         playerService.addPlayer(play);
@@ -66,7 +66,7 @@ public class SavePlayerAndSendMailImpl implements savePlayerAndSendMail {
 
         String identityNumber = "LXG'17-FIESTA" + value + "1" + value2 + "-" + fiestaPlayer.getAlias();
         fiestaPlayer.setPlayerId(identityNumber);
-//        eMail.setMessageForPlayer(play);/*sets player Object mail is sent to and embeds details to message.*/
+//        eMail.setMessageForPlayer(play);/*sets Player Object mail is sent to and embeds details to message.*/
         Date date = new Date();
         fiestaPlayer.setDate(date);
         fiestaService.addPlayer(fiestaPlayer);

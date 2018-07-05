@@ -4,7 +4,7 @@ import com.thelxg.components.eMailMessage;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.models.FiestaPlayer;
 import com.thelxg.data.models.features.fixtures;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +22,7 @@ public class EMailMessageImpl implements eMailMessage {
     @Autowired
     private fixtureService fixtureService;
 
-    public void setMessageForPlayer(player player) {
+    public void setMessageForPlayer(Player player) {
 
         String theMessage = " Hello " + player.getFullName() + ", \n" +
                 "\n" +
@@ -75,7 +75,7 @@ public class EMailMessageImpl implements eMailMessage {
         this.message = theMessage;
     }
 
-    public void setMessageForFixture(player player) {
+    public void setMessageForFixture(Player player) {
 
         List<fixtures> fixturesList = fixtureService.getFixturesByAlias(player.getAlias());
         String matches[] = new String[fixturesList.size()];

@@ -5,7 +5,7 @@ import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.models.features.fixtures;
 import com.thelxg.data.models.features.tables;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -29,7 +29,7 @@ public class tableDaoImpl implements tableDao {
 
 
     @Override
-    public void addPlayerToTable(player player) {
+    public void addPlayerToTable(Player player) {
 
         tables table = new tables();
         table.setPlayerId(player.getPlayerId());
@@ -61,8 +61,8 @@ public class tableDaoImpl implements tableDao {
          */
         //Done
         fixtures fixture = fixtureService.getFixturesById(fixtureId);
-        player homePlayer = playerService.getPlayerByAlias(fixture.getHomePlayer());
-        player awayPlayer = playerService.getPlayerByAlias(fixture.getAwayPlayer());
+        Player homePlayer = playerService.getPlayerByAlias(fixture.getHomePlayer());
+        Player awayPlayer = playerService.getPlayerByAlias(fixture.getAwayPlayer());
         String homePlayerAlias = homePlayer.getAlias();
         String awayPlayerAlias = awayPlayer.getAlias();
         tables homeTableEntry = getTableEntryByHomePlayer(homePlayerAlias);

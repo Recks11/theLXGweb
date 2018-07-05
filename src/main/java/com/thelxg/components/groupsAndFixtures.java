@@ -1,7 +1,7 @@
 package com.thelxg.components;
 
 
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 
 public interface groupsAndFixtures {
 
@@ -9,5 +9,5 @@ public interface groupsAndFixtures {
 
     boolean generateGroups();
 
-    boolean sendFixtureMail(player player);
+    boolean sendFixtureMail(Player player);
 }

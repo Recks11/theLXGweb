@@ -5,16 +5,14 @@ import com.thelxg.data.Services.KnockoutScoreService;
 import com.thelxg.data.Services.fixtureService;
 import com.thelxg.data.Services.playerService;
 import com.thelxg.data.Services.tableService;
+import com.thelxg.data.models.Player;
 import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
-import com.thelxg.data.models.player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,10 +74,10 @@ public class AdminPlayerGetData {
     public String sendFixtureMail() {
 
         for (int i = 22; i < 28; i++) {
-            List<player> playerList = playerService.getPlayersInGroup(i);
+            List<Player> playerList = playerService.getPlayersInGroup(i);
 
 
-            for (player play : playerList) {
+            for (Player play : playerList) {
 
                 groupsAndFixtures.sendFixtureMail(play);
             }
@@ -92,10 +90,10 @@ public class AdminPlayerGetData {
     public String sendAgainFixtureMail() {
 
         for (int i = 15; i <= 21; i++) { //iterate through fixtures
-            List<player> playerList = playerService.getPlayersInGroup(i);
+            List<Player> playerList = playerService.getPlayersInGroup(i);
 
 
-            for (player play : playerList) {
+            for (Player play : playerList) {
 
                 groupsAndFixtures.sendFixtureMail(play);
             }
@@ -109,10 +107,10 @@ public class AdminPlayerGetData {
 
         List<String> list = new ArrayList<String>();
         for (int i = 22; i < 28; i++) { //iterate through fixtures
-            List<player> playerList = playerService.getPlayersInGroup(i);
+            List<Player> playerList = playerService.getPlayersInGroup(i);
 
 
-            for (player play : playerList) {
+            for (Player play : playerList) {
 
 //                list.add("Full Name: "+play.getFullName()+"- Alias: "+play.getAlias()+ " Club: "+ play.getTeamSelected() +"\n");
                 list.add("E mail: " + play.getEmail() + ",\n");
@@ -146,9 +144,9 @@ public class AdminPlayerGetData {
 
     @GetMapping("/generateTables")
     public String generateTables() {
-        List<player> playerList = playerService.getAllPlayersNotInTable();
+        List<Player> playerList = playerService.getAllPlayersNotInTable();
 
-        for (player player : playerList) {
+        for (Player player : playerList) {
             tableService.addPlayerToTable(player);
             player.setInTables(true);
             playerService.updatePlayer(player);

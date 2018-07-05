@@ -1,7 +1,6 @@
 package com.thelxg.controllers;
 
 import com.thelxg.components.KnockOutApiService;
-import com.thelxg.data.Services.KnockoutScoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

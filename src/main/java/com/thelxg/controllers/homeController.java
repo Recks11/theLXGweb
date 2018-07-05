@@ -1,10 +1,7 @@
 package com.thelxg.controllers;
 
-import com.thelxg.components.KnockOutApiService;
-import com.thelxg.data.Dao.FeedbackDao;
 import com.thelxg.data.Services.*;
 import com.thelxg.data.models.features.Feedback;
-import com.thelxg.data.models.features.KnockoutScore;
 import com.thelxg.data.models.features.fixtures;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -48,7 +44,7 @@ public class homeController {
 
     @RequestMapping("favicon.ico")
     public String favicon() {
-        return "forward:/resources/images/favicon.ico";
+        return "forward:/resources/images/favicon1.ico";
     }
 
     @RequestMapping("apple-touch-icon")

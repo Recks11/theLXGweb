@@ -1,13 +1,13 @@
 package com.thelxg.data.Dao;
 
 import com.thelxg.data.models.features.tables;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 
 import java.util.List;
 
 public interface tableDao {
 
-    void addPlayerToTable(player player);
+    void addPlayerToTable(Player player);
 
     boolean generateTableForFixture(long fixtureId);
 

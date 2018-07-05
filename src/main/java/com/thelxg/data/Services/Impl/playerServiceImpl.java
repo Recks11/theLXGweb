@@ -2,7 +2,7 @@ package com.thelxg.data.Services.Impl;
 
 import com.thelxg.data.Dao.playerDao;
 import com.thelxg.data.Services.playerService;
-import com.thelxg.data.models.player;
+import com.thelxg.data.models.Player;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,17 +25,17 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
-    public void addPlayer(player play) {
+    public void addPlayer(Player play) {
         playerdao.addPlayer(play);
     }
 
     @Transactional
-    public void updatePlayer(player play) {
+    public void updatePlayer(Player play) {
         playerdao.updatePlayer(play);
     }
 
     @Transactional
-    public player getPlayerById(long id) {
+    public Player getPlayerById(long id) {
         return playerdao.getPlayerById(id);
     }
 
@@ -55,27 +55,27 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
-    public List<player> getAllPlayersInGroup() {
+    public List<Player> getAllPlayersInGroup() {
         return playerdao.getAllPlayersInGroup();
     }
 
     @Transactional
-    public player getPlayerByAlias(String alias) {
+    public Player getPlayerByAlias(String alias) {
         return playerdao.getPlayerByAlias(alias);
     }
 
     @Transactional
-    public List<player> getPlayersWIthNonGeneratedFixtures() {
+    public List<Player> getPlayersWIthNonGeneratedFixtures() {
         return playerdao.getPlayersWIthNonGeneratedFixtures();
     }
 
     @Transactional
-    public List<player> getPlayersInGroup(int groupNumber) {
+    public List<Player> getPlayersInGroup(int groupNumber) {
         return playerdao.getPlayersInGroup(groupNumber);
     }
 
     @Transactional
-    public player getPlayerByUniqueId(String uniqueId) {
+    public Player getPlayerByUniqueId(String uniqueId) {
         return playerdao.getPlayerByUniqueId(uniqueId);
     }
 
@@ -85,12 +85,12 @@ public class playerServiceImpl implements playerService {
     }
 
     @Transactional
-    public List<player> getAllPlayersNotInTable() {
+    public List<Player> getAllPlayersNotInTable() {
         return playerdao.getAllPlayersNotInTable();
     }
 
     @Transactional
-    public List<player> getAllPlayersInTable() {
+    public List<Player> getAllPlayersInTable() {
         return playerdao.getAllPlayersInTable();
     }
 }
