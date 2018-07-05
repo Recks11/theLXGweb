@@ -7,154 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc526395-16b3-462e-b83e-62bc479f02bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/KnockOutApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/KnockOutApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/EMailMessageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/KnockOutApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/KnockOutApiImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/SavePlayerAndSendMailImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/UrlAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/UrlAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/groupsAndFixturesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/pagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/impl/sendNotificationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/components/redirectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/components/redirectFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/FaqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/FaqController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/RESTcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/AdminPlayerGetData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/admin/adminPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/homeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/loginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/lxgFiesta/fiestaIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/lxgFiesta/fiestaIndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/lxgFiesta/fiestaRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/lxgFiesta/fiestaRegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/phyRegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/registerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/updateFixturesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/vendorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/vendorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/controllers/voteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/FeedbackDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/FeedbackDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/fixtureDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/playerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/tableDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/vendorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/vendorDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/votesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/votesDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/fixtureDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/fixtureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/fixtureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/playerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/tableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/Services/Impl/tableServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/KnockoutScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/KnockoutScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/fixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/features/groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/teams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thelxg/data/models/vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pagination.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pagination.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/aboutUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/aboutUs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminFixtures.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminKnockout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminResults.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/adminResults.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/allPlayers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/allPlayers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/changeTeam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/changeTeam.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/editPlayers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/editPlayers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/pages/generateFixtures.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allFixtures.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkReg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkReg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/compression.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/compression.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/imports.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/imports.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/admin/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/footerForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/imports.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragment/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaHome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaRegister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/FiestaRegister.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/imports.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/imports.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/fragment/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/meetFinalists.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/paymentMethods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lxg_fiesta_pages/paymentMethods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phy_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phy_register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerTables.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationCenters.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClosed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClosed.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/vendorDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/votePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/KnockoutStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/KnockoutStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/LXG_animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/LXG_animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/adminStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/allPlayers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/allPlayers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/animate/hover.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/animate/hover.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap3/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/eventStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/eventStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/footerStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/footerStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/formStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/formStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/generalStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/homeStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery-ui.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery-ui.theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery.selectBoxIt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/jquery.selectBoxIt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/loginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/loginStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/navbarStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/playerTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/playerTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/registerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/registerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/vendorStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/admin_Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/admin_Functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home-scroll-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/payPlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/payVendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/payVendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/selectTeams.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/selectTeams.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/vote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/vote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFooterStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFormStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/FiestaFormStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/lxg_firesta_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/meetFinalistsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/meetFinalistsStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/navbar4.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/navbar4.0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/paymentStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/paymentStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/register_fiesta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/css/register_fiesta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/openInNewTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/openInNewTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/popper.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/popper.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/register_fiesta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/js/register_fiesta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/media/images/8 ball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lxg_fiesta/media/images/8 ball.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -230,8 +83,8 @@
       <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -239,8 +92,8 @@
       <file leaf-file-name="hibernate.properties.localBackup" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -355,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/FinalKnockoutStages.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStagesSeed2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/KnockoutStages.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup" />
       </list>
     </option>
   </component>
@@ -483,6 +336,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thelxg" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_LXGWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_LXGWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -999,14 +859,7 @@
       <workItem from="1520269195131" duration="179000" />
       <workItem from="1521646404255" duration="947000" />
       <workItem from="1530634760846" duration="981000" />
-      <workItem from="1530810585738" duration="1422000" />
-    </task>
-    <task id="LOCAL-00230" summary="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)">
-      <created>1503838505209</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1503838505209</updated>
+      <workItem from="1530810585738" duration="3091000" />
     </task>
     <task id="LOCAL-00231" summary="Knockout Rounds Update&#10;&#10;Made Knockout table and fixture generator&#10;&#10;(twas stressful)">
       <created>1503838916369</created>
@@ -1344,11 +1197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508118684989</updated>
     </task>
-    <option name="localTasksCounter" value="279" />
+    <task id="LOCAL-00279" summary="website down">
+      <created>1530812581494</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1530812581495</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="670340000" />
+    <option name="totallyTimeSpent" value="672009000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1484,7 +1344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="video uploaded" />
     <MESSAGE value="Tables updated" />
     <MESSAGE value="Added votes page" />
     <MESSAGE value="HTML CHANGES:&#10;Modified table" />
@@ -1509,7 +1368,8 @@
     <MESSAGE value="changed thelxg to LXG'17" />
     <MESSAGE value="Fiesta OVER!" />
     <MESSAGE value="Website Down" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website Down" />
+    <MESSAGE value="website down" />
+    <option name="LAST_COMMIT_MESSAGE" value="website down" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1793,13 +1653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thelxg/data/Dao/Impl/FeedbackDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1828,10 +1681,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties.localBackup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
